@@ -8,6 +8,5 @@ usage: system-image-cli [-h] [--version] [-C DIRECTORY] [-b BUILD]
                         [--del KEY]
 system-image-cli: error: 
 Configuration directory not found: /etc/system-image/config.d
-Marking /var/crash/_usr_bin_powerd.0.crash for whoopsie upload
-All reports processed
+Terminated
 ERROR: whoopsie is not running
