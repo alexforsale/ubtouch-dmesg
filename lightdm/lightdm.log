@@ -1,5 +1,5 @@
 [+0.00s] DEBUG: Logging to /var/log/lightdm/lightdm.log
-[+0.00s] DEBUG: Starting Light Display Manager 1.14.2, UID=0 PID=2238
+[+0.00s] DEBUG: Starting Light Display Manager 1.14.2, UID=0 PID=1936
 [+0.00s] DEBUG: Loading configuration dirs from /usr/share/lightdm/lightdm.conf.d
 [+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-greeter-wrapper.conf
 [+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-guest-wrapper.conf
@@ -13,26 +13,26 @@
 [+0.00s] DEBUG: Registered seat module xlocal
 [+0.00s] DEBUG: Registered seat module xremote
 [+0.00s] DEBUG: Registered seat module unity
-[+0.10s] DEBUG: Monitoring logind for seats
-[+0.10s] DEBUG: New seat added from logind: seat0
-[+0.10s] DEBUG: Loading properties from config section SeatDefaults
-[+0.10s] DEBUG: Seat seat0: Starting
+[+0.09s] DEBUG: Monitoring logind for seats
+[+0.09s] DEBUG: New seat added from logind: seat0
+[+0.09s] DEBUG: Loading properties from config section SeatDefaults
+[+0.09s] DEBUG: Seat seat0: Starting
 [+0.11s] DEBUG: Using VT 1
 [+0.11s] DEBUG: DisplayServer: Logging to /var/log/lightdm/unity-system-compositor.log
-[+0.11s] DEBUG: Launching process 2247: /usr/share/ubuntu-touch-session/usc-wrapper --file '/run/mir_socket' --from-dm-fd 10 --to-dm-fd 13 --vt 1
+[+0.11s] DEBUG: Launching process 1945: /usr/share/ubuntu-touch-session/usc-wrapper --file '/run/mir_socket' --from-dm-fd 10 --to-dm-fd 13 --vt 1
 [+0.11s] DEBUG: DisplayServer: Waiting for system compositor for 60s
 [+0.11s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
 [+0.11s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
-[+0.13s] DEBUG: Loading users from org.freedesktop.Accounts
-[+3.84s] DEBUG: DisplayServer: Compositor closed communication channel
-[+3.85s] DEBUG: Process 2247 terminated with signal 9
-[+3.85s] DEBUG: DisplayServer: Unity system compositor stopped
-[+3.85s] DEBUG: Releasing VT 1
-[+3.85s] DEBUG: Seat seat0: Compositor stopped
-[+3.85s] DEBUG: Seat seat0: Stopping
-[+3.85s] DEBUG: Seat seat0: Stopped
-[+3.85s] DEBUG: Required seat has stopped
-[+3.85s] DEBUG: Stopping display manager
-[+3.85s] DEBUG: Display manager stopped
-[+3.85s] DEBUG: Stopping daemon
-[+3.87s] DEBUG: Exiting with return value 1
+[+0.12s] DEBUG: Loading users from org.freedesktop.Accounts
+[+4.35s] DEBUG: DisplayServer: Compositor closed communication channel
+[+4.35s] DEBUG: Process 1945 terminated with signal 9
+[+4.35s] DEBUG: DisplayServer: Unity system compositor stopped
+[+4.35s] DEBUG: Releasing VT 1
+[+4.35s] DEBUG: Seat seat0: Compositor stopped
+[+4.35s] DEBUG: Seat seat0: Stopping
+[+4.35s] DEBUG: Seat seat0: Stopped
+[+4.35s] DEBUG: Required seat has stopped
+[+4.35s] DEBUG: Stopping display manager
+[+4.35s] DEBUG: Display manager stopped
+[+4.35s] DEBUG: Stopping daemon
+[+4.36s] DEBUG: Exiting with return value 1
