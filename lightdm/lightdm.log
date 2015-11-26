@@ -1,0 +1,38 @@
+[+0.00s] DEBUG: Logging to /var/log/lightdm/lightdm.log
+[+0.00s] DEBUG: Starting Light Display Manager 1.14.2, UID=0 PID=2112
+[+0.00s] DEBUG: Loading configuration dirs from /usr/share/lightdm/lightdm.conf.d
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-greeter-wrapper.conf
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-guest-wrapper.conf
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-xserver-command.conf
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/52-ubuntu-touch.conf
+[+0.00s] DEBUG: Loading configuration dirs from /custom/xdg/data/lightdm/lightdm.conf.d
+[+0.00s] DEBUG: Loading configuration dirs from /etc/xdg/lightdm/lightdm.conf.d
+[+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf.d/90-phablet.conf
+[+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf
+[+0.00s] DEBUG: Using D-Bus name org.freedesktop.DisplayManager
+[+0.00s] DEBUG: Registered seat module xlocal
+[+0.00s] DEBUG: Registered seat module xremote
+[+0.00s] DEBUG: Registered seat module unity
+[+0.09s] DEBUG: Monitoring logind for seats
+[+0.09s] DEBUG: New seat added from logind: seat0
+[+0.09s] DEBUG: Loading properties from config section SeatDefaults
+[+0.09s] DEBUG: Seat seat0: Starting
+[+0.11s] DEBUG: Using VT 1
+[+0.11s] DEBUG: DisplayServer: Logging to /var/log/lightdm/unity-system-compositor.log
+[+0.11s] DEBUG: Launching process 2121: /usr/share/ubuntu-touch-session/usc-wrapper --file '/run/mir_socket' --from-dm-fd 10 --to-dm-fd 13 --vt 1
+[+0.11s] DEBUG: DisplayServer: Waiting for system compositor for 60s
+[+0.11s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
+[+0.11s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
+[+0.12s] DEBUG: Loading users from org.freedesktop.Accounts
+[+4.02s] DEBUG: DisplayServer: Compositor closed communication channel
+[+4.03s] DEBUG: Process 2121 terminated with signal 9
+[+4.03s] DEBUG: DisplayServer: Unity system compositor stopped
+[+4.03s] DEBUG: Releasing VT 1
+[+4.03s] DEBUG: Seat seat0: Compositor stopped
+[+4.03s] DEBUG: Seat seat0: Stopping
+[+4.03s] DEBUG: Seat seat0: Stopped
+[+4.03s] DEBUG: Required seat has stopped
+[+4.03s] DEBUG: Stopping display manager
+[+4.03s] DEBUG: Display manager stopped
+[+4.03s] DEBUG: Stopping daemon
+[+4.04s] DEBUG: Exiting with return value 1
