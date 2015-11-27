@@ -1,0 +1,8 @@
+ERROR: apport (pid 2008) Fri Nov 27 12:16:21 2015: called for pid 950, signal 11, core limit 0
+ERROR: apport (pid 2008) Fri Nov 27 12:16:21 2015: executable: /usr/bin/powerd (command line "/usr/bin/powerd")
+ERROR: apport (pid 2008) Fri Nov 27 12:16:21 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2008) Fri Nov 27 12:16:27 2015: wrote report /var/crash/_usr_bin_powerd.0.crash
+ERROR: apport (pid 2030) Fri Nov 27 12:17:35 2015: called for pid 768, signal 11, core limit 0
+ERROR: apport (pid 2030) Fri Nov 27 12:17:36 2015: executable: /usr/bin/powerd (command line "/usr/bin/powerd")
+ERROR: apport (pid 2030) Fri Nov 27 12:17:36 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2030) Fri Nov 27 12:17:36 2015: apport: report /var/crash/_usr_bin_powerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS

@@ -18,4 +18,11 @@
 #  USA
 #
 
+# pull data/system-data
+adb pull /data/system-data/var/log/
+rm *.gz faillog lastlog wtmp
+git add .
 
+NOW=$( date +%Y-%m-%d_%H_%M_%S)
+
+git commit -m "$NOW"
