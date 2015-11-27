@@ -20,6 +20,7 @@
 
 # pull data/system-data
 adb pull /data/system-data/var/log/
+adb pull /proc/last_kmsg
 rm *.gz faillog lastlog wtmp
 git add .
 
