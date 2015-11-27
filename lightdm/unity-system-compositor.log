@@ -1,11 +1,11 @@
-[1448626654.146983] mirplatform: Found graphics driver: android
-[1448626654.147270] mirplatform: Found graphics driver: dummy
+[1448635515.034753] mirplatform: Found graphics driver: android
+[1448635515.035041] mirplatform: Found graphics driver: dummy
 Warning: ignoring unrecognised arguments: --vt 1
-[1448626654.150623] mirserver: Starting
-[1448626654.151267] mircommon: Loading modules from: /usr/lib/arm-linux-gnueabihf/mir/server-platform
-[1448626654.151455] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-android.so.6
-[1448626654.151518] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-dummy.so
-[1448626654.153454] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/input-stub.so
-[1448626654.155059] mirplatform: Found graphics driver: android
-[1448626654.155121] mirplatform: Found graphics driver: dummy
-[1448626654.155501] mirserver: Selected driver: android (version 0.17.0)
+[1448635515.044089] mirserver: Starting
+[1448635515.045942] mircommon: Loading modules from: /usr/lib/arm-linux-gnueabihf/mir/server-platform
+[1448635515.046160] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-android.so.6
+[1448635515.046230] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-dummy.so
+[1448635515.047846] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/input-stub.so
+[1448635515.049463] mirplatform: Found graphics driver: android
+[1448635515.049527] mirplatform: Found graphics driver: dummy
+[1448635515.049880] mirserver: Selected driver: android (version 0.17.0)
