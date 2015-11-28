@@ -4,3 +4,9 @@ error opening ATTR{/sys/devices/system/cpu/cpu1/online} for writing: Permission 
 error opening ATTR{/sys/devices/system/cpu/cpu2/online} for writing: Permission denied
 error opening ATTR{/sys/devices/system/cpu/cpu3/online} for writing: Permission denied
 Could not generate persistent MAC address for dummy0: No such file or directory
+starting version 219
+error opening ATTR{/sys/devices/system/cpu/cpu0/online} for writing: Permission denied
+error opening ATTR{/sys/devices/system/cpu/cpu1/online} for writing: Permission denied
+error opening ATTR{/sys/devices/system/cpu/cpu3/online} for writing: Permission denied
+error opening ATTR{/sys/devices/system/cpu/cpu2/online} for writing: Permission denied
+Could not generate persistent MAC address for dummy0: No such file or directory
