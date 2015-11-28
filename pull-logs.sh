@@ -18,6 +18,10 @@
 #  USA
 #
 
+#cleanup last log
+data=alternatives.log apport.log bootstrap.log btmp dmesg dmesg.0 dpkg.log fontconfig.log last_kmsg udev apt/* fsck/* lightdm/* lxc/* ubuntu-location-service/* unattended-upgrades/* upstart/*
+rm -rf $data
+
 # pull data/system-data
 adb pull /data/system-data/var/log/
 adb pull /proc/last_kmsg
