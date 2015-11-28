@@ -1,4 +1,4 @@
-ERROR: apport (pid 1983) Sat Nov 28 10:15:33 2015: called for pid 765, signal 11, core limit 0
-ERROR: apport (pid 1983) Sat Nov 28 10:15:33 2015: executable: /usr/bin/powerd (command line "/usr/bin/powerd")
-ERROR: apport (pid 1983) Sat Nov 28 10:15:33 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
-ERROR: apport (pid 1983) Sat Nov 28 10:15:37 2015: wrote report /var/crash/_usr_bin_powerd.0.crash
+ERROR: apport (pid 2047) Sat Nov 28 10:26:28 2015: called for pid 945, signal 11, core limit 0
+ERROR: apport (pid 2047) Sat Nov 28 10:26:28 2015: executable: /usr/bin/powerd (command line "/usr/bin/powerd")
+ERROR: apport (pid 2047) Sat Nov 28 10:26:28 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2047) Sat Nov 28 10:26:32 2015: wrote report /var/crash/_usr_bin_powerd.0.crash
