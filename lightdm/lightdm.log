@@ -115,3 +115,159 @@
 [+0.79s] DEBUG: Display manager stopped
 [+0.79s] DEBUG: Stopping daemon
 [+0.80s] DEBUG: Exiting with return value 1
+[+0.01s] DEBUG: Logging to /var/log/lightdm/lightdm.log
+[+0.01s] DEBUG: Starting Light Display Manager 1.17.0, UID=0 PID=1034
+[+0.01s] DEBUG: Loading configuration dirs from /usr/share/lightdm/lightdm.conf.d
+[+0.01s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-greeter-wrapper.conf
+[+0.01s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-guest-wrapper.conf
+[+0.01s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-xserver-command.conf
+[+0.01s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/52-ubuntu-touch.conf
+[+0.01s] DEBUG:   [SeatDefaults] is now called [Seat:*], please update this configuration
+[+0.01s] DEBUG: Loading configuration dirs from /custom/xdg/data/lightdm/lightdm.conf.d
+[+0.01s] DEBUG: Loading configuration dirs from /etc/xdg/lightdm/lightdm.conf.d
+[+0.01s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf.d/90-phablet.conf
+[+0.01s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf
+[+0.01s] DEBUG: Using D-Bus name org.freedesktop.DisplayManager
+[+0.01s] DEBUG: Registered seat module xlocal
+[+0.01s] DEBUG: Registered seat module xremote
+[+0.01s] DEBUG: Registered seat module unity
+[+1.60s] WARNING: Failed to get list of logind seats: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildSignaled: Process org.freedesktop.login1 received signal 7
+[+1.60s] DEBUG: Adding default seat
+[+1.60s] DEBUG: Seat seat0: Loading properties from config section Seat:*
+[+1.60s] DEBUG: Seat seat0: Starting
+[+1.63s] DEBUG: Using VT 1
+[+1.63s] DEBUG: DisplayServer: Logging to /var/log/lightdm/unity-system-compositor.log
+[+1.64s] DEBUG: Launching process 1128: /usr/share/ubuntu-touch-session/usc-wrapper --file '/run/mir_socket' --from-dm-fd 11 --to-dm-fd 14 --vt 1
+[+1.64s] DEBUG: DisplayServer: Waiting for system compositor for 60s
+[+1.64s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
+[+1.64s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
+[+1.87s] DEBUG: Loading users from org.freedesktop.Accounts
+[+2.44s] DEBUG: DisplayServer: Compositor closed communication channel
+[+2.44s] DEBUG: Process 1128 exited with return value 0
+[+2.44s] DEBUG: DisplayServer: Unity system compositor stopped
+[+2.44s] DEBUG: Releasing VT 1
+[+2.44s] DEBUG: Seat seat0: Compositor stopped
+[+2.44s] DEBUG: Seat seat0: Stopping
+[+2.44s] DEBUG: Seat seat0: Stopped
+[+2.44s] DEBUG: Required seat has stopped
+[+2.44s] DEBUG: Stopping display manager
+[+2.44s] DEBUG: Display manager stopped
+[+2.44s] DEBUG: Stopping daemon
+[+2.44s] DEBUG: Exiting with return value 1
+[+0.00s] DEBUG: Logging to /var/log/lightdm/lightdm.log
+[+0.00s] DEBUG: Starting Light Display Manager 1.17.0, UID=0 PID=1813
+[+0.00s] DEBUG: Loading configuration dirs from /usr/share/lightdm/lightdm.conf.d
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-greeter-wrapper.conf
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-guest-wrapper.conf
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-xserver-command.conf
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/52-ubuntu-touch.conf
+[+0.00s] DEBUG:   [SeatDefaults] is now called [Seat:*], please update this configuration
+[+0.00s] DEBUG: Loading configuration dirs from /custom/xdg/data/lightdm/lightdm.conf.d
+[+0.00s] DEBUG: Loading configuration dirs from /etc/xdg/lightdm/lightdm.conf.d
+[+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf.d/90-phablet.conf
+[+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf
+[+0.00s] DEBUG: Using D-Bus name org.freedesktop.DisplayManager
+[+0.00s] DEBUG: Registered seat module xlocal
+[+0.00s] DEBUG: Registered seat module xremote
+[+0.00s] DEBUG: Registered seat module unity
+[+0.97s] WARNING: Failed to get list of logind seats: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildSignaled: Process org.freedesktop.login1 received signal 7
+[+0.97s] DEBUG: Adding default seat
+[+0.97s] DEBUG: Seat seat0: Loading properties from config section Seat:*
+[+0.97s] DEBUG: Seat seat0: Starting
+[+0.99s] DEBUG: Using VT 1
+[+0.99s] DEBUG: DisplayServer: Logging to /var/log/lightdm/unity-system-compositor.log
+[+0.99s] DEBUG: Launching process 1857: /usr/share/ubuntu-touch-session/usc-wrapper --file '/run/mir_socket' --from-dm-fd 10 --to-dm-fd 14 --vt 1
+[+0.99s] DEBUG: DisplayServer: Waiting for system compositor for 60s
+[+0.99s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
+[+1.00s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
+[+1.01s] DEBUG: Loading users from org.freedesktop.Accounts
+[+1.29s] DEBUG: DisplayServer: Compositor closed communication channel
+[+1.29s] DEBUG: Process 1857 exited with return value 0
+[+1.29s] DEBUG: DisplayServer: Unity system compositor stopped
+[+1.29s] DEBUG: Releasing VT 1
+[+1.29s] DEBUG: Seat seat0: Compositor stopped
+[+1.29s] DEBUG: Seat seat0: Stopping
+[+1.29s] DEBUG: Seat seat0: Stopped
+[+1.29s] DEBUG: Required seat has stopped
+[+1.29s] DEBUG: Stopping display manager
+[+1.29s] DEBUG: Display manager stopped
+[+1.29s] DEBUG: Stopping daemon
+[+1.29s] DEBUG: Exiting with return value 1
+[+0.00s] DEBUG: Logging to /var/log/lightdm/lightdm.log
+[+0.00s] DEBUG: Starting Light Display Manager 1.17.0, UID=0 PID=1978
+[+0.00s] DEBUG: Loading configuration dirs from /usr/share/lightdm/lightdm.conf.d
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-greeter-wrapper.conf
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-guest-wrapper.conf
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-xserver-command.conf
+[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/52-ubuntu-touch.conf
+[+0.00s] DEBUG:   [SeatDefaults] is now called [Seat:*], please update this configuration
+[+0.00s] DEBUG: Loading configuration dirs from /custom/xdg/data/lightdm/lightdm.conf.d
+[+0.00s] DEBUG: Loading configuration dirs from /etc/xdg/lightdm/lightdm.conf.d
+[+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf.d/90-phablet.conf
+[+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf
+[+0.00s] DEBUG: Using D-Bus name org.freedesktop.DisplayManager
+[+0.00s] DEBUG: Registered seat module xlocal
+[+0.00s] DEBUG: Registered seat module xremote
+[+0.00s] DEBUG: Registered seat module unity
+[+1.19s] WARNING: Failed to get list of logind seats: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildSignaled: Process org.freedesktop.login1 received signal 7
+[+1.19s] DEBUG: Adding default seat
+[+1.19s] DEBUG: Seat seat0: Loading properties from config section Seat:*
+[+1.19s] DEBUG: Seat seat0: Starting
+[+1.19s] DEBUG: Using VT 1
+[+1.19s] DEBUG: DisplayServer: Logging to /var/log/lightdm/unity-system-compositor.log
+[+1.20s] DEBUG: Launching process 2000: /usr/share/ubuntu-touch-session/usc-wrapper --file '/run/mir_socket' --from-dm-fd 11 --to-dm-fd 14 --vt 1
+[+1.20s] DEBUG: DisplayServer: Waiting for system compositor for 60s
+[+1.20s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
+[+1.20s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
+[+1.20s] DEBUG: Loading users from org.freedesktop.Accounts
+[+1.40s] DEBUG: DisplayServer: Compositor closed communication channel
+[+1.40s] DEBUG: Process 2000 exited with return value 0
+[+1.40s] DEBUG: DisplayServer: Unity system compositor stopped
+[+1.40s] DEBUG: Releasing VT 1
+[+1.40s] DEBUG: Seat seat0: Compositor stopped
+[+1.40s] DEBUG: Seat seat0: Stopping
+[+1.40s] DEBUG: Seat seat0: Stopped
+[+1.40s] DEBUG: Required seat has stopped
+[+1.40s] DEBUG: Stopping display manager
+[+1.40s] DEBUG: Display manager stopped
+[+1.40s] DEBUG: Stopping daemon
+[+1.41s] DEBUG: Exiting with return value 1
+[+0.00s] DEBUG: Logging to /var/log/lightdm/lightdm.log
+[+0.01s] DEBUG: Starting Light Display Manager 1.17.0, UID=0 PID=2118
+[+0.01s] DEBUG: Loading configuration dirs from /usr/share/lightdm/lightdm.conf.d
+[+0.01s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-greeter-wrapper.conf
+[+0.01s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-guest-wrapper.conf
+[+0.01s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-xserver-command.conf
+[+0.01s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/52-ubuntu-touch.conf
+[+0.01s] DEBUG:   [SeatDefaults] is now called [Seat:*], please update this configuration
+[+0.01s] DEBUG: Loading configuration dirs from /custom/xdg/data/lightdm/lightdm.conf.d
+[+0.01s] DEBUG: Loading configuration dirs from /etc/xdg/lightdm/lightdm.conf.d
+[+0.01s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf.d/90-phablet.conf
+[+0.01s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf
+[+0.01s] DEBUG: Using D-Bus name org.freedesktop.DisplayManager
+[+0.01s] DEBUG: Registered seat module xlocal
+[+0.01s] DEBUG: Registered seat module xremote
+[+0.01s] DEBUG: Registered seat module unity
+[+1.24s] WARNING: Failed to get list of logind seats: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildSignaled: Process org.freedesktop.login1 received signal 7
+[+1.24s] DEBUG: Adding default seat
+[+1.24s] DEBUG: Seat seat0: Loading properties from config section Seat:*
+[+1.24s] DEBUG: Seat seat0: Starting
+[+1.25s] DEBUG: Using VT 1
+[+1.25s] DEBUG: DisplayServer: Logging to /var/log/lightdm/unity-system-compositor.log
+[+1.25s] DEBUG: Launching process 2140: /usr/share/ubuntu-touch-session/usc-wrapper --file '/run/mir_socket' --from-dm-fd 11 --to-dm-fd 14 --vt 1
+[+1.25s] DEBUG: DisplayServer: Waiting for system compositor for 60s
+[+1.25s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
+[+1.25s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
+[+1.26s] DEBUG: Loading users from org.freedesktop.Accounts
+[+1.45s] DEBUG: DisplayServer: Compositor closed communication channel
+[+1.45s] DEBUG: Process 2140 exited with return value 0
+[+1.45s] DEBUG: DisplayServer: Unity system compositor stopped
+[+1.45s] DEBUG: Releasing VT 1
+[+1.45s] DEBUG: Seat seat0: Compositor stopped
+[+1.45s] DEBUG: Seat seat0: Stopping
+[+1.45s] DEBUG: Seat seat0: Stopped
+[+1.45s] DEBUG: Required seat has stopped
+[+1.45s] DEBUG: Stopping display manager
+[+1.45s] DEBUG: Display manager stopped
+[+1.45s] DEBUG: Stopping daemon
+[+1.45s] DEBUG: Exiting with return value 1
