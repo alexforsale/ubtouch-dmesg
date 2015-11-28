@@ -661,3 +661,566 @@ ERROR: apport (pid 2615) Sat Nov 28 11:03:59 2015: executable: /lib/systemd/syst
 ERROR: apport (pid 2615) Sat Nov 28 11:03:59 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
 ERROR: apport (pid 2615) Sat Nov 28 11:03:59 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
 ERROR: apport (pid 2616) Sat Nov 28 11:03:59 2015: another apport instance is already running, aborting
+ERROR: apport (pid 825) Sat Nov 28 11:06:01 2015: called for pid 816, signal 7, core limit 0
+ERROR: apport (pid 825) Sat Nov 28 11:06:01 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 825) Sat Nov 28 11:06:01 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 825) Sat Nov 28 11:06:01 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 947) Sat Nov 28 11:06:02 2015: called for pid 944, signal 7, core limit 0
+ERROR: apport (pid 947) Sat Nov 28 11:06:02 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 947) Sat Nov 28 11:06:02 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 947) Sat Nov 28 11:06:02 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1115) Sat Nov 28 11:06:03 2015: called for pid 1114, signal 7, core limit 0
+ERROR: apport (pid 1115) Sat Nov 28 11:06:03 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1115) Sat Nov 28 11:06:03 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1115) Sat Nov 28 11:06:03 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1125) Sat Nov 28 11:06:04 2015: another apport instance is already running, aborting
+ERROR: apport (pid 1200) Sat Nov 28 11:06:05 2015: called for pid 1199, signal 7, core limit 0
+ERROR: apport (pid 1200) Sat Nov 28 11:06:05 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1200) Sat Nov 28 11:06:05 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1200) Sat Nov 28 11:06:05 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1224) Sat Nov 28 11:06:05 2015: called for pid 1216, signal 7, core limit 0
+ERROR: apport (pid 1224) Sat Nov 28 11:06:05 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 1224) Sat Nov 28 11:06:05 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1224) Sat Nov 28 11:06:05 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1506) Sat Nov 28 11:06:07 2015: called for pid 1504, signal 7, core limit 0
+ERROR: apport (pid 1506) Sat Nov 28 11:06:07 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1506) Sat Nov 28 11:06:07 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1506) Sat Nov 28 11:06:07 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1585) Sat Nov 28 11:06:07 2015: called for pid 1202, signal 5, core limit 0
+ERROR: apport (pid 1585) Sat Nov 28 11:06:07 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 1585) Sat Nov 28 11:06:07 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1585) Sat Nov 28 11:06:07 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1796) Sat Nov 28 11:06:08 2015: called for pid 1792, signal 7, core limit 0
+ERROR: apport (pid 1796) Sat Nov 28 11:06:08 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1796) Sat Nov 28 11:06:08 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1796) Sat Nov 28 11:06:08 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1821) Sat Nov 28 11:06:08 2015: called for pid 1817, signal 7, core limit 0
+ERROR: apport (pid 1821) Sat Nov 28 11:06:08 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 1821) Sat Nov 28 11:06:08 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1821) Sat Nov 28 11:06:08 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1852) Sat Nov 28 11:06:09 2015: called for pid 1851, signal 7, core limit 0
+ERROR: apport (pid 1852) Sat Nov 28 11:06:09 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1852) Sat Nov 28 11:06:09 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1852) Sat Nov 28 11:06:09 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1859) Sat Nov 28 11:06:09 2015: called for pid 1820, signal 5, core limit 0
+ERROR: apport (pid 1859) Sat Nov 28 11:06:09 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 1859) Sat Nov 28 11:06:09 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1859) Sat Nov 28 11:06:09 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1867) Sat Nov 28 11:06:10 2015: called for pid 1866, signal 7, core limit 0
+ERROR: apport (pid 1867) Sat Nov 28 11:06:10 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1867) Sat Nov 28 11:06:10 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1867) Sat Nov 28 11:06:10 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1881) Sat Nov 28 11:06:11 2015: called for pid 1879, signal 7, core limit 0
+ERROR: apport (pid 1881) Sat Nov 28 11:06:11 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 1881) Sat Nov 28 11:06:11 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1881) Sat Nov 28 11:06:11 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1884) Sat Nov 28 11:06:11 2015: called for pid 1883, signal 7, core limit 0
+ERROR: apport (pid 1884) Sat Nov 28 11:06:12 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1884) Sat Nov 28 11:06:12 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1884) Sat Nov 28 11:06:12 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1885) Sat Nov 28 11:06:12 2015: called for pid 1869, signal 5, core limit 0
+ERROR: apport (pid 1885) Sat Nov 28 11:06:12 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 1885) Sat Nov 28 11:06:12 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1885) Sat Nov 28 11:06:12 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1888) Sat Nov 28 11:06:13 2015: called for pid 1887, signal 7, core limit 0
+ERROR: apport (pid 1888) Sat Nov 28 11:06:13 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1888) Sat Nov 28 11:06:13 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1888) Sat Nov 28 11:06:13 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1900) Sat Nov 28 11:06:13 2015: called for pid 1898, signal 7, core limit 0
+ERROR: apport (pid 1900) Sat Nov 28 11:06:13 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 1900) Sat Nov 28 11:06:13 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1900) Sat Nov 28 11:06:13 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1903) Sat Nov 28 11:06:14 2015: called for pid 1902, signal 7, core limit 0
+ERROR: apport (pid 1903) Sat Nov 28 11:06:14 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1903) Sat Nov 28 11:06:14 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1903) Sat Nov 28 11:06:14 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1953) Sat Nov 28 11:06:14 2015: called for pid 1890, signal 5, core limit 0
+ERROR: apport (pid 1953) Sat Nov 28 11:06:14 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 1953) Sat Nov 28 11:06:14 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1953) Sat Nov 28 11:06:14 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1979) Sat Nov 28 11:06:15 2015: called for pid 1977, signal 7, core limit 0
+ERROR: apport (pid 1979) Sat Nov 28 11:06:15 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 1979) Sat Nov 28 11:06:15 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1979) Sat Nov 28 11:06:15 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1982) Sat Nov 28 11:06:15 2015: called for pid 1981, signal 7, core limit 0
+ERROR: apport (pid 1982) Sat Nov 28 11:06:15 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1982) Sat Nov 28 11:06:15 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1982) Sat Nov 28 11:06:15 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1992) Sat Nov 28 11:06:16 2015: called for pid 1983, signal 5, core limit 0
+ERROR: apport (pid 1992) Sat Nov 28 11:06:16 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 1992) Sat Nov 28 11:06:16 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1992) Sat Nov 28 11:06:16 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1998) Sat Nov 28 11:06:16 2015: called for pid 1996, signal 7, core limit 0
+ERROR: apport (pid 1998) Sat Nov 28 11:06:16 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1998) Sat Nov 28 11:06:16 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1998) Sat Nov 28 11:06:16 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2006) Sat Nov 28 11:06:17 2015: called for pid 2003, signal 7, core limit 0
+ERROR: apport (pid 2006) Sat Nov 28 11:06:17 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2006) Sat Nov 28 11:06:17 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2006) Sat Nov 28 11:06:17 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2011) Sat Nov 28 11:06:17 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2015) Sat Nov 28 11:06:19 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2013) Sat Nov 28 11:06:19 2015: called for pid 2002, signal 5, core limit 0
+ERROR: apport (pid 2013) Sat Nov 28 11:06:19 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2013) Sat Nov 28 11:06:19 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2013) Sat Nov 28 11:06:19 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2018) Sat Nov 28 11:06:20 2015: called for pid 2017, signal 7, core limit 0
+ERROR: apport (pid 2018) Sat Nov 28 11:06:20 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2018) Sat Nov 28 11:06:20 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2018) Sat Nov 28 11:06:20 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2030) Sat Nov 28 11:06:20 2015: called for pid 2028, signal 7, core limit 0
+ERROR: apport (pid 2030) Sat Nov 28 11:06:20 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2030) Sat Nov 28 11:06:20 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2030) Sat Nov 28 11:06:20 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2046) Sat Nov 28 11:06:21 2015: called for pid 2044, signal 7, core limit 0
+ERROR: apport (pid 2046) Sat Nov 28 11:06:21 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2046) Sat Nov 28 11:06:21 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2046) Sat Nov 28 11:06:21 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2048) Sat Nov 28 11:06:21 2015: called for pid 2023, signal 5, core limit 0
+ERROR: apport (pid 2048) Sat Nov 28 11:06:21 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2048) Sat Nov 28 11:06:21 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2048) Sat Nov 28 11:06:21 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2060) Sat Nov 28 11:06:22 2015: called for pid 2059, signal 7, core limit 0
+ERROR: apport (pid 2060) Sat Nov 28 11:06:22 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2060) Sat Nov 28 11:06:22 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2060) Sat Nov 28 11:06:22 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2068) Sat Nov 28 11:06:22 2015: called for pid 2066, signal 7, core limit 0
+ERROR: apport (pid 2068) Sat Nov 28 11:06:22 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2068) Sat Nov 28 11:06:22 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2068) Sat Nov 28 11:06:22 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2071) Sat Nov 28 11:06:23 2015: called for pid 2070, signal 7, core limit 0
+ERROR: apport (pid 2071) Sat Nov 28 11:06:23 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2071) Sat Nov 28 11:06:23 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2071) Sat Nov 28 11:06:23 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2072) Sat Nov 28 11:06:23 2015: called for pid 2061, signal 5, core limit 0
+ERROR: apport (pid 2072) Sat Nov 28 11:06:23 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2072) Sat Nov 28 11:06:23 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2072) Sat Nov 28 11:06:23 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2075) Sat Nov 28 11:06:24 2015: called for pid 2074, signal 7, core limit 0
+ERROR: apport (pid 2075) Sat Nov 28 11:06:24 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2075) Sat Nov 28 11:06:24 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2075) Sat Nov 28 11:06:24 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2083) Sat Nov 28 11:06:25 2015: called for pid 2081, signal 7, core limit 0
+ERROR: apport (pid 2083) Sat Nov 28 11:06:25 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2083) Sat Nov 28 11:06:25 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2083) Sat Nov 28 11:06:25 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2086) Sat Nov 28 11:06:25 2015: called for pid 2085, signal 7, core limit 0
+ERROR: apport (pid 2086) Sat Nov 28 11:06:25 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2086) Sat Nov 28 11:06:25 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2086) Sat Nov 28 11:06:25 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2092) Sat Nov 28 11:06:26 2015: called for pid 2076, signal 5, core limit 0
+ERROR: apport (pid 2092) Sat Nov 28 11:06:26 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2092) Sat Nov 28 11:06:26 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2092) Sat Nov 28 11:06:26 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2095) Sat Nov 28 11:06:27 2015: called for pid 2094, signal 7, core limit 0
+ERROR: apport (pid 2095) Sat Nov 28 11:06:27 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2095) Sat Nov 28 11:06:27 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2095) Sat Nov 28 11:06:27 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2103) Sat Nov 28 11:06:27 2015: called for pid 2101, signal 7, core limit 0
+ERROR: apport (pid 2103) Sat Nov 28 11:06:27 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2103) Sat Nov 28 11:06:27 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2103) Sat Nov 28 11:06:27 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2106) Sat Nov 28 11:06:28 2015: called for pid 2105, signal 7, core limit 0
+ERROR: apport (pid 2106) Sat Nov 28 11:06:28 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2106) Sat Nov 28 11:06:28 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2106) Sat Nov 28 11:06:28 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2107) Sat Nov 28 11:06:28 2015: called for pid 2096, signal 5, core limit 0
+ERROR: apport (pid 2107) Sat Nov 28 11:06:28 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2107) Sat Nov 28 11:06:28 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2107) Sat Nov 28 11:06:28 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2110) Sat Nov 28 11:06:29 2015: called for pid 2109, signal 7, core limit 0
+ERROR: apport (pid 2110) Sat Nov 28 11:06:29 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2110) Sat Nov 28 11:06:29 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2110) Sat Nov 28 11:06:29 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2118) Sat Nov 28 11:06:30 2015: called for pid 2116, signal 7, core limit 0
+ERROR: apport (pid 2118) Sat Nov 28 11:06:30 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2118) Sat Nov 28 11:06:30 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2118) Sat Nov 28 11:06:30 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2121) Sat Nov 28 11:06:30 2015: called for pid 2120, signal 7, core limit 0
+ERROR: apport (pid 2121) Sat Nov 28 11:06:30 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2121) Sat Nov 28 11:06:30 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2121) Sat Nov 28 11:06:30 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2127) Sat Nov 28 11:06:31 2015: called for pid 2111, signal 5, core limit 0
+ERROR: apport (pid 2127) Sat Nov 28 11:06:31 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2127) Sat Nov 28 11:06:31 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2127) Sat Nov 28 11:06:31 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2130) Sat Nov 28 11:06:31 2015: called for pid 2129, signal 7, core limit 0
+ERROR: apport (pid 2130) Sat Nov 28 11:06:31 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2130) Sat Nov 28 11:06:31 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2130) Sat Nov 28 11:06:31 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2138) Sat Nov 28 11:06:32 2015: called for pid 2136, signal 7, core limit 0
+ERROR: apport (pid 2138) Sat Nov 28 11:06:32 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2138) Sat Nov 28 11:06:32 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2138) Sat Nov 28 11:06:32 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2141) Sat Nov 28 11:06:32 2015: called for pid 2140, signal 7, core limit 0
+ERROR: apport (pid 2141) Sat Nov 28 11:06:32 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2141) Sat Nov 28 11:06:32 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2141) Sat Nov 28 11:06:32 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2142) Sat Nov 28 11:06:33 2015: called for pid 2131, signal 5, core limit 0
+ERROR: apport (pid 2142) Sat Nov 28 11:06:33 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2142) Sat Nov 28 11:06:33 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2142) Sat Nov 28 11:06:33 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2145) Sat Nov 28 11:06:34 2015: called for pid 2144, signal 7, core limit 0
+ERROR: apport (pid 2145) Sat Nov 28 11:06:34 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2145) Sat Nov 28 11:06:34 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2145) Sat Nov 28 11:06:34 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2153) Sat Nov 28 11:06:35 2015: called for pid 2151, signal 7, core limit 0
+ERROR: apport (pid 2153) Sat Nov 28 11:06:35 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2153) Sat Nov 28 11:06:35 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2153) Sat Nov 28 11:06:35 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2159) Sat Nov 28 11:06:35 2015: called for pid 2158, signal 7, core limit 0
+ERROR: apport (pid 2159) Sat Nov 28 11:06:35 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2159) Sat Nov 28 11:06:35 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2159) Sat Nov 28 11:06:35 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2160) Sat Nov 28 11:06:36 2015: called for pid 2146, signal 5, core limit 0
+ERROR: apport (pid 2160) Sat Nov 28 11:06:36 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2160) Sat Nov 28 11:06:36 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2160) Sat Nov 28 11:06:36 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2163) Sat Nov 28 11:06:36 2015: called for pid 2162, signal 7, core limit 0
+ERROR: apport (pid 2163) Sat Nov 28 11:06:36 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2163) Sat Nov 28 11:06:36 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2163) Sat Nov 28 11:06:36 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2177) Sat Nov 28 11:06:37 2015: called for pid 2175, signal 7, core limit 0
+ERROR: apport (pid 2177) Sat Nov 28 11:06:37 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2177) Sat Nov 28 11:06:37 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2177) Sat Nov 28 11:06:37 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2180) Sat Nov 28 11:06:38 2015: called for pid 2179, signal 7, core limit 0
+ERROR: apport (pid 2180) Sat Nov 28 11:06:38 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2180) Sat Nov 28 11:06:38 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2180) Sat Nov 28 11:06:38 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2181) Sat Nov 28 11:06:39 2015: called for pid 2170, signal 5, core limit 0
+ERROR: apport (pid 2181) Sat Nov 28 11:06:39 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2181) Sat Nov 28 11:06:39 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2181) Sat Nov 28 11:06:39 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2184) Sat Nov 28 11:06:39 2015: called for pid 2183, signal 7, core limit 0
+ERROR: apport (pid 2184) Sat Nov 28 11:06:39 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2184) Sat Nov 28 11:06:39 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2184) Sat Nov 28 11:06:39 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2192) Sat Nov 28 11:06:40 2015: called for pid 2190, signal 7, core limit 0
+ERROR: apport (pid 2192) Sat Nov 28 11:06:40 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2192) Sat Nov 28 11:06:40 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2192) Sat Nov 28 11:06:40 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2195) Sat Nov 28 11:06:40 2015: called for pid 2194, signal 7, core limit 0
+ERROR: apport (pid 2195) Sat Nov 28 11:06:40 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2195) Sat Nov 28 11:06:40 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2195) Sat Nov 28 11:06:40 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2199) Sat Nov 28 11:06:42 2015: called for pid 2185, signal 5, core limit 0
+ERROR: apport (pid 2199) Sat Nov 28 11:06:42 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2199) Sat Nov 28 11:06:42 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2199) Sat Nov 28 11:06:42 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2202) Sat Nov 28 11:06:42 2015: called for pid 2201, signal 7, core limit 0
+ERROR: apport (pid 2202) Sat Nov 28 11:06:42 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2202) Sat Nov 28 11:06:42 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2202) Sat Nov 28 11:06:42 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2212) Sat Nov 28 11:06:43 2015: called for pid 2210, signal 7, core limit 0
+ERROR: apport (pid 2212) Sat Nov 28 11:06:43 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2212) Sat Nov 28 11:06:43 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2212) Sat Nov 28 11:06:43 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2215) Sat Nov 28 11:06:43 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2216) Sat Nov 28 11:06:44 2015: called for pid 2205, signal 5, core limit 0
+ERROR: apport (pid 2216) Sat Nov 28 11:06:44 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2216) Sat Nov 28 11:06:44 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2216) Sat Nov 28 11:06:44 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2219) Sat Nov 28 11:06:45 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2222) Sat Nov 28 11:06:46 2015: called for pid 2221, signal 7, core limit 0
+ERROR: apport (pid 2222) Sat Nov 28 11:06:46 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2222) Sat Nov 28 11:06:46 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2222) Sat Nov 28 11:06:46 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2233) Sat Nov 28 11:06:46 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2238) Sat Nov 28 11:06:47 2015: called for pid 2237, signal 7, core limit 0
+ERROR: apport (pid 2238) Sat Nov 28 11:06:47 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2238) Sat Nov 28 11:06:47 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2238) Sat Nov 28 11:06:47 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2239) Sat Nov 28 11:06:47 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2242) Sat Nov 28 11:06:49 2015: called for pid 2241, signal 7, core limit 0
+ERROR: apport (pid 2242) Sat Nov 28 11:06:49 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2242) Sat Nov 28 11:06:49 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2242) Sat Nov 28 11:06:49 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2250) Sat Nov 28 11:06:49 2015: called for pid 2248, signal 7, core limit 0
+ERROR: apport (pid 2250) Sat Nov 28 11:06:49 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2250) Sat Nov 28 11:06:49 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2250) Sat Nov 28 11:06:49 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2253) Sat Nov 28 11:06:50 2015: called for pid 2252, signal 7, core limit 0
+ERROR: apport (pid 2253) Sat Nov 28 11:06:50 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2253) Sat Nov 28 11:06:50 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2253) Sat Nov 28 11:06:50 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2254) Sat Nov 28 11:06:50 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2260) Sat Nov 28 11:06:51 2015: called for pid 2259, signal 7, core limit 0
+ERROR: apport (pid 2260) Sat Nov 28 11:06:51 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2260) Sat Nov 28 11:06:51 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2260) Sat Nov 28 11:06:51 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2270) Sat Nov 28 11:06:52 2015: called for pid 2268, signal 7, core limit 0
+ERROR: apport (pid 2270) Sat Nov 28 11:06:52 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2270) Sat Nov 28 11:06:52 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2270) Sat Nov 28 11:06:52 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2273) Sat Nov 28 11:06:53 2015: called for pid 2272, signal 7, core limit 0
+ERROR: apport (pid 2273) Sat Nov 28 11:06:53 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2273) Sat Nov 28 11:06:53 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2273) Sat Nov 28 11:06:53 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2274) Sat Nov 28 11:06:53 2015: called for pid 2261, signal 5, core limit 0
+ERROR: apport (pid 2274) Sat Nov 28 11:06:53 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2274) Sat Nov 28 11:06:53 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2274) Sat Nov 28 11:06:53 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2277) Sat Nov 28 11:06:54 2015: called for pid 2276, signal 7, core limit 0
+ERROR: apport (pid 2277) Sat Nov 28 11:06:54 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2277) Sat Nov 28 11:06:54 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2277) Sat Nov 28 11:06:54 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2285) Sat Nov 28 11:06:55 2015: called for pid 2283, signal 7, core limit 0
+ERROR: apport (pid 2285) Sat Nov 28 11:06:55 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2285) Sat Nov 28 11:06:55 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2285) Sat Nov 28 11:06:55 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2288) Sat Nov 28 11:06:56 2015: called for pid 2287, signal 7, core limit 0
+ERROR: apport (pid 2288) Sat Nov 28 11:06:56 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2288) Sat Nov 28 11:06:56 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2288) Sat Nov 28 11:06:56 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2289) Sat Nov 28 11:06:56 2015: called for pid 2278, signal 5, core limit 0
+ERROR: apport (pid 2289) Sat Nov 28 11:06:56 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2289) Sat Nov 28 11:06:56 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2289) Sat Nov 28 11:06:56 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2297) Sat Nov 28 11:06:57 2015: called for pid 2296, signal 7, core limit 0
+ERROR: apport (pid 2297) Sat Nov 28 11:06:57 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2297) Sat Nov 28 11:06:57 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2297) Sat Nov 28 11:06:57 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2305) Sat Nov 28 11:06:57 2015: called for pid 2303, signal 7, core limit 0
+ERROR: apport (pid 2305) Sat Nov 28 11:06:57 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2305) Sat Nov 28 11:06:57 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2305) Sat Nov 28 11:06:57 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2308) Sat Nov 28 11:06:58 2015: called for pid 2307, signal 7, core limit 0
+ERROR: apport (pid 2308) Sat Nov 28 11:06:58 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2308) Sat Nov 28 11:06:58 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2308) Sat Nov 28 11:06:58 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2309) Sat Nov 28 11:06:59 2015: called for pid 2298, signal 5, core limit 0
+ERROR: apport (pid 2309) Sat Nov 28 11:06:59 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2309) Sat Nov 28 11:06:59 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2309) Sat Nov 28 11:06:59 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2312) Sat Nov 28 11:07:00 2015: called for pid 2311, signal 7, core limit 0
+ERROR: apport (pid 2312) Sat Nov 28 11:07:00 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2312) Sat Nov 28 11:07:00 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2312) Sat Nov 28 11:07:00 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2320) Sat Nov 28 11:07:00 2015: called for pid 2318, signal 7, core limit 0
+ERROR: apport (pid 2320) Sat Nov 28 11:07:00 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2320) Sat Nov 28 11:07:00 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2320) Sat Nov 28 11:07:00 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2323) Sat Nov 28 11:07:01 2015: called for pid 2322, signal 7, core limit 0
+ERROR: apport (pid 2323) Sat Nov 28 11:07:01 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2323) Sat Nov 28 11:07:01 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2323) Sat Nov 28 11:07:01 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2327) Sat Nov 28 11:07:02 2015: called for pid 2313, signal 5, core limit 0
+ERROR: apport (pid 2327) Sat Nov 28 11:07:02 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2327) Sat Nov 28 11:07:02 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2327) Sat Nov 28 11:07:02 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2332) Sat Nov 28 11:07:02 2015: called for pid 2331, signal 7, core limit 0
+ERROR: apport (pid 2332) Sat Nov 28 11:07:02 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2332) Sat Nov 28 11:07:02 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2332) Sat Nov 28 11:07:02 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2340) Sat Nov 28 11:07:03 2015: called for pid 2338, signal 7, core limit 0
+ERROR: apport (pid 2340) Sat Nov 28 11:07:03 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2340) Sat Nov 28 11:07:03 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2340) Sat Nov 28 11:07:03 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2343) Sat Nov 28 11:07:04 2015: called for pid 2342, signal 7, core limit 0
+ERROR: apport (pid 2343) Sat Nov 28 11:07:04 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2343) Sat Nov 28 11:07:04 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2343) Sat Nov 28 11:07:04 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2344) Sat Nov 28 11:07:05 2015: called for pid 2333, signal 5, core limit 0
+ERROR: apport (pid 2344) Sat Nov 28 11:07:05 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2344) Sat Nov 28 11:07:05 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2344) Sat Nov 28 11:07:05 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2347) Sat Nov 28 11:07:05 2015: called for pid 2346, signal 7, core limit 0
+ERROR: apport (pid 2347) Sat Nov 28 11:07:05 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2347) Sat Nov 28 11:07:05 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2347) Sat Nov 28 11:07:05 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2358) Sat Nov 28 11:07:06 2015: called for pid 2356, signal 7, core limit 0
+ERROR: apport (pid 2358) Sat Nov 28 11:07:06 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2358) Sat Nov 28 11:07:06 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2358) Sat Nov 28 11:07:06 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2361) Sat Nov 28 11:07:07 2015: called for pid 2360, signal 7, core limit 0
+ERROR: apport (pid 2361) Sat Nov 28 11:07:07 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2361) Sat Nov 28 11:07:07 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2361) Sat Nov 28 11:07:07 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2368) Sat Nov 28 11:07:07 2015: called for pid 2348, signal 5, core limit 0
+ERROR: apport (pid 2368) Sat Nov 28 11:07:07 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2368) Sat Nov 28 11:07:07 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2368) Sat Nov 28 11:07:07 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2371) Sat Nov 28 11:07:08 2015: called for pid 2370, signal 7, core limit 0
+ERROR: apport (pid 2371) Sat Nov 28 11:07:08 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2371) Sat Nov 28 11:07:08 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2371) Sat Nov 28 11:07:08 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2379) Sat Nov 28 11:07:09 2015: called for pid 2377, signal 7, core limit 0
+ERROR: apport (pid 2379) Sat Nov 28 11:07:09 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2379) Sat Nov 28 11:07:09 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2379) Sat Nov 28 11:07:09 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2382) Sat Nov 28 11:07:09 2015: called for pid 2381, signal 7, core limit 0
+ERROR: apport (pid 2382) Sat Nov 28 11:07:09 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2382) Sat Nov 28 11:07:09 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2382) Sat Nov 28 11:07:09 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2383) Sat Nov 28 11:07:10 2015: called for pid 2372, signal 5, core limit 0
+ERROR: apport (pid 2383) Sat Nov 28 11:07:10 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2383) Sat Nov 28 11:07:10 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2383) Sat Nov 28 11:07:10 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2386) Sat Nov 28 11:07:11 2015: called for pid 2385, signal 7, core limit 0
+ERROR: apport (pid 2386) Sat Nov 28 11:07:11 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2386) Sat Nov 28 11:07:11 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2386) Sat Nov 28 11:07:11 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2399) Sat Nov 28 11:07:12 2015: called for pid 2397, signal 7, core limit 0
+ERROR: apport (pid 2399) Sat Nov 28 11:07:12 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2399) Sat Nov 28 11:07:12 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2399) Sat Nov 28 11:07:12 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2402) Sat Nov 28 11:07:12 2015: called for pid 2401, signal 7, core limit 0
+ERROR: apport (pid 2402) Sat Nov 28 11:07:12 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2402) Sat Nov 28 11:07:12 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2402) Sat Nov 28 11:07:12 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2403) Sat Nov 28 11:07:13 2015: called for pid 2390, signal 5, core limit 0
+ERROR: apport (pid 2403) Sat Nov 28 11:07:13 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2403) Sat Nov 28 11:07:13 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2403) Sat Nov 28 11:07:13 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2406) Sat Nov 28 11:07:13 2015: called for pid 2405, signal 7, core limit 0
+ERROR: apport (pid 2406) Sat Nov 28 11:07:13 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2406) Sat Nov 28 11:07:14 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2406) Sat Nov 28 11:07:14 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2415) Sat Nov 28 11:07:15 2015: called for pid 2413, signal 7, core limit 0
+ERROR: apport (pid 2415) Sat Nov 28 11:07:15 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2415) Sat Nov 28 11:07:15 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2415) Sat Nov 28 11:07:15 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2418) Sat Nov 28 11:07:15 2015: called for pid 2417, signal 7, core limit 0
+ERROR: apport (pid 2418) Sat Nov 28 11:07:15 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2418) Sat Nov 28 11:07:15 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2418) Sat Nov 28 11:07:15 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2422) Sat Nov 28 11:07:16 2015: called for pid 2408, signal 5, core limit 0
+ERROR: apport (pid 2422) Sat Nov 28 11:07:16 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2422) Sat Nov 28 11:07:16 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2422) Sat Nov 28 11:07:16 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2425) Sat Nov 28 11:07:16 2015: called for pid 2424, signal 7, core limit 0
+ERROR: apport (pid 2425) Sat Nov 28 11:07:16 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2425) Sat Nov 28 11:07:16 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2425) Sat Nov 28 11:07:16 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2435) Sat Nov 28 11:07:17 2015: called for pid 2433, signal 7, core limit 0
+ERROR: apport (pid 2435) Sat Nov 28 11:07:18 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2435) Sat Nov 28 11:07:18 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2435) Sat Nov 28 11:07:18 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2438) Sat Nov 28 11:07:18 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2439) Sat Nov 28 11:07:19 2015: called for pid 2428, signal 5, core limit 0
+ERROR: apport (pid 2439) Sat Nov 28 11:07:19 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2439) Sat Nov 28 11:07:19 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2439) Sat Nov 28 11:07:19 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2442) Sat Nov 28 11:07:19 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2453) Sat Nov 28 11:07:20 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2452) Sat Nov 28 11:07:20 2015: called for pid 2450, signal 7, core limit 0
+ERROR: apport (pid 2452) Sat Nov 28 11:07:20 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2452) Sat Nov 28 11:07:20 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2452) Sat Nov 28 11:07:20 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2457) Sat Nov 28 11:07:22 2015: called for pid 2443, signal 5, core limit 0
+ERROR: apport (pid 2457) Sat Nov 28 11:07:22 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2457) Sat Nov 28 11:07:22 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2457) Sat Nov 28 11:07:22 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2460) Sat Nov 28 11:07:22 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2466) Sat Nov 28 11:07:23 2015: called for pid 2464, signal 7, core limit 0
+ERROR: apport (pid 2466) Sat Nov 28 11:07:23 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2466) Sat Nov 28 11:07:23 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2466) Sat Nov 28 11:07:23 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2473) Sat Nov 28 11:07:23 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2476) Sat Nov 28 11:07:24 2015: called for pid 2475, signal 7, core limit 0
+ERROR: apport (pid 2476) Sat Nov 28 11:07:24 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2476) Sat Nov 28 11:07:24 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2476) Sat Nov 28 11:07:24 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2477) Sat Nov 28 11:07:24 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2480) Sat Nov 28 11:07:26 2015: called for pid 2479, signal 7, core limit 0
+ERROR: apport (pid 2480) Sat Nov 28 11:07:26 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2480) Sat Nov 28 11:07:26 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2480) Sat Nov 28 11:07:26 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2491) Sat Nov 28 11:07:26 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2496) Sat Nov 28 11:07:27 2015: called for pid 2495, signal 7, core limit 0
+ERROR: apport (pid 2496) Sat Nov 28 11:07:27 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2496) Sat Nov 28 11:07:27 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2496) Sat Nov 28 11:07:27 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2497) Sat Nov 28 11:07:27 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2500) Sat Nov 28 11:07:29 2015: called for pid 2499, signal 7, core limit 0
+ERROR: apport (pid 2500) Sat Nov 28 11:07:29 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2500) Sat Nov 28 11:07:29 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2500) Sat Nov 28 11:07:29 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2508) Sat Nov 28 11:07:29 2015: called for pid 2506, signal 7, core limit 0
+ERROR: apport (pid 2508) Sat Nov 28 11:07:29 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2508) Sat Nov 28 11:07:29 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2508) Sat Nov 28 11:07:29 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2511) Sat Nov 28 11:07:30 2015: called for pid 2510, signal 7, core limit 0
+ERROR: apport (pid 2511) Sat Nov 28 11:07:30 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2511) Sat Nov 28 11:07:30 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2511) Sat Nov 28 11:07:30 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2512) Sat Nov 28 11:07:30 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2518) Sat Nov 28 11:07:31 2015: called for pid 2517, signal 7, core limit 0
+ERROR: apport (pid 2518) Sat Nov 28 11:07:31 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2518) Sat Nov 28 11:07:31 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2518) Sat Nov 28 11:07:31 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2528) Sat Nov 28 11:07:32 2015: called for pid 2526, signal 7, core limit 0
+ERROR: apport (pid 2528) Sat Nov 28 11:07:32 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2528) Sat Nov 28 11:07:32 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2528) Sat Nov 28 11:07:32 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2531) Sat Nov 28 11:07:33 2015: called for pid 2530, signal 7, core limit 0
+ERROR: apport (pid 2531) Sat Nov 28 11:07:33 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2531) Sat Nov 28 11:07:33 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2531) Sat Nov 28 11:07:33 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2532) Sat Nov 28 11:07:33 2015: called for pid 2521, signal 5, core limit 0
+ERROR: apport (pid 2532) Sat Nov 28 11:07:33 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2532) Sat Nov 28 11:07:33 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2532) Sat Nov 28 11:07:33 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2535) Sat Nov 28 11:07:34 2015: called for pid 2534, signal 7, core limit 0
+ERROR: apport (pid 2535) Sat Nov 28 11:07:34 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2535) Sat Nov 28 11:07:34 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2535) Sat Nov 28 11:07:34 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2543) Sat Nov 28 11:07:35 2015: called for pid 2541, signal 7, core limit 0
+ERROR: apport (pid 2543) Sat Nov 28 11:07:35 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2543) Sat Nov 28 11:07:35 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2543) Sat Nov 28 11:07:35 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2546) Sat Nov 28 11:07:36 2015: called for pid 2545, signal 7, core limit 0
+ERROR: apport (pid 2546) Sat Nov 28 11:07:36 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2546) Sat Nov 28 11:07:36 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2546) Sat Nov 28 11:07:36 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2550) Sat Nov 28 11:07:36 2015: called for pid 2536, signal 5, core limit 0
+ERROR: apport (pid 2550) Sat Nov 28 11:07:36 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2550) Sat Nov 28 11:07:36 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2550) Sat Nov 28 11:07:36 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2555) Sat Nov 28 11:07:37 2015: called for pid 2554, signal 7, core limit 0
+ERROR: apport (pid 2555) Sat Nov 28 11:07:37 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2555) Sat Nov 28 11:07:37 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2555) Sat Nov 28 11:07:37 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2563) Sat Nov 28 11:07:38 2015: called for pid 2561, signal 7, core limit 0
+ERROR: apport (pid 2563) Sat Nov 28 11:07:38 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2563) Sat Nov 28 11:07:38 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2563) Sat Nov 28 11:07:38 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2566) Sat Nov 28 11:07:38 2015: called for pid 2565, signal 7, core limit 0
+ERROR: apport (pid 2566) Sat Nov 28 11:07:38 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2566) Sat Nov 28 11:07:38 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2566) Sat Nov 28 11:07:38 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2567) Sat Nov 28 11:07:39 2015: called for pid 2556, signal 5, core limit 0
+ERROR: apport (pid 2567) Sat Nov 28 11:07:39 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2567) Sat Nov 28 11:07:39 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2567) Sat Nov 28 11:07:39 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2570) Sat Nov 28 11:07:40 2015: called for pid 2569, signal 7, core limit 0
+ERROR: apport (pid 2570) Sat Nov 28 11:07:40 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2570) Sat Nov 28 11:07:40 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2570) Sat Nov 28 11:07:40 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2581) Sat Nov 28 11:07:41 2015: called for pid 2579, signal 7, core limit 0
+ERROR: apport (pid 2581) Sat Nov 28 11:07:41 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2581) Sat Nov 28 11:07:41 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2581) Sat Nov 28 11:07:41 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2584) Sat Nov 28 11:07:41 2015: called for pid 2583, signal 7, core limit 0
+ERROR: apport (pid 2584) Sat Nov 28 11:07:41 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2584) Sat Nov 28 11:07:41 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2584) Sat Nov 28 11:07:41 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2587) Sat Nov 28 11:07:42 2015: called for pid 2574, signal 5, core limit 0
+ERROR: apport (pid 2587) Sat Nov 28 11:07:42 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2587) Sat Nov 28 11:07:42 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2587) Sat Nov 28 11:07:42 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2590) Sat Nov 28 11:07:42 2015: called for pid 2589, signal 7, core limit 0
+ERROR: apport (pid 2590) Sat Nov 28 11:07:42 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2590) Sat Nov 28 11:07:42 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2590) Sat Nov 28 11:07:42 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2598) Sat Nov 28 11:07:44 2015: called for pid 2596, signal 7, core limit 0
+ERROR: apport (pid 2598) Sat Nov 28 11:07:44 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2598) Sat Nov 28 11:07:44 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2598) Sat Nov 28 11:07:44 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2601) Sat Nov 28 11:07:44 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2602) Sat Nov 28 11:07:45 2015: called for pid 2591, signal 5, core limit 0
+ERROR: apport (pid 2602) Sat Nov 28 11:07:45 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2602) Sat Nov 28 11:07:45 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2602) Sat Nov 28 11:07:45 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2605) Sat Nov 28 11:07:45 2015: another apport instance is already running, aborting
