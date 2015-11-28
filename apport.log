@@ -6,3 +6,7 @@ ERROR: apport (pid 2039) Sat Nov 28 09:50:39 2015: called for pid 773, signal 11
 ERROR: apport (pid 2039) Sat Nov 28 09:50:39 2015: executable: /usr/bin/powerd (command line "/usr/bin/powerd")
 ERROR: apport (pid 2039) Sat Nov 28 09:50:39 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
 ERROR: apport (pid 2039) Sat Nov 28 09:50:39 2015: apport: report /var/crash/_usr_bin_powerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2045) Sat Nov 28 09:54:46 2015: called for pid 771, signal 11, core limit 0
+ERROR: apport (pid 2045) Sat Nov 28 09:54:46 2015: executable: /usr/bin/powerd (command line "/usr/bin/powerd")
+ERROR: apport (pid 2045) Sat Nov 28 09:54:46 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2045) Sat Nov 28 09:54:46 2015: apport: report /var/crash/_usr_bin_powerd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS

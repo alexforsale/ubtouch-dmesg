@@ -2,3 +2,5 @@ Error: 'tethering' is not an active connection.
 rm: cannot remove '/etc/NetworkManager/system-connections/tethering': No such file or directory
 Error: nmcli (0.9.10.0) and NetworkManager (unknown) versions don't match. Force execution using --nocheck, but the results are unpredictable.
 rm: cannot remove '/etc/NetworkManager/system-connections/tethering': No such file or directory
+Error: nmcli (0.9.10.0) and NetworkManager (unknown) versions don't match. Force execution using --nocheck, but the results are unpredictable.
+rm: cannot remove '/etc/NetworkManager/system-connections/tethering': No such file or directory

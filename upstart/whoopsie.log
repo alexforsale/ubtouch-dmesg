@@ -4,3 +4,6 @@ wait-for-state stop/waiting
 wait-for-state stop/waiting
 [09:50:23] Using lock path: /var/lock/whoopsie/lock
 [09:50:23] offline
+wait-for-state stop/waiting
+[09:54:31] Using lock path: /var/lock/whoopsie/lock
+[09:54:31] offline
