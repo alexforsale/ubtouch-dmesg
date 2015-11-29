@@ -1,3 +1,8 @@
 wait-for-state stop/waiting
 [21:08:50] Using lock path: /var/lock/whoopsie/lock
 [21:08:50] offline
+wait-for-state stop/waiting
+[21:12:20] Using lock path: /var/lock/whoopsie/lock
+[21:12:20] offline
+[21:12:57] Not online; processing later (/var/crash/_usr_bin_powerd.0.crash).
+[21:12:57] Not online; processing later (/var/crash/_usr_bin_powerd.0.crash).
