@@ -11,3 +11,4 @@ Configuration directory not found: /etc/system-image/config.d
 Marking /var/crash/_lib_systemd_systemd-udevd.0.crash for whoopsie upload
 Collecting info for /var/crash/_lib_systemd_systemd-logind.0.crash...
 Terminated
+watershed: `/usr/share/apport/whoopsie-upload-all' failed with error exit status 1 (in another invocation)
