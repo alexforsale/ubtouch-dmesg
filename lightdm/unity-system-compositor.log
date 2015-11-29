@@ -1,46 +1,78 @@
-[1448709458.860800] mirplatform: Found graphics driver: android
-[1448709458.861202] mirplatform: Found graphics driver: dummy
+[1448829625.919009] mirplatform: Found graphics driver: android
+[1448829625.919436] mirplatform: Found graphics driver: dummy
 Warning: ignoring unrecognised arguments: --vt 1
-[1448709458.866366] mirserver: Starting
-[1448709458.868528] mircommon: Loading modules from: /usr/lib/arm-linux-gnueabihf/mir/server-platform
-[1448709458.868872] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-android.so.6
-[1448709458.868982] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-dummy.so
-[1448709458.870660] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/input-stub.so
-[1448709458.872762] mirplatform: Found graphics driver: android
-[1448709458.872884] mirplatform: Found graphics driver: dummy
-[1448709458.873349] mirserver: Selected driver: android (version 0.17.0)
+[1448829625.932723] mirserver: Starting
+[1448829625.935289] mircommon: Loading modules from: /usr/lib/arm-linux-gnueabihf/mir/server-platform
+[1448829625.935605] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-android.so.6
+[1448829625.935722] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-dummy.so
+[1448829625.937091] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/input-stub.so
+[1448829625.942262] mirplatform: Found graphics driver: android
+[1448829625.942405] mirplatform: Found graphics driver: dummy
+[1448829625.942923] mirserver: Selected driver: android (version 0.17.0)
 ERROR: /build/mir-uRPMwH/mir-0.17.0+15.10.20151008.2/src/platforms/android/server/android_alloc_adaptor.cpp(74): Throw in function virtual std::shared_ptr<mir::graphics::NativeBuffer> mir::graphics::android::AndroidAllocAdaptor::alloc_buffer(mir::geometry::Size, MirPixelFormat, mir::graphics::android::BufferUsage)
 Dynamic exception type: boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error> >
 std::exception::what: buffer allocation failed
 
 22, "Invalid argument"
-[1448709466.254739] mirplatform: Found graphics driver: android
-[1448709466.255007] mirplatform: Found graphics driver: dummy
+[1448829633.713491] mirplatform: Found graphics driver: android
+[1448829633.713815] mirplatform: Found graphics driver: dummy
 Warning: ignoring unrecognised arguments: --vt 1
-[1448709466.258529] mirserver: Starting
-[1448709466.259287] mircommon: Loading modules from: /usr/lib/arm-linux-gnueabihf/mir/server-platform
-[1448709466.259610] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-android.so.6
-[1448709466.259716] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-dummy.so
-[1448709466.261149] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/input-stub.so
-[1448709466.263186] mirplatform: Found graphics driver: android
-[1448709466.263287] mirplatform: Found graphics driver: dummy
-[1448709466.263718] mirserver: Selected driver: android (version 0.17.0)
+[1448829633.717456] mirserver: Starting
+[1448829633.718244] mircommon: Loading modules from: /usr/lib/arm-linux-gnueabihf/mir/server-platform
+[1448829633.718595] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-android.so.6
+[1448829633.718703] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-dummy.so
+[1448829633.720153] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/input-stub.so
+[1448829633.732504] mirplatform: Found graphics driver: android
+[1448829633.732650] mirplatform: Found graphics driver: dummy
+[1448829633.733137] mirserver: Selected driver: android (version 0.17.0)
 ERROR: /build/mir-uRPMwH/mir-0.17.0+15.10.20151008.2/src/platforms/android/server/android_alloc_adaptor.cpp(74): Throw in function virtual std::shared_ptr<mir::graphics::NativeBuffer> mir::graphics::android::AndroidAllocAdaptor::alloc_buffer(mir::geometry::Size, MirPixelFormat, mir::graphics::android::BufferUsage)
 Dynamic exception type: boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error> >
 std::exception::what: buffer allocation failed
 
 22, "Invalid argument"
-[1448709471.815159] mirplatform: Found graphics driver: android
-[1448709471.815437] mirplatform: Found graphics driver: dummy
+[1448829641.149510] mirplatform: Found graphics driver: android
+[1448829641.149831] mirplatform: Found graphics driver: dummy
 Warning: ignoring unrecognised arguments: --vt 1
-[1448709471.819226] mirserver: Starting
-[1448709471.820059] mircommon: Loading modules from: /usr/lib/arm-linux-gnueabihf/mir/server-platform
-[1448709471.820427] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-android.so.6
-[1448709471.820548] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-dummy.so
-[1448709471.822066] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/input-stub.so
-[1448709471.824309] mirplatform: Found graphics driver: android
-[1448709471.824440] mirplatform: Found graphics driver: dummy
-[1448709471.824924] mirserver: Selected driver: android (version 0.17.0)
+[1448829641.153250] mirserver: Starting
+[1448829641.153916] mircommon: Loading modules from: /usr/lib/arm-linux-gnueabihf/mir/server-platform
+[1448829641.154207] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-android.so.6
+[1448829641.154300] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-dummy.so
+[1448829641.155563] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/input-stub.so
+[1448829641.157639] mirplatform: Found graphics driver: android
+[1448829641.157757] mirplatform: Found graphics driver: dummy
+[1448829641.158198] mirserver: Selected driver: android (version 0.17.0)
+ERROR: /build/mir-uRPMwH/mir-0.17.0+15.10.20151008.2/src/platforms/android/server/android_alloc_adaptor.cpp(74): Throw in function virtual std::shared_ptr<mir::graphics::NativeBuffer> mir::graphics::android::AndroidAllocAdaptor::alloc_buffer(mir::geometry::Size, MirPixelFormat, mir::graphics::android::BufferUsage)
+Dynamic exception type: boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error> >
+std::exception::what: buffer allocation failed
+
+22, "Invalid argument"
+[1448829647.515251] mirplatform: Found graphics driver: android
+[1448829647.515550] mirplatform: Found graphics driver: dummy
+Warning: ignoring unrecognised arguments: --vt 1
+[1448829647.518837] mirserver: Starting
+[1448829647.519537] mircommon: Loading modules from: /usr/lib/arm-linux-gnueabihf/mir/server-platform
+[1448829647.519812] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-android.so.6
+[1448829647.519908] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-dummy.so
+[1448829647.521195] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/input-stub.so
+[1448829647.523199] mirplatform: Found graphics driver: android
+[1448829647.523306] mirplatform: Found graphics driver: dummy
+[1448829647.523702] mirserver: Selected driver: android (version 0.17.0)
+ERROR: /build/mir-uRPMwH/mir-0.17.0+15.10.20151008.2/src/platforms/android/server/android_alloc_adaptor.cpp(74): Throw in function virtual std::shared_ptr<mir::graphics::NativeBuffer> mir::graphics::android::AndroidAllocAdaptor::alloc_buffer(mir::geometry::Size, MirPixelFormat, mir::graphics::android::BufferUsage)
+Dynamic exception type: boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error> >
+std::exception::what: buffer allocation failed
+
+22, "Invalid argument"
+[1448829654.373071] mirplatform: Found graphics driver: android
+[1448829654.373367] mirplatform: Found graphics driver: dummy
+Warning: ignoring unrecognised arguments: --vt 1
+[1448829654.376618] mirserver: Starting
+[1448829654.377317] mircommon: Loading modules from: /usr/lib/arm-linux-gnueabihf/mir/server-platform
+[1448829654.377590] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-android.so.6
+[1448829654.377680] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-dummy.so
+[1448829654.378968] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/input-stub.so
+[1448829654.380974] mirplatform: Found graphics driver: android
+[1448829654.381073] mirplatform: Found graphics driver: dummy
+[1448829654.381653] mirserver: Selected driver: android (version 0.17.0)
 ERROR: /build/mir-uRPMwH/mir-0.17.0+15.10.20151008.2/src/platforms/android/server/android_alloc_adaptor.cpp(74): Throw in function virtual std::shared_ptr<mir::graphics::NativeBuffer> mir::graphics::android::AndroidAllocAdaptor::alloc_buffer(mir::geometry::Size, MirPixelFormat, mir::graphics::android::BufferUsage)
 Dynamic exception type: boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error> >
 std::exception::what: buffer allocation failed

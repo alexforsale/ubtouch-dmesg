@@ -9,15 +9,5 @@ usage: system-image-cli [-h] [--version] [-C DIRECTORY] [-b BUILD]
 system-image-cli: error: 
 Configuration directory not found: /etc/system-image/config.d
 Marking /var/crash/_lib_systemd_systemd-udevd.0.crash for whoopsie upload
-Collecting info for /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash...
-usage: system-image-cli [-h] [--version] [-C DIRECTORY] [-b BUILD]
-                        [-c CHANNEL] [-d DEVICE] [-f FILTER] [-g]
-                        [--no-reboot] [-i] [-n] [-v] [--progress PROGRESS]
-                        [-p PERCENTAGE] [--list-channels] [--factory-reset]
-                        [--production-reset] [--switch CHANNEL]
-                        [--show-settings] [--set KEY=VAL] [--get KEY]
-                        [--del KEY]
-system-image-cli: error: 
-Configuration directory not found: /etc/system-image/config.d
-Marking /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash for whoopsie upload
-All reports processed
+Collecting info for /var/crash/_lib_systemd_systemd-logind.0.crash...
+Terminated
