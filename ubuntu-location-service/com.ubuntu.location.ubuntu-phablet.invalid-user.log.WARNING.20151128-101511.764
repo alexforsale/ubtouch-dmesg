@@ -1,5 +1,0 @@
-Log file created at: 2015/11/28 10:15:11
-Running on machine: ubuntu-phablet
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-W1128 10:15:11.253525   764 boost_ptree_settings.cpp:36] Could not parse configuration file /var/lib/ubuntu-location-service/config.ini: /var/lib/ubuntu-location-service/config.ini: cannot open file
-W1128 10:15:12.680748  1030 ofono_nm_connectivity_manager.h:140] org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
