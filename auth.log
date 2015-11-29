@@ -5,3 +5,4 @@ Nov 29 22:34:37 ubuntu-phablet lightdm: pam_unix(lightdm-autologin:session): ses
 Nov 29 22:37:04 ubuntu-phablet sudo:     root : TTY=pts/18 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/aa-status
 Nov 29 22:37:04 ubuntu-phablet sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
 Nov 29 22:37:05 ubuntu-phablet sudo: pam_unix(sudo:session): session closed for user root
+Nov 29 22:42:12 ubuntu-phablet lightdm: pam_unix(lightdm-autologin:session): session opened for user phablet by (uid=0)
