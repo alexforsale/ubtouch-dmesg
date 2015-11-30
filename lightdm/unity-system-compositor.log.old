@@ -1,0 +1,16 @@
+[1448893530.778901] mirplatform: Found graphics driver: android
+[1448893530.779281] mirplatform: Found graphics driver: dummy
+Warning: ignoring unrecognised arguments: --vt 1
+[1448893530.796526] mirserver: Starting
+[1448893530.798998] mircommon: Loading modules from: /usr/lib/arm-linux-gnueabihf/mir/server-platform
+[1448893530.799247] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-android.so.6
+[1448893530.799337] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/graphics-dummy.so
+[1448893530.801659] mircommon: Loading module: /usr/lib/arm-linux-gnueabihf/mir/server-platform/input-stub.so
+[1448893530.809320] mirplatform: Found graphics driver: android
+[1448893530.809438] mirplatform: Found graphics driver: dummy
+[1448893530.810042] mirserver: Selected driver: android (version 0.17.0)
+ERROR: /build/mir-U8WSgm/mir-0.17.0+15.04.20151008.2/src/platforms/android/server/android_alloc_adaptor.cpp(74): Throw in function virtual std::shared_ptr<mir::graphics::NativeBuffer> mir::graphics::android::AndroidAllocAdaptor::alloc_buffer(mir::geometry::Size, MirPixelFormat, mir::graphics::android::BufferUsage)
+Dynamic exception type: N5boost16exception_detail10clone_implINS0_19error_info_injectorISt13runtime_errorEEEE
+std::exception::what: buffer allocation failed
+
+22, "Invalid argument"
