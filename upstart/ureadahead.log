@@ -5077,8 +5077,6 @@ ureadahead:start: Ignored relative path
 ureadahead:size: Ignored relative path
 ureadahead:start: Ignored relative path
 ureadahead:size: Ignored relative path
-ureadahead:size: Ignored relative path
-ureadahead:start: Ignored relative path
 ureadahead:start: Ignored relative path
 ureadahead:size: Ignored relative path
 ureadahead:start: Ignored relative path
@@ -5124,8 +5122,8 @@ ureadahead:size: Ignored relative path
 ureadahead:start: Ignored relative path
 ureadahead:size: Ignored relative path
 ureadahead:start: Ignored relative path
-ureadahead:pm-utils: Ignored relative path
-ureadahead:pm-powersave: Ignored relative path
+ureadahead:size: Ignored relative path
+ureadahead:start: Ignored relative path
 ureadahead:.: Ignored relative path
 ureadahead:.: Ignored relative path
 ureadahead:local: Ignored relative path
@@ -5152,6 +5150,8 @@ ureadahead:cache: Ignored relative path
 ureadahead:..: Ignored relative path
 ureadahead:.: Ignored relative path
 ureadahead:.: Ignored relative path
+ureadahead:pm-utils: Ignored relative path
+ureadahead:pm-powersave: Ignored relative path
 ureadahead:.X11-unix: Ignored relative path
 ureadahead:.ICE-unix: Ignored relative path
 ureadahead:.: Ignored relative path
