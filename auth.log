@@ -1,2 +1,5 @@
-Nov 30 09:14:28 ubuntu-phablet systemd-logind[897]: New seat seat0.
-Nov 30 09:15:07 ubuntu-phablet lightdm: pam_unix(lightdm-autologin:session): session opened for user phablet by (uid=0)
+Nov 30 09:51:45 ubuntu-phablet lightdm: pam_unix(lightdm-autologin:session): session opened for user phablet by (uid=0)
+Nov 30 10:17:01 ubuntu-phablet CRON[8463]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 30 10:17:01 ubuntu-phablet CRON[8463]: pam_unix(cron:session): session closed for user root
+Nov 30 11:17:01 ubuntu-phablet CRON[22685]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 30 11:17:01 ubuntu-phablet CRON[22685]: pam_unix(cron:session): session closed for user root
