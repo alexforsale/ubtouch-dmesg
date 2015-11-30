@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=qmlscene ./ubuntu-weather-app.qml
+Icon=./weather64.png
+Name=Weather
+X-Ubuntu-Touch=true
+X-Ubuntu-StageHint=SideStage
+X-Ubuntu-Gettext-Domain=com.ubuntu.weather
+

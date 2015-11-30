@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=webbrowser-app --enable-back-forward --webapp --webappUrlPatterns=https?://www.amazon.com/*,https?://s.amazon-adsystem.com/* http://www.amazon.com/gp/aw
+Name=Amazon
+Icon=./amazon.png
+X-Ubuntu-Touch=true

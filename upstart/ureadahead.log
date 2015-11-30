@@ -44,7 +44,7 @@ ureadahead:seapp_contexts: Ignored relative path
 ureadahead:sepolicy: Ignored relative path
 ureadahead:ueventd.armani.rc: Ignored relative path
 ureadahead:ueventd.rc: Ignored relative path
-ureadahead: Unable to obtain rotationalness for device 0:30: No such file or directory
+ureadahead: Unable to obtain rotationalness for device 0:29: No such file or directory
 ureadahead:/var/lib/lxc/android/rootfs/init.rc: Error retrieving chunk extents: Operation not supported
 ureadahead:/var/lib/lxc/android/rootfs/init.armani.rc: Error retrieving chunk extents: Operation not supported
 ureadahead:/var/lib/lxc/android/rootfs/init.armani.usb.rc: Error retrieving chunk extents: Operation not supported
@@ -5079,24 +5079,6 @@ ureadahead:start: Ignored relative path
 ureadahead:size: Ignored relative path
 ureadahead:start: Ignored relative path
 ureadahead:size: Ignored relative path
-ureadahead:size: Ignored relative path
-ureadahead:start: Ignored relative path
-ureadahead:start: Ignored relative path
-ureadahead:size: Ignored relative path
-ureadahead:start: Ignored relative path
-ureadahead:size: Ignored relative path
-ureadahead:start: Ignored relative path
-ureadahead:size: Ignored relative path
-ureadahead:start: Ignored relative path
-ureadahead:size: Ignored relative path
-ureadahead:start: Ignored relative path
-ureadahead:size: Ignored relative path
-ureadahead:start: Ignored relative path
-ureadahead:size: Ignored relative path
-ureadahead:start: Ignored relative path
-ureadahead:size: Ignored relative path
-ureadahead:size: Ignored relative path
-ureadahead:start: Ignored relative path
 ureadahead:start: Ignored relative path
 ureadahead:size: Ignored relative path
 ureadahead:start: Ignored relative path
@@ -5124,8 +5106,24 @@ ureadahead:size: Ignored relative path
 ureadahead:start: Ignored relative path
 ureadahead:size: Ignored relative path
 ureadahead:start: Ignored relative path
-ureadahead:pm-utils: Ignored relative path
-ureadahead:pm-powersave: Ignored relative path
+ureadahead:size: Ignored relative path
+ureadahead:start: Ignored relative path
+ureadahead:size: Ignored relative path
+ureadahead:start: Ignored relative path
+ureadahead:size: Ignored relative path
+ureadahead:start: Ignored relative path
+ureadahead:size: Ignored relative path
+ureadahead:start: Ignored relative path
+ureadahead:size: Ignored relative path
+ureadahead:start: Ignored relative path
+ureadahead:size: Ignored relative path
+ureadahead:start: Ignored relative path
+ureadahead:size: Ignored relative path
+ureadahead:start: Ignored relative path
+ureadahead:size: Ignored relative path
+ureadahead:start: Ignored relative path
+ureadahead:size: Ignored relative path
+ureadahead:start: Ignored relative path
 ureadahead:.: Ignored relative path
 ureadahead:.: Ignored relative path
 ureadahead:local: Ignored relative path
@@ -5152,6 +5150,8 @@ ureadahead:cache: Ignored relative path
 ureadahead:..: Ignored relative path
 ureadahead:.: Ignored relative path
 ureadahead:.: Ignored relative path
+ureadahead:pm-utils: Ignored relative path
+ureadahead:pm-powersave: Ignored relative path
 ureadahead:.X11-unix: Ignored relative path
 ureadahead:.ICE-unix: Ignored relative path
 ureadahead:.: Ignored relative path

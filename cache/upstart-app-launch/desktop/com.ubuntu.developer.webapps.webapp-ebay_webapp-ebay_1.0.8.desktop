@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=webbrowser-app --enable-back-forward --webappUrlPatterns=https?://*.ebay.com/* --webapp http://m.ebay.com/
+Name=eBay
+Icon=./ebay.png
+X-Ubuntu-Touch=true
+X-Ubuntu-Single-Instance=true
