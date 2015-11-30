@@ -4925,3 +4925,198 @@ D/libEGL  ( 4918): loaded /vendor/lib/egl/libEGL_adreno.so
 D/libEGL  ( 4918): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
 D/libEGL  ( 4918): loaded /vendor/lib/egl/libGLESv2_adreno.so
 I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=running
+I/ThermalEngine(  932): Sensor:batt_temp:42400 mC
+D/libEGL  ( 4925): loaded /vendor/lib/egl/libEGL_adreno.so
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=restarting
+D/libEGL  ( 4925): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=restarting
+D/libEGL  ( 4925): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=restarting
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+D/libEGL  ( 4936): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 4936): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 4936): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+D/libEGL  ( 4942): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 4942): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 4942): loaded /vendor/lib/egl/libGLESv2_adreno.so
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=restarting
+I/ThermalEngine(  932): Sensor:batt_temp:42100 mC
+D/libEGL  ( 4953): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 4953): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 4953): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+I/ThermalEngine(  932): Sensor:batt_temp:42100 mC
+D/libEGL  ( 4959): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 4959): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 4959): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  932): Sensor:batt_temp:42100 mC
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=restarting
+D/libEGL  ( 4965): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 4965): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 4965): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+I/ThermalEngine(  932): Sensor:batt_temp:42100 mC
+D/libEGL  ( 4976): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 4976): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 4976): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+I/ThermalEngine(  932): Sensor:batt_temp:42100 mC
+D/libEGL  ( 4984): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 4984): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 4984): loaded /vendor/lib/egl/libGLESv2_adreno.so
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=restarting
+I/ThermalEngine(  932): Sensor:batt_temp:42100 mC
+D/libEGL  ( 4997): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 4997): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 4997): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+I/ThermalEngine(  932): Sensor:batt_temp:42100 mC
+D/libEGL  ( 5003): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 5003): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 5003): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=restarting
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  932): Sensor:batt_temp:42100 mC
+D/libEGL  ( 5014): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 5014): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 5014): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  932): Sensor:batt_temp:42400 mC
+I/ThermalEngine(  932): Sensor:batt_temp:42200 mC
+D/libEGL  ( 5022): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 5022): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 5022): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+I/ThermalEngine(  932): Sensor:batt_temp:42100 mC
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [LOWI-SERVER] unknown deliver target [OS-Agent]
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=restarting
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=restarting
+D/libEGL  ( 5028): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 5028): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 5028): loaded /vendor/lib/egl/libGLESv2_adreno.so
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  932): Sensor:batt_temp:42400 mC
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+D/libEGL  ( 5042): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 5042): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 5042): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  932): Sensor:batt_temp:42400 mC
+I/ThermalEngine(  932): Sensor:batt_temp:42200 mC
+D/libEGL  ( 5048): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 5048): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 5048): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  932): Sensor:batt_temp:42300 mC
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=restarting
+I/ThermalEngine(  932): Sensor:batt_temp:42200 mC
+D/libEGL  ( 5059): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 5059): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 5059): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  932): Sensor:batt_temp:42400 mC
+I/ThermalEngine(  932): Sensor:batt_temp:42200 mC
+D/libEGL  ( 5065): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 5065): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 5065): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  932): Sensor:batt_temp:42400 mC
+I/ThermalEngine(  932): Sensor:batt_temp:42200 mC
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  948): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_igsn=restarting
+D/libEGL  ( 5071): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 5071): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 5071): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  881): Property changed: init.svc.xtwifi_inet=restarting
