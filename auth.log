@@ -1,17 +1,2 @@
-Nov 30 12:01:51 ubuntu-phablet systemd-logind[901]: New seat seat0.
-Nov 30 12:02:28 ubuntu-phablet lightdm: pam_unix(lightdm-autologin:session): session opened for user phablet by (uid=0)
-Nov 30 12:06:59 ubuntu-phablet lightdm: PAM pam_putenv: no variable indicated
-Nov 30 12:08:24 ubuntu-phablet sudo:     root : TTY=pts/8 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/lightdm
-Nov 30 12:08:24 ubuntu-phablet sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
-Nov 30 12:08:24 ubuntu-phablet sudo: pam_unix(sudo:session): session closed for user root
-Nov 30 12:08:24 ubuntu-phablet lightdm: PAM pam_putenv: no variable indicated
-Nov 30 12:11:29 ubuntu-phablet lightdm: PAM pam_putenv: no variable indicated
-Nov 30 12:12:49 ubuntu-phablet sudo:     root : TTY=pts/8 ; PWD=/ ; USER=root ; COMMAND=/etc/init.d/lightdm
-Nov 30 12:12:49 ubuntu-phablet sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
-Nov 30 12:12:49 ubuntu-phablet sudo: pam_unix(sudo:session): session closed for user root
-Nov 30 12:17:01 ubuntu-phablet CRON[6066]: pam_unix(cron:session): session opened for user root by (uid=0)
-Nov 30 12:17:01 ubuntu-phablet CRON[6066]: pam_unix(cron:session): session closed for user root
-Nov 30 12:20:49 ubuntu-phablet sudo:     root : TTY=pts/8 ; PWD=/ ; USER=root ; COMMAND=/etc/init.d/lightdm start
-Nov 30 12:20:49 ubuntu-phablet sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
-Nov 30 12:20:49 ubuntu-phablet sudo: pam_unix(sudo:session): session closed for user root
-Nov 30 12:20:49 ubuntu-phablet lightdm: PAM pam_putenv: no variable indicated
+Nov 30 14:35:47 ubuntu-phablet systemd-logind[895]: New seat seat0.
+Nov 30 14:36:23 ubuntu-phablet lightdm: pam_unix(lightdm-autologin:session): session opened for user phablet by (uid=0)
