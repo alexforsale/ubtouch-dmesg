@@ -4342,3 +4342,34 @@ Nov 30 22:30:42 ubuntu-phablet kernel: [  771.151340] apport (5166): undefined i
 Nov 30 22:30:42 ubuntu-phablet kernel: [  771.151357] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
 Nov 30 22:30:44 ubuntu-phablet kernel: [  773.197738] apport (5174): undefined instruction: pc=b693b3c8
 Nov 30 22:30:44 ubuntu-phablet kernel: [  773.197756] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Nov 30 22:30:46 ubuntu-phablet kernel: [  775.275731] apport (5185): undefined instruction: pc=b68fa3c8
+Nov 30 22:30:46 ubuntu-phablet kernel: [  775.275749] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Nov 30 22:30:48 ubuntu-phablet kernel: [  777.276277] apport (5193): undefined instruction: pc=b69483c8
+Nov 30 22:30:48 ubuntu-phablet kernel: [  777.276295] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Nov 30 22:30:50 ubuntu-phablet kernel: [  779.318481] apport (5204): undefined instruction: pc=b68f13c8
+Nov 30 22:30:50 ubuntu-phablet kernel: [  779.318499] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Nov 30 22:30:52 ubuntu-phablet kernel: [  781.371054] apport (5213): undefined instruction: pc=b68a43c8
+Nov 30 22:30:52 ubuntu-phablet kernel: [  781.371071] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Nov 30 22:30:54 ubuntu-phablet kernel: [  783.388240] apport (5224): undefined instruction: pc=b69073c8
+Nov 30 22:30:54 ubuntu-phablet kernel: [  783.388258] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Nov 30 22:30:56 ubuntu-phablet kernel: [  785.431526] apport (5230): undefined instruction: pc=b688f3c8
+Nov 30 22:30:56 ubuntu-phablet kernel: [  785.431544] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Nov 30 22:30:58 ubuntu-phablet kernel: [  787.120060] BMS: adjust_soc: s 73 i 365487 v 3905880 ocv 4040000 rbatt 155 uuc 61590 cc 45312 r 1560280 t 423
+Nov 30 22:30:58 ubuntu-phablet kernel: [  787.481244] apport (5236): undefined instruction: pc=b68833c8
+Nov 30 22:30:58 ubuntu-phablet kernel: [  787.481262] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Nov 30 22:31:00 ubuntu-phablet kernel: [  789.516157] apport (5247): undefined instruction: pc=b69453c8
+Nov 30 22:31:00 ubuntu-phablet kernel: [  789.516175] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Nov 30 22:31:02 ubuntu-phablet kernel: [  791.571419] apport (5254): undefined instruction: pc=b68993c8
+Nov 30 22:31:02 ubuntu-phablet kernel: [  791.571437] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Nov 30 22:31:04 ubuntu-phablet kernel: [  793.626225] apport (5265): undefined instruction: pc=b69523c8
+Nov 30 22:31:04 ubuntu-phablet kernel: [  793.626243] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Nov 30 22:31:06 ubuntu-phablet kernel: [  795.669642] apport (5271): undefined instruction: pc=b68cf3c8
+Nov 30 22:31:06 ubuntu-phablet kernel: [  795.669660] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Nov 30 22:31:08 ubuntu-phablet kernel: [  797.718002] apport (5277): undefined instruction: pc=b687a3c8
+Nov 30 22:31:08 ubuntu-phablet kernel: [  797.718019] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Nov 30 22:31:10 ubuntu-phablet kernel: [  799.756343] apport (5288): undefined instruction: pc=b68983c8
+Nov 30 22:31:10 ubuntu-phablet kernel: [  799.756360] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Nov 30 22:31:12 ubuntu-phablet kernel: [  801.810526] apport (5294): undefined instruction: pc=b68873c8
+Nov 30 22:31:12 ubuntu-phablet kernel: [  801.810544] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Nov 30 22:31:14 ubuntu-phablet kernel: [  803.891274] apport (5308): undefined instruction: pc=b68b83c8
+Nov 30 22:31:14 ubuntu-phablet kernel: [  803.891292] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
