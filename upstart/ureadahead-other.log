@@ -1,9 +1,10 @@
-ureadahead:/var/lib/ureadahead/var.lib.system-image.pack: No such file or directory
-ureadahead:/var/lib/ureadahead/var.log.pack: No such file or directory
-ureadahead:/lib/ufw/user6.rules: Pack data error
+ureadahead:/var/lib/ureadahead/var.lib.upower.pack: No such file or directory
+ureadahead:/etc/default/ufw: Pack data error
+ureadahead:/var/lib/ureadahead/etc.apparmor.d.cache.pack: No such file or directory
 ureadahead:/var/lib/ureadahead/var.lib.apparmor.pack: No such file or directory
 ureadahead:/var/lib/ureadahead/etc.writable.pack: No such file or directory
-ureadahead:/var/lib/ureadahead/var.lib.AccountsService.users.pack: No such file or directory
+ureadahead:/var/lib/ureadahead/var.lib.PackageKit.pack: No such file or directory
+ureadahead:/var/lib/ureadahead/var.lib.logrotate.pack: No such file or directory
 ureadahead:/var/lib/ureadahead/var.crash.pack: No such file or directory
 ureadahead:/var/lib/ureadahead/home.pack: No such file or directory
 ureadahead:/var/lib/ureadahead/android.data.pack: No such file or directory

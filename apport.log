@@ -1,61 +1,127 @@
-ERROR: apport (pid 2628) Mon Nov 30 08:51:10 2015: another apport instance is already running, aborting
-ERROR: apport (pid 2609) Mon Nov 30 08:51:09 2015: called for pid 2592, signal 6, core limit 0
-ERROR: apport (pid 2609) Mon Nov 30 08:51:09 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2609) Mon Nov 30 08:51:09 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+ERROR: apport (pid 2559) Mon Nov 30 09:15:31 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2540) Mon Nov 30 09:15:29 2015: called for pid 2523, signal 6, core limit 0
+ERROR: apport (pid 2540) Mon Nov 30 09:15:29 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2540) Mon Nov 30 09:15:29 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-ERROR: apport (pid 2609) Mon Nov 30 08:51:09 2015: debug: session gdbus call: 
-ERROR: apport (pid 2609) Mon Nov 30 08:51:10 2015: wrote report /var/crash/_usr_bin_unity8.32011.crash
-ERROR: apport (pid 2639) Mon Nov 30 08:51:11 2015: called for pid 2633, signal 6, core limit 0
-ERROR: apport (pid 2639) Mon Nov 30 08:51:11 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2639) Mon Nov 30 08:51:11 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+ERROR: apport (pid 2540) Mon Nov 30 09:15:29 2015: debug: session gdbus call: 
+ERROR: apport (pid 2540) Mon Nov 30 09:15:31 2015: wrote report /var/crash/_usr_bin_unity8.32011.crash
+ERROR: apport (pid 2568) Mon Nov 30 09:15:32 2015: called for pid 2565, signal 6, core limit 0
+ERROR: apport (pid 2568) Mon Nov 30 09:15:32 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2568) Mon Nov 30 09:15:32 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-ERROR: apport (pid 2639) Mon Nov 30 08:51:11 2015: debug: session gdbus call: 
-ERROR: apport (pid 2639) Mon Nov 30 08:51:11 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2648) Mon Nov 30 08:51:13 2015: called for pid 2645, signal 6, core limit 0
-ERROR: apport (pid 2648) Mon Nov 30 08:51:13 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2648) Mon Nov 30 08:51:13 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+ERROR: apport (pid 2568) Mon Nov 30 09:15:32 2015: debug: session gdbus call: 
+ERROR: apport (pid 2568) Mon Nov 30 09:15:32 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2577) Mon Nov 30 09:15:34 2015: called for pid 2574, signal 6, core limit 0
+ERROR: apport (pid 2577) Mon Nov 30 09:15:34 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2577) Mon Nov 30 09:15:34 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-ERROR: apport (pid 2648) Mon Nov 30 08:51:13 2015: debug: session gdbus call: 
-ERROR: apport (pid 2648) Mon Nov 30 08:51:13 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2656) Mon Nov 30 08:51:16 2015: called for pid 2651, signal 6, core limit 0
-ERROR: apport (pid 2656) Mon Nov 30 08:51:16 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2656) Mon Nov 30 08:51:16 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+ERROR: apport (pid 2577) Mon Nov 30 09:15:34 2015: debug: session gdbus call: 
+ERROR: apport (pid 2577) Mon Nov 30 09:15:34 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2588) Mon Nov 30 09:15:36 2015: called for pid 2580, signal 6, core limit 0
+ERROR: apport (pid 2588) Mon Nov 30 09:15:36 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2588) Mon Nov 30 09:15:36 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-ERROR: apport (pid 2656) Mon Nov 30 08:51:16 2015: debug: session gdbus call: 
-ERROR: apport (pid 2656) Mon Nov 30 08:51:16 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2665) Mon Nov 30 08:51:18 2015: called for pid 2662, signal 6, core limit 0
-ERROR: apport (pid 2665) Mon Nov 30 08:51:18 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2665) Mon Nov 30 08:51:18 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+ERROR: apport (pid 2588) Mon Nov 30 09:15:36 2015: debug: session gdbus call: 
+ERROR: apport (pid 2588) Mon Nov 30 09:15:36 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2594) Mon Nov 30 09:15:38 2015: called for pid 2591, signal 6, core limit 0
+ERROR: apport (pid 2594) Mon Nov 30 09:15:38 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2594) Mon Nov 30 09:15:38 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-ERROR: apport (pid 2665) Mon Nov 30 08:51:18 2015: debug: session gdbus call: 
-ERROR: apport (pid 2665) Mon Nov 30 08:51:18 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2671) Mon Nov 30 08:51:20 2015: called for pid 2668, signal 6, core limit 0
-ERROR: apport (pid 2671) Mon Nov 30 08:51:20 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2671) Mon Nov 30 08:51:20 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+ERROR: apport (pid 2594) Mon Nov 30 09:15:38 2015: debug: session gdbus call: 
+ERROR: apport (pid 2594) Mon Nov 30 09:15:38 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2603) Mon Nov 30 09:15:40 2015: called for pid 2600, signal 6, core limit 0
+ERROR: apport (pid 2603) Mon Nov 30 09:15:40 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2603) Mon Nov 30 09:15:40 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-ERROR: apport (pid 2671) Mon Nov 30 08:51:20 2015: debug: session gdbus call: 
-ERROR: apport (pid 2671) Mon Nov 30 08:51:20 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2682) Mon Nov 30 08:51:22 2015: called for pid 2676, signal 6, core limit 0
-ERROR: apport (pid 2682) Mon Nov 30 08:51:22 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2682) Mon Nov 30 08:51:22 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+ERROR: apport (pid 2603) Mon Nov 30 09:15:40 2015: debug: session gdbus call: 
+ERROR: apport (pid 2603) Mon Nov 30 09:15:40 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2616) Mon Nov 30 09:15:42 2015: called for pid 2613, signal 6, core limit 0
+ERROR: apport (pid 2616) Mon Nov 30 09:15:42 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2616) Mon Nov 30 09:15:42 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-ERROR: apport (pid 2682) Mon Nov 30 08:51:22 2015: debug: session gdbus call: 
-ERROR: apport (pid 2682) Mon Nov 30 08:51:22 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2688) Mon Nov 30 08:51:24 2015: called for pid 2685, signal 6, core limit 0
-ERROR: apport (pid 2688) Mon Nov 30 08:51:24 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2688) Mon Nov 30 08:51:24 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+ERROR: apport (pid 2616) Mon Nov 30 09:15:42 2015: debug: session gdbus call: 
+ERROR: apport (pid 2616) Mon Nov 30 09:15:42 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2622) Mon Nov 30 09:15:44 2015: called for pid 2619, signal 6, core limit 0
+ERROR: apport (pid 2622) Mon Nov 30 09:15:44 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2622) Mon Nov 30 09:15:44 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-ERROR: apport (pid 2688) Mon Nov 30 08:51:24 2015: debug: session gdbus call: 
-ERROR: apport (pid 2688) Mon Nov 30 08:51:24 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2696) Mon Nov 30 08:51:26 2015: called for pid 2691, signal 6, core limit 0
-ERROR: apport (pid 2696) Mon Nov 30 08:51:26 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2696) Mon Nov 30 08:51:26 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+ERROR: apport (pid 2622) Mon Nov 30 09:15:44 2015: debug: session gdbus call: 
+ERROR: apport (pid 2622) Mon Nov 30 09:15:44 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2633) Mon Nov 30 09:15:46 2015: called for pid 2625, signal 6, core limit 0
+ERROR: apport (pid 2633) Mon Nov 30 09:15:46 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2633) Mon Nov 30 09:15:46 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-ERROR: apport (pid 2696) Mon Nov 30 08:51:26 2015: debug: session gdbus call: 
-ERROR: apport (pid 2696) Mon Nov 30 08:51:26 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2705) Mon Nov 30 08:51:28 2015: called for pid 2702, signal 6, core limit 0
-ERROR: apport (pid 2705) Mon Nov 30 08:51:28 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2705) Mon Nov 30 08:51:28 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+ERROR: apport (pid 2633) Mon Nov 30 09:15:46 2015: debug: session gdbus call: 
+ERROR: apport (pid 2633) Mon Nov 30 09:15:46 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2639) Mon Nov 30 09:15:48 2015: called for pid 2636, signal 6, core limit 0
+ERROR: apport (pid 2639) Mon Nov 30 09:15:48 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2639) Mon Nov 30 09:15:48 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-ERROR: apport (pid 2705) Mon Nov 30 08:51:28 2015: debug: session gdbus call: 
-ERROR: apport (pid 2705) Mon Nov 30 08:51:28 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2639) Mon Nov 30 09:15:48 2015: debug: session gdbus call: 
+ERROR: apport (pid 2639) Mon Nov 30 09:15:48 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2645) Mon Nov 30 09:15:50 2015: called for pid 2642, signal 6, core limit 0
+ERROR: apport (pid 2645) Mon Nov 30 09:15:50 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2645) Mon Nov 30 09:15:51 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+ERROR: apport (pid 2645) Mon Nov 30 09:15:51 2015: debug: session gdbus call: 
+ERROR: apport (pid 2645) Mon Nov 30 09:15:51 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2656) Mon Nov 30 09:15:53 2015: called for pid 2653, signal 6, core limit 0
+ERROR: apport (pid 2656) Mon Nov 30 09:15:53 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2656) Mon Nov 30 09:15:53 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+ERROR: apport (pid 2656) Mon Nov 30 09:15:53 2015: debug: session gdbus call: 
+ERROR: apport (pid 2656) Mon Nov 30 09:15:53 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2662) Mon Nov 30 09:15:55 2015: called for pid 2659, signal 6, core limit 0
+ERROR: apport (pid 2662) Mon Nov 30 09:15:55 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2662) Mon Nov 30 09:15:55 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+ERROR: apport (pid 2662) Mon Nov 30 09:15:55 2015: debug: session gdbus call: 
+ERROR: apport (pid 2662) Mon Nov 30 09:15:55 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2673) Mon Nov 30 09:15:57 2015: called for pid 2665, signal 6, core limit 0
+ERROR: apport (pid 2673) Mon Nov 30 09:15:57 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2673) Mon Nov 30 09:15:57 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+ERROR: apport (pid 2673) Mon Nov 30 09:15:57 2015: debug: session gdbus call: 
+ERROR: apport (pid 2673) Mon Nov 30 09:15:57 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2679) Mon Nov 30 09:15:59 2015: called for pid 2676, signal 6, core limit 0
+ERROR: apport (pid 2679) Mon Nov 30 09:15:59 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2679) Mon Nov 30 09:15:59 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+ERROR: apport (pid 2679) Mon Nov 30 09:15:59 2015: debug: session gdbus call: 
+ERROR: apport (pid 2679) Mon Nov 30 09:15:59 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2686) Mon Nov 30 09:16:01 2015: called for pid 2683, signal 6, core limit 0
+ERROR: apport (pid 2686) Mon Nov 30 09:16:01 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2686) Mon Nov 30 09:16:01 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+ERROR: apport (pid 2686) Mon Nov 30 09:16:01 2015: debug: session gdbus call: 
+ERROR: apport (pid 2686) Mon Nov 30 09:16:01 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2697) Mon Nov 30 09:16:03 2015: called for pid 2694, signal 6, core limit 0
+ERROR: apport (pid 2697) Mon Nov 30 09:16:03 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2697) Mon Nov 30 09:16:03 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+ERROR: apport (pid 2697) Mon Nov 30 09:16:03 2015: debug: session gdbus call: 
+ERROR: apport (pid 2697) Mon Nov 30 09:16:03 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2704) Mon Nov 30 09:16:05 2015: called for pid 2701, signal 6, core limit 0
+ERROR: apport (pid 2704) Mon Nov 30 09:16:05 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2704) Mon Nov 30 09:16:05 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+ERROR: apport (pid 2704) Mon Nov 30 09:16:05 2015: debug: session gdbus call: 
+ERROR: apport (pid 2704) Mon Nov 30 09:16:05 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2715) Mon Nov 30 09:16:07 2015: called for pid 2707, signal 6, core limit 0
+ERROR: apport (pid 2715) Mon Nov 30 09:16:07 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2715) Mon Nov 30 09:16:07 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+ERROR: apport (pid 2715) Mon Nov 30 09:16:07 2015: debug: session gdbus call: 
+ERROR: apport (pid 2715) Mon Nov 30 09:16:07 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2721) Mon Nov 30 09:16:09 2015: called for pid 2718, signal 6, core limit 0
+ERROR: apport (pid 2721) Mon Nov 30 09:16:09 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2721) Mon Nov 30 09:16:09 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+ERROR: apport (pid 2721) Mon Nov 30 09:16:09 2015: debug: session gdbus call: 
+ERROR: apport (pid 2721) Mon Nov 30 09:16:09 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2738) Mon Nov 30 09:16:11 2015: called for pid 2730, signal 6, core limit 0
+ERROR: apport (pid 2738) Mon Nov 30 09:16:11 2015: executable: /usr/bin/unity8 (command line "unity8")
+ERROR: apport (pid 2738) Mon Nov 30 09:16:11 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+ERROR: apport (pid 2738) Mon Nov 30 09:16:11 2015: debug: session gdbus call: 
+ERROR: apport (pid 2738) Mon Nov 30 09:16:11 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
