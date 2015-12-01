@@ -1,4 +1,4 @@
-Collecting info for /var/crash/_lib_systemd_systemd-udevd.0.crash...
+Collecting info for /var/crash/_usr_bin_powerd.0.crash...
 usage: system-image-cli [-h] [--version] [-C DIRECTORY] [-b BUILD]
                         [-c CHANNEL] [-d DEVICE] [-f FILTER] [-g]
                         [--no-reboot] [-i] [-n] [-v] [--progress PROGRESS]
@@ -8,4 +8,5 @@ usage: system-image-cli [-h] [--version] [-C DIRECTORY] [-b BUILD]
                         [--del KEY]
 system-image-cli: error: 
 Configuration directory not found: /etc/system-image/config.d
-Terminated
+Marking /var/crash/_usr_bin_powerd.0.crash for whoopsie upload
+All reports processed
