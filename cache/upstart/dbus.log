@@ -19,16 +19,16 @@ tp-qt 0.9.3 DEBUG: Interface "com.canonical.Telephony.Voicemail" plugged
 onOfonoNetworkRegistrationChanged "" is network registered:  false 
 setOnline false 
 tp-qt 0.9.3 DEBUG: Interface "org.freedesktop.Telepathy.Connection.Interface.Contacts" plugged  
-tp-qt 0.9.3 DEBUG: cmName:  "ofono"  escapedProtocolName:  "ofono"  name: "_8efc08"  
-tp-qt 0.9.3 DEBUG: busName:  "org.freedesktop.Telepathy.Connection.ofono.ofono._8efc08"  objectName:  "/org/freedesktop/Telepathy/Connection/ofono/ofono/_8efc08"  
-tp-qt 0.9.3 DEBUG: Connection: registering interfaces  at  Tp::DBusObject(0x8ef3a8)  
-tp-qt 0.9.3 DEBUG: Registered object "/org/freedesktop/Telepathy/Connection/ofono/ofono/_8efc08" at bus name "org.freedesktop.Telepathy.Connection.ofono.ofono._8efc08"  
-tp-qt 0.9.3 DEBUG: BaseConnection::status =  2   oFonoConnection(0x8efc08)  
+tp-qt 0.9.3 DEBUG: cmName:  "ofono"  escapedProtocolName:  "ofono"  name: "_2098c08"  
+tp-qt 0.9.3 DEBUG: busName:  "org.freedesktop.Telepathy.Connection.ofono.ofono._2098c08"  objectName:  "/org/freedesktop/Telepathy/Connection/ofono/ofono/_2098c08"  
+tp-qt 0.9.3 DEBUG: Connection: registering interfaces  at  Tp::DBusObject(0x20983a8)  
+tp-qt 0.9.3 DEBUG: Registered object "/org/freedesktop/Telepathy/Connection/ofono/ofono/_2098c08" at bus name "org.freedesktop.Telepathy.Connection.ofono.ofono._2098c08"  
+tp-qt 0.9.3 DEBUG: BaseConnection::status =  2   oFonoConnection(0x2098c08)  
 setPresence "available" 
 tp-qt 0.9.3 DEBUG: BaseConnectionRequestsInterface::requestableChannelClasses  
 oFonoConnection::connect 
-tp-qt 0.9.3 DEBUG: BaseConnection::setStatus  0   1   oFonoConnection(0x8efc08)  
-tp-qt 0.9.3 DEBUG: BaseConnection::status =  0   oFonoConnection(0x8efc08)  
+tp-qt 0.9.3 DEBUG: BaseConnection::setStatus  0   1   oFonoConnection(0x2098c08)  
+tp-qt 0.9.3 DEBUG: BaseConnection::status =  0   oFonoConnection(0x2098c08)  
 getContactAttributes (1) () 
 oFonoConnection::inspectHandles  (1) 
 oFonoConnection::inspectHandles  ("<SelfHandle>") 

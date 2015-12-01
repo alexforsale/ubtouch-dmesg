@@ -1,5 +1,5 @@
 [+0.00s] DEBUG: Logging to /var/log/lightdm/lightdm.log
-[+0.00s] DEBUG: Starting Light Display Manager 1.8.4, UID=0 PID=2033
+[+0.00s] DEBUG: Starting Light Display Manager 1.8.4, UID=0 PID=2023
 [+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf.d/50-greeter-wrapper.conf
 [+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf.d/50-guest-wrapper.conf
 [+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf.d/50-xserver-command.conf
@@ -14,13 +14,13 @@
 [+0.00s] DEBUG: Adding default seat
 [+0.00s] DEBUG: Seat: Starting
 [+0.00s] DEBUG: Seat: Creating user session
-[+0.31s] DEBUG: Seat: Creating display server of type surfaceflinger
-[+0.31s] DEBUG: Seat: Display server ready, starting session authentication
-[+0.31s] DEBUG: Session pid=2075: Started with service 'lightdm-autologin', username 'phablet'
-[+0.31s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
-[+0.31s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
-[+0.41s] DEBUG: Session pid=2075: Authentication complete with return value 0: Success
-[+0.41s] DEBUG: Seat: Session authenticated, running command
-[+0.41s] DEBUG: Registering session with bus path /org/freedesktop/DisplayManager/Session0
-[+0.42s] DEBUG: Session pid=2075: Running command /usr/sbin/lightdm-session ubuntu-touch-session
-[+0.47s] DEBUG: Session pid=2075: Logging to .xsession-errors
+[+0.26s] DEBUG: Seat: Creating display server of type surfaceflinger
+[+0.26s] DEBUG: Seat: Display server ready, starting session authentication
+[+0.27s] DEBUG: Session pid=2065: Started with service 'lightdm-autologin', username 'phablet'
+[+0.27s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
+[+0.27s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
+[+0.37s] DEBUG: Session pid=2065: Authentication complete with return value 0: Success
+[+0.37s] DEBUG: Seat: Session authenticated, running command
+[+0.37s] DEBUG: Registering session with bus path /org/freedesktop/DisplayManager/Session0
+[+0.37s] DEBUG: Session pid=2065: Running command /usr/sbin/lightdm-session ubuntu-touch-session
+[+0.43s] DEBUG: Session pid=2065: Logging to .xsession-errors
