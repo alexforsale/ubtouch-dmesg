@@ -1,211 +1,168 @@
-ERROR: apport (pid 2365) Tue Dec  1 21:05:25 2015: another apport instance is already running, aborting
-ERROR: apport (pid 2346) Tue Dec  1 21:05:23 2015: called for pid 2329, signal 6, core limit 0
-ERROR: apport (pid 2346) Tue Dec  1 21:05:23 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2346) Tue Dec  1 21:05:23 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2346) Tue Dec  1 21:05:23 2015: debug: session gdbus call: 
-ERROR: apport (pid 2346) Tue Dec  1 21:05:25 2015: wrote report /var/crash/_usr_bin_unity8.32011.crash
-ERROR: apport (pid 2369) Tue Dec  1 21:05:26 2015: called for pid 2366, signal 6, core limit 0
-ERROR: apport (pid 2369) Tue Dec  1 21:05:26 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2369) Tue Dec  1 21:05:26 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2369) Tue Dec  1 21:05:26 2015: debug: session gdbus call: 
-ERROR: apport (pid 2369) Tue Dec  1 21:05:26 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2383) Tue Dec  1 21:05:28 2015: called for pid 2380, signal 6, core limit 0
-ERROR: apport (pid 2383) Tue Dec  1 21:05:28 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2383) Tue Dec  1 21:05:28 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2383) Tue Dec  1 21:05:28 2015: debug: session gdbus call: 
-ERROR: apport (pid 2383) Tue Dec  1 21:05:28 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2389) Tue Dec  1 21:05:30 2015: called for pid 2386, signal 6, core limit 0
-ERROR: apport (pid 2389) Tue Dec  1 21:05:30 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2389) Tue Dec  1 21:05:30 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2389) Tue Dec  1 21:05:30 2015: debug: session gdbus call: 
-ERROR: apport (pid 2389) Tue Dec  1 21:05:30 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2400) Tue Dec  1 21:05:32 2015: called for pid 2392, signal 6, core limit 0
-ERROR: apport (pid 2400) Tue Dec  1 21:05:32 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2400) Tue Dec  1 21:05:32 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2400) Tue Dec  1 21:05:32 2015: debug: session gdbus call: 
-ERROR: apport (pid 2400) Tue Dec  1 21:05:32 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2406) Tue Dec  1 21:05:34 2015: called for pid 2403, signal 6, core limit 0
-ERROR: apport (pid 2406) Tue Dec  1 21:05:34 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2406) Tue Dec  1 21:05:34 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2406) Tue Dec  1 21:05:34 2015: debug: session gdbus call: 
-ERROR: apport (pid 2406) Tue Dec  1 21:05:34 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2412) Tue Dec  1 21:05:36 2015: called for pid 2409, signal 6, core limit 0
-ERROR: apport (pid 2412) Tue Dec  1 21:05:36 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2412) Tue Dec  1 21:05:36 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2412) Tue Dec  1 21:05:36 2015: debug: session gdbus call: 
-ERROR: apport (pid 2412) Tue Dec  1 21:05:36 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2423) Tue Dec  1 21:05:38 2015: called for pid 2420, signal 6, core limit 0
-ERROR: apport (pid 2423) Tue Dec  1 21:05:38 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2423) Tue Dec  1 21:05:38 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2423) Tue Dec  1 21:05:38 2015: debug: session gdbus call: 
-ERROR: apport (pid 2423) Tue Dec  1 21:05:38 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2429) Tue Dec  1 21:05:40 2015: called for pid 2426, signal 6, core limit 0
-ERROR: apport (pid 2429) Tue Dec  1 21:05:40 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2429) Tue Dec  1 21:05:40 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2429) Tue Dec  1 21:05:40 2015: debug: session gdbus call: 
-ERROR: apport (pid 2429) Tue Dec  1 21:05:40 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2440) Tue Dec  1 21:05:42 2015: called for pid 2432, signal 6, core limit 0
-ERROR: apport (pid 2440) Tue Dec  1 21:05:42 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2440) Tue Dec  1 21:05:42 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2440) Tue Dec  1 21:05:42 2015: debug: session gdbus call: 
-ERROR: apport (pid 2440) Tue Dec  1 21:05:42 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2446) Tue Dec  1 21:05:44 2015: called for pid 2443, signal 6, core limit 0
-ERROR: apport (pid 2446) Tue Dec  1 21:05:44 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2446) Tue Dec  1 21:05:44 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2446) Tue Dec  1 21:05:44 2015: debug: session gdbus call: 
-ERROR: apport (pid 2446) Tue Dec  1 21:05:44 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2452) Tue Dec  1 21:05:46 2015: called for pid 2449, signal 6, core limit 0
-ERROR: apport (pid 2452) Tue Dec  1 21:05:47 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2452) Tue Dec  1 21:05:47 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2452) Tue Dec  1 21:05:47 2015: debug: session gdbus call: 
-ERROR: apport (pid 2452) Tue Dec  1 21:05:47 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2463) Tue Dec  1 21:05:49 2015: called for pid 2460, signal 6, core limit 0
-ERROR: apport (pid 2463) Tue Dec  1 21:05:49 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2463) Tue Dec  1 21:05:49 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2463) Tue Dec  1 21:05:49 2015: debug: session gdbus call: 
-ERROR: apport (pid 2463) Tue Dec  1 21:05:49 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2470) Tue Dec  1 21:05:51 2015: called for pid 2467, signal 6, core limit 0
-ERROR: apport (pid 2470) Tue Dec  1 21:05:51 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2470) Tue Dec  1 21:05:51 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2470) Tue Dec  1 21:05:51 2015: debug: session gdbus call: 
-ERROR: apport (pid 2470) Tue Dec  1 21:05:51 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2481) Tue Dec  1 21:05:53 2015: called for pid 2473, signal 6, core limit 0
-ERROR: apport (pid 2481) Tue Dec  1 21:05:53 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2481) Tue Dec  1 21:05:53 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2481) Tue Dec  1 21:05:53 2015: debug: session gdbus call: 
-ERROR: apport (pid 2481) Tue Dec  1 21:05:53 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2487) Tue Dec  1 21:05:55 2015: called for pid 2484, signal 6, core limit 0
-ERROR: apport (pid 2487) Tue Dec  1 21:05:55 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2487) Tue Dec  1 21:05:55 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2487) Tue Dec  1 21:05:55 2015: debug: session gdbus call: 
-ERROR: apport (pid 2487) Tue Dec  1 21:05:55 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2498) Tue Dec  1 21:05:57 2015: called for pid 2490, signal 6, core limit 0
-ERROR: apport (pid 2498) Tue Dec  1 21:05:57 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2498) Tue Dec  1 21:05:57 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2498) Tue Dec  1 21:05:57 2015: debug: session gdbus call: 
-ERROR: apport (pid 2498) Tue Dec  1 21:05:57 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2504) Tue Dec  1 21:05:59 2015: called for pid 2501, signal 6, core limit 0
-ERROR: apport (pid 2504) Tue Dec  1 21:05:59 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2504) Tue Dec  1 21:05:59 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2504) Tue Dec  1 21:05:59 2015: debug: session gdbus call: 
-ERROR: apport (pid 2504) Tue Dec  1 21:05:59 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2510) Tue Dec  1 21:06:01 2015: called for pid 2507, signal 6, core limit 0
-ERROR: apport (pid 2510) Tue Dec  1 21:06:01 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2510) Tue Dec  1 21:06:01 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2510) Tue Dec  1 21:06:01 2015: debug: session gdbus call: 
-ERROR: apport (pid 2510) Tue Dec  1 21:06:01 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2521) Tue Dec  1 21:06:03 2015: called for pid 2518, signal 6, core limit 0
-ERROR: apport (pid 2521) Tue Dec  1 21:06:03 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2521) Tue Dec  1 21:06:03 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2521) Tue Dec  1 21:06:03 2015: debug: session gdbus call: 
-ERROR: apport (pid 2521) Tue Dec  1 21:06:03 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2533) Tue Dec  1 21:06:05 2015: called for pid 2530, signal 6, core limit 0
-ERROR: apport (pid 2533) Tue Dec  1 21:06:05 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2533) Tue Dec  1 21:06:05 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2533) Tue Dec  1 21:06:05 2015: debug: session gdbus call: 
-ERROR: apport (pid 2533) Tue Dec  1 21:06:05 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2544) Tue Dec  1 21:06:07 2015: called for pid 2536, signal 6, core limit 0
-ERROR: apport (pid 2544) Tue Dec  1 21:06:07 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2544) Tue Dec  1 21:06:07 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2544) Tue Dec  1 21:06:07 2015: debug: session gdbus call: 
-ERROR: apport (pid 2544) Tue Dec  1 21:06:07 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2550) Tue Dec  1 21:06:09 2015: called for pid 2547, signal 6, core limit 0
-ERROR: apport (pid 2550) Tue Dec  1 21:06:09 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2550) Tue Dec  1 21:06:09 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2550) Tue Dec  1 21:06:09 2015: debug: session gdbus call: 
-ERROR: apport (pid 2550) Tue Dec  1 21:06:09 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2556) Tue Dec  1 21:06:11 2015: called for pid 2553, signal 6, core limit 0
-ERROR: apport (pid 2556) Tue Dec  1 21:06:11 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2556) Tue Dec  1 21:06:11 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2556) Tue Dec  1 21:06:11 2015: debug: session gdbus call: 
-ERROR: apport (pid 2556) Tue Dec  1 21:06:11 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2567) Tue Dec  1 21:06:13 2015: called for pid 2564, signal 6, core limit 0
-ERROR: apport (pid 2567) Tue Dec  1 21:06:13 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2567) Tue Dec  1 21:06:13 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2567) Tue Dec  1 21:06:13 2015: debug: session gdbus call: 
-ERROR: apport (pid 2567) Tue Dec  1 21:06:13 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2573) Tue Dec  1 21:06:15 2015: called for pid 2570, signal 6, core limit 0
-ERROR: apport (pid 2573) Tue Dec  1 21:06:15 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2573) Tue Dec  1 21:06:15 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2573) Tue Dec  1 21:06:15 2015: debug: session gdbus call: 
-ERROR: apport (pid 2573) Tue Dec  1 21:06:15 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2584) Tue Dec  1 21:06:17 2015: called for pid 2576, signal 6, core limit 0
-ERROR: apport (pid 2584) Tue Dec  1 21:06:17 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2584) Tue Dec  1 21:06:17 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2584) Tue Dec  1 21:06:17 2015: debug: session gdbus call: 
-ERROR: apport (pid 2584) Tue Dec  1 21:06:17 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2590) Tue Dec  1 21:06:19 2015: called for pid 2587, signal 6, core limit 0
-ERROR: apport (pid 2590) Tue Dec  1 21:06:19 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2590) Tue Dec  1 21:06:19 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2590) Tue Dec  1 21:06:19 2015: debug: session gdbus call: 
-ERROR: apport (pid 2590) Tue Dec  1 21:06:19 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2596) Tue Dec  1 21:06:21 2015: called for pid 2593, signal 6, core limit 0
-ERROR: apport (pid 2596) Tue Dec  1 21:06:21 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2596) Tue Dec  1 21:06:21 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2596) Tue Dec  1 21:06:21 2015: debug: session gdbus call: 
-ERROR: apport (pid 2596) Tue Dec  1 21:06:21 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2607) Tue Dec  1 21:06:23 2015: called for pid 2604, signal 6, core limit 0
-ERROR: apport (pid 2607) Tue Dec  1 21:06:23 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2607) Tue Dec  1 21:06:23 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2607) Tue Dec  1 21:06:23 2015: debug: session gdbus call: 
-ERROR: apport (pid 2607) Tue Dec  1 21:06:23 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2624) Tue Dec  1 21:06:25 2015: called for pid 2621, signal 6, core limit 0
-ERROR: apport (pid 2624) Tue Dec  1 21:06:25 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2624) Tue Dec  1 21:06:25 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2624) Tue Dec  1 21:06:25 2015: debug: session gdbus call: 
-ERROR: apport (pid 2624) Tue Dec  1 21:06:25 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2636) Tue Dec  1 21:06:27 2015: called for pid 2628, signal 6, core limit 0
-ERROR: apport (pid 2636) Tue Dec  1 21:06:27 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2636) Tue Dec  1 21:06:27 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2636) Tue Dec  1 21:06:27 2015: debug: session gdbus call: 
-ERROR: apport (pid 2636) Tue Dec  1 21:06:27 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2642) Tue Dec  1 21:06:29 2015: called for pid 2639, signal 6, core limit 0
-ERROR: apport (pid 2642) Tue Dec  1 21:06:29 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2642) Tue Dec  1 21:06:29 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2642) Tue Dec  1 21:06:29 2015: debug: session gdbus call: 
-ERROR: apport (pid 2642) Tue Dec  1 21:06:29 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2648) Tue Dec  1 21:06:31 2015: called for pid 2645, signal 6, core limit 0
-ERROR: apport (pid 2648) Tue Dec  1 21:06:31 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2648) Tue Dec  1 21:06:31 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2648) Tue Dec  1 21:06:31 2015: debug: session gdbus call: 
-ERROR: apport (pid 2648) Tue Dec  1 21:06:31 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
-ERROR: apport (pid 2661) Tue Dec  1 21:06:33 2015: called for pid 2658, signal 6, core limit 0
-ERROR: apport (pid 2661) Tue Dec  1 21:06:33 2015: executable: /usr/bin/unity8 (command line "unity8")
-ERROR: apport (pid 2661) Tue Dec  1 21:06:33 2015: gdbus call error: Error: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
-
-ERROR: apport (pid 2661) Tue Dec  1 21:06:33 2015: debug: session gdbus call: 
-ERROR: apport (pid 2661) Tue Dec  1 21:06:33 2015: apport: report /var/crash/_usr_bin_unity8.32011.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1020) Tue Dec  1 21:21:42 2015: called for pid 1015, signal 7, core limit 0
+ERROR: apport (pid 1020) Tue Dec  1 21:21:42 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1020) Tue Dec  1 21:21:42 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1020) Tue Dec  1 21:21:43 2015: wrote report /var/crash/_lib_systemd_systemd-udevd.0.crash
+ERROR: apport (pid 1208) Tue Dec  1 21:21:43 2015: another apport instance is already running, aborting
+ERROR: apport (pid 1242) Tue Dec  1 21:21:44 2015: called for pid 1241, signal 7, core limit 0
+ERROR: apport (pid 1242) Tue Dec  1 21:21:44 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1242) Tue Dec  1 21:21:44 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1242) Tue Dec  1 21:21:44 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1309) Tue Dec  1 21:21:47 2015: another apport instance is already running, aborting
+ERROR: apport (pid 1265) Tue Dec  1 21:21:45 2015: called for pid 1021, signal 5, core limit 0
+ERROR: apport (pid 1265) Tue Dec  1 21:21:45 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 1265) Tue Dec  1 21:21:45 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1265) Tue Dec  1 21:21:49 2015: wrote report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash
+ERROR: apport (pid 1654) Tue Dec  1 21:21:50 2015: called for pid 1651, signal 7, core limit 0
+ERROR: apport (pid 1654) Tue Dec  1 21:21:50 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1654) Tue Dec  1 21:21:50 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1654) Tue Dec  1 21:21:50 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1887) Tue Dec  1 21:21:51 2015: another apport instance is already running, aborting
+ERROR: apport (pid 1865) Tue Dec  1 21:21:51 2015: called for pid 1861, signal 7, core limit 0
+ERROR: apport (pid 1865) Tue Dec  1 21:21:51 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 1865) Tue Dec  1 21:21:51 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1865) Tue Dec  1 21:21:52 2015: wrote report /var/crash/_lib_systemd_systemd-logind.0.crash
+ERROR: apport (pid 1925) Tue Dec  1 21:21:53 2015: called for pid 1844, signal 5, core limit 0
+ERROR: apport (pid 1925) Tue Dec  1 21:21:53 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 1925) Tue Dec  1 21:21:53 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1925) Tue Dec  1 21:21:53 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1931) Tue Dec  1 21:21:53 2015: called for pid 1930, signal 7, core limit 0
+ERROR: apport (pid 1931) Tue Dec  1 21:21:53 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1931) Tue Dec  1 21:21:53 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1931) Tue Dec  1 21:21:53 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1966) Tue Dec  1 21:21:55 2015: called for pid 1961, signal 7, core limit 0
+ERROR: apport (pid 1966) Tue Dec  1 21:21:55 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 1966) Tue Dec  1 21:21:55 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1966) Tue Dec  1 21:21:55 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1969) Tue Dec  1 21:21:55 2015: another apport instance is already running, aborting
+ERROR: apport (pid 1970) Tue Dec  1 21:21:56 2015: called for pid 1956, signal 5, core limit 0
+ERROR: apport (pid 1970) Tue Dec  1 21:21:56 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 1970) Tue Dec  1 21:21:56 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1970) Tue Dec  1 21:21:56 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1973) Tue Dec  1 21:21:57 2015: called for pid 1972, signal 7, core limit 0
+ERROR: apport (pid 1973) Tue Dec  1 21:21:57 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1973) Tue Dec  1 21:21:57 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1973) Tue Dec  1 21:21:57 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1986) Tue Dec  1 21:21:58 2015: called for pid 1984, signal 7, core limit 0
+ERROR: apport (pid 1986) Tue Dec  1 21:21:58 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 1986) Tue Dec  1 21:21:58 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1986) Tue Dec  1 21:21:58 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1989) Tue Dec  1 21:21:58 2015: called for pid 1988, signal 7, core limit 0
+ERROR: apport (pid 1989) Tue Dec  1 21:21:58 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 1989) Tue Dec  1 21:21:58 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1989) Tue Dec  1 21:21:58 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 1999) Tue Dec  1 21:21:59 2015: called for pid 1979, signal 5, core limit 0
+ERROR: apport (pid 1999) Tue Dec  1 21:21:59 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 1999) Tue Dec  1 21:21:59 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 1999) Tue Dec  1 21:21:59 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2004) Tue Dec  1 21:21:59 2015: called for pid 2003, signal 7, core limit 0
+ERROR: apport (pid 2004) Tue Dec  1 21:21:59 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2004) Tue Dec  1 21:21:59 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2004) Tue Dec  1 21:21:59 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2026) Tue Dec  1 21:22:01 2015: called for pid 2025, signal 7, core limit 0
+ERROR: apport (pid 2026) Tue Dec  1 21:22:01 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2026) Tue Dec  1 21:22:01 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2026) Tue Dec  1 21:22:01 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2024) Tue Dec  1 21:22:01 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2042) Tue Dec  1 21:22:02 2015: called for pid 2041, signal 7, core limit 0
+ERROR: apport (pid 2042) Tue Dec  1 21:22:02 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2042) Tue Dec  1 21:22:02 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2042) Tue Dec  1 21:22:02 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2043) Tue Dec  1 21:22:02 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2059) Tue Dec  1 21:22:03 2015: called for pid 2058, signal 7, core limit 0
+ERROR: apport (pid 2059) Tue Dec  1 21:22:03 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2059) Tue Dec  1 21:22:03 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2059) Tue Dec  1 21:22:03 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2067) Tue Dec  1 21:22:04 2015: called for pid 2065, signal 7, core limit 0
+ERROR: apport (pid 2067) Tue Dec  1 21:22:04 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2067) Tue Dec  1 21:22:04 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2067) Tue Dec  1 21:22:04 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2119) Tue Dec  1 21:22:05 2015: called for pid 2118, signal 7, core limit 0
+ERROR: apport (pid 2119) Tue Dec  1 21:22:05 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2119) Tue Dec  1 21:22:05 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2119) Tue Dec  1 21:22:05 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2133) Tue Dec  1 21:22:05 2015: another apport instance is already running, aborting
+ERROR: apport (pid 2146) Tue Dec  1 21:22:05 2015: called for pid 2144, signal 7, core limit 0
+ERROR: apport (pid 2146) Tue Dec  1 21:22:05 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2146) Tue Dec  1 21:22:05 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2146) Tue Dec  1 21:22:05 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2161) Tue Dec  1 21:22:06 2015: called for pid 2160, signal 7, core limit 0
+ERROR: apport (pid 2161) Tue Dec  1 21:22:06 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2161) Tue Dec  1 21:22:06 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2161) Tue Dec  1 21:22:06 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2182) Tue Dec  1 21:22:07 2015: called for pid 2178, signal 7, core limit 0
+ERROR: apport (pid 2182) Tue Dec  1 21:22:07 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2182) Tue Dec  1 21:22:07 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2182) Tue Dec  1 21:22:07 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2217) Tue Dec  1 21:22:08 2015: called for pid 2216, signal 7, core limit 0
+ERROR: apport (pid 2217) Tue Dec  1 21:22:08 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2217) Tue Dec  1 21:22:08 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2217) Tue Dec  1 21:22:08 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2225) Tue Dec  1 21:22:08 2015: called for pid 2165, signal 5, core limit 0
+ERROR: apport (pid 2225) Tue Dec  1 21:22:08 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2225) Tue Dec  1 21:22:08 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2225) Tue Dec  1 21:22:08 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2256) Tue Dec  1 21:22:09 2015: called for pid 2255, signal 7, core limit 0
+ERROR: apport (pid 2256) Tue Dec  1 21:22:09 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2256) Tue Dec  1 21:22:09 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2256) Tue Dec  1 21:22:09 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2275) Tue Dec  1 21:22:09 2015: called for pid 2272, signal 7, core limit 0
+ERROR: apport (pid 2275) Tue Dec  1 21:22:09 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2275) Tue Dec  1 21:22:09 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2275) Tue Dec  1 21:22:09 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2306) Tue Dec  1 21:22:10 2015: called for pid 2305, signal 7, core limit 0
+ERROR: apport (pid 2306) Tue Dec  1 21:22:10 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2306) Tue Dec  1 21:22:10 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2306) Tue Dec  1 21:22:10 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2316) Tue Dec  1 21:22:10 2015: called for pid 2265, signal 5, core limit 0
+ERROR: apport (pid 2316) Tue Dec  1 21:22:10 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2316) Tue Dec  1 21:22:10 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2316) Tue Dec  1 21:22:10 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2401) Tue Dec  1 21:22:11 2015: called for pid 2400, signal 7, core limit 0
+ERROR: apport (pid 2401) Tue Dec  1 21:22:11 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2401) Tue Dec  1 21:22:11 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2401) Tue Dec  1 21:22:11 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2444) Tue Dec  1 21:22:12 2015: called for pid 2439, signal 7, core limit 0
+ERROR: apport (pid 2444) Tue Dec  1 21:22:12 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2444) Tue Dec  1 21:22:12 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2444) Tue Dec  1 21:22:12 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2467) Tue Dec  1 21:22:13 2015: called for pid 2466, signal 7, core limit 0
+ERROR: apport (pid 2467) Tue Dec  1 21:22:13 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2467) Tue Dec  1 21:22:13 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2467) Tue Dec  1 21:22:13 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2479) Tue Dec  1 21:22:13 2015: called for pid 2425, signal 5, core limit 0
+ERROR: apport (pid 2479) Tue Dec  1 21:22:13 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2479) Tue Dec  1 21:22:13 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2479) Tue Dec  1 21:22:13 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2507) Tue Dec  1 21:22:14 2015: called for pid 2506, signal 7, core limit 0
+ERROR: apport (pid 2507) Tue Dec  1 21:22:14 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2507) Tue Dec  1 21:22:14 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2507) Tue Dec  1 21:22:14 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2539) Tue Dec  1 21:22:15 2015: called for pid 2537, signal 7, core limit 0
+ERROR: apport (pid 2539) Tue Dec  1 21:22:15 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2539) Tue Dec  1 21:22:15 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2539) Tue Dec  1 21:22:15 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2543) Tue Dec  1 21:22:15 2015: called for pid 2542, signal 7, core limit 0
+ERROR: apport (pid 2543) Tue Dec  1 21:22:15 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2543) Tue Dec  1 21:22:15 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2543) Tue Dec  1 21:22:15 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2549) Tue Dec  1 21:22:16 2015: called for pid 2532, signal 5, core limit 0
+ERROR: apport (pid 2549) Tue Dec  1 21:22:16 2015: executable: /usr/lib/arm-linux-gnueabihf/urfkill/urfkilld (command line "/usr/lib/arm-linux-gnueabihf/urfkill/urfkilld")
+ERROR: apport (pid 2549) Tue Dec  1 21:22:16 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2549) Tue Dec  1 21:22:16 2015: apport: report /var/crash/_usr_lib_arm-linux-gnueabihf_urfkill_urfkilld.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2554) Tue Dec  1 21:22:17 2015: called for pid 2552, signal 7, core limit 0
+ERROR: apport (pid 2554) Tue Dec  1 21:22:17 2015: executable: /lib/systemd/systemd-udevd (command line "/lib/systemd/systemd-udevd --daemon")
+ERROR: apport (pid 2554) Tue Dec  1 21:22:17 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2554) Tue Dec  1 21:22:17 2015: apport: report /var/crash/_lib_systemd_systemd-udevd.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2567) Tue Dec  1 21:22:17 2015: called for pid 2565, signal 7, core limit 0
+ERROR: apport (pid 2567) Tue Dec  1 21:22:17 2015: executable: /lib/systemd/systemd-logind (command line "/lib/systemd/systemd-logind")
+ERROR: apport (pid 2567) Tue Dec  1 21:22:17 2015: is_closing_session(): no DBUS_SESSION_BUS_ADDRESS in environment
+ERROR: apport (pid 2567) Tue Dec  1 21:22:17 2015: apport: report /var/crash/_lib_systemd_systemd-logind.0.crash already exists and unseen, doing nothing to avoid disk usage DoS
+ERROR: apport (pid 2570) Tue Dec  1 21:22:18 2015: Unhandled exception:
+Traceback (most recent call last):
+  File "/usr/share/apport/apport", line 334, in <module>
+    get_pid_info(pid)
+  File "/usr/share/apport/apport", line 59, in get_pid_info
+    pidstat = os.stat('/proc/%s/stat' % pid)
+FileNotFoundError: [Errno 2] No such file or directory: '/proc/2569/stat'
+ERROR: apport (pid 2570) Tue Dec  1 21:22:18 2015: pid: 2570, uid: 0, gid: 0, euid: 0, egid: 0
+ERROR: apport (pid 2570) Tue Dec  1 21:22:18 2015: environment: environ({})

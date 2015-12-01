@@ -1,10 +1,11 @@
 [    0.000000] Booting Linux on physical CPU 0
 [    0.000000] Initializing cgroup subsys cpu
-[    0.000000] Linux version 3.4.0-g6e12f86-00309-g46cb3b3 (builder@xiangshan.n.xiaomi.com) (gcc version 4.7 (GCC) ) #1 SMP PREEMPT Mon Sep 22 13:32:30 CST 2014
+[    0.000000] Linux version 3.4.0-gff5ac3e (alexforsale@elasrofxela) (gcc version 4.7 (GCC) ) #5 SMP PREEMPT Mon Nov 30 18:47:22 WIB 2015
 [    0.000000] CPU: ARMv7 Processor [410fc073] revision 3 (ARMv7), cr=10c5387d
 [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
-[    0.000000] Machine: Qualcomm MSM 8226 (Flattened Device Tree), model: Qualcomm MSM 8226v2 QRD
+[    0.000000] Machine: Qualcomm MSM 8226 (Flattened Device Tree), model: Qualcomm MSM 8226v2 H1A
 [    0.000000] Powerup reason=0x40180
+[    0.000000] Hw version=0x40
 [    0.000000] qcom,ion-heap@28 reserved EBI1 size 314000
 [    0.000000] qcom,mdss_fb_primary reserved EBI1 size 800000
 [    0.000000] Node qcom,mdss_fb_primary memblock_reserve memory 3200000-41a0000
@@ -23,16 +24,15 @@
 [    0.000000] cma: CMA: reserved 16 MiB at 37000000
 [    0.000000] Memory policy: ECC disabled, Data cache writealloc
 [    0.000000] IMEM DT static mapping successful
-[    0.000000] PERCPU: Embedded 9 pages/cpu @c2cd6000 s15936 r8192 d12736 u36864
+[    0.000000] PERCPU: Embedded 10 pages/cpu @c2d7c000 s16448 r8192 d16320 u40960
 [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 229888
-[    0.000000] Kernel command line: console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 androidboot.emmc=true androidboot.modem=HM1AW androidboot.hwversion=40 androidboot.serialno=9924b89b androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_auo_720p_video
+[    0.000000] Kernel command line: androidboot.hardware=armani user_debug=31 msm_rtb.filter=0x37 console=tty0 androidboot.emmc=true androidboot.modem=HM1AW androidboot.hwversion=40 androidboot.serialno=9924b89b androidboot.baseband=msm mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_auo_720p_video
+[    0.000000] androidboot.modem= HM1AW
 [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
 [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
 [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
-[    0.000000] allocated 2097152 bytes of page_cgroup
-[    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
 [    0.000000] Memory: 132MB 14MB 5MB 756MB = 907MB total
-[    0.000000] Memory: 680064k/680064k available, 262016k reserved, 17408K highmem
+[    0.000000] Memory: 681256k/681256k available, 260824k reserved, 17408K highmem
 [    0.000000] Virtual kernel memory layout:
 [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
 [    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
@@ -47,10 +47,10 @@
 [    0.000000] 	    lowmem : 0xc0000000 - 0xc8400000   ( 132 MB)
 [    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
 [    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
-[    0.000000]       .text : 0xc0008000 - 0xc0ceb8c0   (13199 kB)
-[    0.000000]       .init : 0xc0d00000 - 0xc0e12e40   (1100 kB)
-[    0.000000]       .data : 0xc0e14000 - 0xc0eed960   ( 871 kB)
-[    0.000000]        .bss : 0xc0eed984 - 0xc1701d98   (8274 kB)
+[    0.000000]       .text : 0xc0008000 - 0xc0dd3000   (14124 kB)
+[    0.000000]       .init : 0xc0e00000 - 0xc0f32040   (1225 kB)
+[    0.000000]       .data : 0xc0f34000 - 0xc101a048   ( 921 kB)
+[    0.000000]        .bss : 0xc101a06c - 0xc172bce0   (7240 kB)
 [    0.000000] SLUB: Genslabs=11, HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
 [    0.000000] Preemptible hierarchical RCU implementation.
 [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
@@ -59,1060 +59,1025 @@
 [    0.000000] sched_clock: 32 bits at 19MHz, resolution 52ns, wraps every 223696ms
 [    0.000000] Switching to timer-based delay loop
 [    0.000000] Console: colour dummy device 80x30
-[    0.000185] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
-[    0.000210] pid_max: default: 32768 minimum: 301
-[    0.000482] Security Framework initialized
-[    0.000518] SELinux:  Initializing.
-[    0.000685] Mount-cache hash table entries: 512
-[    0.002027] Initializing cgroup subsys debug
-[    0.002044] Initializing cgroup subsys cpuacct
-[    0.002056] Initializing cgroup subsys memory
-[    0.002109] Initializing cgroup subsys freezer
-[    0.002178] CPU: Testing write buffer coherency: ok
-[    0.002629] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
-[    0.002706] hw perfevents: enabled with ARMv7 Cortex-A7 PMU driver, 5 counters available
-[    0.005938] Setting up static identity map for 0x8ebf78 - 0x8ebfdc
-[    0.005980] Configuring XPU violations to be fatal errors
-[    0.005995] MSM Memory Dump table set up
-[    0.013146] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
-[    0.019285] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
-[    0.025399] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
-[    0.025522] Brought up 4 CPUs
-[    0.025541] SMP: Total of 4 processors activated (153.60 BogoMIPS).
-[    0.041646] dummy: 
-[    0.188953] NET: Registered protocol family 16
-[    0.202398] DMA: preallocated 256 KiB pool for atomic coherent allocations
-[    0.204760] KPI: Bootloader start count = 28416
-[    0.204774] KPI: Bootloader end count = 141292
-[    0.204785] KPI: Bootloader display count = 40534
-[    0.204796] KPI: Bootloader load kernel count = 1921
-[    0.204808] KPI: Kernel MPM timestamp = 177564
-[    0.204819] KPI: Kernel MPM Clock frequency = 32768
-[    0.204841] socinfo_print: v8, id=221, ver=2.0, raw_id=2325, raw_ver=1, hw_plat=11, hw_plat_ver=0
-[    0.204849]  accessory_chip=0, hw_plat_subtype=0, pmic_model=65540, pmic_die_revision=131073
-[    0.223610] gpiochip_add: registered GPIOs 0 to 116 on device: msmgpio
-[    0.231219] msm_watchdog f9017000.qcom,wdt: MSM Watchdog Initialized
-[    0.267154] 8226_s1: 500 <--> 1275 mV at 0 mV normal idle 
-[    0.267857] 8226_s1_corner: 0 <--> 0 mV at 0 mV normal idle 
-[    0.268581] 8226_s1_corner_ao: 0 <--> 0 mV at 0 mV normal idle 
-[    0.269247] 8226_s1_floor_corner: 0 <--> 0 mV at 0 mV normal idle 
-[    0.269980] 8226_s3: 1200 <--> 1300 mV at 1200 mV normal idle 
-[    0.270701] 8226_s4: 1800 <--> 2200 mV at 1800 mV normal idle 
-[    0.271424] 8226_s5: 1150 mV normal idle 
-[    0.272145] 8226_l1: 1225 mV normal idle 
-[    0.272890] 8226_l2: 1200 mV normal idle 
-[    0.273639] 8226_l3: 750 <--> 1337 mV at 0 mV normal idle 
-[    0.274354] 8226_l3_ao: 750 <--> 1337 mV at 0 mV normal idle 
-[    0.275046] 8226_l3_so: 750 <--> 1337 mV at 750 mV normal idle 
-[    0.275821] 8226_l4: 1200 mV normal idle 
-[    0.276572] 8226_l5: 1200 mV normal idle 
-[    0.277288] 8226_l6: 1800 mV normal idle 
-[    0.278036] 8226_l7: 1850 mV normal idle 
-[    0.278773] 8226_l8: 1800 mV normal idle 
-[    0.279454] 8226_l8_ao: 1800 mV normal idle 
-[    0.280167] 8226_l8_so: 1800 mV normal idle 
-[    0.280933] 8226_l9: 2050 mV normal idle 
-[    0.281642] 8226_l10: 1800 mV normal idle 
-[    0.282403] 8226_l12: 1800 mV normal idle 
-[    0.283161] 8226_l14: 2750 mV normal idle 
-[    0.283952] 8226_l15: 2800 mV normal idle 
-[    0.284705] 8226_l16: 3000 <--> 3350 mV at 3300 mV normal idle 
-[    0.285516] 8226_l17: 2950 mV normal idle 
-[    0.286245] 8226_l18: 2950 mV normal idle 
-[    0.286973] 8226_l19: 2850 mV normal idle 
-[    0.287748] 8226_l20: 3075 mV normal idle 
-[    0.288445] 8226_l21: 1800 <--> 2950 mV at 2950 mV normal idle 
-[    0.289184] 8226_l22: 1800 <--> 2950 mV at 2950 mV normal idle 
-[    0.289909] 8226_l23: 1800 <--> 2950 mV at 2950 mV normal idle 
-[    0.290626] 8226_l24: 1300 <--> 1350 mV at 1300 mV normal idle 
-[    0.291354] 8226_l25: 1775 <--> 2125 mV at 1775 mV normal idle 
-[    0.292075] 8226_l26: 1225 mV normal idle 
-[    0.292813] 8226_l27: 2050 mV normal idle 
-[    0.293614] 8226_l28: 1800 <--> 2950 mV at 2950 mV normal idle 
-[    0.294300] 8226_lvs1: 
-[    0.328252] msm-thermal qcom,msm-thermal.57: probe_freq_mitigation:Failed reading node=/soc/qcom,msm-thermal, key=qcom,freq-mitigation-temp. KTM continues
-[    0.328281] msm-thermal qcom,msm-thermal.57: probe_psm:Failed reading node=/soc/qcom,msm-thermal, key=qcom,pmic-sw-mode-temp. KTM continues
-[    0.328677] vdd_restriction_reg_init:Defer vdd rstr freq init
-[    0.329438] persistent_ram: found existing buffer, size 70732, start 70732
-[    0.330483] console [ram-1] enabled
-[    0.330534] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
-[    0.330551] hw-breakpoint: maximum watchpoint size is 8 bytes.
-[    0.331215] msm-jtag-fuse fc4be024.jtagfuse: JTag Fuse initialized
-[    0.333389] 8226_s2: 900 <--> 1330 mV at 1150 mV 
-[    0.333680] spm_regulator_probe: name=8226_s2, range=MV, voltage=1150000 uV, mode=AUTO, step rate=9600 uV/us
-[    0.335209] cpr_efuse_init: efuse_addr = 0xfc4b8000 (len=0x1000)
-[    0.335350] cpr_fuse_is_setting_expected: [row:54] = 0x1c0000000000 @42:6 == 7 ?: yes
-[    0.335378] cpr_parse_speed_bin_fuse: [row: 22]: 0x202b0b1a000001a9, speed_bits = 1
-[    0.335412] cpr_fuse_is_setting_expected: [row:22] = 0x202b0b1a000001a9 @53:1 == 0 ?: no
-[    0.335430] cpr_voltage_plan_init: [1] [1050000 1150000 1280000] uV
-[    0.335446] cpr_voltage_plan_init: [2] [1050000 1080000 1200000] uV
-[    0.335462] cpr_voltage_plan_init: [3] [1050000 1050000 1100000] uV
-[    0.335485] cpr_fuse_is_setting_expected: [row:22] = 0x202b0b1a000001a9 @24:3 == 2 ?: no
-[    0.335513] cpr_pvs_init: [row:22] = 0x202B0B1A000001A9, n_bits=5, bin=6 (1)
-[    0.335529] cpr_pvs_init: pvs initial turbo voltage_= from 1290000 to 1290000
-[    0.335901] cpr_fuse_is_setting_expected: [row:138] = 0x8404a36a3a9595 @57:1 == 1 ?: no
-[    0.335935] cpr_init_cpr_efuse: [row:138] = 0x8404a36a3a9595
-[    0.335959] cpr_init_cpr_efuse: disable = 0, local = 1
-[    0.335974] cpr_init_cpr_efuse: Corner[1]: ro_sel = 2, target quot = 874
-[    0.335990] cpr_init_cpr_efuse: Corner[2]: ro_sel = 2, target quot = 937
-[    0.336006] cpr_init_cpr_efuse: Corner[3]: ro_sel = 2, target quot = 1429
-[    0.336104] cpr_init_cpr_parameters: CPR is enabled by default.
-[    0.336131] cpr_config: Timer count: 0x17700 (for 5000 us)
-[    0.336508] apc_corner: 0 <--> 0 mV 
-[    0.339495] qup_i2c f9925000.i2c: Missing 'qcom,master-id' DT entry
-[    0.340990] kworker/u:1 used greatest stack depth: 6248 bytes left
-[    0.341331] qup_i2c f9926000.i2c: Missing 'qcom,i2c-src-freq' DT entry
-[    0.341350] qup_i2c f9926000.i2c: Missing 'qcom,master-id' DT entry
-[    0.341408] qup_i2c f9926000.i2c: No src_clk_rate specified in platfrom data
-[    0.341427] qup_i2c f9926000.i2c: Using default clock rate 19200000Hz
-[    0.341814] qup_i2c f9927000.i2c: Missing 'qcom,master-id' DT entry
-[    0.343763] qup_i2c f9928000.i2c: Missing 'qcom,master-id' DT entry
-[    0.345202] sps:sps is ready.
-[    0.347323] gdsc_venus: 
-[    0.347810] gdsc_mdss: 
-[    0.348272] gdsc_jpeg: 
-[    0.348762] gdsc_vfe: 
-[    0.349237] gdsc_oxili_cx: 
-[    0.349660] gdsc_usb_hsic: 
-[    0.350406] AXI: msm_bus_fabric_init_driver(): msm_bus_fabric_init_driver
-[    0.351805] AXI: msm_bus_fabric_probe(): Coresight support absent for bus: 2048
-[    0.352902] AXI: msm_bus_fabric_probe(): Coresight support absent for bus: 1024
-[    0.354023] AXI: msm_bus_fabric_probe(): Coresight support absent for bus: 4096
-[    0.355693] AXI: msm_bus_fabric_probe(): Coresight support absent for bus: 5120
-[    0.356239] AXI: msm_bus_fabric_probe(): Coresight support absent for bus: 0
-[    0.356607] AXI: msm_bus_fabric_probe(): Coresight support absent for bus: 6144
-[    0.357497] msm_ocmem fdd00000.qcom,ocmem: OCMEM Virtual addr c8800000
-[    0.357667] Physical OCMEM zone layout:
-[    0.357685]  zone graphics	: 0xfec00000 - 0xfec1ffff ( 128 KB)
-[    0.394487] bio: create slab <bio-0> at 0
-[    0.396176] cma: Assigned CMA region at 0 to 8.qcom,ion-heap device
-[    0.396276] ION-heap mm: Cannot specify alignment for this type of heap
-[    0.396617] cma: Assigned CMA region at 0 to 16.qcom,ion-heap device
-[    0.396717] ION-heap adsp: Cannot specify alignment for this type of heap
-[    0.396848] cma: Assigned CMA region at 0 to 1b.qcom,ion-heap device
-[    0.397533] ION heap vmalloc created
-[    0.397719] ION heap kmalloc created
-[    0.397754] ION heap mm created
-[    0.397795] ION heap iommu created
-[    0.397860] ION heap adsp created
-[    0.397893] ION heap qsecom created
-[    0.397945] ION heap audio created at 0x3f300000 with size 314000
-[    0.397985] ION heap pil_1 created at 0x0dc00000 with size 1900000
-[    0.399672] SCSI subsystem initialized
-[    0.399925] usbcore: registered new interface driver usbfs
-[    0.400061] usbcore: registered new interface driver hub
-[    0.400261] usbcore: registered new device driver usb
-[    0.400751] Linux media interface: v0.10
-[    0.400861] Linux video capture interface: v2.00
-[    0.403105] msm_iommu_v1 fda64000.qcom,iommu: device jpeg_iommu mapped at c84e0000, with 3 ctx banks
-[    0.404558] msm_iommu_v1 fd928000.qcom,iommu: device mdp_iommu mapped at c8760000, with 3 ctx banks
-[    0.405917] msm_iommu_v1 fdc84000.qcom,iommu: device venus_iommu mapped at c8840000, with 3 ctx banks
-[    0.407223] msm_iommu_v1 fdb10000.qcom,iommu: device kgsl_iommu mapped at c8860000, with 3 ctx banks
-[    0.408475] msm_iommu_v1 fda44000.qcom,iommu: device vfe_iommu mapped at c8880000, with 3 ctx banks
-[    0.409810] msm_iommu_ctx_v1 fda6c000.qcom,iommu-ctx: context jpeg_enc0 using bank 0
-[    0.410009] msm_iommu_ctx_v1 fda6d000.qcom,iommu-ctx: context jpeg_enc1 using bank 1
-[    0.410203] msm_iommu_ctx_v1 fda6e000.qcom,iommu-ctx: context jpeg_dec using bank 2
-[    0.410415] msm_iommu_ctx_v1 fd930000.qcom,iommu-ctx: context mdp_0 using bank 0
-[    0.410624] msm_iommu_ctx_v1 fd931000.qcom,iommu-ctx: context mdp_1 using bank 1
-[    0.410905] msm_iommu_ctx_v1 fd932000.qcom,iommu-ctx: context mdp_2 using bank 2
-[    0.411227] msm_iommu_ctx_v1 fdc8c000.qcom,iommu-ctx: context venus_ns using bank 0
-[    0.411439] msm_iommu_ctx_v1 fdc8d000.qcom,iommu-ctx: context venus_cp using bank 1
-[    0.411631] msm_iommu_ctx_v1 fdc8e000.qcom,iommu-ctx: context venus_fw using bank 2
-[    0.411883] msm_iommu_ctx_v1 fdb18000.qcom,iommu-ctx: context gfx3d_user using bank 0
-[    0.412078] msm_iommu_ctx_v1 fdb19000.qcom,iommu-ctx: context gfx3d_priv using bank 1
-[    0.412310] msm_iommu_ctx_v1 fdb1a000.qcom,iommu-ctx: context gfx3d_spare using bank 2
-[    0.412521] msm_iommu_ctx_v1 fda4c000.qcom,iommu-ctx: context vfe0 using bank 0
-[    0.412727] msm_iommu_ctx_v1 fda4d000.qcom,iommu-ctx: context vfe1 using bank 1
-[    0.412918] msm_iommu_ctx_v1 fda4e000.qcom,iommu-ctx: context cpp using bank 2
-[    0.413562] Advanced Linux Sound Architecture Driver Version 1.0.25.
-[    0.414454] Bluetooth: Core ver 2.16
-[    0.414552] NET: Registered protocol family 31
-[    0.414566] Bluetooth: HCI device and connection manager initialized
-[    0.414585] Bluetooth: HCI socket layer initialized
-[    0.414600] Bluetooth: L2CAP socket layer initialized
-[    0.414930] Bluetooth: SCO socket layer initialized
-[    0.415381] cfg80211: Calling CRDA to update world regulatory domain
-[    0.415434] cfg80211: World regulatory domain updated:
-[    0.415448] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
-[    0.415467] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
-[    0.415485] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
-[    0.415503] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
-[    0.415521] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
-[    0.415539] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
-[    0.416477] Switching to clocksource arch_sys_counter
-[    0.472644] NET: Registered protocol family 2
-[    0.473186] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
-[    0.475959] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
-[    0.482696] TCP bind hash table entries: 65536 (order: 8, 1310720 bytes)
-[    0.484523] TCP: Hash tables configured (established 131072 bind 65536)
-[    0.484539] TCP: reno registered
-[    0.484630] UDP hash table entries: 512 (order: 2, 24576 bytes)
-[    0.484748] UDP-Lite hash table entries: 512 (order: 2, 24576 bytes)
-[    0.485210] NET: Registered protocol family 1
-[    0.485623] Trying to unpack rootfs image as initramfs...
-[    0.810158] Freeing initrd memory: 3660K
-[    0.816054] gpiochip_add: registered GPIOs 992 to 1023 on device: smp2p
-[    0.817366] gpiochip_add: registered GPIOs 960 to 991 on device: smp2p
-[    0.817607] gpiochip_add: registered GPIOs 928 to 959 on device: smp2p
-[    0.818733] gpiochip_add: registered GPIOs 896 to 927 on device: smp2p
-[    0.818950] gpiochip_add: registered GPIOs 864 to 895 on device: slave-kernel
-[    0.820096] gpiochip_add: registered GPIOs 832 to 863 on device: master-kernel
-[    0.820346] gpiochip_add: registered GPIOs 800 to 831 on device: smp2p
-[    0.821524] gpiochip_add: registered GPIOs 768 to 799 on device: smp2p
-[    0.821741] gpiochip_add: registered GPIOs 736 to 767 on device: slave-kernel
-[    0.822945] gpiochip_add: registered GPIOs 704 to 735 on device: master-kernel
-[    0.823202] gpiochip_add: registered GPIOs 672 to 703 on device: smp2p
-[    0.824428] gpiochip_add: registered GPIOs 640 to 671 on device: smp2p
-[    0.824644] gpiochip_add: registered GPIOs 608 to 639 on device: slave-kernel
-[    0.825917] gpiochip_add: registered GPIOs 576 to 607 on device: master-kernel
-[    0.827717] pil-q6v5-lpass fe200000.qcom,lpass: using secure boot
-[    0.832551] pil_pronto fb21b000.qcom,pronto: using secure boot
-[    0.834892] pil_venus fdce0000.qcom,venus: using secure boot
-[    0.843230] NET: Registered protocol family 27
-[    0.850669] select_freq_plan: SPEED BIN: 1
-[    0.851210] find_cur_cpu_level: CPUs are running at an unknown rate. Defaulting to 1593600 KHz.
-[    0.851356] cpufreq_table_init: CPU: 12 scaling frequencies supported.
-[    0.852779] msm_rpm_log_probe: OK
-[    0.862449] ocmem: Client sensors (id: 6) not allowed to use OCMEM
-[    0.862460] OCMEM notifier registration failed
-[    0.862468] sns_ocmem_main: sns_ocmem_init failed -14
-[    0.864176] audit: initializing netlink socket (disabled)
-[    0.864214] type=2000 audit(0.850:1): initialized
-[    0.956752] highmem bounce pool size: 64 pages
-[    0.965088] fuse init (API version 7.18)
-[    0.965476] msgmni has been set to 1421
-[    0.968066] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
-[    0.968078] io scheduler noop registered
-[    0.968085] io scheduler deadline registered
-[    0.968102] io scheduler row registered
-[    0.968249] io scheduler cfq registered (default)
-[    0.968610] spmi_pmic_arb fc4cf000.qcom,spmi: PPID 0xc2 incorrect owner 2
-[    0.968682] spmi_pmic_arb fc4cf000.qcom,spmi: PPID 0xc3 incorrect owner 2
-[    0.968929] spmi_pmic_arb fc4cf000.qcom,spmi: PPID 0xc7 incorrect owner 2
-[    0.969045] gpiochip_add: registered GPIOs 568 to 575 on device: pm8226-gpio
-[    0.969401] spmi_pmic_arb fc4cf000.qcom,spmi: PPID 0xa0 incorrect owner 4
-[    0.969663] spmi_pmic_arb fc4cf000.qcom,spmi: PPID 0xa4 incorrect owner 2
-[    0.969856] spmi_pmic_arb fc4cf000.qcom,spmi: PPID 0xa7 incorrect owner 2
-[    0.969955] gpiochip_add: registered GPIOs 560 to 567 on device: pm8226-mpp
-[    0.970587] mdss_mdp_probe: MDP HW Base phy_Address=0xfd900000 virt=0xc88c0000
-[    0.970606] mdss_mdp_probe: MDSS VBIF HW Base phy_Address=0xfd924000 virt=0xc875e000
-[    0.970728] mdss_mdp_parse_dt_prop_len: Error from prop qcom,mdss-ad-off : spec error in device tree
-[    0.970750] mdss_mdp_parse_bootarg: mdss_mdp_parse_bootarg:1381: pan_name=[1:dsi:0:qcom,mdss_dsi_auo_720p_video] end=[]
-[    0.972391] mdss_dsi_ctrl_probe: DSI Ctrl name = MDSS DSI CTRL->0
-[    0.972471] mdss_dsi_panel_init: Panel Name = auo 720p video mode dsi panel
-[    0.972746] mdss_dsi_parse_dcs_cmds: failed, key=qcom,mdss-dsi-dispparam-command
-[    0.972803] mdss_dsi_parse_dcs_cmds: failed, key=qcom,mdss-dsi-dispparam-cabcon-command_STILL
-[    0.972819] mdss_dsi_parse_dcs_cmds: failed, key=qcom,mdss-dsi-dispparam-cabcon-command_MOVIE
-[    0.972878] mdss_dsi_panel_init:1143 Continuous splash flag enabled.
-[    0.972888] mdss_dsi_panel_init:1155 Partial update disabled.
-[    0.972898] mdss_dsi_panel_init:1163 Dispparam enabled.
-[    0.973154] dsi_panel_device_register:1264, Disp_en gpio not specified
-[    0.973219] mdss_dsi_retrieve_ctrl_resources: dsi base=c87ec800 size=600
-[    0.996724] mdss_register_panel: adding framebuffer device fd922800.qcom,mdss_dsi
-[    0.996992] mdss_hw_init: MDP Rev=10010001
-[    0.998161] mdss_register_panel: adding framebuffer device qcom,mdss_wb_panel.23
-[    0.998851] mdss_fb_alloc_fbmem_iommu: mdss_fb_alloc_fbmem_iommu frame buffer reserve_size=0x800000
-[    0.999124] mdss_fb_alloc_fbmem_iommu: allocating 8388608 bytes at c9000000 (3f800000 phys) for fb 0
-[    0.999274] mdss_fb_register: FrameBuffer[0] 720x1280 size=8388608 registered successfully!
-[    0.999313] mdss_mdp_overlay_init: mdss_mdp_overlay_init: unable to add event timer
-[    0.999646] mdss_fb_register: FrameBuffer[1] 1280x720 size=0 registered successfully!
-[    0.999676] mdss_mdp_overlay_init: mdss_mdp_overlay_init: unable to add event timer
-[    1.033406] msm_serial_hsl_probe: detected port #0 (ttyHSL0)
-[    1.033572] f991f000.serial: ttyHSL0 at MMIO 0xf991f000 (irq = 141) is a MSM
-[    1.036410] msm_serial_hsl_init: driver initialized
-[    1.040048] diagchar initialized now
-[    1.042547] kgsl kgsl-3d0: |kgsl_iommu_init| MMU type set for device is IOMMU
-[    1.051323] brd: module loaded
-[    1.054435] loop: module loaded
-[    1.054818] QSEECOM: qseecom_probe: support_bus_scaling=0x0
-[    1.054827] QSEECOM: qseecom_probe: bam_pipe_pair=0x2
-[    1.054836] QSEECOM: qseecom_probe: qsee-ce-hw-instance=0x0
-[    1.054844] QSEECOM: qseecom_probe: hlos-ce-hw-instance=0x0
-[    1.054884] QSEECOM: qseecom_probe: secure app region addr=0xd980000 size=0x256000
-[    1.055655] isa1000_setup: isa1000 set up
-[    1.055854] i2c-core: driver [tabla-i2c-core] using legacy suspend method
-[    1.055864] i2c-core: driver [tabla-i2c-core] using legacy resume method
-[    1.055973] i2c-core: driver [wcd9xxx-i2c-core] using legacy suspend method
-[    1.055982] i2c-core: driver [wcd9xxx-i2c-core] using legacy resume method
-[    1.076919] regulator get of vlogic failed (-517)
-[    1.116585] qup_i2c f9925000.i2c: Recovery failed due to undefined GPIO's
-[    1.116595] qup_i2c f9925000.i2c: Transaction timed out, SL-AD = 0xe
-[    1.116603] qup_i2c f9925000.i2c: I2C Status: 8132100
-[    1.116611] qup_i2c f9925000.i2c: QUP Status: 0
-[    1.116618] qup_i2c f9925000.i2c: OP Flags: 10
-[    1.156579] qup_i2c f9925000.i2c: Recovery failed due to undefined GPIO's
-[    1.156588] qup_i2c f9925000.i2c: Transaction timed out, SL-AD = 0xe
-[    1.156596] qup_i2c f9925000.i2c: I2C Status: 8182100
-[    1.156604] qup_i2c f9925000.i2c: QUP Status: 0
-[    1.156611] qup_i2c f9925000.i2c: OP Flags: 0
-[    1.196579] qup_i2c f9925000.i2c: Recovery failed due to undefined GPIO's
-[    1.196589] qup_i2c f9925000.i2c: Transaction timed out, SL-AD = 0xe
-[    1.196597] qup_i2c f9925000.i2c: I2C Status: 8132100
-[    1.196604] qup_i2c f9925000.i2c: QUP Status: 0
-[    1.196611] qup_i2c f9925000.i2c: OP Flags: 10
-[    1.236578] qup_i2c f9925000.i2c: Recovery failed due to undefined GPIO's
-[    1.236587] qup_i2c f9925000.i2c: Transaction timed out, SL-AD = 0xe
-[    1.236596] qup_i2c f9925000.i2c: I2C Status: 8132100
-[    1.236603] qup_i2c f9925000.i2c: QUP Status: 0
-[    1.236610] qup_i2c f9925000.i2c: OP Flags: 10
-[    1.276578] qup_i2c f9925000.i2c: Recovery failed due to undefined GPIO's
-[    1.276588] qup_i2c f9925000.i2c: Transaction timed out, SL-AD = 0xe
-[    1.276596] qup_i2c f9925000.i2c: I2C Status: 8132100
-[    1.276603] qup_i2c f9925000.i2c: QUP Status: 0
-[    1.276611] qup_i2c f9925000.i2c: OP Flags: 10
-[    1.326609] qup_i2c f9925000.i2c: Recovery failed due to undefined GPIO's
-[    1.326618] qup_i2c f9925000.i2c: Transaction timed out, SL-AD = 0xe
-[    1.326627] qup_i2c f9925000.i2c: I2C Status: 8132100
-[    1.326634] qup_i2c f9925000.i2c: QUP Status: 0
-[    1.326642] qup_i2c f9925000.i2c: OP Flags: 10
-[    1.366578] qup_i2c f9925000.i2c: Recovery failed due to undefined GPIO's
-[    1.366587] qup_i2c f9925000.i2c: Transaction timed out, SL-AD = 0xe
-[    1.366596] qup_i2c f9925000.i2c: I2C Status: 8132100
-[    1.366603] qup_i2c f9925000.i2c: QUP Status: 0
-[    1.366611] qup_i2c f9925000.i2c: OP Flags: 10
-[    1.406578] qup_i2c f9925000.i2c: Recovery failed due to undefined GPIO's
-[    1.406588] qup_i2c f9925000.i2c: Transaction timed out, SL-AD = 0xe
-[    1.406596] qup_i2c f9925000.i2c: I2C Status: 8132100
-[    1.406604] qup_i2c f9925000.i2c: QUP Status: 0
-[    1.406611] qup_i2c f9925000.i2c: OP Flags: 10
-[    1.466578] qup_i2c f9925000.i2c: Recovery failed due to undefined GPIO's
-[    1.466587] qup_i2c f9925000.i2c: Transaction timed out, SL-AD = 0xe
-[    1.466595] qup_i2c f9925000.i2c: I2C Status: 8132100
-[    1.466603] qup_i2c f9925000.i2c: QUP Status: 0
-[    1.466610] qup_i2c f9925000.i2c: OP Flags: 10
-[    1.526578] qup_i2c f9925000.i2c: Recovery failed due to undefined GPIO's
-[    1.526587] qup_i2c f9925000.i2c: Transaction timed out, SL-AD = 0xe
-[    1.526596] qup_i2c f9925000.i2c: I2C Status: 8132100
-[    1.526603] qup_i2c f9925000.i2c: QUP Status: 0
-[    1.526610] qup_i2c f9925000.i2c: OP Flags: 10
-[    1.566578] qup_i2c f9925000.i2c: Recovery failed due to undefined GPIO's
-[    1.566587] qup_i2c f9925000.i2c: Transaction timed out, SL-AD = 0xe
-[    1.566595] qup_i2c f9925000.i2c: I2C Status: 8132100
-[    1.566603] qup_i2c f9925000.i2c: QUP Status: 0
-[    1.566610] qup_i2c f9925000.i2c: OP Flags: 10
-[    1.586788] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.586800] cpr_scale: last_volt[corner:10, fuse_corner:3] = 1290000 uV
-[    1.586810] cpr_scale: Down: cpr status = 0x00002da5 (error_steps=9)
-[    1.586820] cpr_scale: 9 is over down-limit(1): Clamp
-[    1.586847] cpr_scale: DOWN: -> new_volt[corner:10, fuse_corner:3] = 1280000 uV
-[    1.596901] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.596912] cpr_scale: last_volt[corner:10, fuse_corner:3] = 1280000 uV
-[    1.596922] cpr_scale: Down: cpr status = 0x00002d7d (error_steps=15)
-[    1.596930] cpr_scale: 15 is over down-limit(1): Clamp
-[    1.596953] cpr_scale: DOWN: -> new_volt[corner:10, fuse_corner:3] = 1270000 uV
-[    1.606583] qup_i2c f9925000.i2c: Recovery failed due to undefined GPIO's
-[    1.606594] qup_i2c f9925000.i2c: Transaction timed out, SL-AD = 0xe
-[    1.606603] qup_i2c f9925000.i2c: I2C Status: 8132100
-[    1.606611] qup_i2c f9925000.i2c: QUP Status: 0
-[    1.606619] qup_i2c f9925000.i2c: OP Flags: 10
-[    1.607006] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.607016] cpr_scale: last_volt[corner:10, fuse_corner:3] = 1270000 uV
-[    1.607026] cpr_scale: Down: cpr status = 0x00002a21 (error_steps=8)
-[    1.607035] cpr_scale: 8 is over down-limit(1): Clamp
-[    1.607057] cpr_scale: DOWN: -> new_volt[corner:10, fuse_corner:3] = 1260000 uV
-[    1.617112] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.617122] cpr_scale: last_volt[corner:10, fuse_corner:3] = 1260000 uV
-[    1.617132] cpr_scale: Down: cpr status = 0x000023dd (error_steps=7)
-[    1.617141] cpr_scale: 7 is over down-limit(1): Clamp
-[    1.617163] cpr_scale: DOWN: -> new_volt[corner:10, fuse_corner:3] = 1250000 uV
-[    1.627215] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.627226] cpr_scale: last_volt[corner:10, fuse_corner:3] = 1250000 uV
-[    1.627236] cpr_scale: Down: cpr status = 0x00002299 (error_steps=6)
-[    1.627245] cpr_scale: 6 is over down-limit(1): Clamp
-[    1.627267] cpr_scale: DOWN: -> new_volt[corner:10, fuse_corner:3] = 1240000 uV
-[    1.637319] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.637329] cpr_scale: last_volt[corner:10, fuse_corner:3] = 1240000 uV
-[    1.637339] cpr_scale: Down: cpr status = 0x00001ad9 (error_steps=6)
-[    1.637348] cpr_scale: 6 is over down-limit(1): Clamp
-[    1.637371] cpr_scale: DOWN: -> new_volt[corner:10, fuse_corner:3] = 1230000 uV
-[    1.646581] qup_i2c f9925000.i2c: Recovery failed due to undefined GPIO's
-[    1.646592] qup_i2c f9925000.i2c: Transaction timed out, SL-AD = 0xe
-[    1.646601] qup_i2c f9925000.i2c: I2C Status: 8132100
-[    1.646609] qup_i2c f9925000.i2c: QUP Status: 0
-[    1.646618] qup_i2c f9925000.i2c: OP Flags: 10
-[    1.647422] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.647433] cpr_scale: last_volt[corner:10, fuse_corner:3] = 1230000 uV
-[    1.647443] cpr_scale: Down: cpr status = 0x00001b1d (error_steps=7)
-[    1.647452] cpr_scale: 7 is over down-limit(1): Clamp
-[    1.647474] cpr_scale: DOWN: -> new_volt[corner:10, fuse_corner:3] = 1220000 uV
-[    1.686582] qup_i2c f9925000.i2c: Recovery failed due to undefined GPIO's
-[    1.686593] qup_i2c f9925000.i2c: Transaction timed out, SL-AD = 0xe
-[    1.686603] qup_i2c f9925000.i2c: I2C Status: 8182100
-[    1.686611] qup_i2c f9925000.i2c: QUP Status: 0
-[    1.686619] qup_i2c f9925000.i2c: OP Flags: 0
-[    1.687309] SCSI Media Changer driver v0.25 
-[    1.687907] sps: BAM device 0xf9904000 is not registered yet.
-[    1.687926] sps:BAM 0xf9904000 is registered.
-[    1.688210] sps:BAM 0xf9904000 (va:0xc8830000) enabled: ver:0x15, number of pipes:24
-[    1.688810] spi_qsd f9923000.spi: master is unqueued, this is deprecated
-[    1.690045] modprobe used greatest stack depth: 6016 bytes left
-[    1.693857] tun: Universal TUN/TAP device driver, 1.6
-[    1.693867] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
-[    1.693965] rmnet_init: BAM devices[9]
-[    1.701420] PPP generic driver version 2.4.2
-[    1.701550] PPP BSD Compression module registered
-[    1.701559] PPP Deflate Compression module registered
-[    1.703773] PPP MPPE Compression module registered
-[    1.703786] NET: Registered protocol family 24
-[    1.704101] wcnss_wlan probed in built-in mode
-[    1.705330] usbcore: registered new interface driver asix
-[    1.705400] usbcore: registered new interface driver cdc_ether
-[    1.705447] usbcore: registered new interface driver net1080
-[    1.705508] usbcore: registered new interface driver cdc_subset
-[    1.705556] usbcore: registered new interface driver zaurus
-[    1.705774] usbcore: registered new interface driver cdc_ncm
-[    1.706943] msm_otg f9a55000.usb: msm_otg probe
-[    1.708564] msm_otg f9a55000.usb: OTG regs = c87f4000
-[    1.710334] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
-[    1.710587] Unable to get vbus_otg
-[    1.710597] msm_hsusb_host msm_hsusb_host: unable to register with transceiver
-[    1.710625] platform msm_hsusb_host: Driver msm_hsusb_host requests probe deferral
-[    1.711434] usbcore: registered new interface driver cdc_acm
-[    1.711443] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
-[    1.711452] Initializing USB Mass Storage driver...
-[    1.711517] usbcore: registered new interface driver usb-storage
-[    1.711526] USB Mass Storage support registered.
-[    1.711566] usbcore: registered new interface driver ums-alauda
-[    1.711607] usbcore: registered new interface driver ums-cypress
-[    1.711649] usbcore: registered new interface driver ums-datafab
-[    1.711691] usbcore: registered new interface driver ums-freecom
-[    1.711734] usbcore: registered new interface driver ums-isd200
-[    1.711794] usbcore: registered new interface driver ums-jumpshot
-[    1.711838] usbcore: registered new interface driver ums-karma
-[    1.711880] usbcore: registered new interface driver ums-onetouch
-[    1.711921] usbcore: registered new interface driver ums-sddr09
-[    1.711962] usbcore: registered new interface driver ums-sddr55
-[    1.712004] usbcore: registered new interface driver ums-usbat
-[    1.712120] usbcore: registered new interface driver usbserial
-[    1.712130] usbserial: USB Serial Driver core
-[    1.712191] usbcore: registered new interface driver qc_csvt
-[    1.712233] USB Serial support registered for qc_csvt
-[    1.712283] usbcore: registered new interface driver usb_ehset_test
-[    1.713174] msm_hsusb msm_hsusb: [ci13xxx_start] hw_ep_max = 32
-[    1.713852] mbim_init: initialize 1 instances
-[    1.713944] mbim_init: Initialized 1 ports
-[    1.715928] rndis_qc_init: initialize rndis QC instance
-[    1.716443] android_usb gadget: Mass Storage Function, version: 2009/09/11
-[    1.716455] android_usb gadget: Number of LUNs=1
-[    1.716466]  lun0: LUN: removable read only CD-ROM file: (no medium)
-[    1.716818] android_usb gadget: android_usb ready
-[    1.717583] mousedev: PS/2 mouse device common for all mice
-[    1.717912] usbcore: registered new interface driver xpad
-[    1.717921] ft5x06_i2c_init
-[    1.718012] num_fw = 4
-[    1.718064] i2c-pull-up = 1
-[    1.718070] reset gpio = 16
-[    1.718077] irq gpio = 17
-[    1.718083] x_max = 720
-[    1.718089] y_max = 1280
-[    1.718094] z_max = 255
-[    1.718100] w_max = 200
-[    1.718106] landing_jiffies = 1000
-[    1.718113] landing_threshold = 16
-[    1.718119] staying_threshold = 8
-[    1.718126] tx num = 24
-[    1.718132] rx num = 13
-[    1.718137] raw min = 7000
-[    1.718143] raw max = 10000
-[    1.718150] key_num = 3
-[    1.718156] keymap[0] = 139
-[    1.718162] keypos[0] = 2
-[    1.718170] key[0]: 155 1317 10 50
-[    1.718176] keymap[1] = 102
-[    1.718183] keypos[1] = 6
-[    1.718190] key[1]: 355 1317 10 50
-[    1.718197] keymap[2] = 158
-[    1.718204] keypos[2] = 10
-[    1.718211] key[2]: 565 1317 10 50
-[    1.718217] key_num = 3
-[    1.718224] keymap[0] = 139
-[    1.718230] keypos[0] = 2
-[    1.718238] key[0]: 155 1319 10 50
-[    1.718245] keymap[1] = 102
-[    1.718251] keypos[1] = 6
-[    1.718258] key[1]: 355 1319 10 50
-[    1.718265] keymap[2] = 158
-[    1.718272] keypos[2] = 10
-[    1.718279] key[2]: 565 1319 10 50
-[    1.718285] key_num = 3
-[    1.718292] keymap[0] = 139
-[    1.718298] keypos[0] = 2
-[    1.718305] key[0]: 155 1319 10 50
-[    1.718312] keymap[1] = 102
-[    1.718319] keypos[1] = 6
-[    1.718326] key[1]: 355 1319 10 50
-[    1.718333] keymap[2] = 158
-[    1.718339] keypos[2] = 10
-[    1.718347] key[2]: 565 1319 10 50
-[    1.718353] key_num = 3
-[    1.718360] keymap[0] = 139
-[    1.718366] keypos[0] = 2
-[    1.718373] key[0]: 155 1319 10 50
-[    1.718380] keymap[1] = 102
-[    1.718386] keypos[1] = 6
-[    1.718394] key[1]: 355 1319 10 50
-[    1.718401] keymap[2] = 158
-[    1.718407] keypos[2] = 10
-[    1.718415] key[2]: 565 1319 10 50
-[    1.718422] firmare 0 chip = 0xa, vendor = 0x51 name = ft5316_firmware.fw
-[    1.718432] firmare 1 chip = 0x14, vendor = 0x51 name = ft5336_firmware_ofilm.fw
-[    1.836896] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.836909] cpr_scale: last_volt[corner:8, fuse_corner:3] = 1290000 uV
-[    1.836920] cpr_scale: Down: cpr status = 0x00004465 (error_steps=9)
-[    1.836931] cpr_scale: 9 is over down-limit(1): Clamp
-[    1.836955] cpr_scale: DOWN: -> new_volt[corner:8, fuse_corner:3] = 1280000 uV
-[    1.847009] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.847020] cpr_scale: last_volt[corner:8, fuse_corner:3] = 1280000 uV
-[    1.847031] cpr_scale: Down: cpr status = 0x00004169 (error_steps=10)
-[    1.847041] cpr_scale: 10 is over down-limit(1): Clamp
-[    1.847064] cpr_scale: DOWN: -> new_volt[corner:8, fuse_corner:3] = 1270000 uV
-[    1.857118] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.857129] cpr_scale: last_volt[corner:8, fuse_corner:3] = 1270000 uV
-[    1.857140] cpr_scale: Down: cpr status = 0x00003a6d (error_steps=11)
-[    1.857150] cpr_scale: 11 is over down-limit(1): Clamp
-[    1.857173] cpr_scale: DOWN: -> new_volt[corner:8, fuse_corner:3] = 1260000 uV
-[    1.867227] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.867238] cpr_scale: last_volt[corner:8, fuse_corner:3] = 1260000 uV
-[    1.867248] cpr_scale: Down: cpr status = 0x000039b5 (error_steps=13)
-[    1.867258] cpr_scale: 13 is over down-limit(1): Clamp
-[    1.867281] cpr_scale: DOWN: -> new_volt[corner:8, fuse_corner:3] = 1250000 uV
-[    1.877335] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.877346] cpr_scale: last_volt[corner:8, fuse_corner:3] = 1250000 uV
-[    1.877356] cpr_scale: Down: cpr status = 0x000033a1 (error_steps=8)
-[    1.877366] cpr_scale: 8 is over down-limit(1): Clamp
-[    1.877389] cpr_scale: DOWN: -> new_volt[corner:8, fuse_corner:3] = 1240000 uV
-[    1.887443] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.887454] cpr_scale: last_volt[corner:8, fuse_corner:3] = 1240000 uV
-[    1.887464] cpr_scale: Down: cpr status = 0x00002ea5 (error_steps=9)
-[    1.887474] cpr_scale: 9 is over down-limit(1): Clamp
-[    1.887497] cpr_scale: DOWN: -> new_volt[corner:8, fuse_corner:3] = 1230000 uV
-[    1.897551] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.897562] cpr_scale: last_volt[corner:8, fuse_corner:3] = 1230000 uV
-[    1.897573] cpr_scale: Down: cpr status = 0x00002e7d (error_steps=15)
-[    1.897583] cpr_scale: 15 is over down-limit(1): Clamp
-[    1.897606] cpr_scale: DOWN: -> new_volt[corner:8, fuse_corner:3] = 1220000 uV
-[    1.907659] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.907670] cpr_scale: last_volt[corner:8, fuse_corner:3] = 1220000 uV
-[    1.907681] cpr_scale: Down: cpr status = 0x000029e1 (error_steps=8)
-[    1.907690] cpr_scale: 8 is over down-limit(1): Clamp
-[    1.907713] cpr_scale: DOWN: -> new_volt[corner:8, fuse_corner:3] = 1210000 uV
-[    1.917766] cpr_irq_handler: IRQ_STATUS = 0x05
-[    1.917777] cpr_scale: last_volt[corner:8, fuse_corner:3] = 1210000 uV
-[    1.917788] cpr_scale: Down: cpr status = 0x000026d9 (error_steps=6)
-[    1.917797] cpr_scale: 6 is over down-limit(1): Clamp
-[    1.917821] cpr_scale: DOWN: -> new_volt[corner:8, fuse_corner:3] = 1200000 uV
-[    1.936920] ft5x06_i2c 5-0038: firmware vendor is 51
-[    1.936932] ft5x06_i2c 5-0038: chip id = 0x14, found it!
-[    1.936942] ft5x06_i2c 5-0038: firmware name = ft5336_firmware_ofilm.fw
-[    1.937161] ft5x06_i2c 5-0038: firmware version is 0e
-[    1.937365] input: ft5x06 as /devices/f9927000.i2c/i2c-5/5-0038/input/input0
-[    1.937793] #### init for imagis #####
-[    1.938682] [ Imagis ] ist30xx_probe(), the i2c addr=0x50
-[    1.938749] ### reset gpio = 16 ####
-[    1.938757] ### irq gpio = 17 ####
-[    1.938765] ### max x = 720 ####
-[    1.938772] ### max y = 1280 ####
-[    1.938778] ### max w = 200 ####
-[    1.938785] ### key num = 3 ####
-[    1.938793] #### key [0] = 139 ####
-[    1.938800] #### key [1] = 102 ####
-[    1.938807] #### key [2] = 158 ####
-[    1.938832] [ Imagis ] irq gpio request failed!
-[    1.938843] [ Imagis ] Error, ist30xx mem free
-[    1.939083] IST30XX: probe of 5-0050 failed with error -16
-[    1.940106] using rtc device, qpnp_rtc, for alarms
-[    1.940141] qcom,qpnp-rtc qpnp-rtc-f1cf0200: rtc core: registered qpnp_rtc as rtc0
-[    1.940299] i2c /dev entries driver
-[    1.945627] msm_cci_probe: pdev f1d2b800 device id = -1
-[    1.951588] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951610] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951628] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951647] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951667] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951686] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951707] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951728] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951749] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951771] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951794] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951817] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951840] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951865] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951890] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951915] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951941] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951968] msm_eeprom_alloc_memory_map: pageen not needed
-[    1.951995] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.086902] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.086917] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1290000 uV
-[    2.086930] cpr_scale: Down: cpr status = 0x000069f9 (error_steps=14)
-[    2.086942] cpr_scale: 14 is over down-limit(1): Clamp
-[    2.086969] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1280000 uV
-[    2.097028] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.097041] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1280000 uV
-[    2.097053] cpr_scale: Down: cpr status = 0x000064fd (error_steps=15)
-[    2.097065] cpr_scale: 15 is over down-limit(1): Clamp
-[    2.097091] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1270000 uV
-[    2.107148] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.107161] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1270000 uV
-[    2.107174] cpr_scale: Down: cpr status = 0x000063bd (error_steps=15)
-[    2.107185] cpr_scale: 15 is over down-limit(1): Clamp
-[    2.107211] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1260000 uV
-[    2.117271] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.117284] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1260000 uV
-[    2.117297] cpr_scale: Down: cpr status = 0x00005cfd (error_steps=15)
-[    2.117308] cpr_scale: 15 is over down-limit(1): Clamp
-[    2.117334] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1250000 uV
-[    2.127391] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.127404] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1250000 uV
-[    2.127417] cpr_scale: Down: cpr status = 0x0000593d (error_steps=15)
-[    2.127428] cpr_scale: 15 is over down-limit(1): Clamp
-[    2.127454] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1240000 uV
-[    2.137513] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.137526] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1240000 uV
-[    2.137539] cpr_scale: Down: cpr status = 0x0000557d (error_steps=15)
-[    2.137550] cpr_scale: 15 is over down-limit(1): Clamp
-[    2.137576] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1230000 uV
-[    2.147633] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.147646] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1230000 uV
-[    2.147658] cpr_scale: Down: cpr status = 0x000051fd (error_steps=15)
-[    2.147669] cpr_scale: 15 is over down-limit(1): Clamp
-[    2.147696] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1220000 uV
-[    2.157754] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.157767] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1220000 uV
-[    2.157780] cpr_scale: Down: cpr status = 0x000050fd (error_steps=15)
-[    2.157791] cpr_scale: 15 is over down-limit(1): Clamp
-[    2.157817] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1210000 uV
-[    2.167874] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.167887] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1210000 uV
-[    2.167900] cpr_scale: Down: cpr status = 0x000048f9 (error_steps=14)
-[    2.167911] cpr_scale: 14 is over down-limit(1): Clamp
-[    2.167937] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1200000 uV
-[    2.177996] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.178008] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1200000 uV
-[    2.178021] cpr_scale: Down: cpr status = 0x000044fd (error_steps=15)
-[    2.178032] cpr_scale: 15 is over down-limit(1): Clamp
-[    2.178058] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1190000 uV
-[    2.188116] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.188128] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1190000 uV
-[    2.188141] cpr_scale: Down: cpr status = 0x000044bd (error_steps=15)
-[    2.188152] cpr_scale: 15 is over down-limit(1): Clamp
-[    2.188179] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1180000 uV
-[    2.198237] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.198249] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1180000 uV
-[    2.198262] cpr_scale: Down: cpr status = 0x00003ffd (error_steps=15)
-[    2.198273] cpr_scale: 15 is over down-limit(1): Clamp
-[    2.198299] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1170000 uV
-[    2.208355] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.208368] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1170000 uV
-[    2.208381] cpr_scale: Down: cpr status = 0x00003b29 (error_steps=10)
-[    2.208392] cpr_scale: 10 is over down-limit(1): Clamp
-[    2.208418] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1160000 uV
-[    2.218476] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.218489] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1160000 uV
-[    2.218502] cpr_scale: Down: cpr status = 0x00003839 (error_steps=14)
-[    2.218513] cpr_scale: 14 is over down-limit(1): Clamp
-[    2.218539] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1150000 uV
-[    2.228595] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.228608] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1150000 uV
-[    2.228620] cpr_scale: Down: cpr status = 0x00003465 (error_steps=9)
-[    2.228631] cpr_scale: 9 is over down-limit(1): Clamp
-[    2.228657] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1140000 uV
-[    2.238715] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.238728] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1140000 uV
-[    2.238740] cpr_scale: Down: cpr status = 0x00002c21 (error_steps=8)
-[    2.238751] cpr_scale: 8 is over down-limit(1): Clamp
-[    2.238777] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1130000 uV
-[    2.248834] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.248847] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1130000 uV
-[    2.248859] cpr_scale: Down: cpr status = 0x000027ed (error_steps=11)
-[    2.248871] cpr_scale: 11 is over down-limit(1): Clamp
-[    2.248897] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1120000 uV
-[    2.258954] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.258967] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1120000 uV
-[    2.258979] cpr_scale: Down: cpr status = 0x00002625 (error_steps=9)
-[    2.258991] cpr_scale: 9 is over down-limit(1): Clamp
-[    2.259016] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1110000 uV
-[    2.269072] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.269085] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1110000 uV
-[    2.269097] cpr_scale: Down: cpr status = 0x00002399 (error_steps=6)
-[    2.269109] cpr_scale: 6 is over down-limit(1): Clamp
-[    2.269135] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1100000 uV
-[    2.337163] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.337181] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1150000 uV
-[    2.337198] cpr_scale: Down: cpr status = 0x000051a9 (error_steps=10)
-[    2.337213] cpr_scale: 10 is over down-limit(1): Clamp
-[    2.337246] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1140000 uV
-[    2.346603] msm_eeprom_platform_probe line 1018
-[    2.347311] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.347328] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1140000 uV
-[    2.347345] cpr_scale: Down: cpr status = 0x00004aed (error_steps=11)
-[    2.347360] cpr_scale: 11 is over down-limit(1): Clamp
-[    2.347393] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1130000 uV
-[    2.357460] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.357477] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1130000 uV
-[    2.357494] cpr_scale: Down: cpr status = 0x00004739 (error_steps=14)
-[    2.357510] cpr_scale: 14 is over down-limit(1): Clamp
-[    2.357542] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1120000 uV
-[    2.367607] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.367624] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1120000 uV
-[    2.367642] cpr_scale: Down: cpr status = 0x0000457d (error_steps=15)
-[    2.367657] cpr_scale: 15 is over down-limit(1): Clamp
-[    2.367689] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1110000 uV
-[    2.377756] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.377773] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1110000 uV
-[    2.377790] cpr_scale: Down: cpr status = 0x000041bd (error_steps=15)
-[    2.377806] cpr_scale: 15 is over down-limit(1): Clamp
-[    2.377838] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1100000 uV
-[    2.387902] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.387919] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1100000 uV
-[    2.387937] cpr_scale: Down: cpr status = 0x00003a29 (error_steps=10)
-[    2.387952] cpr_scale: 10 is over down-limit(1): Clamp
-[    2.387985] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1090000 uV
-[    2.398051] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.398068] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1090000 uV
-[    2.398086] cpr_scale: Down: cpr status = 0x000038f1 (error_steps=12)
-[    2.398101] cpr_scale: 12 is over down-limit(1): Clamp
-[    2.398134] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1080000 uV
-[    2.408197] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.408215] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1080000 uV
-[    2.408231] cpr_scale: Down: cpr status = 0x000031a1 (error_steps=8)
-[    2.408247] cpr_scale: 8 is over down-limit(1): Clamp
-[    2.408279] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1070000 uV
-[    2.418345] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.418363] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1070000 uV
-[    2.418379] cpr_scale: Down: cpr status = 0x00002cad (error_steps=11)
-[    2.418395] cpr_scale: 11 is over down-limit(1): Clamp
-[    2.418428] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1060000 uV
-[    2.426968] check_eeprom_id ret = 3
-[    2.428492] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.428511] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1060000 uV
-[    2.428528] cpr_scale: Down: cpr status = 0x00002b29 (error_steps=10)
-[    2.428543] cpr_scale: 10 is over down-limit(1): Clamp
-[    2.428576] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1050000 uV
-[    2.438639] cpr_irq_handler: IRQ_STATUS = 0x05
-[    2.438656] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1050000 uV
-[    2.438673] cpr_scale: Down: cpr status = 0x000024d9 (error_steps=6)
-[    2.438690] cpr_scale: [corn:4, fuse_corner:2] @ floor: 1050000 <= 1050000: NACK
-[    2.438709] cpr_scale: gcnt = 0x000133a9 (quot = 937)
-[    2.499578] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.499609] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.499639] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.499670] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.499702] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.499734] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.499767] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.499801] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.499836] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.499872] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.499909] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.499947] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.499986] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.500025] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.500066] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.500107] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.500150] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.500193] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.500237] msm_eeprom_alloc_memory_map: pageen not needed
-[    2.856662] msm_eeprom_platform_probe line 1018
-[    2.937071] check_eeprom_id ret = 3
-[    2.968791] msm_eeprom_alloc_memory_map: pageen not needed
-[    3.293249] msm_eeprom_platform_probe line 1018
-[    3.293284] check_eeprom_id ret = 3
-[    3.332716] msm_eeprom_alloc_memory_map: pageen not needed
-[    3.332776] msm_eeprom_alloc_memory_map: pageen not needed
-[    3.332829] msm_eeprom_alloc_memory_map: pageen not needed
-[    3.332910] msm_eeprom_alloc_memory_map: pageen not needed
-[    3.332969] msm_eeprom_alloc_memory_map: pageen not needed
-[    3.333119] msm_camera_request_gpio_table:570 gpio 21:CAM_VDIG request fails
-[    3.476673] msm_cci_i2c_write: wait_for_completion_interruptible_timeout 615
-[    3.576760] msm_cci_flush_queue:106 wait timeout
-[    3.576831] msm_camera_cci_i2c_write: line 132 rc = -110
-[    3.596663] read_eeprom_memory: page write failed
-[    3.596692] msm_eeprom_platform_probe read_eeprom_memory failed
-[    3.641159] qcom,eeprom: probe of 6b.qcom,eeprom failed with error -110
-[    3.641484] s5k3h2yx_init_module:141
-[    3.751873] __msm_jpeg_init:947] Jpeg Device id 0
-[    3.776367] lirc_dev: IR Remote Control driver registered, major 236 
-[    3.776406] IR NEC protocol handler initialized
-[    3.776434] IR RC5(x) protocol handler initialized
-[    3.776462] IR RC6 protocol handler initialized
-[    3.776489] IR JVC protocol handler initialized
-[    3.776516] IR Sony protocol handler initialized
-[    3.776543] IR RC5 (streamzap) protocol handler initialized
-[    3.776671] IR SANYO protocol handler initialized
-[    3.776703] IR MCE Keyboard/mouse protocol handler initialized
-[    3.776733] IR LIRC bridge handler initialized
-[    3.777018] usbcore: registered new interface driver uvcvideo
-[    3.777047] USB Video Class driver (1.1.1)
-[    3.778936] Driver for 1-wire Dallas network protocol.
-[    3.960485] BMS: qpnp_bms_init: QPNP BMS INIT
-[    3.960731] spmi qpnp-bms-f1d26e00: Driver qcom,qpnp-bms requests probe deferral
-[    3.961183] spmi qpnp-charger-f1d26c00: Driver qcom,qpnp-charger requests probe deferral
-[    3.991326] qpnp_vadc_conv_seq_request: not a valid VADC channel
-[    3.991362] thermal_sys: failed to read out thermal zone 7
-[    3.992041] qpnp_vadc_conv_seq_request: not a valid VADC channel
-[    3.992075] thermal_sys: failed to read out thermal zone 8
-[    3.994765] device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
-[    3.999076] cpuidle: using governor ladder
-[    4.001081] cpuidle: using governor menu
-[    4.001216] sdhci: Secure Digital Host Controller Interface driver
-[    4.001245] sdhci: Copyright(c) Pierre Ossman
-[    4.002714] sdhci-pltfm: SDHCI platform and OF driver helper
-[    4.010759] mmc0: no vmmc regulator found
-[    4.013831] mmc0: SDHCI controller on msm_sdcc.1 [msm_sdcc.1] using ADMA
-[    4.021749] mmc1: no vmmc regulator found
-[    4.024695] mmc1: SDHCI controller on msm_sdcc.2 [msm_sdcc.2] using ADMA
-[    4.028730] qcom,leds-qpnp leds-qpnp-f1cf0400: bl: change to higher light 4095
-[    4.028792] qcom,leds-qpnp leds-qpnp-f1cf0400: bl: change to analog 4095
-[    4.030105] qcom,leds-qpnp leds-qpnp-f1cf1200: Regulator get failed(-517)
-[    4.030140] qcom,leds-qpnp leds-qpnp-f1cf1200: Unable to read flash config data
-[    4.030204] spmi leds-qpnp-f1cf1200: Driver qcom,leds-qpnp requests probe deferral
-[    4.032795] usbcore: registered new interface driver usbhid
-[    4.032824] usbhid: USB HID core driver
-[    4.039769] zram: Created 4 device(s) ...
-[    4.041655] ashmem: initialized
-[    4.041947] logger: created 2048K log 'log_main'
-[    4.042272] logger: created 256K log 'log_events'
-[    4.042563] logger: created 2048K log 'log_radio'
-[    4.042853] logger: created 256K log 'log_system'
-[    4.043146] logger: created 256K log 'xiaomi_wsevents'
-[    4.049731] sps:BAM 0xf9a44000 is registered.
-[    4.049772] usb_bam_ipa_create_resources: Failed to create USB_PROD resource
-[    4.050811] PMIC@SID0 Power-on reason: Triggered from KPD (power key press) and 'warm' boot
-[    4.051700] input: qpnp_pon as /devices/virtual/input/input1
-[    4.054243] PMIC@SID0: PM8226 v2.1 options: 0, 0, 2, 2
-[    4.055282] coresight-fuse fc4be024.fuse: Fuse initialized
-[    4.067531] coresight-cti fc308000.cti: CTI initialized
-[    4.070122] coresight-cti fc309000.cti: CTI initialized
-[    4.074803] coresight-cti fc30a000.cti: CTI initialized
-[    4.077609] coresight-cti fc30b000.cti: CTI initialized
-[    4.078164] coresight-cti fc30c000.cti: CTI initialized
-[    4.078681] coresight-cti fc30d000.cti: CTI initialized
-[    4.079301] coresight-cti fc30e000.cti: CTI initialized
-[    4.079908] coresight-cti fc30f000.cti: CTI initialized
-[    4.080441] coresight-cti fc310000.cti: CTI initialized
-[    4.080922] coresight-cti fc340000.cti: CTI initialized
-[    4.081432] coresight-cti fc341000.cti: CTI initialized
-[    4.081914] coresight-cti fc342000.cti: CTI initialized
-[    4.082426] coresight-cti fc343000.cti: CTI initialized
-[    4.082991] coresight-cti fc344000.cti: CTI initialized
-[    4.083512] coresight-cti fc348000.cti: CTI initialized
-[    4.084000] coresight-cti fc34d000.cti: CTI initialized
-[    4.084544] coresight-cti fc350000.cti: CTI initialized
-[    4.085039] coresight-cti fc354000.cti: CTI initialized
-[    4.085561] coresight-cti fc358000.cti: CTI initialized
-[    4.087231] coresight-csr fc302000.csr: CSR initialized
-[    4.096482] coresight-tmc fc322000.tmc: Byte Counter feature enabled
-[    4.096691] sps:BAM 0xfc37c000 is registered.
-[    4.097539] coresight-tmc fc322000.tmc: TMC initialized
-[    4.099179] coresight-tmc fc307000.tmc: TMC initialized
-[    4.101308] coresight-tpiu fc318000.tpiu: seta gpios not specified
-[    4.101347] coresight-tpiu fc318000.tpiu: setb gpios not specified
-[    4.101692] coresight-tpiu fc318000.tpiu: TPIU initialized
-[    4.103369] coresight-funnel fc31b000.funnel: FUNNEL initialized
-[    4.103870] coresight-funnel fc319000.funnel: FUNNEL initialized
-[    4.104416] coresight-funnel fc31a000.funnel: FUNNEL initialized
-[    4.104989] coresight-funnel fc345000.funnel: FUNNEL initialized
-[    4.105544] coresight-funnel fc364000.funnel: FUNNEL initialized
-[    4.107438] coresight-replicator fc31c000.replicator: REPLICATOR initialized
-[    4.109697] coresight-stm fc321000.stm: STM initialized
-[    4.111448] coresight-hwevent fd828018.hwevent: Hardware Event driver initialized
-[    4.113720] coresight-etm fc33c000.etm: ETM initialized
-[    4.114772] coresight-etm fc33d000.etm: ETM initialized
-[    4.115826] coresight-etm fc33e000.etm: ETM initialized
-[    4.116979] coresight-etm fc33f000.etm: ETM initialized
-[    4.118540] mmc0: BKOPS_EN bit = 0
-[    4.118786] coresight-audio-etm audio_etm0.24: Audio ETM initialized
-[    4.120799] coresight-modem-etm modem_etm0.25: Modem ETM initialized
-[    4.122590] coresight-wcn-etm wcn_etm0.26: Wireless ETM initialized
-[    4.124476] coresight-rpm-etm rpm_etm0.27: RPM ETM initialized
-[    4.126721] usbcore: registered new interface driver snd-usb-audio
-[    4.132867] mmc0: new HS200 MMC card at address 0001
-[    4.136023] mmcblk0: mmc0:0001 M8G1GC 7.28 GiB 
-[    4.138270] mmcblk0rpmb: mmc0:0001 M8G1GC partition 3 512 KiB
-[    4.142574] Alternate GPT is invalid, using primary GPT.
-[    4.142993]  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29
-[    4.167962] msm-compr-dsp msm-compr-dsp: msm_compr_probe: dev name msm-compr-dsp
-[    4.170015] msm-pcm-lpa msm-pcm-lpa: msm_pcm_probe: dev name msm-pcm-lpa
-[    4.172928] platform qcom,msm-voip-dsp.42: Driver msm-voip-dsp requests probe deferral
-[    4.174429] platform qcom,msm-pcm-voice.43: Driver msm-pcm-voice requests probe deferral
-[    4.187080] platform sound.35: Driver msm8226-asoc-tapan requests probe deferral
-[    4.188036] platform sound-9302.36: Driver msm8226-asoc-tapan requests probe deferral
-[    4.189366] Netfilter messages via NETLINK v0.30.
-[    4.189639] nf_conntrack version 0.5.0 (13691 buckets, 54764 max)
-[    4.192038] ctnetlink v0.93: registering with nfnetlink.
-[    4.193211] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
-[    4.193243] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
-[    4.193989] xt_time: kernel timezone is -0000
-[    4.195492] ip_tables: (C) 2000-2006 Netfilter Core Team
-[    4.196762] arp_tables: (C) 2002 David S. Miller
-[    4.196990] TCP: cubic registered
-[    4.197016] Initializing XFRM netlink socket
-[    4.199685] NET: Registered protocol family 10
-[    4.209501] Mobile IPv6
-[    4.209617] ip6_tables: (C) 2000-2006 Netfilter Core Team
-[    4.210382] IPv6 over IPv4 tunneling driver
-[    4.212332] NET: Registered protocol family 17
-[    4.212441] NET: Registered protocol family 15
-[    4.212723] Bridge firewalling registered
-[    4.212780] Ebtables v2.0 registered
-[    4.213489] Bluetooth: RFCOMM TTY layer initialized
-[    4.213569] Bluetooth: RFCOMM socket layer initialized
-[    4.213597] Bluetooth: RFCOMM ver 1.11
-[    4.213623] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
-[    4.215723] Bluetooth: BNEP filters: protocol multicast
-[    4.215759] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
-[    4.219665] VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 3
-[    4.219777] Registering SWP/SWPB emulation handler
-[    4.247739] platform fe12f000.slim: Driver ngd_msm_ctrl requests probe deferral
-[    4.248245] platform sound-9302.36: Driver msm8226-asoc-tapan requests probe deferral
-[    4.249893] platform sound.35: Driver msm8226-asoc-tapan requests probe deferral
-[    4.251901] input: gpio-keys as /devices/gpio_keys.64/input/input2
-[    4.252380] qcom,leds-qpnp leds-qpnp-f1cf1200: Regulator get failed(-517)
-[    4.252418] qcom,leds-qpnp leds-qpnp-f1cf1200: Unable to read flash config data
-[    4.252484] spmi leds-qpnp-f1cf1200: Driver qcom,leds-qpnp requests probe deferral
-[    4.252965] pseduo_info:0x10139463
-[    4.253028] of_batterydata_read_data: node: qcom,h2a-4v35-SONY loaded,best_delta: 0x0, best_id_kohm: 0x16
-[    4.253179] qpnp_chg_vbatdet_set: voltage=4320 setting 36
-[    4.253519] qcom,qpnp-rtc qpnp-rtc-f1cf0200: setting system clock to 2015-12-01 20:58:12 UTC (1449003492)
-[    4.253564] ov9760_init_module:147
-[    4.254010] batfet: 
-[    4.254782] 8226_smbbp_boost: 5000 mV 
-[    4.255752] 8226_smbbp_otg: 
-[    4.255835] 8226_smbbp_otg: supplied by 8226_smbbp_boost
-[    4.262870] qpnp_chg_vddmax_and_trim_set: voltage=4350+0 setting vddmax: 6f, trim: 00
-[    4.265699] qpnp_chg_usb_chg_gone_irq_handler: chg_gone triggered, usb 1 3
-[    4.265769] qpnp_chg_usb_usbin_valid_irq_handler: usbin-valid triggered: 1 host_mode: 0
-[    4.265864] qpnp_chg_vddmax_and_trim_set: voltage=4350+0 setting vddmax: 6f, trim: 00
-[    4.266805] qpnp_chg_dc_dcin_valid_irq_handler: dcin-valid triggered: 0
-[    4.267460] qpnp_charger_probe: success chg_dis = 0, bpd = 1, usb = 1, dc = 0 b_health = 1 batt_present = 1
-[    4.268349] pseduo_info:0x10139463
-[    4.268489] of_batterydata_read_data: node: qcom,h2a-4v35-SONY loaded,best_delta: 0x0, best_id_kohm: 0x16
-[    4.268778] BMS: read_shutdown_soc: stored soc = 0x4a, shutdown_soc = 36
-[    4.275241] BMS: read_soc_params_raw: PON_OCV_UV = 4285573, cc = 706
-[    4.275464] BMS: read_soc_params_raw: OCV is stale or bad, estimating new OCV.
-[    4.275514] BMS: read_saved_instant_ocv: read instant ocv 3788 reg 61
-[    4.276704] BMS: estimate_ocv: estimated pon ocv = 3829548 i571960 v3737031 r167 d3000
-[    4.276742] BMS: read_soc_params_raw: instant ocv 3788 estimated 3829
-[    4.276924] BMS: read_soc_params_raw: New PON_OCV_UV = 3788000, cc = 706
-[    4.283845] BMS: load_shutdown_data: raw_soc = 34 shutdown_soc = 36 shutdown_iavg = 260 shutdown_soc_invalid = 0, battery_removed = 0
-[    4.284016] BMS: setup_vbat_monitoring: set low thr to 3420000 and high to 4330000
-[    4.296166] BMS: refresh_die_temp_monitor: low = 47209, high = 57209
-[    4.326914] BMS: calculate_state_of_charge: soc = 35 before forcing shutdown_soc = 36
-[    4.326963] BMS: calculate_state_of_charge: DONE for shutdown_soc = 36 soc is 36, adjusted ocv to 3790000uV
-[    4.328263] BMS: adjust_soc: s 36 i 582458 v 3735852 ocv 3790000 rbatt 151 uuc 41060 cc 5 r 765363 t 405
-[    4.339364] BMS: adjust_soc: s 36 i 570154 v 3737031 ocv 3790000 rbatt 150 uuc 41060 cc 6 r 759610 t 405
-[    4.344257] clock_late_init: Removing enables held for handed-off clocks
-[    4.354083] ALSA device list:
-[    4.354110]   No soundcards found.
-[    4.354309] Warning: unable to open an initial console.
-[    4.354845] Freeing init memory: 72K
-[    4.360097] get_prop_capacity: resuming charging at 36% soc
-[    4.360142] qpnp_chg_vbatdet_set: voltage=4380 setting 39
-[    4.363649] BMS: adjust_soc: s 36 i 592843 v 3735558 ocv 3790000 rbatt 150 uuc 41060 cc 7 r 759610 t 405
-[    4.367534] BMS: qpnp_bms_probe: probe success: soc =36 vbatt = 3725974 ocv = 3790000 r_sense_uohm = 10000 warm_reset = 1
-[    4.369973] msm_otg f9a55000.usb: phy_reset: success
-[    4.374868] platform sound.35: Driver msm8226-asoc-tapan requests probe deferral
-[    4.377939] platform sound-9302.36: Driver msm8226-asoc-tapan requests probe deferral
-[    4.378743] platform fe12f000.slim: Driver ngd_msm_ctrl requests probe deferral
-[    4.382158] platform fe12f000.slim: Driver ngd_msm_ctrl requests probe deferral
-[    4.384491] platform sound-9302.36: Driver msm8226-asoc-tapan requests probe deferral
-[    4.386559] platform sound.35: Driver msm8226-asoc-tapan requests probe deferral
-[    4.461735] type=1403 audit(1449003492.700:2): policy loaded auid=4294967295 ses=4294967295
-[    4.462355] SELinux: Loaded policy from /sepolicy
-[    4.471495] type=1404 audit(1449003492.710:3): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
-[    4.485145] mmc1: new high speed SDHC card at address b368
-[    4.488294] mmcblk1: mmc1:b368 NCard 7.48 GiB 
-[    4.491449]  mmcblk1: p1 p2
-[    4.495892] platform sound.35: Driver msm8226-asoc-tapan requests probe deferral
-[    4.498380] platform sound-9302.36: Driver msm8226-asoc-tapan requests probe deferral
-[    4.499174] platform fe12f000.slim: Driver ngd_msm_ctrl requests probe deferral
-[    4.606861] msm_otg f9a55000.usb: chg_type = USB_SDP_CHARGER
-[    4.611097] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESET_EVENT received
-[    6.256783] qpnp_invalid_charger_work: qpnp_invalid_charger_work usb 1 batt 1 status 2 usb online 0
-[    6.256926] qpnp_chg_iusbmax_set: mA 500
-[    6.257079] qpnp_chg_chgr_chg_fastchg_irq_handler: FAST_CHG IRQ triggered
-[    6.257126] qpnp_chg_vbatdet_set: voltage=4320 setting 36
-[    6.257254] ft5x06_i2c 5-0038: Power state changed, set noise filter to 0x1
-[    6.285978] BMS: adjust_soc: s 36 i -28784 v 3808647 ocv 3790000 rbatt 150 uuc 41060 cc 258 r 759610 t 402
-[   14.021098] init: /init.rc: 62: invalid command 'load_all_props'
-[   14.021495] init: could not import file '/init.recovery.qcom.rc' from '/init.rc'
-[   14.027721] type=1400 audit(1449003502.269:4): avc:  denied  { entrypoint } for  pid=152 comm="init" path="/sbin/healthd" dev="rootfs" ino=4281 scontext=u:r:healthd:s0 tcontext=u:object_r:rootfs:s0 tclass=file
-[   14.031045] healthd: Unrecognized healthd option: ?
-[   14.031099] healthd: wakealarm_init: timerfd_create failed
-[   15.684470] init: cannot open '/initlogo.rle'
-[   15.696698] enable_store: android_usb: already disabled
-[   15.699665] init: Unable to open persistent property directory /data/property errno: 2
-[   15.707711] init: cannot setexeccon('u:r:recovery:s0'): Invalid argument
-[   15.711935] healthd: Unrecognized healthd option: ?
-[   15.711986] healthd: wakealarm_init: timerfd_create failed
-[   15.729088] adb_open
-[   15.729129] mtp_bind_config
-[   15.730013] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
-[   15.785338] mdss_dsi_on:358 Panel already on.
-[   15.785364] mdss_dsi_unblank+:
-[   15.785380] mdss_dsi_unblank-:
-[   16.068878] msm_otg f9a55000.usb: Avail curr from USB = 100
-[   16.069136] qpnp_chg_iusbmax_set: mA 100
-[   16.069652] android_work: android_work: did not send uevent (0 0   (null))
-[   16.074184] get_prop_capacity: resuming charging at 36% soc
-[   16.074222] qpnp_chg_vbatdet_set: voltage=4380 setting 39
-[   16.091731] BMS: adjust_soc: s 36 i 448922 v 3757662 ocv 3790000 rbatt 150 uuc 41060 cc 107 r 759610 t 401
-[   16.139778] android_work: android_work: sent uevent USB_STATE=CONNECTED
-[   16.143798] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
-[   16.232977] android_work: android_work: sent uevent USB_STATE=CONNECTED
-[   16.233395] android_usb gadget: high-speed config #1: fe8050c8.android_usb
-[   16.233524] msm_otg f9a55000.usb: Avail curr from USB = 500
-[   16.233782] [isr_tr_complete_handler]host system may be mac os or linux
-[   16.234081] qpnp_chg_iusbmax_set: mA 500
-[   16.234266] qpnp_chg_chgr_chg_fastchg_irq_handler: FAST_CHG IRQ triggered
-[   16.234313] qpnp_chg_vbatdet_set: voltage=4320 setting 36
-[   16.264163] BMS: adjust_soc: s 35 i -79580 v 3818667 ocv 3790000 rbatt 153 uuc 61620 cc 122 r 759980 t 399
-[   16.286924] android_work: android_work: sent uevent USB_STATE=CONFIGURED
-[   16.392631] EXT4-fs (mmcblk0p28): mounted filesystem with ordered data mode. Opts: 
-[   16.438846] EXT4-fs (mmcblk0p29): mounted filesystem with ordered data mode. Opts: 
-[   16.539648] EXT4-fs (mmcblk0p29): mounted filesystem with ordered data mode. Opts: 
-[   16.582222] mount used greatest stack depth: 5960 bytes left
-[   16.639458] EXT4-fs (mmcblk0p29): mounted filesystem with ordered data mode. Opts: 
-[   16.717504] EXT4-fs (mmcblk0p27): mounted filesystem with ordered data mode. Opts: 
-[   22.163864] mtp_open
-[   25.146250] BMS: adjust_soc: s 35 i -101591 v 3825741 ocv 3790000 rbatt 151 uuc 61620 cc -135 r 759980 t 398
-[   45.108564] BMS: adjust_soc: s 35 i -153064 v 3828393 ocv 3790000 rbatt 151 uuc 61620 cc -807 r 759980 t 397
-[   65.107102] BMS: adjust_soc: s 35 i -113895 v 3825153 ocv 3790000 rbatt 151 uuc 61620 cc -1446 r 759980 t 397
-[   80.379743] qcom,leds-qpnp leds-qpnp-f1cf0400: bl: change to lower light 80
-[   80.379826] qcom,leds-qpnp leds-qpnp-f1cf0400: bl: change to digital 80
-[   82.390594] mdss_dsi_blank+:
-[   82.626474] mdss_dsi_blank-:End
-[   85.107353] BMS: adjust_soc: s 35 i -392595 v 3860517 ocv 3790000 rbatt 151 uuc 61620 cc -2347 r 759980 t 395
-[  105.106774] BMS: adjust_soc: s 35 i -373518 v 3866118 ocv 3790000 rbatt 151 uuc 61620 cc -4261 r 759980 t 395
-[  125.107760] BMS: adjust_soc: s 35 i -402302 v 3869361 ocv 3790000 rbatt 151 uuc 61620 cc -6208 r 759980 t 394
-[  145.107847] BMS: adjust_soc: s 35 i -366181 v 3869655 ocv 3790000 rbatt 151 uuc 61620 cc -8146 r 759980 t 393
-[  148.811376] adbd used greatest stack depth: 5144 bytes left
-[  148.900332] adbd (189): /proc/189/oom_adj is deprecated, please use /proc/189/oom_score_adj instead.
-[  150.107338] SELinux: (dev loop0, type ext2) has no security xattr handler
-[  150.109873] EXT4-fs (loop0): mounted filesystem without journal. Opts: (null)
-[  165.104276] BMS: adjust_soc: s 36 i -321480 v 3860517 ocv 3790000 rbatt 151 uuc 61620 cc -9747 r 759980 t 392
-[  185.104735] BMS: adjust_soc: s 36 i -289084 v 3860517 ocv 3790000 rbatt 151 uuc 61620 cc -11268 r 759980 t 391
-[  205.105000] BMS: adjust_soc: s 36 i -274297 v 3854625 ocv 3790000 rbatt 151 uuc 61620 cc -12618 r 759980 t 391
-[  225.105061] BMS: adjust_soc: s 36 i -305564 v 3858159 ocv 3790000 rbatt 151 uuc 61620 cc -13813 r 759980 t 390
-[  245.114244] BMS: adjust_soc: s 36 i -230274 v 3850203 ocv 3790000 rbatt 151 uuc 61620 cc -15082 r 759980 t 390
-[  265.104783] BMS: adjust_soc: s 36 i -227790 v 3849318 ocv 3790000 rbatt 151 uuc 61620 cc -16241 r 759980 t 390
-[  285.105270] BMS: adjust_soc: s 36 i -235128 v 3854919 ocv 3790000 rbatt 151 uuc 61620 cc -17461 r 759980 t 390
-[  305.145290] BMS: adjust_soc: s 36 i -214922 v 3848730 ocv 3790000 rbatt 151 uuc 61620 cc -18704 r 759980 t 390
-[  312.840394] tar used greatest stack depth: 5032 bytes left
-[  325.064535] BMS: adjust_soc: s 36 i -349700 v 3866412 ocv 3790000 rbatt 153 uuc 61620 cc -20049 r 759980 t 388
-[  345.065430] BMS: adjust_soc: s 36 i -344169 v 3865824 ocv 3790000 rbatt 153 uuc 61620 cc -21546 r 759980 t 388
-[  355.024437] type=1400 audit(1449003842.659:5): avc:  denied  { relabelto } for  pid=265 comm="adbd" name="system.img" dev="loop0" ino=100723 scontext=u:r:adbd:s0 tcontext=u:object_r:cache_file:s0 tclass=file
-[  356.605330] type=1400 audit(1449003844.239:6): avc:  denied  { relabelto } for  pid=276 comm="adbd" name="video.d" dev="loop0" ino=90101 scontext=u:r:adbd:s0 tcontext=u:object_r:cache_file:s0 tclass=dir
-[  358.847030] SysRq : Emergency Remount R/O
-[  358.852113] EXT4-fs (mmcblk0p28): re-mounted. Opts: (null)
-[  358.858090] EXT4-fs (mmcblk0p29): re-mounted. Opts: (null)
-[  358.877950] Emergency Remount complete
-[  358.948999] mdss_fb_release_all: try to close unopened fb 1! from init
-[  358.949146] mdss_fb_release_all: unknown process init pid=1 mfd->ref=0
-[  358.949887] Restarting system with command ''.
-[  358.949916] Going down for restart now
-[  358.950737] Calling SCM to disable SPMI PMIC arbiter
+[    0.000000] console [tty0] enabled
+[    0.002076] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+[    0.002163] pid_max: default: 32768 minimum: 301
+[    0.002503] Security Framework initialized
+[    0.002744] AppArmor: AppArmor initialized
+[    0.002785] Yama: becoming mindful.
+[    0.002986] Mount-cache hash table entries: 512
+[    0.004549] Initializing cgroup subsys debug
+[    0.004598] Initializing cgroup subsys cpuacct
+[    0.004638] Initializing cgroup subsys freezer
+[    0.004810] CPU: Testing write buffer coherency: ok
+[    0.004903] ftrace: allocating 30893 entries in 91 pages
+[    0.047669] ------------[ cut here ]------------
+[    0.047733] WARNING: at /home/alexforsale/phablet/kernel/xiaomi/armani/kernel/trace/ftrace.c:1590 ftrace_bug+0xec/0x174()
+[    0.047811] Modules linked in:
+[    0.047847] Backtrace: 
+[    0.047894] [<c010a95c>] (dump_backtrace+0x0/0x114) from [<c09d7e0c>] (dump_stack+0x20/0x24)
+[    0.047958]  r6:c0215cbc r5:00000009 r4:00000000 r3:271ae91c
+[    0.048045] [<c09d7dec>] (dump_stack+0x0/0x24) from [<c019c6b8>] (warn_slowpath_common+0x5c/0x74)
+[    0.048124] [<c019c65c>] (warn_slowpath_common+0x0/0x74) from [<c019c6fc>] (warn_slowpath_null+0x2c/0x34)
+[    0.048194]  r8:60000153 r7:00000000 r6:00000000 r5:c01003a0 r4:c0fe8a09
+[    0.048271] r3:00000009
+[    0.048322] [<c019c6d0>] (warn_slowpath_null+0x0/0x34) from [<c0215cbc>] (ftrace_bug+0xec/0x174)
+[    0.048400] [<c0215bd0>] (ftrace_bug+0x0/0x174) from [<c02160f4>] (ftrace_process_locs+0x3b0/0x500)
+[    0.048467]  r5:f1c21e40 r4:00000000
+[    0.048527] [<c0215d44>] (ftrace_process_locs+0x0/0x500) from [<c0e122f8>] (ftrace_init+0x98/0x18c)
+[    0.048607] [<c0e12260>] (ftrace_init+0x0/0x18c) from [<c0e00ab4>] (start_kernel+0x308/0x368)
+[    0.048671]  r7:c2d79240 r6:00000000 r5:00000000 r4:c0f3dfe8
+[    0.048755] [<c0e007ac>] (start_kernel+0x0/0x368) from [<0000803c>] (0x803c)
+[    0.048808]  r7:c0f42ac4 r6:c0f00f00 r5:c0f3c4dc r4:10c5387d
+[    0.048914] ---[ end trace da227214a82491b7 ]---
+[    0.048954] ftrace faulted on writing [<c01003a0>] asm_do_IRQ+0x10/0x1c
+[    0.049499] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.049630] hw perfevents: enabled with ARMv7 Cortex-A7 PMU driver, 5 counters available
+[    0.054461] Setting up static identity map for 0x9edbb0 - 0x9edc14
+[    0.054552] Configuring XPU violations to be fatal errors
+[    0.054604] MSM Memory Dump table set up
+[    0.061193] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.066239] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+[    0.071457] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+[    0.071777] Brought up 4 CPUs
+[    0.071913] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+[    0.073734] devtmpfs: initialized
+[    0.096536] EVM: security.selinux
+[    0.096576] EVM: security.SMACK64
+[    0.096611] EVM: security.capability
+[    0.098680] dummy: 
+[    0.293106] NET: Registered protocol family 16
+[    0.308929] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.312174] KPI: Bootloader start count = 28427
+[    0.312223] KPI: Bootloader end count = 49792
+[    0.312264] KPI: Bootloader display count = 40542
+[    0.312305] KPI: Bootloader load kernel count = 2123
+[    0.312350] KPI: Kernel MPM timestamp = 92646
+[    0.312389] KPI: Kernel MPM Clock frequency = 32768
+[    0.312443] socinfo_print: v8, id=221, ver=2.0, raw_id=2325, raw_ver=1, hw_plat=11, hw_plat_ver=0
+[    0.312457]  accessory_chip=0, hw_plat_subtype=0, pmic_model=65540, pmic_die_revision=131073
+[    0.345236] gpiochip_add: registered GPIOs 0 to 116 on device: msmgpio
+[    0.357303] msm_watchdog f9017000.qcom,wdt: MSM Watchdog Initialized
+[    0.415262] 8226_s1: 500 <--> 1275 mV at 0 mV normal idle 
+[    0.416323] 8226_s1_corner: 0 <--> 0 mV at 0 mV normal idle 
+[    0.417413] 8226_s1_corner_ao: 0 <--> 0 mV at 0 mV normal idle 
+[    0.418465] 8226_s1_floor_corner: 0 <--> 0 mV at 0 mV normal idle 
+[    0.419558] 8226_s3: 1200 <--> 1300 mV at 1200 mV normal idle 
+[    0.420717] 8226_s4: 1800 <--> 2200 mV at 1800 mV normal idle 
+[    0.421880] 8226_s5: 1150 mV normal idle 
+[    0.422963] 8226_l1: 1225 mV normal idle 
+[    0.424100] 8226_l2: 1200 mV normal idle 
+[    0.425207] 8226_l3: 750 <--> 1337 mV at 0 mV normal idle 
+[    0.426231] 8226_l3_ao: 750 <--> 1337 mV at 0 mV normal idle 
+[    0.427283] 8226_l3_so: 750 <--> 1337 mV at 750 mV normal idle 
+[    0.428482] 8226_l4: 1200 mV normal idle 
+[    0.429558] 8226_l5: 1200 mV normal idle 
+[    0.430751] 8226_l6: 1800 mV normal idle 
+[    0.431887] 8226_l7: 1850 mV normal idle 
+[    0.433294] 8226_l8: 1800 mV normal idle 
+[    0.434363] 8226_l8_ao: 1800 mV normal idle 
+[    0.435444] 8226_l8_so: 1800 mV normal idle 
+[    0.436564] 8226_l9: 2050 mV normal idle 
+[    0.437708] 8226_l10: 1800 mV normal idle 
+[    0.438932] 8226_l12: 1800 mV normal idle 
+[    0.440063] 8226_l14: 2750 mV normal idle 
+[    0.441188] 8226_l15: 2800 mV normal idle 
+[    0.442312] 8226_l16: 3000 <--> 3350 mV at 3300 mV normal idle 
+[    0.443419] 8226_l17: 2950 mV normal idle 
+[    0.444499] 8226_l18: 2950 mV normal idle 
+[    0.445612] 8226_l19: 2850 mV normal idle 
+[    0.446755] 8226_l20: 3075 mV normal idle 
+[    0.447856] 8226_l21: 1800 <--> 2950 mV at 2950 mV normal idle 
+[    0.448989] 8226_l22: 1800 <--> 2950 mV at 2950 mV normal idle 
+[    0.450110] 8226_l23: 1800 <--> 2950 mV at 2950 mV normal idle 
+[    0.451273] 8226_l24: 1300 <--> 1350 mV at 1300 mV normal idle 
+[    0.452400] 8226_l25: 1775 <--> 2125 mV at 1775 mV normal idle 
+[    0.453547] 8226_l26: 1225 mV normal idle 
+[    0.454639] 8226_l27: 2050 mV normal idle 
+[    0.455782] 8226_l28: 1800 <--> 2950 mV at 2950 mV normal idle 
+[    0.456912] 8226_lvs1: 
+[    0.458104] 8226_s2: 900 <--> 1350 mV at 1150 mV 
+[    0.458487] spm_regulator_probe: name=8226_s2, range=MV, voltage=1150000 uV, mode=AUTO, step rate=9600 uV/us
+[    0.506283] AXI: msm_bus_fabric_init_driver(): msm_bus_fabric_init_driver
+[    0.508772] AXI: msm_bus_fabric_probe(): Coresight support absent for bus: 2048
+[    0.510734] AXI: msm_bus_fabric_probe(): Coresight support absent for bus: 1024
+[    0.512745] AXI: msm_bus_fabric_probe(): Coresight support absent for bus: 4096
+[    0.515871] AXI: msm_bus_fabric_probe(): Coresight support absent for bus: 5120
+[    0.516815] AXI: msm_bus_fabric_probe(): Coresight support absent for bus: 0
+[    0.517418] AXI: msm_bus_fabric_probe(): Coresight support absent for bus: 6144
+[    0.520038] qup_i2c f9927000.i2c: Missing 'qcom,master-id' DT entry
+[    0.521564] kworker/u:0 used greatest stack depth: 5920 bytes left
+[    0.523483] qup_i2c f9928000.i2c: Missing 'qcom,master-id' DT entry
+[    0.525245] cpr_efuse_init: efuse_addr = 0xfc4b8000 (len=0x1000)
+[    0.525439] cpr_fuse_is_setting_expected: [row:54] = 0x1c0000000000 @42:6 == 7 ?: yes
+[    0.525518] cpr_parse_speed_bin_fuse: [row: 22]: 0x202b0b1a000001a9, speed_bits = 1
+[    0.525601] cpr_fuse_is_setting_expected: [row:22] = 0x202b0b1a000001a9 @53:1 == 0 ?: no
+[    0.525677] cpr_fuse_is_setting_expected: [row:22] = 0x202b0b1a000001a9 @24:3 == 2 ?: no
+[    0.525758] cpr_pvs_init: pvs voltage: [1050000 1150000 1290000] uV
+[    0.525814] cpr_pvs_init: ceiling voltage: [1050000 1150000 1290000] uV
+[    0.525872] cpr_pvs_init: floor voltage: [1050000 1050000 1100000] uV
+[    0.526435] cpr_fuse_is_setting_expected: [row:138] = 0x8404a36a3a9595 @57:1 == 1 ?: no
+[    0.526524] cpr_init_cpr_efuse: [row:138] = 0x8404a36a3a9595
+[    0.526582] cpr_init_cpr_efuse: disable = 0, local = 1
+[    0.526629] cpr_init_cpr_efuse: Corner[1]: ro_sel = 2, target quot = 874
+[    0.526684] cpr_init_cpr_efuse: Corner[2]: ro_sel = 2, target quot = 937
+[    0.526740] cpr_init_cpr_efuse: Corner[3]: ro_sel = 2, target quot = 1429
+[    0.526848] cpr_parse_pvs_version_fuse: [row: 22]: 0x202b0b1a000001a9, pvs_version = 2
+[    0.526944] cpr_get_corner_quot_adjustment: quotient adjustment scaling factor: 0.610
+[    0.527009] cpr_get_corner_quot_adjustment: adjusted quotient[12] = 1429
+[    0.527064] cpr_get_corner_quot_adjustment: adjusted quotient[11] = 1371
+[    0.527118] cpr_get_corner_quot_adjustment: adjusted quotient[10] = 1312
+[    0.527173] cpr_get_corner_quot_adjustment: adjusted quotient[9] = 1278
+[    0.527227] cpr_get_corner_quot_adjustment: adjusted quotient[8] = 1254
+[    0.527281] cpr_get_corner_quot_adjustment: adjusted quotient[7] = 1184
+[    0.527335] cpr_get_corner_quot_adjustment: adjusted quotient[6] = 1125
+[    0.527389] cpr_get_corner_quot_adjustment: adjusted quotient[5] = 1067
+[    0.527518] cpr_init_cpr_parameters: CPR is enabled by default.
+[    0.527586] cpr_config: Timer count: 0x17700 (for 5000 us)
+[    0.528146] apc_corner: 0 <--> 0 mV 
+[    0.530776] msm-thermal qcom,msm-thermal.67: probe_freq_mitigation:Failed reading node=/soc/qcom,msm-thermal, key=qcom,freq-mitigation-temp. KTM continues
+[    0.530885] msm-thermal qcom,msm-thermal.67: probe_psm:Failed reading node=/soc/qcom,msm-thermal, key=qcom,pmic-sw-mode-temp. KTM continues
+[    0.531468] vdd_restriction_reg_init:Defer vdd rstr freq init
+[    0.531532] msm-thermal qcom,msm-thermal.67: probe_ocr:Failed reading node=/soc/qcom,msm-thermal, key=qti,pmic-opt-curr-temp. KTM continues
+[    0.532890] persistent_ram: found existing buffer, size 76397, start 76397
+[    0.534318] console [ram-1] enabled
+[    0.534380]  LCD_KCAL_DEBUG : add_lcd_kcal_devices 
+[    0.534673] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+[    0.534751] hw-breakpoint: maximum watchpoint size is 8 bytes.
+[    0.536047] msm-jtag-fuse fc4be024.jtagfuse: JTag Fuse initialized
+[    0.543085] sps:sps is ready.
+[    0.546358] gdsc_venus: 
+[    0.547053] gdsc_mdss: 
+[    0.547729] gdsc_jpeg: 
+[    0.548438] gdsc_vfe: 
+[    0.549155] gdsc_oxili_cx: 
+[    0.549756] gdsc_usb_hsic: 
+[    0.551871] msm_ocmem fdd00000.qcom,ocmem: OCMEM Virtual addr c8800000
+[    0.552113] Physical OCMEM zone layout:
+[    0.552160]  zone graphics	: 0xfec00000 - 0xfec1ffff ( 128 KB)
+[    0.608747] bio: create slab <bio-0> at 0
+[    0.611540] cma: Assigned CMA region at 0 to 8.qcom,ion-heap device
+[    0.611744] ION-heap mm: Cannot specify alignment for this type of heap
+[    0.611994] cma: Assigned CMA region at 0 to 16.qcom,ion-heap device
+[    0.612192] ION-heap adsp: Cannot specify alignment for this type of heap
+[    0.612440] cma: Assigned CMA region at 0 to 1b.qcom,ion-heap device
+[    0.613715] ION heap system created
+[    0.614003] ION heap kmalloc created
+[    0.614088] ION heap mm created at 0x38000000 with size 6d00000
+[    0.614230] ION heap adsp created at 0x32400000 with size 2a00000
+[    0.614316] ION heap qsecom created at 0x37000000 with size d00000
+[    0.614457] ION heap audio created at 0x3f300000 with size 314000
+[    0.614550] ION heap pil_1 created at 0x0dc00000 with size 1900000
+[    0.617635] SCSI subsystem initialized
+[    0.618009] usbcore: registered new interface driver usbfs
+[    0.618267] usbcore: registered new interface driver hub
+[    0.618538] usbcore: registered new device driver usb
+[    0.619386] Linux media interface: v0.10
+[    0.619545] Linux video capture interface: v2.00
+[    0.623009] msm_iommu_v1 fda64000.qcom,iommu: device jpeg_iommu mapped at c84e0000, with 3 ctx banks
+[    0.625169] msm_iommu_v1 fd928000.qcom,iommu: device mdp_iommu mapped at c8560000, with 3 ctx banks
+[    0.627304] msm_iommu_v1 fdc84000.qcom,iommu: device venus_iommu mapped at c8840000, with 3 ctx banks
+[    0.629327] msm_iommu_v1 fdb10000.qcom,iommu: device kgsl_iommu mapped at c8860000, with 3 ctx banks
+[    0.631302] msm_iommu_v1 fda44000.qcom,iommu: device vfe_iommu mapped at c8880000, with 3 ctx banks
+[    0.633779] msm_iommu_ctx_v1 fda6c000.qcom,iommu-ctx: context jpeg_enc0 using bank 0
+[    0.634190] msm_iommu_ctx_v1 fda6d000.qcom,iommu-ctx: context jpeg_enc1 using bank 1
+[    0.634494] msm_iommu_ctx_v1 fda6e000.qcom,iommu-ctx: context jpeg_dec using bank 2
+[    0.634821] msm_iommu_ctx_v1 fd930000.qcom,iommu-ctx: context mdp_0 using bank 0
+[    0.635141] msm_iommu_ctx_v1 fd931000.qcom,iommu-ctx: context mdp_1 using bank 1
+[    0.635458] msm_iommu_ctx_v1 fd932000.qcom,iommu-ctx: context mdp_2 using bank 2
+[    0.635779] msm_iommu_ctx_v1 fdc8c000.qcom,iommu-ctx: context venus_ns using bank 0
+[    0.636102] msm_iommu_ctx_v1 fdc8d000.qcom,iommu-ctx: context venus_cp using bank 1
+[    0.636403] msm_iommu_ctx_v1 fdc8e000.qcom,iommu-ctx: context venus_fw using bank 2
+[    0.636763] msm_iommu_ctx_v1 fdb18000.qcom,iommu-ctx: context gfx3d_user using bank 0
+[    0.637062] msm_iommu_ctx_v1 fdb19000.qcom,iommu-ctx: context gfx3d_priv using bank 1
+[    0.637364] msm_iommu_ctx_v1 fdb1a000.qcom,iommu-ctx: context gfx3d_spare using bank 2
+[    0.637754] msm_iommu_ctx_v1 fda4c000.qcom,iommu-ctx: context vfe0 using bank 0
+[    0.638052] msm_iommu_ctx_v1 fda4d000.qcom,iommu-ctx: context vfe1 using bank 1
+[    0.638362] msm_iommu_ctx_v1 fda4e000.qcom,iommu-ctx: context cpp using bank 2
+[    0.639834] Advanced Linux Sound Architecture Driver Version 1.0.25.
+[    0.641101] Bluetooth: Core ver 2.16
+[    0.641224] NET: Registered protocol family 31
+[    0.641321] Bluetooth: HCI device and connection manager initialized
+[    0.641387] Bluetooth: HCI socket layer initialized
+[    0.641439] Bluetooth: L2CAP socket layer initialized
+[    0.641843] Bluetooth: SCO socket layer initialized
+[    0.642597] cfg80211: Calling CRDA to update world regulatory domain
+[    0.642707] cfg80211: World regulatory domain updated:
+[    0.642755] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp)
+[    0.642826] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[    0.642893] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm)
+[    0.642960] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm)
+[    0.643027] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz), (300 mBi, 2000 mBm)
+[    0.643094] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (300 mBi, 2000 mBm)
+[    0.643160] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm)
+[    0.643409] NetLabel: Initializing
+[    0.643450] NetLabel:  domain hash size = 128
+[    0.643491] NetLabel:  protocols = UNLABELED CIPSOv4
+[    0.643664] NetLabel:  unlabeled traffic allowed by default
+[    0.644661] Switching to clocksource arch_sys_counter
+[    0.722546] AppArmor: AppArmor Filesystem Enabled
+[    0.745809] NET: Registered protocol family 2
+[    0.746740] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.751336] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.761138] TCP bind hash table entries: 65536 (order: 8, 1310720 bytes)
+[    0.763496] TCP: Hash tables configured (established 131072 bind 65536)
+[    0.763552] TCP: reno registered
+[    0.763768] UDP hash table entries: 512 (order: 2, 24576 bytes)
+[    0.763998] UDP-Lite hash table entries: 512 (order: 2, 24576 bytes)
+[    0.764725] NET: Registered protocol family 1
+[    0.765452] Trying to unpack rootfs image as initramfs...
+[    1.157459] Freeing initrd memory: 4320K
+[    1.163920] clock-a7 f9011050.qcom,clock-a7: Speed bin: 1
+[    1.163977] clock-a7 f9011050.qcom,clock-a7: PVS version: 2
+[    1.171582] gpiochip_add: registered GPIOs 992 to 1023 on device: smp2p
+[    1.173605] gpiochip_add: registered GPIOs 960 to 991 on device: smp2p
+[    1.174086] gpiochip_add: registered GPIOs 928 to 959 on device: smp2p
+[    1.176237] gpiochip_add: registered GPIOs 896 to 927 on device: smp2p
+[    1.176724] gpiochip_add: registered GPIOs 864 to 895 on device: slave-kernel
+[    1.178854] gpiochip_add: registered GPIOs 832 to 863 on device: master-kernel
+[    1.179447] gpiochip_add: registered GPIOs 800 to 831 on device: smp2p
+[    1.181601] gpiochip_add: registered GPIOs 768 to 799 on device: smp2p
+[    1.182092] gpiochip_add: registered GPIOs 736 to 767 on device: slave-kernel
+[    1.184297] gpiochip_add: registered GPIOs 704 to 735 on device: master-kernel
+[    1.184894] gpiochip_add: registered GPIOs 672 to 703 on device: smp2p
+[    1.187118] gpiochip_add: registered GPIOs 640 to 671 on device: smp2p
+[    1.187634] gpiochip_add: registered GPIOs 608 to 639 on device: slave-kernel
+[    1.189907] gpiochip_add: registered GPIOs 576 to 607 on device: master-kernel
+[    1.190710] gpiochip_add: registered GPIOs 544 to 575 on device: rdbg
+[    1.193063] gpiochip_add: registered GPIOs 512 to 543 on device: rdbg
+[    1.193579] gpiochip_add: registered GPIOs 480 to 511 on device: rdbg
+[    1.196009] gpiochip_add: registered GPIOs 448 to 479 on device: rdbg
+[    1.199345] pil-q6v5-lpass fe200000.qcom,lpass: using secure boot
+[    1.209460] pil_pronto fb21b000.qcom,pronto: using secure boot
+[    1.214439] pil_venus fdce0000.qcom,venus: using secure boot
+[    1.236080] NET: Registered protocol family 27
+[    1.262742] msm_rpm_log_probe: OK
+[    1.293067] ocmem: Client sensors (id: 6) not allowed to use OCMEM
+[    1.293158] OCMEM notifier registration failed
+[    1.293216] sns_ocmem_main: sns_ocmem_init failed -14
+[    1.305082] audit: initializing netlink socket (disabled)
+[    1.305229] type=2000 audit(1.290:1): initialized
+[    1.392708] highmem bounce pool size: 64 pages
+[    1.405702] NTFS driver 2.1.30 [Flags: R/O].
+[    1.406113] fuse init (API version 7.18)
+[    1.407169] msgmni has been set to 1425
+[    1.409217] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+[    1.409257] io scheduler noop registered
+[    1.409278] io scheduler deadline registered (default)
+[    1.409317] io scheduler row registered
+[    1.409529] io scheduler cfq registered
+[    1.410005] gpiochip_add: registered GPIOs 440 to 447 on device: pm8226-gpio
+[    1.410625] gpiochip_add: registered GPIOs 432 to 439 on device: pm8226-mpp
+[    1.411459] mdss_mdp_probe: MDP HW Base phy_Address=0xfd900000 virt=0xc88c0000
+[    1.411508] mdss_mdp_probe: MDSS VBIF HW Base phy_Address=0xfd924000 virt=0xc8556000
+[    1.411783] mdss_mdp_parse_dt_handler: Error from prop qcom,mdss-ib-factor-overlap : u32 array read
+[    1.411823] mdss_mdp_parse_dt_fudge_factors: err reading qcom,mdss-ib-factor-overlap
+[    1.411865] mdss_mdp_parse_dt_prop_len: Error from prop qcom,mdss-ad-off : spec error in device tree
+[    1.411917] mdss_mdp_parse_bootarg: mdss_mdp_parse_bootarg:1482: pan_name=[1:dsi:0:qcom,mdss_dsi_auo_720p_video] end=[]
+[    1.412714] mdss_mdp_pp_argc: >>>>> mdss_mdp_pp_argc 
+[    1.412746] update_preset_lcdc_lut: update_preset_lcdc_lut red=[255], green=[255], blue=[255]
+[    1.412784] mdss_mdp_pp_argc_kcal: >>>>> mdss_mdp_pp_argc_kcal 
+[    1.414423] mdss_dsi_ctrl_probe: DSI Ctrl name = MDSS DSI CTRL->0
+[    1.414547] mdss_dsi_panel_init: Panel Name = auo 720p video mode dsi panel
+[    1.414864] mdss_dsi_panel_init:1057 Continuous splash flag enabled.
+[    1.414897] mdss_dsi_panel_init:1069 Partial update disabled.
+[    1.415286] dsi_panel_device_register:1279, Disp_en gpio not specified
+[    1.415381] mdss_dsi_retrieve_ctrl_resources: dsi base=c8574800 size=600
+[    1.445102] mdss_register_panel: adding framebuffer device fd922800.qcom,mdss_dsi
+[    1.445535] mdss_hw_init: MDP Rev=10010001
+[    1.447451] mdss_register_panel: adding framebuffer device qcom,mdss_wb_panel.23
+[    1.448690] mdss_fb_parse_dt: split framebuffer left=0 right=0
+[    1.448720] mdss_fb_alloc_fbmem_iommu: mdss_fb_alloc_fbmem_iommu frame buffer reserve_size=0x800000
+[    1.449063] mdss_fb_alloc_fbmem_iommu: allocating 8388608 bytes at c9000000 (3f800000 phys) for fb 0
+[    1.449468] mdss_fb_register: FrameBuffer[0] 720x1280 size=8388608 registered successfully!
+[    1.449555] mdss_mdp_overlay_init: mdss_mdp_overlay_init: unable to add event timer
+[    1.449849] mdss_fb_parse_dt: split framebuffer left=0 right=0
+[    1.450094] mdss_fb_register: FrameBuffer[1] 1280x720 size=0 registered successfully!
+[    1.450167] mdss_mdp_overlay_init: mdss_mdp_overlay_init: unable to add event timer
+[    1.527213] msm_serial_hsl_probe: detected port #0 (ttyHSL0)
+[    1.527489] f991f000.serial: ttyHSL0 at MMIO 0xf991f000 (irq = 141) is a MSM
+[    1.530684] msm_serial_hsl_init: driver initialized
+[    1.536101] diagchar initialized nowkgsl bus ib [0] = 1600000000
+[    1.538537] kgsl bus ib [1] = 3200000000
+[    1.538558] kgsl bus ib [2] = 4256000000
+[    1.538579] kgsl bus index is 2 for pwrlevel 0
+[    1.538600] kgsl bus index is 1 for pwrlevel 1
+[    1.538622] kgsl bus index is 0 for pwrlevel 2
+[    1.539160] kgsl kgsl-3d0: |kgsl_iommu_init| MMU type set for device is IOMMU
+[    1.552055] brd: module loaded
+[    1.556602] loop: module loaded
+[    1.557310] QSEECOM: qseecom_probe: support_bus_scaling=0x1
+[    1.557337] QSEECOM: qseecom_probe: bam_pipe_pair=0x2
+[    1.557365] QSEECOM: qseecom_probe: qsee-ce-hw-instance=0x0
+[    1.557394] QSEECOM: qseecom_probe: hlos-ce-hw-instance=0x0
+[    1.557465] QSEECOM: qseecom_probe: secure app region addr=0xd980000 size=0x256000
+[    1.558659] 8226_l28: Failed to create debugfs directory
+[    1.559021] isa1000_setup: isa1000 set up
+[    1.559334] i2c-core: driver [tabla-i2c-core] using legacy suspend method
+[    1.559365] i2c-core: driver [tabla-i2c-core] using legacy resume method
+[    1.559548] i2c-core: driver [wcd9xxx-i2c-core] using legacy suspend method
+[    1.559578] i2c-core: driver [wcd9xxx-i2c-core] using legacy resume method
+[    1.560294] SCSI Media Changer driver v0.25 
+[    1.561147] sps: BAM device 0xf9904000 is not registered yet.
+[    1.561187] sps:BAM 0xf9904000 is registered.
+[    1.561531] sps:BAM 0xf9904000 (va:0xc8830000) enabled: ver:0x15, number of pipes:24
+[    1.562014] spi_qsd f9923000.spi: master is unqueued, this is deprecated
+[    1.567153] modprobe used greatest stack depth: 5728 bytes left
+[    1.567539] spi_qsd f9923000.spi: msm_spi_request_gpios: gpio_request for pin 0 failed with error -16
+[    1.567600] spi_qsd f9923000.spi: can't setup spi0.3, status -16
+[    1.567632] spi_master spi0: spi_device register error /soc/spi@f9923000/ethernet-switch@3
+[    1.569144] tun: Universal TUN/TAP device driver, 1.6
+[    1.569176] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[    1.569464] rmnet_init: BAM devices[9]
+[    1.579679] PPP generic driver version 2.4.2
+[    1.580003] PPP BSD Compression module registered
+[    1.580030] PPP Deflate Compression module registered
+[    1.588171] modprobe used greatest stack depth: 5452 bytes left
+[    1.588532] PPP MPPE Compression module registered
+[    1.588562] NET: Registered protocol family 24
+[    1.588630] SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256) (6 bit encapsulation enabled).
+[    1.588670] CSLIP: code copyright 1989 Regents of the University of California.
+[    1.589129] wcnss_wlan probed in built-in mode
+[    1.591108] usbcore: registered new interface driver asix
+[    1.591207] usbcore: registered new interface driver cdc_ether
+[    1.591283] usbcore: registered new interface driver net1080
+[    1.591357] usbcore: registered new interface driver cdc_subset
+[    1.591443] usbcore: registered new interface driver zaurus
+[    1.591655] usbcore: registered new interface driver cdc_ncm
+[    1.593364] msm_otg f9a55000.usb: msm_otg probe
+[    1.595591] msm_otg f9a55000.usb: OTG regs = c87f8000
+[    1.598105] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.598475] Unable to get vbus_otg
+[    1.598499] msm_hsusb_host msm_hsusb_host: unable to register with transceiver
+[    1.598556] platform msm_hsusb_host: Driver msm_hsusb_host requests probe deferral
+[    1.599812] usbcore: registered new interface driver cdc_acm
+[    1.599839] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[    1.599872] Initializing USB Mass Storage driver...
+[    1.599980] usbcore: registered new interface driver usb-storage
+[    1.600008] USB Mass Storage support registered.
+[    1.600071] usbcore: registered new interface driver ums-alauda
+[    1.600138] usbcore: registered new interface driver ums-cypress
+[    1.600205] usbcore: registered new interface driver ums-datafab
+[    1.600271] usbcore: registered new interface driver ums-freecom
+[    1.600338] usbcore: registered new interface driver ums-isd200
+[    1.600405] usbcore: registered new interface driver ums-jumpshot
+[    1.600474] usbcore: registered new interface driver ums-karma
+[    1.600540] usbcore: registered new interface driver ums-onetouch
+[    1.600610] usbcore: registered new interface driver ums-sddr09
+[    1.600686] usbcore: registered new interface driver ums-sddr55
+[    1.600753] usbcore: registered new interface driver ums-usbat
+[    1.600921] usbcore: registered new interface driver usbserial
+[    1.600949] usbserial: USB Serial Driver core
+[    1.601025] usbcore: registered new interface driver qc_csvt
+[    1.601096] USB Serial support registered for qc_csvt
+[    1.601172] usbcore: registered new interface driver usb_ehset_test
+[    1.602409] msm_hsusb msm_hsusb: [ci13xxx_start] hw_ep_max = 32
+[    1.603203] mbim_init: initialize 1 instances
+[    1.603408] mbim_init: Initialized 1 ports
+[    1.606051] rndis_qc_init: initialize rndis QC instance
+[    1.606857] android_usb gadget: Mass Storage Function, version: 2009/09/11
+[    1.606890] android_usb gadget: Number of LUNs=2
+[    1.606916]  lun0: LUN: removable read only CD-ROM file: (no medium)
+[    1.606944]  lun1: LUN: removable file: (no medium)
+[    1.607428] android_usb gadget: android_usb ready
+[    1.608708] mousedev: PS/2 mouse device common for all mice
+[    1.609105] usbcore: registered new interface driver xpad
+[    1.609134] ft5x06_i2c_init
+[    1.609246] num_fw = 4
+[    1.609341] i2c-pull-up = 1
+[    1.609359] reset gpio = 16
+[    1.609375] irq gpio = 17
+[    1.609391] x_max = 720
+[    1.609407] y_max = 1280
+[    1.609422] z_max = 255
+[    1.609438] w_max = 200
+[    1.609454] landing_jiffies = 1000
+[    1.609472] landing_threshold = 16
+[    1.609490] staying_threshold = 8
+[    1.609508] raw min = 7000
+[    1.609524] raw max = 10000
+[    1.609541] key_num = 3
+[    1.609557] keymap[0] = 139
+[    1.609574] keypos[0] = 2
+[    1.609591] key[0]: 155 1317 10 50
+[    1.609609] keymap[1] = 102
+[    1.609626] keypos[1] = 6
+[    1.609643] key[1]: 355 1317 10 50
+[    1.609662] keymap[2] = 158
+[    1.609679] keypos[2] = 10
+[    1.609697] key[2]: 565 1317 10 50
+[    1.609715] key_num = 3
+[    1.609731] keymap[0] = 139
+[    1.609747] keypos[0] = 2
+[    1.609764] key[0]: 155 1319 10 50
+[    1.609783] keymap[1] = 102
+[    1.609800] keypos[1] = 6
+[    1.609817] key[1]: 355 1319 10 50
+[    1.609836] keymap[2] = 158
+[    1.609853] keypos[2] = 10
+[    1.609870] key[2]: 565 1319 10 50
+[    1.609888] key_num = 3
+[    1.609904] keymap[0] = 139
+[    1.609921] keypos[0] = 2
+[    1.609938] key[0]: 155 1319 10 50
+[    1.609957] keymap[1] = 102
+[    1.609973] keypos[1] = 6
+[    1.609990] key[1]: 355 1319 10 50
+[    1.610009] keymap[2] = 158
+[    1.610026] keypos[2] = 10
+[    1.610043] key[2]: 565 1319 10 50
+[    1.610062] key_num = 3
+[    1.610077] keymap[0] = 139
+[    1.610094] keypos[0] = 2
+[    1.610111] key[0]: 155 1319 10 50
+[    1.610130] keymap[1] = 102
+[    1.610147] keypos[1] = 6
+[    1.610164] key[1]: 355 1319 10 50
+[    1.610183] keymap[2] = 158
+[    1.610199] keypos[2] = 10
+[    1.610217] key[2]: 565 1319 10 50
+[    1.610236] firmare 0 chip = 0xa, vendor = 0x51 name = ft5316_firmware.fw
+[    1.825801] ft5x06_i2c 5-0038: firmware vendor is 51
+[    1.825944] ft5x06_i2c 5-0038: chip id = 0x14, found it!
+[    1.826075] ft5x06_i2c 5-0038: firmware name = ft5336_firmware_ofilm.fw
+[    1.826818] ft5x06_i2c 5-0038: firmware version is 0e
+[    1.828089] input: ft5x06 as /devices/f9927000.i2c/i2c-5/5-0038/input/input0
+[    1.830731] #### init for imagis #####
+[    1.834962] [ Imagis ] ist30xx_probe(), the i2c addr=0x50
+[    1.835329] ### reset gpio = 16 ####
+[    1.835453] ### irq gpio = 17 ####
+[    1.835549] ### max x = 720 ####
+[    1.835642] ### max y = 1280 ####
+[    1.835735] ### max w = 200 ####
+[    1.835827] ### key num = 3 ####
+[    1.835920] #### key [0] = 139 ####
+[    1.836018] #### key [1] = 102 ####
+[    1.836115] #### key [2] = 158 ####
+[    1.836293] [ Imagis ] irq gpio request failed!
+[    1.836418] [ Imagis ] Error, ist30xx mem free
+[    1.837814] IST30XX: probe of 5-0050 failed with error -16
+[    1.844189] using rtc device, qpnp_rtc, for alarms
+[    1.844396] qcom,qpnp-rtc qpnp-rtc-f1de3000: rtc core: registered qpnp_rtc as rtc0
+[    1.846038] i2c /dev entries driver
+[    1.887329] msm_eeprom_platform_probe MM data miss:1059
+[    1.887626] msm_eeprom_parse_memory_map: pageen not needed
+[    1.887669] msm_eeprom_parse_memory_map: pageen not needed
+[    1.887709] msm_eeprom_parse_memory_map: pageen not needed
+[    1.887749] msm_eeprom_parse_memory_map: pageen not needed
+[    1.887789] msm_eeprom_parse_memory_map: pageen not needed
+[    1.887830] msm_eeprom_parse_memory_map: pageen not needed
+[    1.887872] msm_eeprom_parse_memory_map: pageen not needed
+[    1.887914] msm_eeprom_parse_memory_map: pageen not needed
+[    1.887956] msm_eeprom_parse_memory_map: pageen not needed
+[    1.887998] msm_eeprom_parse_memory_map: pageen not needed
+[    1.888040] msm_eeprom_parse_memory_map: pageen not needed
+[    1.888083] msm_eeprom_parse_memory_map: pageen not needed
+[    1.888126] msm_eeprom_parse_memory_map: pageen not needed
+[    1.888169] msm_eeprom_parse_memory_map: pageen not needed
+[    1.888213] msm_eeprom_parse_memory_map: pageen not needed
+[    1.888258] msm_eeprom_parse_memory_map: pageen not needed
+[    1.888303] msm_eeprom_parse_memory_map: pageen not needed
+[    1.888348] msm_eeprom_parse_memory_map: pageen not needed
+[    1.888394] msm_eeprom_parse_memory_map: pageen not needed
+[    2.374982] h3lte_set_sensor_name: sensor_name = , is set = 0
+[    2.450887] msm_eeprom_platform_probe MM data miss:1059
+[    2.452087] msm_eeprom_parse_memory_map: pageen not needed
+[    2.906068] h3lte_set_sensor_name: sensor_name = ov5693_olq5f08, is set = 1
+[    2.952119] msm_sensor_driver_get_dt_data:809 Invalid sensor position
+[    2.952286] msm_sensor_driver_get_dt_data:818 Invalid sensor mode supported
+[    2.952464] g_sctrl[0] f103e000
+[    2.953371] msm_sensor_driver_get_dt_data:809 Invalid sensor position
+[    2.953550] msm_sensor_driver_get_dt_data:818 Invalid sensor mode supported
+[    2.953724] g_sctrl[1] f103e200
+[    2.965703] __msm_jpeg_init:951] Jpeg Device id 0
+[    2.996538] lirc_dev: IR Remote Control driver registered, major 236 
+[    2.996688] IR NEC protocol handler initialized
+[    2.996783] IR RC5(x) protocol handler initialized
+[    2.996879] IR RC6 protocol handler initialized
+[    2.996971] IR JVC protocol handler initialized
+[    2.997063] IR Sony protocol handler initialized
+[    2.997156] IR RC5 (streamzap) protocol handler initialized
+[    2.997260] IR SANYO protocol handler initialized
+[    2.997355] IR MCE Keyboard/mouse protocol handler initialized
+[    2.997461] IR LIRC bridge handler initialized
+[    2.997968] usbcore: registered new interface driver uvcvideo
+[    2.998081] USB Video Class driver (1.1.1)
+[    3.001484] Driver for 1-wire Dallas network protocol.
+[    3.003672] w1-gpio: w1_gpio_probe:gpio 439
+[    3.185846] BMS: qpnp_bms_init: QPNP BMS INIT
+[    3.185970] BMS: qpnp_bms_init: QPNP BMS INIT
+[    3.186086] spmi qpnp-bms-armani-f1ddfc00: Driver qcom,qpnp-bms-armani requests probe deferral
+[    3.186359] spmi qpnp-charger-armani-f1ddfa00: Driver qcom,qpnp-charger-armani requests probe deferral
+[    3.220600] qpnp_vadc_conv_seq_request: not a valid VADC channel
+[    3.220633] thermal_sys: failed to read out thermal zone 7
+[    3.220874] qpnp_vadc_conv_seq_request: not a valid VADC channel
+[    3.220904] thermal_sys: failed to read out thermal zone 8
+[    3.221611] device-mapper: uevent: version 1.0.3
+[    3.222079] device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+[    3.222823] cpuidle: using governor ladder
+[    3.222849] cpuidle: using governor menu
+[    3.222914] sdhci: Secure Digital Host Controller Interface driver
+[    3.222942] sdhci: Copyright(c) Pierre Ossman
+[    3.223645] sdhci-pltfm: SDHCI platform and OF driver helper
+[    3.228190] mmc0: no vmmc regulator found
+[    3.231751] mmc0: SDHCI controller on msm_sdcc.1 [msm_sdcc.1] using ADMA
+[    3.236400] mmc1: no vmmc regulator found
+[    3.238859] mmc1: SDHCI controller on msm_sdcc.2 [msm_sdcc.2] using ADMA
+[    3.240867] qcom,leds-qpnp leds-qpnp-f1de3200: bl: change to higher light 4095
+[    3.240927] qcom,leds-qpnp leds-qpnp-f1de3200: bl: change to analog 4095
+[    3.242126] qcom,leds-qpnp leds-qpnp-f1e02000: Regulator get failed(-517)
+[    3.242158] qcom,leds-qpnp leds-qpnp-f1e02000: Unable to read flash config data
+[    3.242205] spmi leds-qpnp-f1e02000: Driver qcom,leds-qpnp requests probe deferral
+[    3.245595] usbcore: registered new interface driver usbhid
+[    3.245626] usbhid: USB HID core driver
+[    3.246370] zram: Created 1 device(s) ...
+[    3.247142] ashmem: initialized
+[    3.247311] logger: created 1024K log 'log_main'
+[    3.247493] logger: created 1024K log 'log_events'
+[    3.247664] logger: created 1024K log 'log_radio'
+[    3.247835] logger: created 1024K log 'log_system'
+[    3.248594] sps:BAM 0xf9a44000 is registered.
+[    3.248622] usb_bam_ipa_create_resources: Failed to create USB_PROD resource
+[    3.249125] PMIC@SID0 Power-on reason: Triggered from KPD (power key press) and 'warm' boot
+[    3.249476] input: qpnp_pon as /devices/virtual/input/input1
+[    3.250791] PMIC@SID0: PM8226 v2.1 options: 0, 0, 2, 2
+[    3.251240] coresight-fuse fc4be024.fuse: Fuse initialized
+[    3.251988] coresight-cti fc308000.cti: CTI initialized
+[    3.252200] coresight-cti fc309000.cti: CTI initialized
+[    3.252400] coresight-cti fc30a000.cti: CTI initialized
+[    3.252609] coresight-cti fc30b000.cti: CTI initialized
+[    3.252810] coresight-cti fc30c000.cti: CTI initialized
+[    3.253021] coresight-cti fc30d000.cti: CTI initialized
+[    3.253224] coresight-cti fc30e000.cti: CTI initialized
+[    3.253434] coresight-cti fc30f000.cti: CTI initialized
+[    3.253635] coresight-cti fc310000.cti: CTI initialized
+[    3.253848] coresight-cti fc340000.cti: CTI initialized
+[    3.254076] coresight-cti fc341000.cti: CTI initialized
+[    3.254297] coresight-cti fc342000.cti: CTI initialized
+[    3.254502] coresight-cti fc343000.cti: CTI initialized
+[    3.254825] coresight-cti fc344000.cti: CTI initialized
+[    3.255045] coresight-cti fc348000.cti: CTI initialized
+[    3.255240] coresight-cti fc34d000.cti: CTI initialized
+[    3.255444] coresight-cti fc350000.cti: CTI initialized
+[    3.255642] coresight-cti fc354000.cti: CTI initialized
+[    3.255848] coresight-cti fc358000.cti: CTI initialized
+[    3.256560] coresight-csr fc302000.csr: CSR initialized
+[    3.259778] coresight-tmc fc322000.tmc: Byte Counter feature enabled
+[    3.259871] sps:BAM 0xfc37c000 is registered.
+[    3.260228] coresight-tmc fc322000.tmc: TMC initialized
+[    3.260839] coresight-tmc fc307000.tmc: TMC initialized
+[    3.261849] coresight-tpiu fc318000.tpiu: seta gpios not specified
+[    3.261888] coresight-tpiu fc318000.tpiu: setb gpios not specified
+[    3.262018] coresight-tpiu fc318000.tpiu: TPIU initialized
+[    3.266910] coresight-funnel fc31b000.funnel: FUNNEL initialized
+[    3.267104] coresight-funnel fc319000.funnel: FUNNEL initialized
+[    3.267312] coresight-funnel fc31a000.funnel: FUNNEL initialized
+[    3.267525] coresight-funnel fc345000.funnel: FUNNEL initialized
+[    3.267729] coresight-funnel fc364000.funnel: FUNNEL initialized
+[    3.268501] coresight-replicator fc31c000.replicator: REPLICATOR initialized
+[    3.269456] coresight-stm fc321000.stm: STM initialized
+[    3.270242] coresight-hwevent fd828018.hwevent: Hardware Event driver initialized
+[    3.277298] coresight-etm fc33c000.etm: ETM initialized
+[    3.279716] coresight-etm fc33d000.etm: ETM initialized
+[    3.282140] coresight-etm fc33e000.etm: ETM initialized
+[    3.284563] coresight-etm fc33f000.etm: ETM initialized
+[    3.291996] coresight-audio-etm audio_etm0.24: Audio ETM initialized
+[    3.292846] coresight-modem-etm modem_etm0.25: Modem ETM initialized
+[    3.293684] coresight-wcn-etm wcn_etm0.26: Wireless ETM initialized
+[    3.294531] coresight-rpm-etm rpm_etm0.27: RPM ETM initialized
+[    3.295619] usbcore: registered new interface driver snd-usb-audio
+[    3.312820] msm-compr-dsp msm-compr-dsp: msm_compr_probe: dev name msm-compr-dsp
+[    3.313936] msm-pcm-lpa msm-pcm-lpa: msm_pcm_probe: dev name msm-pcm-lpa
+[    3.315560] platform qcom,msm-voip-dsp.49: Driver msm-voip-dsp requests probe deferral
+[    3.316325] platform qcom,msm-pcm-voice.50: Driver msm-pcm-voice requests probe deferral
+[    3.322400] platform sound.42: Driver msm8226-asoc-tapan requests probe deferral
+[    3.323018] GACT probability NOT on
+[    3.323054] Mirror/redirect action on
+[    3.323080] u32 classifier
+[    3.323098]     Actions configured
+[    3.323440] TCP: cubic registered
+[    3.324557] NET: Registered protocol family 10
+[    3.326030] mmc0: BKOPS_EN bit = 0
+[    3.328624] Mobile IPv6
+[    3.328650] IPv6 over IPv4 tunneling driver
+[    3.330171] NET: Registered protocol family 17
+[    3.330311] Bridge firewalling registered
+[    3.330352] Ebtables v2.0 registered
+[    3.330629] Bluetooth: RFCOMM TTY layer initialized
+[    3.330678] Bluetooth: RFCOMM socket layer initialized
+[    3.330706] Bluetooth: RFCOMM ver 1.11
+[    3.330729] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    3.330756] Bluetooth: BNEP filters: protocol multicast
+[    3.330786] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+[    3.330949] Registering the dns_resolver key type
+[    3.331632] VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 3
+[    3.331712] Registering SWP/SWPB emulation handler
+[    3.334843] mmc0: new HS200 MMC card at address 0001
+[    3.335869] mmcblk0: mmc0:0001 M8G1GC 7.28 GiB 
+[    3.336519] mmcblk0rpmb: mmc0:0001 M8G1GC partition 3 512 KiB
+[    3.338463] Alternate GPT is invalid, using primary GPT.
+[    3.338616]  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29
+[    3.345317] registered taskstats version 1
+[    3.367589] modprobe used greatest stack depth: 5296 bytes left
+[    3.368175] AppArmor: AppArmor sha1 policy hashing enabled
+[    3.370180] platform sound.42: Driver msm8226-asoc-tapan requests probe deferral
+[    3.371411] qcom,leds-qpnp leds-qpnp-f1e02000: Regulator get failed(-517)
+[    3.371450] qcom,leds-qpnp leds-qpnp-f1e02000: Unable to read flash config data
+[    3.371501] spmi leds-qpnp-f1e02000: Driver qcom,leds-qpnp requests probe deferral
+[    3.371763] bq2022: w1_bq2022_battery_id: pseduo_info:0x10139463
+[    3.371907] chg:qpnp_chg_vbatdet_set: voltage=4320 setting 36
+[    3.372521] batfet: 
+[    3.372891] 8226_smbbp_boost: 5000 mV 
+[    3.373307] 8226_smbbp_otg: 
+[    3.373354] 8226_smbbp_otg: supplied by 8226_smbbp_boost
+[    3.377215] input: gpio-keys as /devices/gpio_keys.75/input/input2
+[    3.378003] qcom,qpnp-rtc qpnp-rtc-f1de3000: setting system clock to 2015-12-01 21:21:29 UTC (1449004889)
+[    3.379028] msm_thermal: Interrupt mode init
+[    3.382121] clock_late_init: Removing enables held for handed-off clocks
+[    3.388155] ALSA device list:
+[    3.388180]   No soundcards found.
+[    3.388601] Freeing init memory: 200K
+[    3.389843] chg:qpnp_chg_vddmax_and_trim_set: voltage=4350+0 setting vddmax: 6f, trim: 00
+[    3.391013] chg:qpnp_chg_usb_chg_gone_irq_handler: chg_gone triggered, usb 1 3
+[    3.391102] chg:qpnp_chg_usb_usbin_valid_irq_handler: usbin-valid triggered: 1 host_mode: 0
+[    3.391218] chg:qpnp_chg_vddmax_and_trim_set: voltage=4350+0 setting vddmax: 6f, trim: 00
+[    3.391394] chg:qpnp_chg_dc_dcin_valid_irq_handler: dcin-valid triggered: 0
+[    3.391724] chg:qpnp_charger_probe: success chg_dis = 0, bpd = 1, usb = 1, dc = 0 b_health = 1 batt_present = 1
+[    3.392434] bq2022: w1_bq2022_battery_id: pseduo_info:0x10139463
+[    3.392657] BMS: read_shutdown_soc: stored soc = 0x4c, shutdown_soc = 37
+[    3.445580] BMS: read_soc_params_raw: PON_OCV_UV = 4287457, cc = 5c44
+[    3.445638] BMS: read_soc_params_raw: OCV is stale or bad, estimating new OCV.
+[    3.445685] BMS: read_saved_instant_ocv: read instant ocv 3792 reg 62
+[    3.450380] BMS: estimate_ocv: estimated pon ocv = 3831356 i959137 v3695181 r167 d24000
+[    3.450421] BMS: read_soc_params_raw: instant ocv 3792 estimated 3831
+[    3.450607] BMS: read_soc_params_raw: New PON_OCV_UV = 3792000, cc = 5c44
+[    3.482359] BMS: load_shutdown_data: raw_soc = 36 shutdown_soc = 37 shutdown_iavg = 250 shutdown_soc_invalid = 0, battery_removed = 0
+[    3.482568] BMS: setup_vbat_monitoring: set low thr to 3420000 and high to 4330000
+[    3.498086] BMS: refresh_die_temp_monitor: low = 49272, high = 59272
+[    3.556323] BMS: calculate_state_of_charge: soc = 36 before forcing shutdown_soc = 37
+[    3.556373] BMS: calculate_state_of_charge: DONE for shutdown_soc = 37 soc is 37, adjusted ocv to 3798000uV
+[    3.561065] BMS: adjust_soc: s 37 i 968277 v 3695769 ocv 3798000 rbatt 150 uuc 82160 cc 21 r 811761 t 399
+[    3.617225] BMS: adjust_soc: s 38 i 984386 v 3694296 ocv 3798000 rbatt 148 uuc 61620 cc 29 r 821600 t 399
+[    3.658483] BMS: adjust_soc: s 38 i 1073044 v 3686046 ocv 3798000 rbatt 148 uuc 61620 cc 37 r 821600 t 399
+[    3.664060] mmc1: new high speed SDHC card at address b368
+[    3.665080] mmcblk1: mmc1:b368 NCard 7.48 GiB 
+[    3.667426]  mmcblk1: p1 p2
+[    3.736572] BMS: qpnp_bms_probe: probe success: soc =37 vbatt = 3662524 ocv = 3798000 r_sense_uohm = 10000 warm_reset = 1
+[    3.738332] platform sound.42: Driver msm8226-asoc-tapan requests probe deferral
+[    3.739145] msm_otg f9a55000.usb: phy_reset: success
+[    3.741144] platform sound.42: Driver msm8226-asoc-tapan requests probe deferral
+[    3.781933] chg:get_prop_capacity: resuming charging at 37% soc
+[    3.781970] chg:qpnp_chg_vbatdet_set: voltage=4380 setting 39
+[    3.979986] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESET_EVENT received
+[    3.989122] udevadm used greatest stack depth: 5088 bytes left
+[    4.818283] initrd: checking filesystem integrity for the userdata partition
+[    4.826190] EXT3-fs (mmcblk0p29): error: couldn't mount because of unsupported optional features (40)
+[    4.835823] EXT2-fs (mmcblk0p29): error: couldn't mount because of unsupported optional features (40)
+[    4.849655] EXT4-fs (mmcblk0p29): warning: maximal mount count reached, running e2fsck is recommended
+[    4.850611] EXT4-fs (mmcblk0p29): mounted filesystem with ordered data mode. Opts: errors=remount-ro
+[    7.195557] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.195622] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1150000 uV
+[    7.195681] cpr_scale: Down: cpr status = 0x0000536d (error_steps=11)
+[    7.195738] cpr_scale: 11 is over down-limit(1): Clamp
+[    7.195814] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1140000 uV
+[    7.205889] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.205949] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1140000 uV
+[    7.206008] cpr_scale: Down: cpr status = 0x00004df1 (error_steps=12)
+[    7.206064] cpr_scale: 12 is over down-limit(1): Clamp
+[    7.206139] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1130000 uV
+[    7.216220] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.216279] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1130000 uV
+[    7.216338] cpr_scale: Down: cpr status = 0x00004ab9 (error_steps=14)
+[    7.216394] cpr_scale: 14 is over down-limit(1): Clamp
+[    7.216469] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1120000 uV
+[    7.226539] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.226597] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1120000 uV
+[    7.226656] cpr_scale: Down: cpr status = 0x000045f9 (error_steps=14)
+[    7.226712] cpr_scale: 14 is over down-limit(1): Clamp
+[    7.226785] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1110000 uV
+[    7.236861] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.236920] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1110000 uV
+[    7.236979] cpr_scale: Down: cpr status = 0x000041f9 (error_steps=14)
+[    7.237035] cpr_scale: 14 is over down-limit(1): Clamp
+[    7.237110] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1100000 uV
+[    7.247183] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.247241] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1100000 uV
+[    7.247300] cpr_scale: Down: cpr status = 0x00003d31 (error_steps=12)
+[    7.247356] cpr_scale: 12 is over down-limit(1): Clamp
+[    7.247429] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1090000 uV
+[    7.257508] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.257565] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1090000 uV
+[    7.257623] cpr_scale: Down: cpr status = 0x00003971 (error_steps=12)
+[    7.257679] cpr_scale: 12 is over down-limit(1): Clamp
+[    7.257753] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1080000 uV
+[    7.267838] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.267898] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1080000 uV
+[    7.267956] cpr_scale: Down: cpr status = 0x00003425 (error_steps=9)
+[    7.268011] cpr_scale: 9 is over down-limit(1): Clamp
+[    7.268085] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1070000 uV
+[    7.278159] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.278216] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1070000 uV
+[    7.278275] cpr_scale: Down: cpr status = 0x00002f65 (error_steps=9)
+[    7.278330] cpr_scale: 9 is over down-limit(1): Clamp
+[    7.278404] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1060000 uV
+[    7.288486] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.288564] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1060000 uV
+[    7.288641] cpr_scale: Down: cpr status = 0x00002b21 (error_steps=8)
+[    7.288714] cpr_scale: 8 is over down-limit(1): Clamp
+[    7.288813] cpr_scale: DOWN: -> new_volt[corner:4, fuse_corner:2] = 1050000 uV
+[    7.298888] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.298966] cpr_scale: last_volt[corner:4, fuse_corner:2] = 1050000 uV
+[    7.299042] cpr_scale: Down: cpr status = 0x0000259d (error_steps=7)
+[    7.299117] cpr_scale: [corn:4, fuse_corner:2] @ floor: 1050000 <= 1050000: NACK
+[    7.299207] cpr_scale: gcnt = 0x000133a9 (quot = 937)
+[    7.775088] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.775139] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1290000 uV
+[    7.775182] cpr_scale: Down: cpr status = 0x00005bb1 (error_steps=12)
+[    7.775223] cpr_scale: 12 is over down-limit(1): Clamp
+[    7.775285] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1280000 uV
+[    7.785352] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.785399] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1280000 uV
+[    7.785442] cpr_scale: Down: cpr status = 0x000058bd (error_steps=15)
+[    7.785483] cpr_scale: 15 is over down-limit(1): Clamp
+[    7.785543] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1270000 uV
+[    7.795615] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.795660] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1270000 uV
+[    7.795703] cpr_scale: Down: cpr status = 0x000055bd (error_steps=15)
+[    7.795743] cpr_scale: 15 is over down-limit(1): Clamp
+[    7.795801] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1260000 uV
+[    7.805871] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.805919] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1260000 uV
+[    7.805962] cpr_scale: Down: cpr status = 0x000051bd (error_steps=15)
+[    7.806002] cpr_scale: 15 is over down-limit(1): Clamp
+[    7.806062] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1250000 uV
+[    7.816122] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.816166] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1250000 uV
+[    7.816208] cpr_scale: Down: cpr status = 0x00004cfd (error_steps=15)
+[    7.816249] cpr_scale: 15 is over down-limit(1): Clamp
+[    7.816306] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1240000 uV
+[    7.826375] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.826421] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1240000 uV
+[    7.826465] cpr_scale: Down: cpr status = 0x000049fd (error_steps=15)
+[    7.826505] cpr_scale: 15 is over down-limit(1): Clamp
+[    7.826564] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1230000 uV
+[    7.836637] cpr_irq_handler: IRQ_STATUS = 0x05
+[    7.836684] cpr_scale: last_volt[corner:6, fuse_corner:3] = 1230000 uV
+[    7.836727] cpr_scale: Down: cpr status = 0x0000463d (error_steps=15)
+[    7.836767] cpr_scale: 15 is over down-limit(1): Clamp
+[    7.836826] cpr_scale: DOWN: -> new_volt[corner:6, fuse_corner:3] = 1220000 uV
+[    7.858136] systemd-udevd used greatest stack depth: 5072 bytes left
+[    7.863712] systemd-udevd used greatest stack depth: 5024 bytes left
+[    8.394984] chg:qpnp_invalid_charger_work: qpnp_invalid_charger_work usb 1 batt 1 status 2 usb online 0
+[    8.395103] chg:qpnp_chg_iusbmax_set: mA 500
+[    8.395157] ft5x06_i2c 5-0038: Power state changed, set noise filter to 0x1
+[    8.395216] chg:qpnp_chg_chgr_chg_fastchg_irq_handler: FAST_CHG IRQ triggered
+[    8.395262] chg:qpnp_chg_vbatdet_set: voltage=4320 setting 36
+[    8.532916] BMS: adjust_soc: s 38 i 322301 v 3765030 ocv 3798000 rbatt 148 uuc 61620 cc 1209 r 821600 t 399
+[    8.807910] initrd: checking filesystem for userdata took (including e2fsck) 4 seconds
+[    8.808021] initrd: mounting /dev/mmcblk0p29
+[    8.816820] EXT3-fs (mmcblk0p29): error: unrecognized mount option "discard" or missing value
+[    8.845695] EXT4-fs: Warning: mounting with data=journal disables delayed allocation and O_DIRECT support!
+[    8.850093] EXT4-fs (mmcblk0p29): mounted filesystem with journalled data mode. Opts: discard,data=journal
+[    8.854689] initrd: boot mode: ubuntu
+[    8.878281] initrd: mounting system.img (user mode)
+[    8.902536] initrd: mounting device image as ro
+[    8.912072] EXT3-fs (loop1): error: couldn't mount because of unsupported optional features (40)
+[    8.956300] EXT2-fs (loop1): error: couldn't mount because of unsupported optional features (40)
+[    8.977625] EXT4-fs (loop1): mounted filesystem with ordered data mode. Opts: (null)
+[    8.986672] initrd: device is armani
+[   10.125481] cpr_irq_handler: IRQ_STATUS = 0x05
+[   10.125536] cpr_scale: last_volt[corner:5, fuse_corner:3] = 1290000 uV
+[   10.125584] cpr_scale: Down: cpr status = 0x00006e39 (error_steps=14)
+[   10.125628] cpr_scale: 14 is over down-limit(1): Clamp
+[   10.125696] cpr_scale: DOWN: -> new_volt[corner:5, fuse_corner:3] = 1280000 uV
+[   10.541182] init used greatest stack depth: 4656 bytes left
+[   11.283767] initrd: checking fstab /root/var/lib/lxc/android/rootfs/fstab* for additional mount points
+[   11.361420] initrd: checking mount label cache
+[   11.363105] initrd: mounting /dev/disk/by-partlabel/cache as /root/android//cache
+[   11.373495] EXT4-fs (mmcblk0p28): mounted filesystem with ordered data mode. Opts: barrier=1
+[   11.403039] initrd: checking mount label persist
+[   11.404660] initrd: mounting /dev/disk/by-partlabel/persist as /root/android//persist
+[   11.421655] EXT4-fs (mmcblk0p26): warning: maximal mount count reached, running e2fsck is recommended
+[   11.422300] EXT4-fs (mmcblk0p26): recovery complete
+[   11.424297] EXT4-fs (mmcblk0p26): mounted filesystem with ordered data mode. Opts: barrier=1
+[   11.441133] initrd: checking mount label modem
+[   11.442728] initrd: mounting /dev/disk/by-partlabel/modem as /root/android//firmware
+[   11.471585] initrd: checking mount label boot
+[   11.473173] initrd: mounting /dev/disk/by-partlabel/boot as /root/android//boot
+[   11.498503] initrd: checking mount label recovery
+[   11.500121] initrd: mounting /dev/disk/by-partlabel/recovery as /root/android//recovery
+[   11.535925] initrd: checking mount label mmc_host
+[   11.552389] initrd: checking mount label usb1
+[   11.579144] initrd: checking mount label zram0
+[   11.580929] initrd: mounting /dev/zram0 as /root/android/none
+[   11.590319] initrd: mounting /root/var/lib/lxc/android/system.img as /root/android/system
+[   11.665132] cpr_irq_handler: IRQ_STATUS = 0x05
+[   11.665185] cpr_scale: last_volt[corner:5, fuse_corner:3] = 1280000 uV
+[   11.665232] cpr_scale: Down: cpr status = 0x00006775 (error_steps=13)
+[   11.665282] cpr_scale: 13 is over down-limit(1): Clamp
+[   11.665346] cpr_scale: DOWN: -> new_volt[corner:5, fuse_corner:3] = 1270000 uV
+[   11.675419] cpr_irq_handler: IRQ_STATUS = 0x05
+[   11.675468] cpr_scale: last_volt[corner:5, fuse_corner:3] = 1270000 uV
+[   11.675515] cpr_scale: Down: cpr status = 0x000063fd (error_steps=15)
+[   11.675558] cpr_scale: 15 is over down-limit(1): Clamp
+[   11.675621] cpr_scale: DOWN: -> new_volt[corner:5, fuse_corner:3] = 1260000 uV
+[   11.795634] Adding 102396k swap on /root/userdata/SWAP.img.  Priority:-1 extents:7 across:163840k SS
+[   12.578347] init: ureadahead-touch main process (709) terminated with status 1
+[   12.745009] list-records used greatest stack depth: 4568 bytes left
+[   13.035154] cpr_irq_handler: IRQ_STATUS = 0x05
+[   13.035213] cpr_scale: last_volt[corner:7, fuse_corner:3] = 1290000 uV
+[   13.035265] cpr_scale: Down: cpr status = 0x00004ce9 (error_steps=10)
+[   13.035311] cpr_scale: 10 is over down-limit(1): Clamp
+[   13.035377] cpr_scale: DOWN: -> new_volt[corner:7, fuse_corner:3] = 1280000 uV
+[   13.780636] init: could not import file '/init.carrier.rc' from '/init.rc'
+[   13.780717] init: could not import file '/init.cm.rc' from '/init.rc'
+[   13.782314] init: do_chown: Could not access /selinux/booleans
+[   13.782500] init: do_chown: Could not access /sys/fs/selinux/booleans
+[   14.429870] init: cannot open '/initlogo.rle'
+[   14.550107] init: Detected MSM SOC ID=221 SOC VER=0 BOARD TYPE=QRD
+[   14.550659] init: failed to open '/sys/class/graphics/fb2/msm_fb_type'
+[   15.133908] diag: In diag_send_msg_mask_update, invalid status 0
+[   15.134243] diag: In diag_send_log_mask_update, invalid status 0
+[   15.146455] healthd: wakealarm_init: timerfd_create failed
+[   15.150011] tapan-slim tapan-slim-pgd: Looking up qcom,cdc-micbias4-cfilt-sel property in node /soc/slim@fe12f000/tapan_codec failed
+[   15.150096] tapan-slim tapan-slim-pgd: Looking up qcom,cdc-dmic-sample-rate property in node /soc/slim@fe12f000/tapan_codec failed
+[   15.730305] init: using deprecated syntax for specifying property 'ro.serialno', use ${name} instead
+[   15.745216] init: using deprecated syntax for specifying property 'ro.product.manufacturer', use ${name} instead
+[   15.745460] init: using deprecated syntax for specifying property 'ro.product.model', use ${name} instead
+[   17.555208] failed: no power_down_setting
+[   17.555249] msm_camera_fill_vreg_params:68 i 0 j 1 cam_vio
+[   17.555284] msm_camera_fill_vreg_params:79 i 1 j 2 cam_vana
+[   17.555310] msm_camera_fill_vreg_params:57 i 2 j 0 cam_vdig
+[   17.555336] msm_camera_fill_vreg_params:90 i 3 j 3 cam_vaf
+[   17.555362] msm_camera_fill_vreg_params:90 i 6 j 3 cam_vaf
+[   17.555392] msm_camera_fill_vreg_params:57 i 7 j 0 cam_vdig
+[   17.555419] msm_camera_fill_vreg_params:79 i 8 j 2 cam_vana
+[   17.555448] msm_camera_fill_vreg_params:68 i 9 j 1 cam_vio
+[   17.776030] s5k3h2yx_owt8a01a probe succeeded
+[   18.177635] failed: no power_down_setting
+[   18.177678] msm_camera_fill_vreg_params:79 i 0 j 2 cam_vana
+[   18.177709] msm_camera_fill_vreg_params:68 i 1 j 1 cam_vio
+[   18.177734] msm_camera_fill_vreg_params:57 i 2 j 0 cam_vdig
+[   18.177760] msm_camera_fill_vreg_params:57 i 6 j 0 cam_vdig
+[   18.177786] msm_camera_fill_vreg_params:68 i 7 j 1 cam_vio
+[   18.177811] msm_camera_fill_vreg_params:79 i 8 j 2 cam_vana
+[   18.315598] ov9760_q1v05a probe succeeded
+[   21.595085] [rmnet0] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.595742] [rmnet1] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.596292] [rmnet2] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.596879] [rmnet3] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.597610] [rmnet4] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.598183] [rmnet5] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.598721] [rmnet6] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.599421] [rmnet7] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.600174] [rmnet_usb0] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.600755] [rev_rmnet0] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.601489] [rev_rmnet1] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.606254] [rev_rmnet2] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.606788] [rev_rmnet3] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.607639] [rev_rmnet4] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.608174] [rev_rmnet5] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.625201] [rev_rmnet6] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.625844] [rev_rmnet7] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.626409] [rev_rmnet8] error: rmnet_ioct called for unsupported cmd[35585]
+[   21.914605] [rmnet6] error: rmnet_ioct called for unsupported cmd[35143]
+[   21.935365] [rmnet6] error: rmnet_ioct called for unsupported cmd[35143]
+[   21.993593] [rmnet7] error: rmnet_ioct called for unsupported cmd[35143]
+[   21.994503] [rmnet7] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.042710] [rmnet0] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.045398] [rmnet0] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.088526] [rmnet_usb0] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.089324] [rmnet_usb0] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.091287] [rmnet1] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.093483] [rmnet1] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.116355] [rev_rmnet0] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.117311] [rev_rmnet0] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.134103] [rev_rmnet4] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.135379] [rev_rmnet4] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.141937] Notify: smsm init
+[   22.152716] [rmnet2] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.153422] [rmnet2] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.185770] [rev_rmnet1] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.190001] [rev_rmnet1] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.205208] msm_ipc_router_send_control_msg: xprt_info not initialized
+[   22.207169] [rev_rmnet5] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.208491] [rev_rmnet5] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.231375] msm_ipc_router_send_control_msg: xprt_info not initialized
+[   22.243492] [rmnet3] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.246077] [rmnet3] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.262695] [rev_rmnet2] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.264210] [rev_rmnet2] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.286784] [rev_rmnet6] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.287772] [rev_rmnet6] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.317999] [rmnet4] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.318751] [rmnet4] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.335617] [rev_rmnet3] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.336516] [rev_rmnet3] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.350220] [rev_rmnet7] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.350993] [rev_rmnet7] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.365007] [rmnet5] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.365839] [rmnet5] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.384480] [rev_rmnet8] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.385436] [rev_rmnet8] error: rmnet_ioct called for unsupported cmd[35143]
+[   22.498625] diag: In diag_send_msg_mask_update, invalid status 0
+[   22.498668] diag: In diag_send_log_mask_update, invalid status 0
+[   25.971937] diag: In diag_send_msg_mask_update, invalid status 0
+[   25.971979] diag: In diag_send_log_mask_update, invalid status 0
+[   28.653684] wcnss: no space available for smd frame
+[   28.675004] wcnss: no space available for smd frame
+[   28.704918] wcnss: no space available for smd frame
+[   28.734957] wcnss: no space available for smd frame
+[   57.948440] ch_notify on a closed smd_pkt_dev id:0
+[   57.991980] ch_notify on a closed smd_pkt_dev id:1
+[   58.007217] ch_notify on a closed smd_pkt_dev id:2
+[   58.038051] ch_notify on a closed smd_pkt_dev id:3
+[   58.058312] ch_notify on a closed smd_pkt_dev id:4
+[   58.086462] ch_notify on a closed smd_pkt_dev id:5
+[   58.116658] ch_notify on a closed smd_pkt_dev id:6
+[   58.170355] ch_notify on a closed smd_pkt_dev id:7
+[   71.256617] [rmnet6] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.257256] [rmnet6] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.264619] [rmnet7] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.265269] [rmnet7] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.272635] [rmnet0] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.273514] [rmnet0] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.276725] [rmnet1] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.278096] [rmnet1] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.280321] [rev_rmnet0] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.282538] [rev_rmnet4] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.285176] [rmnet2] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.286033] [rmnet2] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.288343] [rev_rmnet1] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.290642] [rev_rmnet5] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.295101] [rmnet3] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.295685] [rmnet3] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.297478] [rev_rmnet2] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.299255] [rev_rmnet6] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.300943] [rmnet4] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.301465] [rmnet4] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.303158] [rev_rmnet3] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.305098] [rev_rmnet7] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.306845] [rmnet5] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.307369] [rmnet5] error: rmnet_ioct called for unsupported cmd[35585]
+[   71.309067] [rev_rmnet8] error: rmnet_ioct called for unsupported cmd[35585]
+[   80.175797] QSEECOM: __qseecom_get_fw_data: Failed to locate blob cmnlib.b03
+[   80.176704] QSEECOM: qseecom_ioctl: failed load_app request: -5
+[   80.182559] msm_cpp fda04000.qcom,cpp: Fail to loc blob cpp_firmware_v1_2_0.fw from dev f1dcd208, Error: -2
+[   80.230000] MSM-CPP msm_cpp_poll:465 Poll failed: expect: 0xa0a4b4f
+[   80.275139] MSM-CPP msm_cpp_poll:465 Poll failed: expect: 0x3e646d63
+[   80.320229] MSM-CPP msm_cpp_poll:465 Poll failed: expect: 0x3e646d63
+[   80.365320] MSM-CPP msm_cpp_poll:465 Poll failed: expect: 0x1
+[   80.410387] MSM-CPP msm_cpp_poll:465 Poll failed: expect: 0x1
+[   80.455629] MSM-CPP msm_cpp_poll:465 Poll failed: expect: 0xabcdefaa
+[   80.500807] MSM-CPP msm_cpp_poll:465 Poll failed: expect: 0x3e646d63
+[   80.545898] MSM-CPP msm_cpp_poll:465 Poll failed: expect: 0x2
+[   80.590966] MSM-CPP msm_cpp_poll:465 Poll failed: expect: 0xc
+[   80.636125] MSM-CPP msm_cpp_poll:465 Poll failed: expect: 0xabcdefaa
+[   80.649671] msm_cci_release invalid ref count 0 / cci state 1
+[   80.649850] msm_sensor_cci_i2c_util line 496 rc = -22
+[   80.649975] msm_actuator_close:787 cci_init failed
+[   80.650433] msm_csiphy_release csiphy dev NULL / ref_count ZERO
+[   80.650587] msm_csiphy_release csiphy dev NULL / ref_count ZERO
+[   80.651224] msm_csid_release: csid invalid state 1
+[   80.651362] msm_csid_release: csid invalid state 1
+[   80.651489] MSM-SENSOR-INIT msm_sensor_init_subdev_ioctl:126 default
+[   80.656423] ------------[ cut here ]------------
+[   80.656464] WARNING: at /home/alexforsale/phablet/kernel/xiaomi/armani/kernel/mutex-debug.c:78 debug_mutex_unlock+0xb8/0x124()
+[   80.656507] Modules linked in:
+[   80.656531] Backtrace: 
+[   80.656561] [<c010a95c>] (dump_backtrace+0x0/0x114) from [<c09d7e0c>] (dump_stack+0x20/0x24)
+[   80.656597]  r6:c01e6ecc r5:00000009 r4:00000000 r3:271ae91c
+[   80.656655] [<c09d7dec>] (dump_stack+0x0/0x24) from [<c019c6b8>] (warn_slowpath_common+0x5c/0x74)
+[   80.656697] [<c019c65c>] (warn_slowpath_common+0x0/0x74) from [<c019c6fc>] (warn_slowpath_null+0x2c/0x34)
+[   80.656735]  r8:c00856dd r7:e6e0dd28 r6:c215b17c r5:60000013 r4:c215b17c
+[   80.656791] r3:00000009
+[   80.656825] [<c019c6d0>] (warn_slowpath_null+0x0/0x34) from [<c01e6ecc>] (debug_mutex_unlock+0xb8/0x124)
+[   80.656869] [<c01e6e14>] (debug_mutex_unlock+0x0/0x124) from [<c09e5b04>] (__mutex_unlock_slowpath+0x104/0x18c)
+[   80.656909]  r4:c215b17c r3:c215b17c
+[   80.656947] [<c09e5a00>] (__mutex_unlock_slowpath+0x0/0x18c) from [<c09e5ba4>] (mutex_unlock+0x18/0x1c)
+[   80.656985]  r6:c215b17c r5:c215b004 r4:c215b000 r3:00000000
+[   80.657044] [<c09e5b8c>] (mutex_unlock+0x0/0x1c) from [<c06c4ec8>] (msm_cpp_subdev_ioctl+0xe2c/0x1124)
+[   80.657089] [<c06c409c>] (msm_cpp_subdev_ioctl+0x0/0x1124) from [<c069dae0>] (msm_close+0xc8/0x1b0)
+[   80.657133] [<c069da18>] (msm_close+0x0/0x1b0) from [<c06ce934>] (v4l2_release+0x54/0x74)
+[   80.657174] [<c06ce8e0>] (v4l2_release+0x0/0x74) from [<c0283474>] (fput+0x138/0x250)
+[   80.657207]  r5:00000008 r4:e51cef00
+[   80.657245] [<c028333c>] (fput+0x0/0x250) from [<c027f03c>] (filp_close+0x80/0x8c)
+[   80.657283] [<c027efbc>] (filp_close+0x0/0x8c) from [<c01a0980>] (put_files_struct+0xa0/0x110)
+[   80.657319]  r6:00001fff r5:00000000 r4:e8790200 r3:e8790268
+[   80.657374] [<c01a08e0>] (put_files_struct+0x0/0x110) from [<c01a0a88>] (exit_files+0x48/0x4c)
+[   80.657413] [<c01a0a40>] (exit_files+0x0/0x4c) from [<c01a0d24>] (do_exit+0x298/0x88c)
+[   80.657447]  r6:e6e0c000 r5:00000009 r4:f0065940 r3:00000000
+[   80.657502] [<c01a0a8c>] (do_exit+0x0/0x88c) from [<c01a15f4>] (do_group_exit+0x94/0xd0)
+[   80.657535]  r7:e6e0c000
+[   80.657564] [<c01a1560>] (do_group_exit+0x0/0xd0) from [<c01aff00>] (get_signal_to_deliver+0x4e8/0x55c)
+[   80.657602]  r7:e6e0c000 r6:e6e0c000 r5:e6e0dee8 r4:00000009
+[   80.657659] [<c01afa18>] (get_signal_to_deliver+0x0/0x55c) from [<c0109a80>] (do_signal+0xd0/0x4f4)
+[   80.657702] [<c01099b0>] (do_signal+0x0/0x4f4) from [<c010a38c>] (do_notify_resume+0x28/0x60)
+[   80.657743] [<c010a364>] (do_notify_resume+0x0/0x60) from [<c01067b8>] (work_pending+0x24/0x28)
+[   80.657779]  r4:b83bf7c8 r3:00000000
+[   80.657811] ---[ end trace da227214a82491b9 ]---
+[   84.145477] BMS: adjust_soc: s 37 i -74613 v 3803637 ocv 3798000 rbatt 146 uuc 82120 cc 11362 r 821200 t 411
+[  104.145866] BMS: adjust_soc: s 37 i -75855 v 3808353 ocv 3798000 rbatt 146 uuc 82120 cc 11021 r 821200 t 410
+[  124.145885] BMS: adjust_soc: s 37 i -64905 v 3809826 ocv 3798000 rbatt 146 uuc 82120 cc 10658 r 821200 t 408
 
 No errors detected
