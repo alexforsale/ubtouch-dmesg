@@ -20,8 +20,7 @@
 
 #cleanup last log
 NOW=$( date +%Y-%m-%d_%H_%M_%S)
-data= *
-rm -rf $data
+rm -rf *
 
 # pull data/system-data
 adb pull /data/system-data/var/log/
