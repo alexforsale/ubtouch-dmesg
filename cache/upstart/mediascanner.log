@@ -1,3 +1,5 @@
+
+(gst-plugin-scanner:2193): GStreamer-WARNING **: Failed to load plugin '/usr/lib/arm-linux-gnueabihf/gstreamer-1.0/libgsteglglessink.so': /usr/lib/arm-linux-gnueabihf/gstreamer-1.0/libgsteglglessink.so: undefined symbol: eglCreateImageKHR
 __pthread_gettid -2
 
 ERROR: Caught a segmentation fault while loading plugin file:
@@ -14,77 +16,37 @@ ERROR: Caught a segmentation fault while loading plugin file:
 Please either:
 - remove it and restart.
 - run with --gst-disable-segtrap --gst-disable-registry-fork and debug.
-
-(gst-plugin-scanner:2256): GStreamer-WARNING **: Failed to load plugin '/usr/lib/arm-linux-gnueabihf/gstreamer-1.0/libgsteglglessink.so': /usr/lib/arm-linux-gnueabihf/gstreamer-1.0/libgsteglglessink.so: undefined symbol: eglCreateImageKHR
-mediascanner-service[2138]: [0;33mWARNING[0m warning/main: No GStreamer support found for A/52, AC3 (Dolby Digital) Audio (audio/x-ac3; audio/ac3)
-mediascanner-service[2138]: [0;33mWARNING[0m warning/main: No GStreamer support found for H.262/MPEG-2 Part 2 Video (video/mpeg, mpegversion=(int)2)
-mediascanner-service[2138]: [0;33mWARNING[0m warning/main: No GStreamer support found for H.264/MPEG-4 Part 2 Video (video/mpeg, mpegversion=(int)4)
-mediascanner-service[2138]: [0;33mWARNING[0m warning/main: No GStreamer support found for H.264/MPEG-4 AVC (MPEG-4 Part 10) Video (video/x-h264)
-mediascanner-service[2138]: [0;33mWARNING[0m warning/main: No GStreamer support found for VC-1 (Windows Media) Video (video/x-wmv)
-mediascanner-service[2138]: [1;34mINFO[0m info/metadata: Using "grl-tmdb" from "/usr/lib/arm-linux-gnueabihf/grilo-0.2/libgrltmdb.so" to resolve metadata.
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-scanner: Starting to monitor "/home/phablet/Downloads" mounted at "/"
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-scanner: Starting to monitor "/home/phablet/Music" mounted at "/"
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-scanner: Starting to monitor "/home/phablet/Pictures" mounted at "/"
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-scanner: Starting to monitor "/home/phablet/Videos" mounted at "/"
-mediascanner-service[2138]: [1;34mINFO[0m info/main: Starting the file system scanner
-mediascanner-service[2138]: [1;34mINFO[0m info/index: Opening media index index at ""/home/phablet/.cache/mediascanner"".
-mediascanner-service[2138]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Downloads"" at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[2138]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Music"" at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[2138]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Pictures"" at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[2138]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Videos"" at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-walker: Scanning "/home/phablet/Downloads" using media index at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-walker: Scanning directory "/home/phablet/Downloads"
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-walker: Scanning "/home/phablet/Music" using media index at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-walker: Scanning "/home/phablet/Pictures" using media index at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-walker: Scanning "/home/phablet/Videos" using media index at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-walker: Scanning directory "/home/phablet/Pictures"
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-walker: Scanning directory "/home/phablet/Music"
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-walker: Scanning directory "/home/phablet/Videos"
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-walker: Finished scanning directories below "/home/phablet/Videos".
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-walker: Finished scanning directories below "/home/phablet/Pictures".
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-walker: Finished scanning directories below "/home/phablet/Music".
-mediascanner-service[2138]: [1;34mINFO[0m info/fs-walker: Finished scanning directories below "/home/phablet/Downloads".
-mediascanner-service[2138]: [1;34mINFO[0m info/metadata: Waiting for pending metadata resolvers.
-mediascanner-service[2138]: [1;34mINFO[0m info/metadata: Metadata resolving finished.
-mediascanner-service[2138]: [1;34mINFO[0m info/dbus: Published to D-Bus connection at <unix:path=/tmp/dbus-xKkEPkFObi,type=3>
-mediascanner-service[2138]: [1;34mINFO[0m info/mediaartdownloader: Waiting for pending album art downloads.
-mediascanner-service[2138]: [1;34mINFO[0m info/mediaartdownloader: Album art downloads complete.
-mediascanner-service[2138]: [1;34mINFO[0m info/dbus: D-Bus name acquired
-mediascanner-service[1934]: [0;33mWARNING[0m warning/main: No GStreamer support found for A/52, AC3 (Dolby Digital) Audio (audio/x-ac3; audio/ac3)
-mediascanner-service[1934]: [0;33mWARNING[0m warning/main: No GStreamer support found for H.262/MPEG-2 Part 2 Video (video/mpeg, mpegversion=(int)2)
-mediascanner-service[1934]: [0;33mWARNING[0m warning/main: No GStreamer support found for H.264/MPEG-4 Part 2 Video (video/mpeg, mpegversion=(int)4)
-mediascanner-service[1934]: [0;33mWARNING[0m warning/main: No GStreamer support found for H.264/MPEG-4 AVC (MPEG-4 Part 10) Video (video/x-h264)
-mediascanner-service[1934]: [0;33mWARNING[0m warning/main: No GStreamer support found for VC-1 (Windows Media) Video (video/x-wmv)
-mediascanner-service[1934]: [1;34mINFO[0m info/metadata: Using "grl-tmdb" from "/usr/lib/arm-linux-gnueabihf/grilo-0.2/libgrltmdb.so" to resolve metadata.
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-scanner: Starting to monitor "/home/phablet/Downloads" mounted at "/"
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-scanner: Starting to monitor "/home/phablet/Music" mounted at "/"
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-scanner: Starting to monitor "/home/phablet/Pictures" mounted at "/"
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-scanner: Starting to monitor "/home/phablet/Videos" mounted at "/"
-mediascanner-service[1934]: [1;34mINFO[0m info/main: Starting the file system scanner
-mediascanner-service[1934]: [1;34mINFO[0m info/index: Opening media index index at ""/home/phablet/.cache/mediascanner"".
-mediascanner-service[1934]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Downloads"" at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[1934]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Music"" at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[1934]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Pictures"" at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[1934]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Videos"" at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[1934]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Downloads"" at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[1934]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Music"" at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[1934]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Pictures"" at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[1934]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Videos"" at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-walker: Scanning "/home/phablet/Downloads" using media index at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-walker: Scanning "/home/phablet/Music" using media index at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-walker: Scanning directory "/home/phablet/Downloads"
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-walker: Scanning "/home/phablet/Pictures" using media index at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-walker: Scanning "/home/phablet/Videos" using media index at ""/home/phablet/.cache/mediascanner""
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-walker: Scanning directory "/home/phablet/Music"
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-walker: Scanning directory "/home/phablet/Videos"
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-walker: Scanning directory "/home/phablet/Pictures"
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-walker: Finished scanning directories below "/home/phablet/Videos".
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-walker: Finished scanning directories below "/home/phablet/Pictures".
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-walker: Finished scanning directories below "/home/phablet/Music".
-mediascanner-service[1934]: [1;34mINFO[0m info/fs-walker: Finished scanning directories below "/home/phablet/Downloads".
-mediascanner-service[1934]: [1;34mINFO[0m info/metadata: Waiting for pending metadata resolvers.
-mediascanner-service[1934]: [1;34mINFO[0m info/metadata: Metadata resolving finished.
-mediascanner-service[1934]: [1;34mINFO[0m info/mediaartdownloader: Waiting for pending album art downloads.
-mediascanner-service[1934]: [1;34mINFO[0m info/mediaartdownloader: Album art downloads complete.
-mediascanner-service[1934]: [1;34mINFO[0m info/dbus: Published to D-Bus connection at <unix:path=/tmp/dbus-We8a9DM1Va,type=3>
-mediascanner-service[1934]: [1;34mINFO[0m info/dbus: D-Bus name acquired
+mediascanner-service[2151]: [0;33mWARNING[0m warning/main: No GStreamer support found for A/52, AC3 (Dolby Digital) Audio (audio/x-ac3; audio/ac3)
+mediascanner-service[2151]: [0;33mWARNING[0m warning/main: No GStreamer support found for H.262/MPEG-2 Part 2 Video (video/mpeg, mpegversion=(int)2)
+mediascanner-service[2151]: [0;33mWARNING[0m warning/main: No GStreamer support found for H.264/MPEG-4 Part 2 Video (video/mpeg, mpegversion=(int)4)
+mediascanner-service[2151]: [0;33mWARNING[0m warning/main: No GStreamer support found for H.264/MPEG-4 AVC (MPEG-4 Part 10) Video (video/x-h264)
+mediascanner-service[2151]: [0;33mWARNING[0m warning/main: No GStreamer support found for VC-1 (Windows Media) Video (video/x-wmv)
+mediascanner-service[2151]: [1;34mINFO[0m info/metadata: Using "grl-tmdb" from "/usr/lib/arm-linux-gnueabihf/grilo-0.2/libgrltmdb.so" to resolve metadata.
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-scanner: Starting to monitor "/home/phablet/Downloads" mounted at "/"
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-scanner: Starting to monitor "/home/phablet/Music" mounted at "/"
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-scanner: Starting to monitor "/home/phablet/Pictures" mounted at "/"
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-scanner: Starting to monitor "/home/phablet/Videos" mounted at "/"
+mediascanner-service[2151]: [1;34mINFO[0m info/main: Starting the file system scanner
+mediascanner-service[2151]: [1;34mINFO[0m info/index: Opening media index index at ""/home/phablet/.cache/mediascanner"".
+mediascanner-service[2151]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Downloads"" at ""/home/phablet/.cache/mediascanner""
+mediascanner-service[2151]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Music"" at ""/home/phablet/.cache/mediascanner""
+mediascanner-service[2151]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Pictures"" at ""/home/phablet/.cache/mediascanner""
+mediascanner-service[2151]: [1;34mINFO[0m info/index: Opening child index for ""/home/phablet/Videos"" at ""/home/phablet/.cache/mediascanner""
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-walker: Scanning "/home/phablet/Downloads" using media index at ""/home/phablet/.cache/mediascanner""
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-walker: Scanning "/home/phablet/Music" using media index at ""/home/phablet/.cache/mediascanner""
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-walker: Scanning directory "/home/phablet/Downloads"
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-walker: Scanning "/home/phablet/Pictures" using media index at ""/home/phablet/.cache/mediascanner""
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-walker: Scanning "/home/phablet/Videos" using media index at ""/home/phablet/.cache/mediascanner""
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-walker: Scanning directory "/home/phablet/Music"
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-walker: Scanning directory "/home/phablet/Pictures"
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-walker: Scanning directory "/home/phablet/Videos"
+mediascanner-service[2151]: [1;34mINFO[0m info/dbus: Published to D-Bus connection at <unix:path=/tmp/dbus-CBg9sJ9pdl,type=3>
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-walker: Finished scanning directories below "/home/phablet/Videos".
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-walker: Finished scanning directories below "/home/phablet/Pictures".
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-walker: Finished scanning directories below "/home/phablet/Music".
+mediascanner-service[2151]: [1;34mINFO[0m info/fs-walker: Finished scanning directories below "/home/phablet/Downloads".
+mediascanner-service[2151]: [1;34mINFO[0m info/metadata: Waiting for pending metadata resolvers.
+mediascanner-service[2151]: [1;34mINFO[0m info/metadata: Metadata resolving finished.
+mediascanner-service[2151]: [1;34mINFO[0m info/mediaartdownloader: Waiting for pending album art downloads.
+mediascanner-service[2151]: [1;34mINFO[0m info/mediaartdownloader: Album art downloads complete.
+mediascanner-service[2151]: [1;34mINFO[0m info/dbus: D-Bus name acquired

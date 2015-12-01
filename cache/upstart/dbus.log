@@ -19,59 +19,21 @@ tp-qt 0.9.3 DEBUG: Interface "com.canonical.Telephony.Voicemail" plugged
 onOfonoNetworkRegistrationChanged "" is network registered:  false 
 setOnline false 
 tp-qt 0.9.3 DEBUG: Interface "org.freedesktop.Telepathy.Connection.Interface.Contacts" plugged  
-tp-qt 0.9.3 DEBUG: cmName:  "ofono"  escapedProtocolName:  "ofono"  name: "_ce3c08"  
-tp-qt 0.9.3 DEBUG: busName:  "org.freedesktop.Telepathy.Connection.ofono.ofono._ce3c08"  objectName:  "/org/freedesktop/Telepathy/Connection/ofono/ofono/_ce3c08"  
-tp-qt 0.9.3 DEBUG: Connection: registering interfaces  at  Tp::DBusObject(0xce33a8)  
-tp-qt 0.9.3 DEBUG: Registered object "/org/freedesktop/Telepathy/Connection/ofono/ofono/_ce3c08" at bus name "org.freedesktop.Telepathy.Connection.ofono.ofono._ce3c08"  
-tp-qt 0.9.3 DEBUG: BaseConnection::status =  2   oFonoConnection(0xce3c08)  
+tp-qt 0.9.3 DEBUG: cmName:  "ofono"  escapedProtocolName:  "ofono"  name: "_8efc08"  
+tp-qt 0.9.3 DEBUG: busName:  "org.freedesktop.Telepathy.Connection.ofono.ofono._8efc08"  objectName:  "/org/freedesktop/Telepathy/Connection/ofono/ofono/_8efc08"  
+tp-qt 0.9.3 DEBUG: Connection: registering interfaces  at  Tp::DBusObject(0x8ef3a8)  
+tp-qt 0.9.3 DEBUG: Registered object "/org/freedesktop/Telepathy/Connection/ofono/ofono/_8efc08" at bus name "org.freedesktop.Telepathy.Connection.ofono.ofono._8efc08"  
+tp-qt 0.9.3 DEBUG: BaseConnection::status =  2   oFonoConnection(0x8efc08)  
 setPresence "available" 
 tp-qt 0.9.3 DEBUG: BaseConnectionRequestsInterface::requestableChannelClasses  
 oFonoConnection::connect 
-tp-qt 0.9.3 DEBUG: BaseConnection::setStatus  0   1   oFonoConnection(0xce3c08)  
-tp-qt 0.9.3 DEBUG: BaseConnection::status =  0   oFonoConnection(0xce3c08)  
+tp-qt 0.9.3 DEBUG: BaseConnection::setStatus  0   1   oFonoConnection(0x8efc08)  
+tp-qt 0.9.3 DEBUG: BaseConnection::status =  0   oFonoConnection(0x8efc08)  
 getContactAttributes (1) () 
 oFonoConnection::inspectHandles  (1) 
 oFonoConnection::inspectHandles  ("<SelfHandle>") 
 Gkr-Message: secret service operation failed: The name org.freedesktop.secrets was not provided by any .service files
 Gkr-Message: secret service operation failed: The name org.freedesktop.secrets was not provided by any .service files
-setPresence "available" 
-Activating service name='org.gnome.evolution.dataserver.Sources1'
-module-cache-reaper-Message: Scanning data directories
-module-cache-reaper-Message: Scanning cache directories
-Successfully activated service 'org.gnome.evolution.dataserver.Sources1'
-Activating service name='org.gnome.evolution.dataserver.AddressBook5'
-Successfully activated service 'org.gnome.evolution.dataserver.AddressBook5'
-Activating service name='ca.desrt.dconf'
-Successfully activated service 'ca.desrt.dconf'
-Activating service name='org.freedesktop.Telepathy.AccountManager'
-Gkr-Message: secret service operation failed: The name org.freedesktop.secrets was not provided by any .service files
-Successfully activated service 'org.freedesktop.Telepathy.AccountManager'
-Activating service name='org.freedesktop.Telepathy.ConnectionManager.ofono'
-tp-qt 0.9.3 DEBUG: Protocol "ofono" added to CM  
-tp-qt 0.9.3 DEBUG: Registering protocol "ofono" at path "/org/freedesktop/Telepathy/ConnectionManager/ofono/ofono" for CM "/org/freedesktop/Telepathy/ConnectionManager/ofono" at bus name "org.freedesktop.Telepathy.ConnectionManager.ofono"  
-Successfully activated service 'org.freedesktop.Telepathy.ConnectionManager.ofono'
-tp-qt 0.9.3 DEBUG: Registered object "/org/freedesktop/Telepathy/ConnectionManager/ofono/ofono" at bus name "org.freedesktop.Telepathy.ConnectionManager.ofono"  
-tp-qt 0.9.3 DEBUG: Registering CM "/org/freedesktop/Telepathy/ConnectionManager/ofono" at bus name "org.freedesktop.Telepathy.ConnectionManager.ofono"  
-tp-qt 0.9.3 DEBUG: Registered object "/org/freedesktop/Telepathy/ConnectionManager/ofono" at bus name "org.freedesktop.Telepathy.ConnectionManager.ofono"  
-tp-qt 0.9.3 DEBUG: Interface "org.freedesktop.Telepathy.Connection.Interface.Requests" plugged  
-tp-qt 0.9.3 DEBUG: Interface "org.freedesktop.Telepathy.Connection.Interface.SimplePresence" plugged  
-tp-qt 0.9.3 DEBUG: Interface "com.canonical.Telephony.Voicemail" plugged  
-onOfonoNetworkRegistrationChanged "" is network registered:  false 
-setOnline false 
-tp-qt 0.9.3 DEBUG: Interface "org.freedesktop.Telepathy.Connection.Interface.Contacts" plugged  
-tp-qt 0.9.3 DEBUG: cmName:  "ofono"  escapedProtocolName:  "ofono"  name: "_2cdc08"  
-tp-qt 0.9.3 DEBUG: busName:  "org.freedesktop.Telepathy.Connection.ofono.ofono._2cdc08"  objectName:  "/org/freedesktop/Telepathy/Connection/ofono/ofono/_2cdc08"  
-tp-qt 0.9.3 DEBUG: Connection: registering interfaces  at  Tp::DBusObject(0x2cd3a8)  
-tp-qt 0.9.3 DEBUG: Registered object "/org/freedesktop/Telepathy/Connection/ofono/ofono/_2cdc08" at bus name "org.freedesktop.Telepathy.Connection.ofono.ofono._2cdc08"  
-tp-qt 0.9.3 DEBUG: BaseConnection::status =  2   oFonoConnection(0x2cdc08)  
-setPresence "available" 
-tp-qt 0.9.3 DEBUG: BaseConnectionRequestsInterface::requestableChannelClasses  
-oFonoConnection::connect 
-tp-qt 0.9.3 DEBUG: BaseConnection::setStatus  0   1   oFonoConnection(0x2cdc08)  
-tp-qt 0.9.3 DEBUG: BaseConnection::status =  0   oFonoConnection(0x2cdc08)  
-getContactAttributes (1) () 
-oFonoConnection::inspectHandles  (1) 
-oFonoConnection::inspectHandles  ("<SelfHandle>") 
 setPresence "available" 
 Activating service name='org.gnome.evolution.dataserver.Sources1'
 module-cache-reaper-Message: Scanning data directories

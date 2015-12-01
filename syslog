@@ -1492,3 +1492,325 @@ Dec  1 20:33:16 ubuntu-phablet kernel: [   41.484424] chg:qpnp_chg_vbatdet_set: 
 Dec  1 20:33:16 ubuntu-phablet kernel: [   41.536504] android_work: android_work: sent uevent USB_STATE=CONFIGURED
 Dec  1 20:33:17 ubuntu-phablet kernel: [   42.014735] BMS: adjust_soc: s 36 i 698544 v 3708162 ocv 3792000 rbatt 151 uuc 82160 cc 6611 r 801060 t 388
 Dec  1 20:33:19 ubuntu-phablet kernel: [   44.142397] BMS: adjust_soc: s 36 i 534254 v 3720831 ocv 3792000 rbatt 151 uuc 82160 cc 6969 r 801060 t 388
+Dec  1 20:33:30 ubuntu-phablet kernel: [   55.521411] cpr_irq_handler: IRQ_STATUS = 0x19
+Dec  1 20:33:30 ubuntu-phablet kernel: [   55.521429] cpr_scale: last_volt[corner:12, fuse_corner:3] = 1290000 uV
+Dec  1 20:33:30 ubuntu-phablet kernel: [   55.521442] cpr_scale: Up: cpr status = 0x00040106 (error_steps=1)
+Dec  1 20:33:30 ubuntu-phablet kernel: [   55.521454] cpr_scale: [corn:12, fuse_corn:3] @ ceiling: 1290000 >= 1290000: NACK
+Dec  1 20:33:30 ubuntu-phablet kernel: [   55.521469] cpr_scale: gcnt = 0x00013595 (quot = 1429)
+Dec  1 20:33:33 ubuntu-phablet cron[1981]: (CRON) INFO (pidfile fd = 3)
+Dec  1 20:33:33 ubuntu-phablet cron[2020]: (CRON) STARTUP (fork ok)
+Dec  1 20:33:33 ubuntu-phablet cron[2020]: (CRON) INFO (Running @reboot jobs)
+Dec  1 20:33:34 ubuntu-phablet kernel: [   58.728672] whoopsie (2014): undefined instruction: pc=b69bc3c8
+Dec  1 20:33:34 ubuntu-phablet kernel: [   58.728692] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:34 ubuntu-phablet whoopsie[2014]: whoopsie 0.2.24.1 starting up.
+Dec  1 20:33:34 ubuntu-phablet dbus[862]: [system] Activating service name='org.freedesktop.Accounts' (using servicehelper)
+Dec  1 20:33:34 ubuntu-phablet whoopsie[2014]: Using lock path: /var/lock/whoopsie/lock
+Dec  1 20:33:34 ubuntu-phablet whoopsie[2046]: offline
+Dec  1 20:33:34 ubuntu-phablet accounts-daemon[2047]: started daemon version 0.6.34
+Dec  1 20:33:34 ubuntu-phablet dbus[862]: [system] Successfully activated service 'org.freedesktop.Accounts'
+Dec  1 20:33:34 ubuntu-phablet kernel: [   59.509627] ssh-agent (2091): undefined instruction: pc=b6eb13c8
+Dec  1 20:33:34 ubuntu-phablet kernel: [   59.509645] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:35 ubuntu-phablet kernel: [   60.044761] ssh-agent (2140): undefined instruction: pc=b6e5e3c8
+Dec  1 20:33:35 ubuntu-phablet kernel: [   60.044778] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:35 ubuntu-phablet kernel: [   60.236613] click (2133): undefined instruction: pc=b68803c8
+Dec  1 20:33:35 ubuntu-phablet kernel: [   60.236632] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:35 ubuntu-phablet pulseaudio[2156]: [pulseaudio] authkey.c: Failed to open cookie file '/home/phablet/.config/pulse/cookie': No such file or directory
+Dec  1 20:33:35 ubuntu-phablet pulseaudio[2156]: [pulseaudio] authkey.c: Failed to load authorization key '/home/phablet/.config/pulse/cookie': No such file or directory
+Dec  1 20:33:35 ubuntu-phablet pulseaudio[2156]: [pulseaudio] authkey.c: Failed to open cookie file '/home/phablet/.pulse-cookie': No such file or directory
+Dec  1 20:33:35 ubuntu-phablet pulseaudio[2156]: [pulseaudio] authkey.c: Failed to load authorization key '/home/phablet/.pulse-cookie': No such file or directory
+Dec  1 20:33:35 ubuntu-phablet dbus[862]: [system] Activating service name='org.freedesktop.RealtimeKit1' (using servicehelper)
+Dec  1 20:33:35 ubuntu-phablet dbus[862]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Dec  1 20:33:35 ubuntu-phablet rtkit-daemon[2187]: Successfully called chroot.
+Dec  1 20:33:35 ubuntu-phablet rtkit-daemon[2187]: Successfully dropped privileges.
+Dec  1 20:33:35 ubuntu-phablet rtkit-daemon[2187]: Successfully limited resources.
+Dec  1 20:33:35 ubuntu-phablet rtkit-daemon[2187]: Running.
+Dec  1 20:33:35 ubuntu-phablet rtkit-daemon[2187]: Canary thread running.
+Dec  1 20:33:35 ubuntu-phablet rtkit-daemon[2187]: Watchdog thread running.
+Dec  1 20:33:36 ubuntu-phablet rtkit-daemon[2187]: Successfully made thread 2185 of process 2185 (n/a) owned by '32011' high priority at nice level -11.
+Dec  1 20:33:36 ubuntu-phablet rtkit-daemon[2187]: Supervising 1 threads of 1 processes of 1 users.
+Dec  1 20:33:36 ubuntu-phablet kernel: [   60.978965] click (2195): undefined instruction: pc=b68743c8
+Dec  1 20:33:36 ubuntu-phablet kernel: [   60.978982] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:36 ubuntu-phablet kernel: [   61.085497] afe_callback: cmd = 0x100e5 returned error = 0x1
+Dec  1 20:33:36 ubuntu-phablet pulseaudio[2185]: [pulseaudio] alsa-ucm.c: Failed to enable ucm device Speaker
+Dec  1 20:33:36 ubuntu-phablet kernel: [   61.096248] afe_callback: cmd = 0x100e6 returned error = 0x1
+Dec  1 20:33:36 ubuntu-phablet kernel: [   61.121775] afe_callback: cmd = 0x100e5 returned error = 0x1
+Dec  1 20:33:36 ubuntu-phablet pulseaudio[2185]: [pulseaudio] alsa-ucm.c: Failed to enable ucm device Headset
+Dec  1 20:33:36 ubuntu-phablet kernel: [   61.132343] afe_callback: cmd = 0x100e6 returned error = 0x1
+Dec  1 20:33:36 ubuntu-phablet kernel: [   61.134242] event_handler: reclaimed all bufs
+Dec  1 20:33:36 ubuntu-phablet kernel: [   61.566262] click (2205): undefined instruction: pc=b69113c8
+Dec  1 20:33:36 ubuntu-phablet kernel: [   61.566279] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:37 ubuntu-phablet kernel: [   62.003643] click (2206): undefined instruction: pc=b68c13c8
+Dec  1 20:33:37 ubuntu-phablet kernel: [   62.003660] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:37 ubuntu-phablet kernel: [   62.474660] click (2207): undefined instruction: pc=b692b3c8
+Dec  1 20:33:37 ubuntu-phablet kernel: [   62.474677] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:38 ubuntu-phablet kernel: [   62.957946] click (2208): undefined instruction: pc=b68fc3c8
+Dec  1 20:33:38 ubuntu-phablet kernel: [   62.957963] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.142863] evrc_in_open:session id 1: NT mode encoder success
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.142877] evrc_in_open:session id 1: success
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.145801] audio_in_release: session id 1
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.153208] qcelp_in_open:session id 1: NT mode encoder success
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.153221] qcelp_in_open:session id 1: success
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.155658] audio_in_release: session id 1
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.186138] audio_open:wmadec success mode[1]session[1]
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.194696] audio_open:wmapro decoder open success, session_id = 1
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.203148] audio_open:wmapro decoder open success, session_id = 1
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403432] gst-plugin-scan: unhandled page fault (11) at 0x00000020, code 0x017
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403447] pgd = d955c000
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403474] [00000020] *pgd=194b5831, *pte=00000000, *ppte=00000000
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403518] 
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403525] Pid: 2193, comm:      gst-plugin-scan
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403537] CPU: 0    Tainted: G        W     (3.4.0-gff5ac3e #5)
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403549] PC is at 0xb2f44780
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403558] LR is at 0xb2f44780
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403569] pc : [<b2f44780>]    lr : [<b2f44780>]    psr: 000f0010
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403574] sp : bee72d90  ip : 00000001  fp : 00000000
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403584] r10: b277a004  r9 : 019ec410  r8 : 00000010
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403594] r7 : 00004000  r6 : 00000000  r5 : 00004000  r4 : b2f800dc
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403605] r3 : b6fde4c0  r2 : 00000000  r1 : 00000014  r0 : 00000000
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403618] Flags: nzcv  IRQs on  FIQs on  Mode USER_32  ISA ARM  Segment user
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403630] Control: 10c5387d  Table: 1955c06a  DAC: 00000015
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403640] Backtrace: 
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403662] [<c010a95c>] (dump_backtrace+0x0/0x114) from [<c09d7e0c>] (dump_stack+0x20/0x24)
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403674]  r6:0000000b r5:00000020 r4:d9539fb0 r3:271ae91c
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403706] [<c09d7dec>] (dump_stack+0x0/0x24) from [<c0107de4>] (show_regs+0x4c/0x58)
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403724] [<c0107d98>] (show_regs+0x0/0x58) from [<c0113930>] (__do_user_fault+0xdc/0x158)
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403736]  r4:e0381f80 r3:271ae91c
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403759] [<c0113854>] (__do_user_fault+0x0/0x158) from [<c09ea38c>] (do_page_fault+0x388/0x408)
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403771]  r8:00000017 r7:e0381f80 r6:00000020 r5:00030001 r4:d9539fb0
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403807] [<c09ea004>] (do_page_fault+0x0/0x408) from [<c0100280>] (do_DataAbort+0x44/0xa8)
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403823] [<c010023c>] (do_DataAbort+0x0/0xa8) from [<c09e8738>] (__dabt_usr+0x38/0x40)
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403836] Exception stack(0xd9539fb0 to 0xd9539ff8)
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403848] 9fa0:                                     00000000 00000014 00000000 b6fde4c0
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403863] 9fc0: b2f800dc 00004000 00000000 00004000 00000010 019ec410 b277a004 00000000
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403877] 9fe0: 00000001 bee72d90 b2f44780 b2f44780 000f0010 ffffffff
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.403887]  r7:00004000 r6:ffffffff r5:000f0010 r4:b2f44780
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.464573] click (2239): undefined instruction: pc=b68423c8
+Dec  1 20:33:38 ubuntu-phablet kernel: [   63.464593] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.705775] evrc_in_open:session id 1: NT mode encoder success
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.705788] evrc_in_open:session id 1: success
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.708837] audio_in_release: session id 1
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.717693] qcelp_in_open:session id 1: NT mode encoder success
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.717707] qcelp_in_open:session id 1: success
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.720913] audio_in_release: session id 1
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.747092] audio_open:wmadec success mode[1]session[1]
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.756002] audio_open:wmapro decoder open success, session_id = 1
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.765298] audio_open:wmapro decoder open success, session_id = 1
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855314] gst-plugin-scan: unhandled page fault (11) at 0x00000020, code 0x017
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855330] pgd = d955c000
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855356] [00000020] *pgd=166e3831, *pte=00000000, *ppte=00000000
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855400] 
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855406] Pid: 2241, comm:      gst-plugin-scan
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855418] CPU: 0    Tainted: G        W     (3.4.0-gff5ac3e #5)
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855430] PC is at 0xb694e780
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855439] LR is at 0xb694e780
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855450] pc : [<b694e780>]    lr : [<b694e780>]    psr: 000f0010
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855455] sp : be87cd90  ip : 00000001  fp : 00000000
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855465] r10: b6163004  r9 : 01fbec68  r8 : 00000010
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855476] r7 : 00004000  r6 : 00000000  r5 : 00004000  r4 : b698a0dc
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855487] r3 : b6f6a4c0  r2 : 00000000  r1 : 00000014  r0 : 00000000
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855500] Flags: nzcv  IRQs on  FIQs on  Mode USER_32  ISA ARM  Segment user
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855512] Control: 10c5387d  Table: 1955c06a  DAC: 00000015
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855523] Backtrace: 
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855544] [<c010a95c>] (dump_backtrace+0x0/0x114) from [<c09d7e0c>] (dump_stack+0x20/0x24)
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855556]  r6:0000000b r5:00000020 r4:d43f1fb0 r3:271ae91c
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855588] [<c09d7dec>] (dump_stack+0x0/0x24) from [<c0107de4>] (show_regs+0x4c/0x58)
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855607] [<c0107d98>] (show_regs+0x0/0x58) from [<c0113930>] (__do_user_fault+0xdc/0x158)
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855619]  r4:def6d940 r3:271ae91c
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855642] [<c0113854>] (__do_user_fault+0x0/0x158) from [<c09ea38c>] (do_page_fault+0x388/0x408)
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.855654]  r8:00000017 r7:def6d940 r6:00000020 r5:00030001 r4:d43f1fb0
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.856119] [<c09ea004>] (do_page_fault+0x0/0x408) from [<c0100280>] (do_DataAbort+0x44/0xa8)
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.856136] [<c010023c>] (do_DataAbort+0x0/0xa8) from [<c09e8738>] (__dabt_usr+0x38/0x40)
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.856149] Exception stack(0xd43f1fb0 to 0xd43f1ff8)
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.856161] 1fa0:                                     00000000 00000014 00000000 b6f6a4c0
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.856177] 1fc0: b698a0dc 00004000 00000000 00004000 00000010 01fbec68 b6163004 00000000
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.856192] 1fe0: 00000001 be87cd90 b694e780 b694e780 000f0010 ffffffff
+Dec  1 20:33:39 ubuntu-phablet kernel: [   63.856202]  r7:00004000 r6:ffffffff r5:000f0010 r4:b694e780
+Dec  1 20:33:39 ubuntu-phablet kernel: [   64.000330] recoverable_pro (2262): undefined instruction: pc=b67c93c8
+Dec  1 20:33:39 ubuntu-phablet kernel: [   64.000349] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:39 ubuntu-phablet kernel: [   64.142897] BMS: adjust_soc: s 36 i 654977 v 3704922 ocv 3792000 rbatt 150 uuc 82160 cc 11048 r 801060 t 396
+Dec  1 20:33:40 ubuntu-phablet kernel: [   65.296626] click (2287): undefined instruction: pc=b687b3c8
+Dec  1 20:33:40 ubuntu-phablet kernel: [   65.296644] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:41 ubuntu-phablet kernel: [   65.712567] click (2289): undefined instruction: pc=b68b43c8
+Dec  1 20:33:41 ubuntu-phablet kernel: [   65.712584] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:41 ubuntu-phablet kernel: [   66.152195] click (2295): undefined instruction: pc=b68ad3c8
+Dec  1 20:33:41 ubuntu-phablet kernel: [   66.152213] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:41 ubuntu-phablet kernel: [   66.573040] click (2296): undefined instruction: pc=b68d93c8
+Dec  1 20:33:41 ubuntu-phablet kernel: [   66.573058] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:42 ubuntu-phablet kernel: [   66.998282] click (2297): undefined instruction: pc=b68933c8
+Dec  1 20:33:42 ubuntu-phablet kernel: [   66.998299] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:42 ubuntu-phablet kernel: [   67.415900] click (2298): undefined instruction: pc=b68833c8
+Dec  1 20:33:42 ubuntu-phablet kernel: [   67.415918] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:43 ubuntu-phablet kernel: [   67.845762] click (2300): undefined instruction: pc=b68f53c8
+Dec  1 20:33:43 ubuntu-phablet kernel: [   67.845780] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:43 ubuntu-phablet kernel: [   68.261483] click (2301): undefined instruction: pc=b68b13c8
+Dec  1 20:33:43 ubuntu-phablet kernel: [   68.261501] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:43 ubuntu-phablet kernel: [   68.682870] click (2302): undefined instruction: pc=b68383c8
+Dec  1 20:33:43 ubuntu-phablet kernel: [   68.682887] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:44 ubuntu-phablet kernel: [   69.096821] click (2303): undefined instruction: pc=b68683c8
+Dec  1 20:33:44 ubuntu-phablet kernel: [   69.096838] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:44 ubuntu-phablet kernel: [   69.520969] click (2304): undefined instruction: pc=b68663c8
+Dec  1 20:33:44 ubuntu-phablet kernel: [   69.520987] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:45 ubuntu-phablet kernel: [   69.940304] click (2305): undefined instruction: pc=b688b3c8
+Dec  1 20:33:45 ubuntu-phablet kernel: [   69.940322] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:45 ubuntu-phablet kernel: [   70.162068] BMS: btm_notify_die_temp: die temp = 65954, raw = 0x7bdb
+Dec  1 20:33:45 ubuntu-phablet kernel: [   70.166509] BMS: refresh_die_temp_monitor: low = 60856, high = 70856
+Dec  1 20:33:45 ubuntu-phablet kernel: [   70.209850] BMS: adjust_soc: s 36 i 411811 v 3730260 ocv 3792000 rbatt 150 uuc 82160 cc 11780 r 801060 t 395
+Dec  1 20:33:45 ubuntu-phablet kernel: [   70.369876] click (2306): undefined instruction: pc=b69263c8
+Dec  1 20:33:45 ubuntu-phablet kernel: [   70.369893] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:46 ubuntu-phablet kernel: [   70.789860] click (2307): undefined instruction: pc=b68e93c8
+Dec  1 20:33:46 ubuntu-phablet kernel: [   70.789878] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:46 ubuntu-phablet kernel: [   71.227161] click (2313): undefined instruction: pc=b68cf3c8
+Dec  1 20:33:46 ubuntu-phablet kernel: [   71.227179] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:46 ubuntu-phablet kernel: [   71.643805] click (2314): undefined instruction: pc=b685c3c8
+Dec  1 20:33:46 ubuntu-phablet kernel: [   71.643822] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:47 ubuntu-phablet kernel: [   72.067921] click (2315): undefined instruction: pc=b68d23c8
+Dec  1 20:33:47 ubuntu-phablet kernel: [   72.067938] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:47 ubuntu-phablet kernel: [   72.484354] click (2316): undefined instruction: pc=b692b3c8
+Dec  1 20:33:47 ubuntu-phablet kernel: [   72.484372] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:48 ubuntu-phablet kernel: [   72.907548] click (2317): undefined instruction: pc=b68753c8
+Dec  1 20:33:48 ubuntu-phablet kernel: [   72.907566] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:48 ubuntu-phablet kernel: [   73.325918] click (2318): undefined instruction: pc=b685d3c8
+Dec  1 20:33:48 ubuntu-phablet kernel: [   73.325935] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:49 ubuntu-phablet kernel: [   73.752338] click (2319): undefined instruction: pc=b68b83c8
+Dec  1 20:33:49 ubuntu-phablet kernel: [   73.752355] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:49 ubuntu-phablet kernel: [   74.171303] click (2320): undefined instruction: pc=b687a3c8
+Dec  1 20:33:49 ubuntu-phablet kernel: [   74.171321] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:49 ubuntu-phablet kernel: [   74.596533] click (2321): undefined instruction: pc=b68803c8
+Dec  1 20:33:49 ubuntu-phablet kernel: [   74.596550] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:50 ubuntu-phablet kernel: [   75.016091] click (2322): undefined instruction: pc=b68513c8
+Dec  1 20:33:50 ubuntu-phablet kernel: [   75.016109] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:50 ubuntu-phablet kernel: [   75.442434] click (2323): undefined instruction: pc=b690b3c8
+Dec  1 20:33:50 ubuntu-phablet kernel: [   75.442452] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:51 ubuntu-phablet kernel: [   75.860112] click (2324): undefined instruction: pc=b69363c8
+Dec  1 20:33:51 ubuntu-phablet kernel: [   75.860129] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:51 ubuntu-phablet kernel: [   76.300406] click (2330): undefined instruction: pc=b68d83c8
+Dec  1 20:33:51 ubuntu-phablet kernel: [   76.300423] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:52 ubuntu-phablet kernel: [   76.715033] click (2331): undefined instruction: pc=b68383c8
+Dec  1 20:33:52 ubuntu-phablet kernel: [   76.715050] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:52 ubuntu-phablet kernel: [   77.137653] click (2332): undefined instruction: pc=b689a3c8
+Dec  1 20:33:52 ubuntu-phablet kernel: [   77.137670] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:52 ubuntu-phablet kernel: [   77.553822] click (2333): undefined instruction: pc=b68cc3c8
+Dec  1 20:33:52 ubuntu-phablet kernel: [   77.553839] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:54 ubuntu-phablet kernel: [   79.044552] apport (2359): undefined instruction: pc=b68c83c8
+Dec  1 20:33:54 ubuntu-phablet kernel: [   79.044570] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:56 ubuntu-phablet kernel: [   80.758643] apport (2378): undefined instruction: pc=b685e3c8
+Dec  1 20:33:56 ubuntu-phablet kernel: [   80.758661] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:57 ubuntu-phablet kernel: [   81.947532] apport (2387): undefined instruction: pc=b68f33c8
+Dec  1 20:33:57 ubuntu-phablet kernel: [   81.947549] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:59 ubuntu-phablet kernel: [   83.993435] apport (2396): undefined instruction: pc=b69533c8
+Dec  1 20:33:59 ubuntu-phablet kernel: [   83.993453] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:33:59 ubuntu-phablet kernel: [   84.151601] BMS: adjust_soc: s 36 i 458467 v 3737919 ocv 3792000 rbatt 150 uuc 82160 cc 13161 r 801060 t 397
+Dec  1 20:34:01 ubuntu-phablet kernel: [   86.064503] apport (2407): undefined instruction: pc=b686b3c8
+Dec  1 20:34:01 ubuntu-phablet kernel: [   86.064520] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:03 ubuntu-phablet kernel: [   88.093961] apport (2413): undefined instruction: pc=b68f03c8
+Dec  1 20:34:03 ubuntu-phablet kernel: [   88.093978] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:05 ubuntu-phablet kernel: [   90.155940] apport (2419): undefined instruction: pc=b68743c8
+Dec  1 20:34:05 ubuntu-phablet kernel: [   90.155958] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:07 ubuntu-phablet kernel: [   92.212725] apport (2430): undefined instruction: pc=b68dc3c8
+Dec  1 20:34:07 ubuntu-phablet kernel: [   92.212743] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:09 ubuntu-phablet kernel: [   94.242447] apport (2436): undefined instruction: pc=b69293c8
+Dec  1 20:34:09 ubuntu-phablet kernel: [   94.242465] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:11 ubuntu-phablet kernel: [   96.300851] apport (2447): undefined instruction: pc=b69333c8
+Dec  1 20:34:11 ubuntu-phablet kernel: [   96.300869] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:13 ubuntu-phablet kernel: [   98.340637] apport (2453): undefined instruction: pc=b68c13c8
+Dec  1 20:34:13 ubuntu-phablet kernel: [   98.340656] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:15 ubuntu-phablet kernel: [  100.396595] apport (2464): undefined instruction: pc=b693e3c8
+Dec  1 20:34:15 ubuntu-phablet kernel: [  100.396613] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:17 ubuntu-phablet kernel: [  102.435737] apport (2470): undefined instruction: pc=b692b3c8
+Dec  1 20:34:17 ubuntu-phablet kernel: [  102.435753] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:19 ubuntu-phablet kernel: [  104.143038] BMS: adjust_soc: s 36 i 560375 v 3723189 ocv 3792000 rbatt 148 uuc 61590 cc 14211 r 800670 t 400
+Dec  1 20:34:19 ubuntu-phablet kernel: [  104.475626] apport (2477): undefined instruction: pc=b68a53c8
+Dec  1 20:34:19 ubuntu-phablet kernel: [  104.475644] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:21 ubuntu-phablet kernel: [  106.136413] BMS: btm_notify_die_temp: die temp = 60356, raw = 0x7b69
+Dec  1 20:34:21 ubuntu-phablet kernel: [  106.141146] BMS: refresh_die_temp_monitor: low = 55405, high = 65405
+Dec  1 20:34:21 ubuntu-phablet kernel: [  106.186196] BMS: adjust_soc: s 36 i 334232 v 3754122 ocv 3792000 rbatt 150 uuc 82160 cc 14393 r 801060 t 399
+Dec  1 20:34:21 ubuntu-phablet kernel: [  106.532453] apport (2490): undefined instruction: pc=b68793c8
+Dec  1 20:34:21 ubuntu-phablet kernel: [  106.532471] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:23 ubuntu-phablet kernel: [  108.562796] apport (2496): undefined instruction: pc=b68613c8
+Dec  1 20:34:23 ubuntu-phablet kernel: [  108.562814] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:25 ubuntu-phablet kernel: [  110.609199] apport (2507): undefined instruction: pc=b68813c8
+Dec  1 20:34:25 ubuntu-phablet kernel: [  110.609217] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:27 ubuntu-phablet kernel: [  112.642261] apport (2514): undefined instruction: pc=b694b3c8
+Dec  1 20:34:27 ubuntu-phablet kernel: [  112.642278] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:29 ubuntu-phablet kernel: [  114.684340] apport (2520): undefined instruction: pc=b685d3c8
+Dec  1 20:34:29 ubuntu-phablet kernel: [  114.684359] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:32 ubuntu-phablet kernel: [  116.733741] apport (2531): undefined instruction: pc=b68ee3c8
+Dec  1 20:34:32 ubuntu-phablet kernel: [  116.733759] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:34 ubuntu-phablet kernel: [  118.774368] apport (2537): undefined instruction: pc=b69433c8
+Dec  1 20:34:34 ubuntu-phablet kernel: [  118.774386] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:36 ubuntu-phablet kernel: [  120.819459] apport (2554): undefined instruction: pc=b68f83c8
+Dec  1 20:34:36 ubuntu-phablet kernel: [  120.819477] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:38 ubuntu-phablet kernel: [  122.862835] apport (2560): undefined instruction: pc=b68a23c8
+Dec  1 20:34:38 ubuntu-phablet kernel: [  122.862853] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:39 ubuntu-phablet kernel: [  124.143836] BMS: adjust_soc: s 36 i -110847 v 3798906 ocv 3792000 rbatt 150 uuc 82160 cc 15459 r 801060 t 399
+Dec  1 20:34:40 ubuntu-phablet kernel: [  124.904750] apport (2566): undefined instruction: pc=b687c3c8
+Dec  1 20:34:40 ubuntu-phablet kernel: [  124.904768] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:42 ubuntu-phablet kernel: [  126.942824] apport (2577): undefined instruction: pc=b687c3c8
+Dec  1 20:34:42 ubuntu-phablet kernel: [  126.942843] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:44 ubuntu-phablet kernel: [  128.998225] apport (2583): undefined instruction: pc=b690b3c8
+Dec  1 20:34:44 ubuntu-phablet kernel: [  128.998243] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:46 ubuntu-phablet kernel: [  131.045495] apport (2594): undefined instruction: pc=b69373c8
+Dec  1 20:34:46 ubuntu-phablet kernel: [  131.045512] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:48 ubuntu-phablet kernel: [  133.091410] apport (2600): undefined instruction: pc=b69263c8
+Dec  1 20:34:48 ubuntu-phablet kernel: [  133.091427] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:50 ubuntu-phablet kernel: [  135.133709] apport (2606): undefined instruction: pc=b68e93c8
+Dec  1 20:34:50 ubuntu-phablet kernel: [  135.133726] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:52 ubuntu-phablet kernel: [  137.186091] apport (2617): undefined instruction: pc=b69473c8
+Dec  1 20:34:52 ubuntu-phablet kernel: [  137.186108] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:54 ubuntu-phablet kernel: [  139.211772] apport (2623): undefined instruction: pc=b69473c8
+Dec  1 20:34:54 ubuntu-phablet kernel: [  139.211790] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:56 ubuntu-phablet kernel: [  141.273264] apport (2634): undefined instruction: pc=b68e33c8
+Dec  1 20:34:56 ubuntu-phablet kernel: [  141.273281] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:58 ubuntu-phablet kernel: [  143.310083] apport (2640): undefined instruction: pc=b68693c8
+Dec  1 20:34:58 ubuntu-phablet kernel: [  143.310101] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:34:59 ubuntu-phablet kernel: [  144.142732] BMS: adjust_soc: s 36 i 542283 v 3732615 ocv 3792000 rbatt 148 uuc 82120 cc 16574 r 800670 t 401
+Dec  1 20:35:00 ubuntu-phablet kernel: [  145.350924] apport (2653): undefined instruction: pc=b69253c8
+Dec  1 20:35:00 ubuntu-phablet kernel: [  145.350942] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:02 ubuntu-phablet kernel: [  147.384635] apport (2659): undefined instruction: pc=b69053c8
+Dec  1 20:35:02 ubuntu-phablet kernel: [  147.384653] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:04 ubuntu-phablet kernel: [  149.425845] apport (2665): undefined instruction: pc=b68af3c8
+Dec  1 20:35:04 ubuntu-phablet kernel: [  149.425862] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:06 ubuntu-phablet kernel: [  151.467829] apport (2676): undefined instruction: pc=b68613c8
+Dec  1 20:35:06 ubuntu-phablet kernel: [  151.467847] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:08 ubuntu-phablet kernel: [  153.505428] apport (2682): undefined instruction: pc=b69193c8
+Dec  1 20:35:08 ubuntu-phablet kernel: [  153.505446] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:10 ubuntu-phablet kernel: [  155.556250] apport (2693): undefined instruction: pc=b68e93c8
+Dec  1 20:35:10 ubuntu-phablet kernel: [  155.556267] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:12 ubuntu-phablet kernel: [  157.591983] apport (2699): undefined instruction: pc=b68ea3c8
+Dec  1 20:35:12 ubuntu-phablet kernel: [  157.592001] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:14 ubuntu-phablet kernel: [  159.633227] apport (2705): undefined instruction: pc=b690f3c8
+Dec  1 20:35:14 ubuntu-phablet kernel: [  159.633245] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:16 ubuntu-phablet kernel: [  161.677045] apport (2716): undefined instruction: pc=b68ca3c8
+Dec  1 20:35:16 ubuntu-phablet kernel: [  161.677063] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:19 ubuntu-phablet kernel: [  163.725534] apport (2722): undefined instruction: pc=b69383c8
+Dec  1 20:35:19 ubuntu-phablet kernel: [  163.725553] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:19 ubuntu-phablet kernel: [  164.142709] BMS: adjust_soc: s 36 i 360911 v 3750588 ocv 3792000 rbatt 148 uuc 82120 cc 17539 r 800670 t 402
+Dec  1 20:35:21 ubuntu-phablet kernel: [  165.791477] apport (2733): undefined instruction: pc=b69173c8
+Dec  1 20:35:21 ubuntu-phablet kernel: [  165.791495] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:23 ubuntu-phablet kernel: [  167.835387] apport (2739): undefined instruction: pc=b689d3c8
+Dec  1 20:35:23 ubuntu-phablet kernel: [  167.835405] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:25 ubuntu-phablet kernel: [  169.890147] apport (2745): undefined instruction: pc=b69403c8
+Dec  1 20:35:25 ubuntu-phablet kernel: [  169.890165] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:27 ubuntu-phablet kernel: [  171.933919] apport (2756): undefined instruction: pc=b691d3c8
+Dec  1 20:35:27 ubuntu-phablet kernel: [  171.933936] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:29 ubuntu-phablet kernel: [  173.974198] apport (2762): undefined instruction: pc=b68d23c8
+Dec  1 20:35:29 ubuntu-phablet kernel: [  173.974216] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:31 ubuntu-phablet kernel: [  176.027379] apport (2773): undefined instruction: pc=b691a3c8
+Dec  1 20:35:31 ubuntu-phablet kernel: [  176.027397] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:33 ubuntu-phablet kernel: [  178.053163] apport (2779): undefined instruction: pc=b68773c8
+Dec  1 20:35:33 ubuntu-phablet kernel: [  178.053181] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:35 ubuntu-phablet kernel: [  180.110397] apport (2785): undefined instruction: pc=b693c3c8
+Dec  1 20:35:35 ubuntu-phablet kernel: [  180.110414] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:37 ubuntu-phablet kernel: [  182.155381] apport (2796): undefined instruction: pc=b693f3c8
+Dec  1 20:35:37 ubuntu-phablet kernel: [  182.155399] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:39 ubuntu-phablet kernel: [  184.142723] BMS: adjust_soc: s 35 i 395033 v 3752649 ocv 3792000 rbatt 148 uuc 82120 cc 19109 r 800670 t 403
+Dec  1 20:35:39 ubuntu-phablet kernel: [  184.211014] apport (2802): undefined instruction: pc=b69353c8
+Dec  1 20:35:39 ubuntu-phablet kernel: [  184.211032] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:41 ubuntu-phablet kernel: [  186.272028] apport (2815): undefined instruction: pc=b68c63c8
+Dec  1 20:35:41 ubuntu-phablet kernel: [  186.272046] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:43 ubuntu-phablet kernel: [  188.310652] apport (2821): undefined instruction: pc=b68c13c8
+Dec  1 20:35:43 ubuntu-phablet kernel: [  188.310670] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:45 ubuntu-phablet kernel: [  190.350757] apport (2832): undefined instruction: pc=b69423c8
+Dec  1 20:35:45 ubuntu-phablet kernel: [  190.350775] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
+Dec  1 20:35:47 ubuntu-phablet kernel: [  192.397932] apport (2840): undefined instruction: pc=b68fb3c8
+Dec  1 20:35:47 ubuntu-phablet kernel: [  192.397950] Code: 00000000 00000000 f26ee1fe e12fff1e (ee190f1d) 
