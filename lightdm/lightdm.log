@@ -1,38 +1,26 @@
 [+0.00s] DEBUG: Logging to /var/log/lightdm/lightdm.log
-[+0.00s] DEBUG: Starting Light Display Manager 1.14.2, UID=0 PID=2702
-[+0.00s] DEBUG: Loading configuration dirs from /usr/share/lightdm/lightdm.conf.d
-[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-greeter-wrapper.conf
-[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-guest-wrapper.conf
-[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/50-xserver-command.conf
-[+0.00s] DEBUG: Loading configuration from /usr/share/lightdm/lightdm.conf.d/52-ubuntu-touch.conf
-[+0.00s] DEBUG: Loading configuration dirs from /custom/xdg/data/lightdm/lightdm.conf.d
-[+0.00s] DEBUG: Loading configuration dirs from /etc/xdg/lightdm/lightdm.conf.d
+[+0.00s] DEBUG: Starting Light Display Manager 1.8.4, UID=0 PID=2020
+[+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf.d/50-greeter-wrapper.conf
+[+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf.d/50-guest-wrapper.conf
+[+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf.d/50-xserver-command.conf
+[+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf.d/52-ubuntu-touch.conf
 [+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf.d/90-phablet.conf
 [+0.00s] DEBUG: Loading configuration from /etc/lightdm/lightdm.conf
 [+0.00s] DEBUG: Using D-Bus name org.freedesktop.DisplayManager
 [+0.00s] DEBUG: Registered seat module xlocal
 [+0.00s] DEBUG: Registered seat module xremote
 [+0.00s] DEBUG: Registered seat module unity
-[+0.13s] DEBUG: Monitoring logind for seats
-[+0.13s] DEBUG: New seat added from logind: seat0
-[+0.13s] DEBUG: Loading properties from config section SeatDefaults
-[+0.13s] DEBUG: Seat seat0: Starting
-[+0.15s] DEBUG: Using VT 1
-[+0.15s] DEBUG: DisplayServer: Logging to /var/log/lightdm/unity-system-compositor.log
-[+0.15s] DEBUG: Launching process 2711: /usr/share/ubuntu-touch-session/usc-wrapper --file '/run/mir_socket' --from-dm-fd 9 --to-dm-fd 13 --vt 1
-[+0.15s] DEBUG: DisplayServer: Waiting for system compositor for 60s
-[+0.15s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
-[+0.15s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
-[+0.17s] DEBUG: Loading users from org.freedesktop.Accounts
-[+5.03s] DEBUG: DisplayServer: Compositor closed communication channel
-[+5.03s] DEBUG: Process 2711 terminated with signal 9
-[+5.05s] DEBUG: DisplayServer: Unity system compositor stopped
-[+5.05s] DEBUG: Releasing VT 1
-[+5.05s] DEBUG: Seat seat0: Compositor stopped
-[+5.05s] DEBUG: Seat seat0: Stopping
-[+5.05s] DEBUG: Seat seat0: Stopped
-[+5.05s] DEBUG: Required seat has stopped
-[+5.05s] DEBUG: Stopping display manager
-[+5.05s] DEBUG: Display manager stopped
-[+5.05s] DEBUG: Stopping daemon
-[+5.06s] DEBUG: Exiting with return value 1
+[+0.00s] DEBUG: Registered seat module surfaceflinger
+[+0.00s] DEBUG: Adding default seat
+[+0.00s] DEBUG: Seat: Starting
+[+0.00s] DEBUG: Seat: Creating user session
+[+0.28s] DEBUG: Seat: Creating display server of type surfaceflinger
+[+0.29s] DEBUG: Seat: Display server ready, starting session authentication
+[+0.29s] DEBUG: Session pid=2067: Started with service 'lightdm-autologin', username 'phablet'
+[+0.29s] DEBUG: Acquired bus name org.freedesktop.DisplayManager
+[+0.29s] DEBUG: Registering seat with bus path /org/freedesktop/DisplayManager/Seat0
+[+0.39s] DEBUG: Session pid=2067: Authentication complete with return value 0: Success
+[+0.39s] DEBUG: Seat: Session authenticated, running command
+[+0.39s] DEBUG: Registering session with bus path /org/freedesktop/DisplayManager/Session0
+[+0.40s] DEBUG: Session pid=2067: Running command /usr/sbin/lightdm-session ubuntu-touch-session
+[+0.46s] DEBUG: Session pid=2067: Logging to .xsession-errors

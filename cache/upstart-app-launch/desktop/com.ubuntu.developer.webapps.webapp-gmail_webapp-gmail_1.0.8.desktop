@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=webbrowser-app --enable-back-forward --webappModelSearchPath=. --webapp='R01haWwNCg==' https://mail.google.com/
+Name=Gmail
+Icon=./gmail.png
+X-Ubuntu-Touch=true
+X-Ubuntu-Single-Instance=true
