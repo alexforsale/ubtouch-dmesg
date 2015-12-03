@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Terminal=false
-Exec=webbrowser-app --enable-back-forward --webappUrlPatterns=https?://one.ubuntu.com/*,https?://login.ubuntu.com/* --webapp https://one.ubuntu.com/
-Name=Ubuntu One
-Icon=./ubuntuone.png
-X-Ubuntu-Touch=true
-X-Ubuntu-Single-Instance=true
