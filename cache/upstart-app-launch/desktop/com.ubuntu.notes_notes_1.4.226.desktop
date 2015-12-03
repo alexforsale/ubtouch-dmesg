@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Exec=qmlscene $@ -I ./usr/lib/arm-linux-gnueabihf/qt5/qml NotesApp.qml
+Name=Notes
+GenericName=Notes application for Ubuntu
+Icon=notepad
+Terminal=false
+
+X-Ubuntu-Touch=true
+X-Ubuntu-StageHint=SideStage
+X-Ubuntu-Gettext-Domain=com.ubuntu.notes
+X-Ubuntu-Single-Instance=true

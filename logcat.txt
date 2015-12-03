@@ -1,0 +1,2273 @@
+--------- beginning of /dev/alog/main
+I/UpstartPropertyWatcher(  859): Starting upstart property watcher
+I/UpstartPropertyWatcher(  859): Upstart property watcher connected to socket '/dev/socket/upstart-text-bridge'
+I/UpstartPropertyWatcher(  859): Notifying the entire property list
+I/UpstartPropertyWatcher(  859): Property changed: af.resampler.quality=4
+I/UpstartPropertyWatcher(  859): Property changed: av.offload.enable=true
+I/UpstartPropertyWatcher(  859): Property changed: cm.updater.uri=http://ota.randomdroids.com/api
+I/UpstartPropertyWatcher(  859): Property changed: mm.enable.qcom_parser=37491
+I/UpstartPropertyWatcher(  859): Property changed: mm.enable.smoothstreaming=true
+I/UpstartPropertyWatcher(  859): Property changed: ro.cm.device=armani
+I/UpstartPropertyWatcher(  859): Property changed: ro.qc.sdk.izat.service_mask=0x5
+I/UpstartPropertyWatcher(  859): Property changed: ro.qc.sdk.izat.premium_enabled=1
+I/UpstartPropertyWatcher(  859): Property changed: ro.qc.sdk.audio.ssr=false
+I/UpstartPropertyWatcher(  859): Property changed: ro.qc.sdk.audio.fluencetype=fluence
+I/UpstartPropertyWatcher(  859): Property changed: ro.sf.lcd_density=320
+I/UpstartPropertyWatcher(  859): Property changed: ro.com.android.dateformat=MM-dd-yyyy
+I/UpstartPropertyWatcher(  859): Property changed: ro.com.android.dataroaming=true
+I/UpstartPropertyWatcher(  859): Property changed: ro.cwm.forbid_mount=/persist,/firmware
+I/UpstartPropertyWatcher(  859): Property changed: ro.cwm.forbid_format=/fsg,/firmware,/boot,/persist
+I/UpstartPropertyWatcher(  859): Property changed: ro.cwm.enable_key_repeat=true
+I/UpstartPropertyWatcher(  859): Property changed: ro.gps.agps_provider=1
+I/UpstartPropertyWatcher(  859): Property changed: ro.boot.emmc=true
+I/UpstartPropertyWatcher(  859): Property changed: ro.boot.modem=HM1AW
+I/UpstartPropertyWatcher(  859): Property changed: ro.boot.baseband=msm
+I/UpstartPropertyWatcher(  859): Property changed: ro.boot.hardware=armani
+I/UpstartPropertyWatcher(  859): Property changed: ro.boot.serialno=9924b89b
+I/UpstartPropertyWatcher(  859): Property changed: ro.boot.hwversion=40
+I/UpstartPropertyWatcher(  859): Property changed: ro.emmc=0
+I/UpstartPropertyWatcher(  859): Property changed: ro.wifi.channels=
+I/UpstartPropertyWatcher(  859): Property changed: ro.allow.mock.location=0
+I/UpstartPropertyWatcher(  859): Property changed: ro.board.platform=msm8226
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.id=KTU84Q
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.date=Jum Des  4 03:43:00 WIB 2015
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.date.utc=1449175380
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.host=elasrofxela
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.tags=test-keys
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.type=userdebug
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.user=alexforsale
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.display.id=phablet_armani-userdebug 4.4.4 KTU84Q eng.alexforsale.20151204.034140 test-keys
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.product=armani
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.version.sdk=19
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.version.base_os=
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.version.release=4.4.4
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.version.codename=REL
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.version.incremental=eng.alexforsale.20151204.034140
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.version.security_patch=2015-11-01
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.description=armani-user 4.4.4 KTU84P V7.0.5.0.KHCMICI release-keys
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.fingerprint=Xiaomi/armani/armani:4.4.4/KTU84P/V7.0.5.0.KHCMICI:user/release-keys
+I/UpstartPropertyWatcher(  859): Property changed: ro.build.characteristics=default
+I/UpstartPropertyWatcher(  859): Property changed: ro.crypto.fuse_sdcard=true
+I/UpstartPropertyWatcher(  859): Property changed: ro.secure=1
+I/UpstartPropertyWatcher(  859): Property changed: ro.vendor.extension_library=/vendor/lib/libqc-opt.so
+I/UpstartPropertyWatcher(  859): Property changed: ro.carrier=unknown
+I/UpstartPropertyWatcher(  859): Property changed: ro.product.cpu.abi=armeabi-v7a
+I/UpstartPropertyWatcher(  859): Property changed: ro.product.cpu.abi2=armeabi
+I/UpstartPropertyWatcher(  859): Property changed: ro.product.name=armani
+I/UpstartPropertyWatcher(  859): Property changed: ro.product.board=MSM8226
+I/UpstartPropertyWatcher(  859): Property changed: ro.product.brand=Xiaomi
+I/UpstartPropertyWatcher(  859): Property changed: ro.product.model=HM 1SW
+I/UpstartPropertyWatcher(  859): Property changed: ro.product.device=armani
+I/UpstartPropertyWatcher(  859): Property changed: ro.product.locale.region=US
+I/UpstartPropertyWatcher(  859): Property changed: ro.product.locale.language=en
+I/UpstartPropertyWatcher(  859): Property changed: ro.product.manufacturer=Xiaomi
+I/UpstartPropertyWatcher(  859): Property changed: ro.baseband=msm
+I/UpstartPropertyWatcher(  859): Property changed: ro.bootmode=unknown
+I/UpstartPropertyWatcher(  859): Property changed: ro.hardware=armani
+I/UpstartPropertyWatcher(  859): Property changed: ro.opengles.version=196608
+I/UpstartPropertyWatcher(  859): Property changed: ro.qualcomm.cabl=0
+I/UpstartPropertyWatcher(  859): Property changed: ro.revision=0
+I/UpstartPropertyWatcher(  859): Property changed: ro.serialno=9924b89b
+I/UpstartPropertyWatcher(  859): Property changed: ro.telephony.call_ring.multiple=false
+I/UpstartPropertyWatcher(  859): Property changed: ro.telephony.default_network=0,1
+I/UpstartPropertyWatcher(  859): Property changed: ro.bootloader=unknown
+I/UpstartPropertyWatcher(  859): Property changed: ro.debuggable=1
+I/UpstartPropertyWatcher(  859): Property changed: ro.factorytest=0
+I/UpstartPropertyWatcher(  859): Property changed: dev.pm.dyn_samplingrate=1
+I/UpstartPropertyWatcher(  859): Property changed: drm.service.enabled=true
+I/UpstartPropertyWatcher(  859): Property changed: mmp.enable.3g2=true
+I/UpstartPropertyWatcher(  859): Property changed: net.bt.name=Android
+I/UpstartPropertyWatcher(  859): Property changed: net.change=net.bt.name
+I/UpstartPropertyWatcher(  859): Property changed: ril.device=qcom_msim
+I/UpstartPropertyWatcher(  859): Property changed: ril.num_slots=2
+I/UpstartPropertyWatcher(  859): Property changed: ril.subscription.types=RUIM
+I/UpstartPropertyWatcher(  859): Property changed: use.voice.path.for.pcm.voip=true
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ueventd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.upstart-watcher=running
+I/UpstartPropertyWatcher(  859): Property changed: qcom.bt.dev_power_class=1
+I/UpstartPropertyWatcher(  859): Property changed: qcom.hw.aac.encoder=true
+I/UpstartPropertyWatcher(  859): Property changed: rild.libargs=-d /dev/smd0
+I/UpstartPropertyWatcher(  859): Property changed: rild.libpath=/vendor/lib/libril-qc-qmi-1.so
+I/UpstartPropertyWatcher(  859): Property changed: vold.post_fs_data_done=1
+I/UpstartPropertyWatcher(  859): Property changed: wifi.interface=wlan0
+I/UpstartPropertyWatcher(  859): Property changed: audio.offload.pcm.enable=false
+I/UpstartPropertyWatcher(  859): Property changed: audio.offload.buffer.size.kb=32
+I/UpstartPropertyWatcher(  859): Property changed: audio.offload.disable=1
+I/UpstartPropertyWatcher(  859): Property changed: audio.offload.gapless.enabled=true
+I/UpstartPropertyWatcher(  859): Property changed: debug.sf.hw=1
+I/UpstartPropertyWatcher(  859): Property changed: debug.sf.fb_always_on=1
+I/UpstartPropertyWatcher(  859): Property changed: debug.egl.hw=1
+I/UpstartPropertyWatcher(  859): Property changed: debug.mdpcomp.logs=0
+I/UpstartPropertyWatcher(  859): Property changed: debug.composition.type=c2d
+I/UpstartPropertyWatcher(  859): Property changed: media.stagefright.enable-aac=true
+I/UpstartPropertyWatcher(  859): Property changed: media.stagefright.enable-qcp=true
+I/UpstartPropertyWatcher(  859): Property changed: media.stagefright.enable-http=true
+I/UpstartPropertyWatcher(  859): Property changed: media.stagefright.enable-scan=true
+I/UpstartPropertyWatcher(  859): Property changed: media.stagefright.enable-fma2dp=true
+I/UpstartPropertyWatcher(  859): Property changed: media.stagefright.enable-player=true
+I/UpstartPropertyWatcher(  859): Property changed: dalvik.vm.heapsize=256m
+I/UpstartPropertyWatcher(  859): Property changed: dalvik.vm.lockprof.threshold=500
+I/UpstartPropertyWatcher(  859): Property changed: dalvik.vm.heapmaxfree=8m
+I/UpstartPropertyWatcher(  859): Property changed: dalvik.vm.heapminfree=2m
+I/UpstartPropertyWatcher(  859): Property changed: dalvik.vm.dexopt-flags=m=y
+I/UpstartPropertyWatcher(  859): Property changed: dalvik.vm.heapstartsize=8m
+I/UpstartPropertyWatcher(  859): Property changed: dalvik.vm.heapgrowthlimit=96m
+I/UpstartPropertyWatcher(  859): Property changed: dalvik.vm.stack-trace-file=/data/anr/traces.txt
+I/UpstartPropertyWatcher(  859): Property changed: dalvik.vm.heaptargetutilization=0.75
+I/UpstartPropertyWatcher(  859): Property changed: persist.gps.qc_nlp_in_use=1
+I/UpstartPropertyWatcher(  859): Property changed: persist.hwc.mdpcomp.enable=true
+I/UpstartPropertyWatcher(  859): Property changed: persist.loc.nlp_name=com.qualcomm.services.location
+I/UpstartPropertyWatcher(  859): Property changed: persist.sys.usb.config=mtp,adb
+I/UpstartPropertyWatcher(  859): Property changed: persist.sys.wfd.virtual=0
+I/UpstartPropertyWatcher(  859): Property changed: persist.sys.dalvik.vm.lib=libdvm.so
+I/UpstartPropertyWatcher(  859): Property changed: persist.data.netmgrd.qos.enable=true
+I/UpstartPropertyWatcher(  859): Property changed: persist.audio.fluence.speaker=false
+I/UpstartPropertyWatcher(  859): Property changed: persist.audio.fluence.voicerec=true
+I/UpstartPropertyWatcher(  859): Property changed: persist.audio.fluence.voicecall=true
+I/UpstartPropertyWatcher(  859): Property changed: persist.debug.wfd.enable=1
+I/UpstartPropertyWatcher(  859): Property changed: persist.radio.eons.enabled=false
+I/UpstartPropertyWatcher(  859): Property changed: persist.radio.imei=865622029785974
+I/UpstartPropertyWatcher(  859): Property changed: persist.radio.multisim.config=dsds
+I/UpstartPropertyWatcher(  859): Property changed: persist.radio.msgtunnel.start=false
+I/UpstartPropertyWatcher(  859): Property changed: persist.radio.adb_log_on=0
+I/UpstartPropertyWatcher(  859): Property changed: persist.radio.dont_use_dsd=true
+I/UpstartPropertyWatcher(  859): Property changed: persist.radio.apm_sim_not_pwdn=1
+I/UpstartPropertyWatcher(  859): Property changed: persist.timed.enable=true
+I/UpstartPropertyWatcher(  859): Property changed: persist.ubuntu.version=unknown
+I/UpstartPropertyWatcher(  859): Property changed: persist.ubuntu.version.custom=unknown
+I/UpstartPropertyWatcher(  859): Property changed: persist.ubuntu.version.device=unknown
+I/UpstartPropertyWatcher(  859): Property changed: persist.ubuntu.version.rootfs=unknown
+I/UpstartPropertyWatcher(  859): Property changed: persist.ubuntu.version.channel=unknown
+I/UpstartPropertyWatcher(  859): Property changed: persist.ubuntu.default_language=unknown
+I/UpstartPropertyWatcher(  859): Property changed: selinux.reload_policy=1
+I/UpstartPropertyWatcher(  859): Property changed: keyguard.no_require_sim=true
+I/UpstartPropertyWatcher(  859): Property changed: bluetooth.hfp.client=1
+I/UpstartPropertyWatcher(  859): Notifying changes only
+I/UpstartPropertyWatcher(  859): Property changed: net.tcp.buffersize.default=4096,87380,704512,4096,16384,110208
+I/UpstartPropertyWatcher(  859): Property changed: net.change=net.tcp.buffersize.lte
+I/UpstartPropertyWatcher(  859): Property changed: net.tcp.buffersize.lte=524288,1048576,2097152,262144,524288,1048576
+I/UpstartPropertyWatcher(  859): Property changed: net.tcp.buffersize.edge=4093,26280,35040,4096,16384,35040
+I/UpstartPropertyWatcher(  859): Property changed: net.tcp.buffersize.evdo=4094,87380,262144,4096,16384,262144
+I/UpstartPropertyWatcher(  859): Property changed: net.tcp.buffersize.gprs=4092,8760,11680,4096,8760,11680
+I/UpstartPropertyWatcher(  859): Property changed: net.tcp.buffersize.hspa=4094,87380,1220608,4096,16384,1220608
+I/UpstartPropertyWatcher(  859): Property changed: net.tcp.buffersize.umts=4094,87380,110208,4096,16384,110208
+I/UpstartPropertyWatcher(  859): Property changed: net.tcp.buffersize.wifi=524288,1048576,2097152,262144,524288,1048576
+I/UpstartPropertyWatcher(  859): Property changed: net.tcp.buffersize.hsdpa=4094,87380,1220608,4096,16384,1220608
+I/UpstartPropertyWatcher(  859): Property changed: net.tcp.buffersize.hspap=4094,87380,1220608,4096,16384,1220608
+I/UpstartPropertyWatcher(  859): Property changed: net.tcp.buffersize.hsupa=4094,87380,1220608,4096,16384,1220608
+I/UpstartPropertyWatcher(  859): Property changed: net.tcp.buffersize.evdo_b=4096,87380,704512,4096,16384,262144
+I/UpstartPropertyWatcher(  859): Property changed: net.tcp.buffersize.dchspap=4094,87380,1220608,4096,16384,1220608
+I/UpstartPropertyWatcher(  859): Property changed: net.tcp.default_init_rwnd=60
+I/UpstartPropertyWatcher(  859): Property changed: net.change=net.tcp.default_init_rwnd
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.healthd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.rmt_storage=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.servicemanager=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.config_bluetooth=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.auditd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.debuggerd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ril-daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.drm=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.media=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.installd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.irsc_util=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.qmuxd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.netmgrd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.sensors=running
+--------- beginning of /dev/alog/system
+I/auditd  (  877): Starting up
+D/QC-time-services(  897): Daemon:genoff_modem_qmi_init: Initiallizing QMI 
+I/UpstartPropertyWatcher(  859): Property changed: ro.qualcomm.bluetooth.opp=true
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/ThermalEngine(  891): BCL sensors setup done.
+I/ThermalEngine(  891): Using target config file '/system/etc/thermal-engine-8226.conf'
+I/ThermalEngine(  891): Loading config file for virtual sensor
+E/ThermalEngine(  891): virtual_sensors_init: Error getting virtual sensors set
+I/ThermalEngine(  891): [BATTERY_MONITOR]
+I/ThermalEngine(  891): algo_type monitor
+I/ThermalEngine(  891): sampling 1000
+I/ThermalEngine(  891): sensor batt_temp
+I/ThermalEngine(  891): thresholds 44000 47000 50000 53000 56000
+I/ThermalEngine(  891): thresholds_clr 42000 45000 48000 51000 54000
+I/ThermalEngine(  891): actions cpu+hotplug_2+hotplug_3 cpu+hotplug_3 cpu+hotplug_3 cpu cpu
+I/ThermalEngine(  891): action_info 1190400+1+0 998400+1 787200+1 600000 384000
+I/ThermalEngine(  891): [CPU2-3_MONITOR]
+I/ThermalEngine(  891): algo_type monitor
+I/ThermalEngine(  891): sampling 1000
+I/ThermalEngine(  891): sensor cpu2-3
+I/ThermalEngine(  891): thresholds 120000
+I/ThermalEngine(  891): thresholds_clr 115000
+I/ThermalEngine(  891): actions shutdown
+I/ThermalEngine(  891): action_info 5000
+I/ThermalEngine(  891): [CPU0-1_MONITOR]
+I/ThermalEngine(  891): algo_type monitor
+I/ThermalEngine(  891): sampling 1000
+I/ThermalEngine(  891): sensor cpu0-1
+I/ThermalEngine(  891): thresholds 120000
+I/ThermalEngine(  891): thresholds_clr 115000
+I/ThermalEngine(  891): actions shutdown
+I/ThermalEngine(  891): action_info 5000
+I/ThermalEngine(  891): [VDD_RSTR_MONITOR-TSENS5]
+I/ThermalEngine(  891): #algo_type monitor
+I/ThermalEngine(  891): sampling 1000
+I/ThermalEngine(  891): sensor tsens_tz_sensor5
+I/ThermalEngine(  891): thresholds 5000
+I/ThermalEngine(  891): thresholds_clr 10000
+I/ThermalEngine(  891): actions vdd_restriction
+I/ThermalEngine(  891): action_info 1
+I/ThermalEngine(  891): descending
+I/ThermalEngine(  891): [VDD_RSTR_MONITOR-TSENS4]
+I/ThermalEngine(  891): #algo_type monitor
+I/ThermalEngine(  891): sampling 1000
+I/ThermalEngine(  891): sensor tsens_tz_sensor4
+I/ThermalEngine(  891): thresholds 5000
+I/ThermalEngine(  891): thresholds_clr 10000
+I/ThermalEngine(  891): actions vdd_restriction
+I/ThermalEngine(  891): action_info 1
+I/ThermalEngine(  891): descending
+I/ThermalEngine(  891): [VDD_RSTR_MONITOR-TSENS3]
+I/ThermalEngine(  891): #algo_type monitor
+I/ThermalEngine(  891): sampling 1000
+I/ThermalEngine(  891): sensor tsens_tz_sensor3
+I/ThermalEngine(  891): thresholds 5000
+I/ThermalEngine(  891): thresholds_clr 10000
+I/ThermalEngine(  891): actions vdd_restriction
+I/ThermalEngine(  891): action_info 1
+I/ThermalEngine(  891): descending
+I/ThermalEngine(  891): [VDD_RSTR_MONITOR-TSENS2]
+I/ThermalEngine(  891): #algo_type monitor
+I/ThermalEngine(  891): sampling 1000
+I/ThermalEngine(  891): sensor tsens_tz_sensor2
+I/ThermalEngine(  891): thresholds 5000
+I/ThermalEngine(  891): thresholds_clr 10000
+I/ThermalEngine(  891): actions vdd_restriction
+I/ThermalEngine(  891): action_info 1
+I/ThermalEngine(  891): descending
+I/ThermalEngine(  891): [VDD_RSTR_MONITOR-TSENS1]
+I/ThermalEngine(  891): #algo_type monitor
+I/ThermalEngine(  891): sampling 1000
+I/ThermalEngine(  891): sensor tsens_tz_sensor1
+I/ThermalEngine(  891): thresholds 5000
+I/ThermalEngine(  891): thresholds_clr 10000
+I/ThermalEngine(  891): actions vdd_restriction
+I/ThermalEngine(  891): action_info 1
+I/ThermalEngine(  891): descending
+I/ThermalEngine(  891): [VDD_RSTR_MONITOR-TSENS0]
+I/ThermalEngine(  891): #algo_type monitor
+I/ThermalEngine(  891): sampling 1000
+I/ThermalEngine(  891): sensor tsens_tz_sensor0
+I/ThermalEngine(  891): thresholds 5000
+I/ThermalEngine(  891): thresholds_clr 10000
+I/ThermalEngine(  891): actions vdd_restriction
+I/ThermalEngine(  891): action_info 1
+I/ThermalEngine(  891): descending
+I/ThermalEngine(  891): [SS-POPMEM]
+I/ThermalEngine(  891): #algo_type ss
+I/ThermalEngine(  891): sampling 1000
+I/ThermalEngine(  891): sensor pop_mem
+I/ThermalEngine(  891): device cpu
+I/ThermalEngine(  891): set_point 90000
+I/ThermalEngine(  891): set_point_clr 55000
+I/ThermalEngine(  891): time_constant 2
+I/ThermalEngine(  891): [SS-CPU2-3]
+I/ThermalEngine(  891): #algo_type ss
+I/ThermalEngine(  891): sampling 250
+I/ThermalEngine(  891): sensor cpu2-3
+I/ThermalEngine(  891): device cpu
+I/ThermalEngine(  891): set_point 90000
+I/ThermalEngine(  891): set_point_clr 55000
+I/ThermalEngine(  891): time_constant 0
+I/ThermalEngine(  891): [SS-CPU0-1]
+I/ThermalEngine(  891): #algo_type ss
+I/ThermalEngine(  891): sampling 250
+I/ThermalEngine(  891): sensor cpu0-1
+I/ThermalEngine(  891): device cpu
+I/ThermalEngine(  891): set_point 90000
+I/ThermalEngine(  891): set_point_clr 55000
+I/ThermalEngine(  891): time_constant 0
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor3:56000 mC
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor3:56000 mC
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor2:76000 mC
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor2:76000 mC
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor5:73000 mC
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor5:73000 mC
+I/audit_log(  877): Previous audit logfile detected, rotating
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor2:76000 mC
+I/UpstartPropertyWatcher(  859): Property changed: ro.qualcomm.bluetooth.hfp=true
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor5:73000 mC
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor5:73000 mC
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor4:57000 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ptt_socket_app=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.thermal-engine=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.qrngd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.adsprpcd=running
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor4:57000 mC
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor3:56000 mC
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor2:76000 mC
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor1:57000 mC
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor0:65000 mC
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor1:57000 mC
+I/ThermalEngine(  891): Sensor:tsens_tz_sensor0:65000 mC
+I/ThermalEngine(  891): vdd_restrict_qmi_request: MODEM req level(0) is recorded and waiting for completing QMI registration
+I/ThermalEngine(  891): vdd_restrict_qmi_request: ADSP req level(0) is recorded and waiting for completing QMI registration
+I/ThermalEngine(  891): hotplug_ktm_disable_cb: write out 0
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.sensorservice=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.sdcard=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.qcamerasvr=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.time_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.qseecomd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.wcnss-service=running
+I/irsc_util(  883): irsc tool created:0xb8eb0020
+I/installd(  882): installd firing up
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/irsc_util(  883): Starting irsc tool
+I/irsc_util(  883): Trying to open sec config file
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.location_mq=running
+I/UpstartPropertyWatcher(  859): Property changed: ro.qualcomm.bluetooth.hsp=true
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_client=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.lowi-server=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: ro.qualcomm.bluetooth.pbap=true
+I/DEBUG   (  878): debuggerd: Nov 29 2015 03:37:15
+I/qrngd   (  892): qrngd has started:
+I/qrngd   (  892): Reading device:'/dev/hw_random' updating entropy for device:'/dev/random'
+I/irsc_util(  883): file_parser Number of element :0
+I/irsc_util(  883): file_parser Invalid Format or Comment - '/* IPC Security Config */
+I/qcom-bluetooth(  904): /system/etc/init.qcom.bt.sh: init.qcom.bt.sh config = onboot 
+I/irsc_util(  883): '
+I/irsc_util(  883): file_parser Number of element :0
+I/irsc_util(  883): file_parser Invalid Format or Comment - '/* <GPS QMI Service ID - 16>:<GPS QMI Instance ID - all instances>:<Client Group ID> */
+I/irsc_util(  883): '
+I/irsc_util(  883): file_parser Number of element :4
+I/irsc_util(  883): file_parser Number of element :5
+I/irsc_util(  883): file_parser Number of element :0
+I/irsc_util(  883): file_parser Invalid Format or Comment - '
+I/irsc_util(  883): '
+I/irsc_util(  883): file_parser Number of element :0
+I/irsc_util(  883): file_parser Invalid Format or Comment - '/* Allow SS CTL service to be used by system and net_raw processes */
+I/irsc_util(  883): '
+I/irsc_util(  883): file_parser Number of element :4
+I/irsc_util(  883): file_parser Number of element :0
+I/irsc_util(  883): file_parser Invalid Format or Comment - '/* Allow Sensor services to be used by sensor process */
+I/irsc_util(  883): '
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.console=running
+I/UpstartPropertyWatcher(  859): Property changed: sys.usb.config=mtp,adb
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ril-daemon1=running
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/UpstartPropertyWatcher(  859): Property changed: sys.usb.state=mtp,adb
+I/UpstartPropertyWatcher(  859): Property changed: ro.qualcomm.bluetooth.ftp=true
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+E/mm-camera(  896): server_process_module_init:59, int mods
+E/mm-camera-sensor(  896): module_sensor_init:4145 Enter
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load s5k3l2_q13s01b
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load s5k3l2_q13s01b
+I/UpstartPropertyWatcher(  859): Property changed: ro.qualcomm.bluetooth.nap=true
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load s5k3l2_omiba01
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load s5k3l2_omiba01
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load ov5693_p5v40a
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load ov5693_p5v40a
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load ov5693_olq5f08
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load ov5693_olq5f08
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/UpstartPropertyWatcher(  859): Property changed: ro.bluetooth.sap=true
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+D/adsprpc (  893): vendor/qcom/proprietary/adsprpc/src/adsprpcd.c:21::info: calling: 0 == adsp_default_listener_register()
+D/adsprpc (  893): vendor/qcom/proprietary/adsprpc/src/adsprpcd.c:21::info: passed: 0 == adsp_default_listener_register()
+E/adsprpc (  893): vendor/qcom/proprietary/adsprpc/src/listener_android.c:107:listener using ion heap: -1
+D/QSEECOMAPI: (  898): Loaded image: APP id = 2
+I/UpstartPropertyWatcher(  859): Property changed: sys.keymaster.loaded=true
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+D/WLAN_PSA(  890): PTT_SOCKET_APP Start
+V/WLAN_PSA(  890): UID 0
+E/WLAN_PSA(  890): Set as Blocked Operation
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+E/adsprpc (  893): vendor/qcom/proprietary/adsprpc/src/apps_std_imp.c:33:apps_std fopen failed: ./oemconfig.so No such file or directory
+E/adsprpc (  893): vendor/qcom/proprietary/adsprpc/src/apps_std_imp.c:33:apps_std fopen failed: /system/lib/rfsa/adsp/./oemconfig.so No such file or directory
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+D/QSEECOMD: (  898): Parent qseecom daemon process paused!! 
+D/QSEECOMD: ( 1056): qseecom listener service threads starting!!! 
+D/QSEECOMD: ( 1056): Total listener services to start = 5
+E/QSEECOMD: ( 1056): Listener: index = 0, hierarchy = 1
+D/QSEECOMD: ( 1056): Init dlopen(librpmb.so, RTLD_NOW) succeeds
+D/QSEECOMD: ( 1056): Init::Init dlsym(g_FSHandle rpmb_start) succeeds
+D/QSEECOMAPI: ( 1056): QSEECom_register_listener 8192 sb_length = 0x5000
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/UpstartPropertyWatcher(  859): Property changed: ro.bluetooth.dun=true
+I/rmt_storage(  875): No EBR found
+I/rmt_storage(  875): Error (-1) parsing MBR partitions
+I/rmt_storage(  875): Registering modemst1: 0x4a /boot/modem_fs1
+I/rmt_storage(  875): Registering modemst2: 0x4b /boot/modem_fs2
+I/rmt_storage(  875): Registering fsg: 0x58 /boot/modem_fsg
+I/rmt_storage(  875): Registering ssd: 0x5d ssd
+I/rmt_storage(  875): Registering fsc: 0xff /boot/modem_fsc
+I/rmt_storage(  875): 5 GPT partitions found
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :0
+I/irsc_util(  883): file_parser Invalid Format or Comment - '/* IPC Security Config */
+I/irsc_util(  883): '
+I/irsc_util(  883): file_parser Number of element :0
+I/irsc_util(  883): file_parser Invalid Format or Comment - '/* <GPS QMI Service ID - 16>:<GPS QMI Instance ID - all instances>:<Client Group ID> */
+I/irsc_util(  883): '
+I/irsc_util(  883): file_parser Number of element :4
+I/irsc_util(  883): file_parser Number of element :5
+I/irsc_util(  883): file_parser Number of element :0
+I/irsc_util(  883): file_parser Invalid Format or Comment - '
+I/irsc_util(  883): '
+I/irsc_util(  883): file_parser Number of element :0
+I/irsc_util(  883): file_parser Invalid Format or Comment - '/* Allow SS CTL service to be used by system and net_raw processes */
+I/irsc_util(  883): '
+I/irsc_util(  883): file_parser Number of element :4
+I/irsc_util(  883): file_parser Number of element :0
+I/irsc_util(  883): file_parser Invalid Format or Comment - '/* Allow Sensor services to be used by sensor process */
+I/irsc_util(  883): '
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+D/QSEECOMD: ( 1056): Init rpmb_start ret = 0
+D/QSEECOMD: ( 1056): RPMB system services: Started (Listener ID = 8192)
+E/QSEECOMD: ( 1056): Listener: index = 1, hierarchy = 1
+D/QSEECOMD: ( 1056): Init dlopen(libssd.so, RTLD_NOW) succeeds
+D/QSEECOMD: ( 1056): Init::Init dlsym(g_FSHandle ssd_start) succeeds
+D/QSEECOMAPI: ( 1056): QSEECom_register_listener 12288 sb_length = 0x5000
+D/QSEECOMD: ( 1056): Init ssd_start ret = 0
+D/QSEECOMD: ( 1056): SSD system services: Started (Listener ID = 12288)
+E/QSEECOMD: ( 1056): Listener: index = 2, hierarchy = 1
+E/QSEECOMD: ( 1056): Init dlopen(libsecureui.so, RLTD_NOW) is failed....
+E/QSEECOMD: ( 1056): Listener: index = 3, hierarchy = 1
+D/QSEECOMD: ( 1056): Init dlopen(libdrmtime.so, RTLD_NOW) succeeds
+D/QSEECOMD: ( 1056): Init::Init dlsym(g_FSHandle atime_start) succeeds
+D/QSEECOMAPI: ( 1056): QSEECom_register_listener 11 sb_length = 0x5000
+D/QSEECOMD: ( 1056): Init atime_start ret = 0
+D/QSEECOMD: ( 1056): time services: Started (Listener ID = 11)
+E/QSEECOMD: ( 1056): Listener: index = 4, hierarchy = 1
+D/QSEECOMD: ( 1056): Init dlopen(libdrmfs.so, RTLD_NOW) succeeds
+D/QSEECOMD: ( 1056): Init::Init dlsym(g_FSHandle fs_start) succeeds
+D/QSEECOMAPI: ( 1056): QSEECom_register_listener 10 sb_length = 0x5000
+I/UpstartPropertyWatcher(  859): Property changed: ro.qualcomm.bluetooth.map=true
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+D/QSEECOMD: ( 1056): Init fs_start ret = 0
+D/QSEECOMD: ( 1056): file system services: Started (Listener ID = 10)
+D/QSEECOMD: ( 1056): QSEECOM DAEMON RUNNING 
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+E/wcnss_service(  899): source file do not exist /system/etc/wifi/WCNSS_qcom_cfg.ini
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [NOT_REGISTERED:49] unknown deliver target [OS-Agent]
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): file_parser Number of element :3
+I/irsc_util(  883): Feed the sec config info to the router
+I/irsc_util(  883): Num of entries:259
+I/qcom-bluetooth(  936): /system/etc/init.qcom.bt.sh: Bluetooth Address programmed successfully 
+E/XTCC-3.0.0.6(  908): [CsStorageWwan] createOrOpenDatabase failed 4
+E/XTCC-3.0.0.6(  908): [CSMgr] open AP list file, /data/misc/location/xtwifi, name = /data/misc/location/xtwifi/ap_list.txt
+E/XTCC-3.0.0.6(  908): [CSMgr] open AP list file, fopen failed, name = /data/misc/location/xtwifi/ap_list.txt, errno = No such file or directory
+E/adsprpc (  893): vendor/qcom/proprietary/adsprpc/src/apps_std_imp.c:33:apps_std fopen failed: /system/vendor/lib/rfsa/adsp/./oemconfig.so No such file or directory
+E/adsprpc (  893): vendor/qcom/proprietary/adsprpc/src/../inc/mod_table_imp.h:346::error: 2: 0 == (nErr = invoke_func_ptr(sc, pra))
+E/adsprpc (  893): vendor/qcom/proprietary/adsprpc/src/apps_std_imp.c:33:apps_std fopen failed: ./voiceproc_tx.so No such file or directory
+E/adsprpc (  893): vendor/qcom/proprietary/adsprpc/src/apps_std_imp.c:33:apps_std fopen failed: /system/lib/rfsa/adsp/./voiceproc_tx.so No such file or directory
+E/adsprpc (  893): vendor/qcom/proprietary/adsprpc/src/apps_std_imp.c:33:apps_std fopen failed: /system/vendor/lib/rfsa/adsp/./voiceproc_tx.so No such file or directory
+E/adsprpc (  893): vendor/qcom/proprietary/adsprpc/src/../inc/mod_table_imp.h:346::error: 2: 0 == (nErr = invoke_func_ptr(sc, pra))
+E/adsprpc (  893): vendor/qcom/proprietary/adsprpc/src/apps_std_imp.c:33:apps_std fopen failed: ./voiceproc_rx.so No such file or directory
+E/adsprpc (  893): vendor/qcom/proprietary/adsprpc/src/apps_std_imp.c:33:apps_std fopen failed: /system/lib/rfsa/adsp/./voiceproc_rx.so No such file or directory
+E/adsprpc (  893): vendor/qcom/proprietary/adsprpc/src/apps_std_imp.c:33:apps_std fopen failed: /system/vendor/lib/rfsa/adsp/./voiceproc_rx.so No such file or directory
+E/adsprpc (  893): vendor/qcom/proprietary/adsprpc/src/../inc/mod_table_imp.h:346::error: 2: 0 == (nErr = invoke_func_ptr(sc, pra))
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [NOT_REGISTERED:49] unknown deliver target [OS-Agent]
+D/QSEECOMD: (  898): qseecom listener services process entry PPID = 1
+E/QSEECOMD: (  898): Listener: index = 0, hierarchy = 0
+I/UpstartPropertyWatcher(  859): Property changed: ro.bluetooth.hfp.ver=1.6
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.irsc_util=stopped
+V/LOWI-SERVER(  909): [LOWIEventDispatcher] LOWIEventDispatcher
+D/QSEECOMD: (  898): Init dlopen(librpmb.so, RTLD_NOW) succeeds
+D/QSEECOMD: (  898): Init::Init dlsym(g_FSHandle rpmb_init_service) succeeds
+I/UpstartPropertyWatcher(  859): Property changed: ro.qualcomm.bt.hci_transport=smd
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load s5k3h2yx_omi8a02a
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load s5k3h2yx_omi8a02a
+I/rpmb    (  898): RPMB Mult = 2048, Rel_sec_cnt = 1
+E/DrmLibRpmb(  898): rpmb_init succeeded! with ret = 0
+D/QSEECOMD: (  898): Init rpmb_init_service ret = 0
+D/QSEECOMD: (  898): RPMB system services: init (Listener ID = 8192)
+E/QSEECOMD: (  898): Listener: index = 1, hierarchy = 0
+I/qcom-bluetooth( 1070): /system/etc/init.qcom.bt.sh: Bluetooth stack is Bluedroid 
+V/LOWI-SERVER(  909): [MessageQ_Client] creating client socket
+I/LOWI-SERVER(  909): [MessageQ_Client] connecting to server [/data/misc/location/mq/location-mq-s]
+I/LOWI-SERVER(  909): [MessageQ_Client] connected
+V/LOWI-SERVER(  909): [LOWIController] init
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [NOT_REGISTERED:50] unknown deliver target [OS-Agent]
+D/QSEECOMD: (  898): Init dlopen(libssd.so, RTLD_NOW) succeeds
+D/QSEECOMD: (  898): Init::Init dlsym(g_FSHandle ssd_init_service) succeeds
+E/SSD     (  898): ssd_init_service succeeded!
+D/QSEECOMD: (  898): Init ssd_init_service ret = 0
+D/QSEECOMD: (  898): SSD system services: init (Listener ID = 12288)
+E/QSEECOMD: (  898): Listener: index = 2, hierarchy = 0
+E/QSEECOMD: (  898): Init dlopen(libsecureui.so, RLTD_NOW) is failed....
+D/QSEECOMD: (  898): SEC_UI_INIT failed, shall not start secure ui listener
+D/QSEECOMAPI: (  898): QSEECom_get_handle sb_length = 0x400
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.config_bluetooth=stopped
+D/QSEECOMAPI: (  898): App is not loaded in QSEE
+D/QC-time-services(  897): Daemon:genoff_pre_init::Base = 0
+D/QC-time-services(  897): Daemon:ats_rtc_init: Time read from RTC -- year = 115, month = 11,day = 3
+I/ThermalEngine(  891): Thermal daemon started
+I/ThermalEngine(  891): devices_manager_init: Init
+I/ThermalEngine(  891): Number of gpus :1
+I/Thermal-IOCTL(  891): KTM IOCTL interface "/dev/msm_thermal_query" opened
+I/ThermalEngine(  891): vdd_rstr_init: Init KTM VDD RSTR enabled: 0
+I/ThermalEngine(  891): sensors_manager_init: Init
+I/UpstartPropertyWatcher(  859): Property changed: persist.radio.adb_log_on=0
+I/UpstartPropertyWatcher(  859): Property changed: persist.radio.adb_log_on=0
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load imx134
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load imx134
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load imx135
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load imx135
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load s5k3l1yx
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load s5k3l1yx
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load imx214
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load imx214
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load imx132
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load imx132
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load ov2720
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load ov2720
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load SKUAA_ST_gc0339
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load SKUAA_ST_gc0339
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load ov8825
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load ov8825
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load ov9724
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load ov9724
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load ov8865_q8v18a
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load ov8865_q8v18a
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load ov5648_oty5f03
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load ov5648_oty5f03
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load skuf_ov12830_p12v01c
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load skuf_ov12830_p12v01c
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load skuf_ov5648_p5v23c
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load skuf_ov5648_p5v23c
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load SKUAB_ST_s5k4e1
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load SKUAB_ST_s5k4e1
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load skuab_shinetech_gc0339
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load skuab_shinetech_gc0339
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load oem_camera1
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load oem_camera1
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load oem_camera2
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load oem_camera2
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load oem_camera3
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load oem_camera3
+E/mm-camera-sensor(  896): sensor_probe:117 failed: to load oem_camera4
+E/mm-camera-sensor(  896): sensor_init_probe:123 failed: to load oem_camera4
+I/UpstartPropertyWatcher(  859): Property changed: ril.qcril_pre_init_lock_held=1
+I/UpstartPropertyWatcher(  859): Property changed: ril.qcril_pre_init_lock_held=1
+D/QC-time-services(  897): Daemon:Value read from RTC seconds = 1449176918000
+D/QC-time-services(  897): Daemon:genoff_init_config: ATS_RTC initialized
+D/QC-time-services(  897): Daemon:genoff_pre_init::Base = 1
+D/QC-time-services(  897): Daemon: Storage Name: ats_1 
+D/QC-time-services(  897): Daemon:Opening File: /data/time/ats_1
+D/QC-time-services(  897): Daemon:time_persistent_memory_opr:Genoff Read operation 
+D/QC-time-services(  897): Daemon:Unable to open filefor read
+D/QC-time-services(  897): Daemon:genoff_post_init:Error in accessing storage
+D/QC-time-services(  897): Daemon:genoff_pre_init::Base = 2
+D/QC-time-services(  897): Daemon: Storage Name: ats_2 
+D/QC-time-services(  897): Daemon:Opening File: /data/time/ats_2
+D/QC-time-services(  897): Daemon:time_persistent_memory_opr:Genoff Read operation 
+D/QC-time-services(  897): Daemon:Unable to open filefor read
+D/QC-time-services(  897): Daemon:genoff_post_init:Error in accessing storage
+D/QC-time-services(  897): Daemon:genoff_pre_init::Base = 3
+D/QC-time-services(  897): Daemon: Storage Name: ats_3 
+D/QC-time-services(  897): Daemon:Opening File: /data/time/ats_3
+D/QC-time-services(  897): Daemon:time_persistent_memory_opr:Genoff Read operation 
+D/QC-time-services(  897): Daemon:Unable to open filefor read
+D/QC-time-services(  897): Daemon:genoff_post_init:Error in accessing storage
+D/QC-time-services(  897): Daemon:genoff_pre_init::Base = 4
+D/QC-time-services(  897): Daemon: Storage Name: ats_4 
+D/QC-time-services(  897): Daemon:Opening File: /data/time/ats_4
+D/QC-time-services(  897): Daemon:time_persistent_memory_opr:Genoff Read operation 
+D/QC-time-services(  897): Daemon:Unable to open filefor read
+D/QC-time-services(  897): Daemon:genoff_post_init:Error in accessing storage
+D/QC-time-services(  897): Daemon:genoff_pre_init::Base = 5
+D/QC-time-services(  897): Daemon: Storage Name: ats_5 
+D/QC-time-services(  897): Daemon:Opening File: /data/time/ats_5
+D/QC-time-services(  897): Daemon:time_persistent_memory_opr:Genoff Read operation 
+D/QC-time-services(  897): Daemon:Unable to open filefor read
+D/QC-time-services(  897): Daemon:genoff_post_init:Error in accessing storage
+D/QC-time-services(  897): Daemon:genoff_pre_init::Base = 6
+D/QC-time-services(  897): Daemon: Storage Name: ats_6 
+D/QC-time-services(  897): Daemon:Opening File: /data/time/ats_6
+D/QC-time-services(  897): Daemon:time_persistent_memory_opr:Genoff Read operation 
+D/QC-time-services(  897): Daemon:Unable to open filefor read
+D/QC-time-services(  897): Daemon:genoff_post_init:Error in accessing storage
+D/QC-time-services(  897): Daemon:genoff_pre_init::Base = 7
+D/QC-time-services(  897): Daemon: Storage Name: ats_7 
+D/QC-time-services(  897): Daemon:Opening File: /data/time/ats_7
+D/QC-time-services(  897): Daemon:time_persistent_memory_opr:Genoff Read operation 
+D/QC-time-services(  897): Daemon:Unable to open filefor read
+D/QC-time-services(  897): Daemon:genoff_post_init:Error in accessing storage
+D/QC-time-services(  897): Daemon:genoff_pre_init::Base = 8
+D/QC-time-services(  897): Daemon: Storage Name: ats_8 
+D/QC-time-services(  897): Daemon:Opening File: /data/time/ats_8
+D/QC-time-services(  897): Daemon:time_persistent_memory_opr:Genoff Read operation 
+D/QC-time-services(  897): Daemon:Unable to open filefor read
+D/QC-time-services(  897): Daemon:genoff_post_init:Error in accessing storage
+D/QC-time-services(  897): Daemon:genoff_pre_init::Base = 9
+D/QC-time-services(  897): Daemon: Storage Name: ats_9 
+D/QC-time-services(  897): Daemon:Opening File: /data/time/ats_9
+D/QC-time-services(  897): Daemon:time_persistent_memory_opr:Genoff Read operation 
+D/QC-time-services(  897): Daemon:Unable to open filefor read
+D/QC-time-services(  897): Daemon:genoff_post_init:Error in accessing storage
+D/QC-time-services(  897): Daemon:genoff_pre_init::Base = 10
+D/QC-time-services(  897): Daemon: Storage Name: ats_10 
+D/QC-time-services(  897): Daemon:Opening File: /data/time/ats_10
+D/QC-time-services(  897): Daemon:time_persistent_memory_opr:Genoff Read operation 
+D/QC-time-services(  897): Daemon:Unable to open filefor read
+D/QC-time-services(  897): Daemon:genoff_post_init:Error in accessing storage
+D/QC-time-services(  897): Daemon:genoff_pre_init::Base = 11
+D/QC-time-services(  897): Daemon: Storage Name: ats_11 
+D/QC-time-services(  897): Daemon:Opening File: /data/time/ats_11
+D/QC-time-services(  897): Daemon:time_persistent_memory_opr:Genoff Read operation 
+D/QC-time-services(  897): Daemon:Unable to open filefor read
+D/QC-time-services(  897): Daemon:genoff_post_init:Error in accessing storage
+D/QC-time-services(  897): Daemon:genoff_pre_init::Base = 12
+D/QC-time-services(  897): Daemon: Storage Name: ats_12 
+D/QC-time-services(  897): Daemon:Opening File: /data/time/ats_12
+D/QC-time-services(  897): Daemon:time_persistent_memory_opr:Genoff Read operation 
+D/QC-time-services(  897): Daemon:Unable to open filefor read
+D/QC-time-services(  897): Daemon:genoff_post_init:Error in accessing storage
+D/QC-time-services(  897): Daemon:genoff_pre_init::Base = 13
+D/QC-time-services(  897): Daemon: Storage Name: ats_13 
+D/QC-time-services(  897): Daemon:Opening File: /data/time/ats_13
+D/QC-time-services(  897): Daemon:time_persistent_memory_opr:Genoff Read operation 
+D/QC-time-services(  897): Daemon:Unable to open filefor read
+D/QC-time-services(  897): Daemon:genoff_post_init:Error in accessing storage
+D/QC-time-services(  897): Daemon:genoff_pre_init::Base = 14
+D/QC-time-services(  897): Daemon: Storage Name: ats_14 
+D/QC-time-services(  897): Daemon:Opening File: /data/time/ats_14
+D/QC-time-services(  897): Daemon:time_persistent_memory_opr:Genoff Read operation 
+D/QC-time-services(  897): Daemon:Unable to open filefor read
+D/QC-time-services(  897): Daemon:genoff_post_init:Error in accessing storage
+D/QC-time-services(  897): Daemon:genoff_init_config: Other bases initilized, exiting genoff_init
+D/QC-time-services(  897): Daemon:genoff_opr: Base = 1, val = 0, operation = 1
+D/QC-time-services(  897): Daemon: genoff get for 1
+D/QC-time-services(  897): Daemon:rtc_get: Time read from RTC -- MM/DD/YY HH:MM:SS11/3/115 21:8:38
+D/QC-time-services(  897): Daemon:Value read from RTC seconds = 1449176918000
+D/QC-time-services(  897): Daemon:Value read from RTC seconds = 1449176918000
+D/QC-time-services(  897): Daemon:Value read from generif offset = 0
+D/QC-time-services(  897): Daemon:Final Time = 1449176918000
+D/QC-time-services(  897): Daemon:genoff_boot_tod_init: Setting system time to sec =1449176918, nsec =0
+E/mm-camera(  896): isp_util_gen_hws_caps: integrating kernel vfe is pending
+E/mm-camera(  896): isp_tintless_create: using BE stats for tintless!, isp main version = 28
+E/mm-camera(  896): isp_tintless_open_version: E: 40
+E/mm-camera(  896): gyro_module_init: Enter
+E/mm-camera(  896): gyro_module_init: Exit successful
+E/mm-camera(  896): cpp_hardware_load_firmware:368, cpphw->hwinfo.version = 0x20000000
+E/mm-camera(  896): vpe_module_init:26 name=vpe
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=video0 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=msm_cci entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=v4l-subdev0 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=v4l-subdev1 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=v4l-subdev2 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=v4l-subdev3 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=v4l-subdev4 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=v4l-subdev5 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=v4l-subdev6 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=v4l-subdev7 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=v4l-subdev8 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=v4l-subdev9 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=v4l-subdev10 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=v4l-subdev11 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=v4l-subdev12 entity.revision=12
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=v4l-subdev13 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=v4l-subdev14 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:711: done enumerating media entities
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=video1 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:711: done enumerating media entities
+E/mm-camera(  896): vpe_hardware_find_subdev:716: entity.name=video2 entity.revision=0
+E/mm-camera(  896): vpe_hardware_find_subdev:711: done enumerating media entities
+E/mm-camera(  896): vpe_hardware_find_subdev:683: no more media devices
+E/mm-camera(  896): vpe_hardware_find_subdev:728: no vpe device found.
+E/mm-camera(  896): vpe_hardware_create:31: error: cannot find vpe subdev
+E/mm-camera(  896): vpe_module_create_vpe_ctrl:141, failed, cannnot create vpe hardware instance
+E/mm-camera(  896): vpe_module_init:34 failed
+E/mm-camera(  896): c2d_module_init:28 name=c2d
+E/mm-camera(  896): c2d_module_init:67: info: C2D module_init successful
+E/mm-camera-img(  896): img_core_get_comp:37] role 0 name qcom.wavelet
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[0] role 0 name qcom.wavelet
+E/mm-camera-img(  896): img_core_get_comp:47] find component role 0 name qcom.wavelet
+E/mm-camera-img(  896): wd_comp_load:1931] WD library loaded successfully dsp 0
+E/mm-camera(  896): module_imglib_create_port:1784 portname imglib_d2_i0
+E/mm-camera-img(  896): img_core_get_comp:37] role 2 name qcom.faceproc
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[0] role 0 name qcom.wavelet
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[1] role 1 name qcom.hdr
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[2] role 2 name qcom.faceproc
+E/mm-camera-img(  896): img_core_get_comp:47] find component role 2 name qcom.faceproc
+E/mm-camera-img(  896): img_core_get_comp:37] role 1 name qcom.hdr
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[0] role 0 name qcom.wavelet
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[1] role 1 name qcom.hdr
+E/mm-camera-img(  896): img_core_get_comp:47] find component role 1 name qcom.hdr
+D/WLAN_PSA(  890): FTM Test App: Diag_LSM_Init succeeded with 1 retries. 
+D/WLAN_PSA(  890): PTT_SOCKET_APP Init done, wait clients
+D/CameraService(  881): virtual bool {anonymous}::TrustAgentRegistry::threadLoop() start
+V/CameraServiceCompatLayer(  881): Starting camera services (MediaRecorderFactory, CameraRecordService & CameraService)
+E/mm-camera-img(  896): hdr_comp_load:1139] HDR library loaded successfully
+E/mm-camera(  896): Port hdr_dummy initialized
+E/mm-camera-img(  896): img_core_get_comp:37] role 4 name qcom.gen_frameproc
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[0] role 0 name qcom.wavelet
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[1] role 1 name qcom.hdr
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[2] role 2 name qcom.faceproc
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[3] role 3 name qcom.cac
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[4] role 4 name qcom.gen_frameproc
+E/mm-camera-img(  896): img_core_get_comp:47] find component role 4 name qcom.gen_frameproc
+E/mm-camera-img(  896): frameproc_comp_load:811] Error opening frameproc library libmmcamera_chromaflash_lib.so
+E/mm-camera(  896): module_imgbase_init:1070] Error rc -6
+E/mm-camera(  896): module_imglib_create_topology:644] Can not init the module imglib_chroma_flash
+E/mm-camera-img(  896): img_core_get_comp:37] role 4 name qcom.gen_frameproc
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[0] role 0 name qcom.wavelet
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[1] role 1 name qcom.hdr
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[2] role 2 name qcom.faceproc
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[3] role 3 name qcom.cac
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[4] role 4 name qcom.gen_frameproc
+E/mm-camera-img(  896): img_core_get_comp:47] find component role 4 name qcom.gen_frameproc
+E/mm-camera-img(  896): frameproc_comp_load:811] Error opening frameproc library libmmcamera_optizoom_lib.so
+E/mm-camera(  896): module_imgbase_init:1070] Error rc -6
+E/mm-camera(  896): module_imglib_create_topology:644] Can not init the module imglib_optizoom
+D/MediaRecorderFactory(  881): Creating new static instance of MediaRecorderFactory
+V/ICameraRecordService(  881): static void android::CameraRecordService::instantiate() 
+V/ICameraRecordService(  881): static android::sp<android::CameraRecordService>& android::CameraRecordService::service_instance() 
+D/ICameraRecordService(  881): Creating new static instance of CameraRecordService
+V/ICameraRecordService(  881): android::BnCameraRecordService::BnCameraRecordService() 
+V/ICameraRecordService(  881): android::CameraRecordService::CameraRecordService() 
+V/ICameraRecordService(  881): Added Binder service 'android.media.ICameraRecordService' to ServiceManager
+I/CameraService(  881): CameraService started (pid=24)
+E/mm-camera-img(  896): img_core_get_comp:37] role 4 name qcom.gen_frameproc
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[0] role 0 name qcom.wavelet
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[1] role 1 name qcom.hdr
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[2] role 2 name qcom.faceproc
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[3] role 3 name qcom.cac
+E/mm-camera-img(  896): img_core_get_comp:42] comp_index[4] role 4 name qcom.gen_frameproc
+E/mm-camera-img(  896): img_core_get_comp:47] find component role 4 name qcom.gen_frameproc
+E/mm-camera-img(  896): frameproc_comp_load:811] Error opening frameproc library libmmcamera_ubifocus_lib.so
+E/mm-camera(  896): module_imgbase_init:1070] Error rc -6
+E/mm-camera(  896): module_imglib_create_topology:644] Can not init the module imglib_ubifocus
+E/mm-camera(  896): module_imglib_create_dummy_port:1906 portname imglib_dymmy_d1_i0
+I/CameraService(  881): Loaded "Armani Camera Wrapper" camera module
+E/HAL     (  881): load: module=/system/lib/hw/camera.vendor.msm8226.so
+E/HAL     (  881): dlopen failed: could not load library "libFaceDeform.so" needed by "camera.vendor.msm8226.so"; caused by could not load library "libandroid.so" needed by "libFaceDeform.so"; caused by library "libandroid.so" not found
+E/CameraWrapper(  881): failed to open vendor camera module
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QC-time-services(  897): Daemon:genoff_modem_qmi_init: qmi_client_get_service_list returned -2num_services 0
+I/rmt_storage(  875): rmt_storage_connect_cb: clnt_h=0x1 conn_h=0xb86f7da8
+I/rmt_storage(  875): rmt_storage_open_cb: /boot/modem_fs1: clnt_h=0x1: req_h=0x1 msg_id=1: Client found
+I/rmt_storage(  875): rmt_storage_open_cb: /boot/modem_fs1: clnt_h=0x1: req_h=0x1 msg_id=1: Send response: res=0 err=0
+I/rmt_storage(  875): rmt_storage_connect_cb: clnt_h=0x2 conn_h=0xb86f7e00
+I/rmt_storage(  875): rmt_storage_open_cb: /boot/modem_fs2: clnt_h=0x2: req_h=0x2 msg_id=1: Client found
+I/rmt_storage(  875): rmt_storage_open_cb: /boot/modem_fs2: clnt_h=0x2: req_h=0x2 msg_id=1: Send response: res=0 err=0
+I/rmt_storage(  875): rmt_storage_connect_cb: clnt_h=0x3 conn_h=0xb86f7e58
+I/rmt_storage(  875): rmt_storage_open_cb: /boot/modem_fsg: clnt_h=0x3: req_h=0x3 msg_id=1: Client found
+I/rmt_storage(  875): rmt_storage_open_cb: /boot/modem_fsg: clnt_h=0x3: req_h=0x3 msg_id=1: Send response: res=0 err=0
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1 Worker thread started
+I/rmt_storage(  875): wake lock name: rmt_storage_-1200652568, name creation success: 23
+I/rmt_storage(  875): rmt_storage_connect_cb: clnt_h=0x4 conn_h=0xb86f7eb0
+I/rmt_storage(  875): rmt_storage_open_cb: /boot/modem_fsc: clnt_h=0x4: req_h=0x4 msg_id=1: Client found
+I/rmt_storage(  875): rmt_storage_open_cb: /boot/modem_fsc: clnt_h=0x4: req_h=0x4 msg_id=1: Send response: res=0 err=0
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fsc: clnt_h=0x4 Worker thread started
+I/rmt_storage(  875): wake lock name: rmt_storage_-1200650552, name creation success: 23
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 Worker thread started
+I/rmt_storage(  875): wake lock name: rmt_storage_-1200651720, name creation success: 23
+I/rmt_storage(  875): rmt_storage_alloc_buff_cb: /boot/modem_fs1: clnt_h=0x1: req_h=0x5 msg_id=4: Alloc request received: Size: 1572864
+I/rmt_storage(  875): rmt_storage_alloc_buff_cb: /boot/modem_fs1: clnt_h=0x1: req_h=0x5 msg_id=4: Send response: res=0 err=0
+I/rmt_storage(  875): rmt_storage_rw_iovec_cb: /boot/modem_fs1: clnt_h=0x1: req_h=0x6 msg_id=3: R/W request received
+I/rmt_storage(  875): Shared mem address set to 0xb683c000
+I/rmt_storage(  875): wakelock acquired: 1, error no: 42
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1 Unblock worker thread (th_id: -1200652568)
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1: req_h=0x6 msg_id=3: Bytes read = 512
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1: req_h=0x6 msg_id=3: Send response: res=0 err=0
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1 About to block rmt_storage client thread (th_id: -1200652568) wakelock released: 1, error no: 0
+I/rmt_storage(  875): 
+I/rmt_storage(  875): rmt_storage_rw_iovec_cb: /boot/modem_fs2: clnt_h=0x2: req_h=0x7 msg_id=3: R/W request received
+I/rmt_storage(  875): Shared mem address set to 0xb683c000
+I/rmt_storage(  875): wakelock acquired: 1, error no: 42
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 Unblock worker thread (th_id: -1200651720)
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0x7 msg_id=3: Bytes read = 512
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0x7 msg_id=3: Send response: res=0 err=0
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 About to block rmt_storage client thread (th_id: -1200651720) wakelock released: 1, error no: 0
+I/rmt_storage(  875): 
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fsg: clnt_h=0x3 Worker thread started
+I/rmt_storage(  875): wake lock name: rmt_storage_-1200651136, name creation success: 23
+I/rmt_storage(  875): rmt_storage_rw_iovec_cb: /boot/modem_fs2: clnt_h=0x2: req_h=0x8 msg_id=3: R/W request received
+I/rmt_storage(  875): wakelock acquired: 1, error no: 42
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 Unblock worker thread (th_id: -1200651720)
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0x8 msg_id=3: Bytes read = 1571840
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2: req_h=0x8 msg_id=3: Send response: res=0 err=0
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs2: clnt_h=0x2 About to block rmt_storage client thread (th_id: -1200651720) wakelock released: 1, error no: 0
+I/rmt_storage(  875): 
+E/Sensors (  886): sns_debug_main.c(438):Debug Config File missing in EFS!
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+D/SensorService(  894): nuSensorService starting...
+E/Sensors (  886): sns_smr_util.c(104):Unable to initialize service 259 with QCCI, timed out (200 ms)
+E/Sensors (  886): sns_acm_mr.c(390):Error getting info for service 3
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QC-time-services(  897): Daemon:genoff_modem_qmi_init: qmi_client_get_service_list returned 0num_services 1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+E/QMI_FW  (  897): QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-1
+D/QC-time-services(  897): Daemon:rtc_get: Time read from RTC -- MM/DD/YY HH:MM:SS11/3/115 21:8:41
+D/QC-time-services(  897): Daemon:Value read from RTC seconds = 1449176921000
+D/QC-time-services(  897): Daemon:genoff_modem_qmi_init: Initial transaction successfull
+D/QC-time-services(  897): Daemon: Time-services: All initializations done
+E/QC-time-services(  897): Daemon: Time-services: Waiting to acceptconnection
+I/ThermalEngine(  891): qmi: Instance id 45 for fusion TS
+E/QMI_XIAOMI(  899): qmi_xiaomi: inc async 1
+E/QMI_XIAOMI(  899): qmi_xiaomi: dec sync flag 0
+I/ThermalEngine(  891): MODEM thermal mitigation available.
+I/ThermalEngine(  891): ACTION: MODEM - Pending request: pa mitigation succeeded for level 0.
+I/ThermalEngine(  891): Mitigation:Modem:0
+I/ThermalEngine(  891): ACTION: MODEM - Pending request: cpuv_restriction_cold mitigation succeeded for level 0.
+I/ThermalEngine(  891): Mitigation:VDD[MODEM-cpuv_restriction_cold]:0
+I/wcnss_xiaomi(  899): Found MAC address: 28:e3:1f:5a:3b:de
+E/wcnss_service(  899): WLAN MAC Addr:28:e3:1f:5a:3b:de
+I/wcnss_service(  899): WLAN MAC Addr:28:e3:1f:5a:3b:de
+E/wcnss_service(  899): CAL file not found
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+I/UpstartPropertyWatcher(  859): Property changed: ril.qcril_pre_init_lock_held=0
+I/UpstartPropertyWatcher(  859): Property changed: ril.qcril_pre_init_lock_held=0
+I/UpstartPropertyWatcher(  859): Property changed: ro.ril.svlte1x=false
+I/UpstartPropertyWatcher(  859): Property changed: ro.ril.svdo=false
+I/UpstartPropertyWatcher(  859): Property changed: persist.radio.eons.enabled=false
+I/UpstartPropertyWatcher(  859): Property changed: ril.ecclist1=911,*911,#911,112,110,119,120
+I/UpstartPropertyWatcher(  859): Property changed: persist.radio.eons.enabled=false
+I/UpstartPropertyWatcher(  859): Property changed: ril.ecclist=911,*911,#911,112,110,119,120
+I/UpstartPropertyWatcher(  859): Property changed: ril.ecclist1=911,*911,#911,112,110,119,120
+I/UpstartPropertyWatcher(  859): Property changed: persist.radio.dont_use_dsd=true
+I/UpstartPropertyWatcher(  859): Property changed: persist.radio.dont_use_dsd=true
+I/wcnss_service(  899): wcnss_read_and_store_cal_data trying to read cal
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+E/Sensors (  886): sns_sam.c(3145):Unsupported client request type message id 33
+E/qcom_sensors_hal(  894): hal_process_sam_gravity_resp: Msg 33; Result: 1, Error: 12
+E/Sensors (  886): sns_sam.c(3145):Unsupported client request type message id 33
+E/qcom_sensors_hal(  894): hal_process_sam_gravity_resp: Msg 33; Result: 1, Error: 12
+E/Sensors (  886): sns_sam.c(3145):Unsupported client request type message id 33
+E/qcom_sensors_hal(  894): hal_process_sam_rotation_vector_resp: Msg 33; Result: 1, Error: 12
+E/Sensors (  886): sns_sam.c(3145):Unsupported client request type message id 33
+E/qcom_sensors_hal(  894): hal_process_sam_game_rotation_vector_resp: Msg 33; Result: 1, Error: 12
+E/Sensors (  886): sns_sam.c(3145):Unsupported client request type message id 33
+E/qcom_sensors_hal(  894): hal_process_sam_orientation_resp: Msg 33; Result: 1, Error: 12
+I/SensorService(  894): LIS3DSH Accelerometer
+I/SensorService(  894): AKM Calibration Lib
+I/SensorService(  894): AK09911 Magnetometer Uncalibrated
+I/SensorService(  894): L3GD20 Gyroscope
+I/SensorService(  894): L3GD20 Gyroscope Uncalibrated
+I/SensorService(  894): APDS-9930/QPDS-T930 Proximity
+I/SensorService(  894): APDS-9930/QPDS-T930 Light
+I/SensorService(  894): Gravity
+I/SensorService(  894): Linear Acceleration
+I/SensorService(  894): Rotation Vector
+I/SensorService(  894): Significant Motion Detector
+I/SensorService(  894): Game Rotation Vector
+I/SensorService(  894): Orientation
+D/SensorService(  894): Max socket buffer size 1048576
+D/SensorService(  894): nuSensorService thread starting...
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/UpstartPropertyWatcher(  859): Property changed: gsm.version.ril-impl=Qualcomm RIL 1.0
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+I/UpstartPropertyWatcher(  859): Property changed: persist.radio.imei=865622029785974
+I/UpstartPropertyWatcher(  859): Property changed: ro.ril.oem.imei=865622029785974
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+D/libEGL  ( 2047): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2047): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2047): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39200 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+D/libEGL  ( 2149): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2149): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2149): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39000 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+D/libEGL  ( 2160): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2160): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2160): loaded /vendor/lib/egl/libGLESv2_adreno.so
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+D/libEGL  ( 2166): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2166): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2166): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+D/libEGL  ( 2172): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2172): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+D/libEGL  ( 2172): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+D/libEGL  ( 2183): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2183): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2183): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+D/libEGL  ( 2189): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2189): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2189): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+D/libEGL  ( 2200): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2200): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+D/libEGL  ( 2200): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+D/libEGL  ( 2206): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2206): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2206): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39100 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39200 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+D/libEGL  ( 2212): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2212): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+D/libEGL  ( 2212): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39200 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39200 mC
+D/libEGL  ( 2223): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2223): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2223): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39200 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39200 mC
+D/libEGL  ( 2229): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2229): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2229): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39200 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39200 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39200 mC
+D/libEGL  ( 2242): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2242): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2242): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39200 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39200 mC
+D/libEGL  ( 2248): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2248): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2248): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39200 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39300 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+D/libEGL  ( 2254): loaded /vendor/lib/egl/libEGL_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+D/libEGL  ( 2254): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2254): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39300 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39300 mC
+D/libEGL  ( 2265): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2265): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2265): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39300 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39300 mC
+D/libEGL  ( 2273): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2273): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2273): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39400 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39400 mC
+D/libEGL  ( 2284): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2284): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2284): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39400 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39400 mC
+D/libEGL  ( 2290): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2290): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2290): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39400 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39400 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+D/libEGL  ( 2296): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2296): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+D/libEGL  ( 2296): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [LOWI-SERVER] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39400 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39400 mC
+D/libEGL  ( 2307): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2307): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2307): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39400 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39400 mC
+D/libEGL  ( 2313): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2313): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2313): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39400 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39400 mC
+D/libEGL  ( 2324): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2324): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2324): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39500 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39400 mC
+D/libEGL  ( 2330): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2330): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2330): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39500 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39400 mC
+D/libEGL  ( 2347): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2347): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2347): loaded /vendor/lib/egl/libGLESv2_adreno.so
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39500 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39500 mC
+D/libEGL  ( 2353): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2353): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2353): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39500 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39500 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+D/libEGL  ( 2359): loaded /vendor/lib/egl/libEGL_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+D/libEGL  ( 2359): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2359): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39500 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39500 mC
+D/libEGL  ( 2370): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2370): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2370): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39500 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39500 mC
+D/libEGL  ( 2376): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2376): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2376): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39600 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39500 mC
+D/libEGL  ( 2387): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2387): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2387): loaded /vendor/lib/egl/libGLESv2_adreno.so
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39600 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39500 mC
+D/libEGL  ( 2393): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2393): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2393): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39700 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39600 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+D/libEGL  ( 2399): loaded /vendor/lib/egl/libEGL_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+D/libEGL  ( 2399): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+D/libEGL  ( 2399): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39700 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39600 mC
+D/libEGL  ( 2410): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2410): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2410): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39700 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39600 mC
+D/libEGL  ( 2416): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2416): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2416): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39700 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39700 mC
+D/libEGL  ( 2427): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2427): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2427): loaded /vendor/lib/egl/libGLESv2_adreno.so
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39700 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39700 mC
+D/libEGL  ( 2433): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2433): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2433): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/rmt_storage(  875): rmt_storage_connect_cb: clnt_h=0x5 conn_h=0xb86f8178
+I/rmt_storage(  875): rmt_storage_rw_iovec_cb: /boot/modem_fs1: clnt_h=0x1: req_h=0x9 msg_id=3: R/W request received
+I/rmt_storage(  875): wakelock acquired: 1, error no: 42
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1 Unblock worker thread (th_id: -1200652568)
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1: req_h=0x9 msg_id=3: Bytes written = 1572864
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1: req_h=0x9 msg_id=3: Send response: res=0 err=0
+I/rmt_storage(  875): rmt_storage_client_thread: /boot/modem_fs1: clnt_h=0x1 About to block rmt_storage client thread (th_id: -1200652568) wakelock released: 1, error no: 0
+I/rmt_storage(  875): 
+I/rmt_storage(  875): rmt_storage_disconnect_cb: clnt_h=0x0x5 conn_h=0x0xb86f8178
+I/ThermalEngine(  891): Sensor:batt_temp:39700 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39700 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+D/libEGL  ( 2439): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2439): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2439): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39800 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39700 mC
+D/libEGL  ( 2450): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2450): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2450): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39800 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39700 mC
+D/libEGL  ( 2456): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2456): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2456): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39800 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39700 mC
+D/libEGL  ( 2467): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2467): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2467): loaded /vendor/lib/egl/libGLESv2_adreno.so
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39800 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39800 mC
+D/libEGL  ( 2473): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2473): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2473): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39800 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39800 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+D/libEGL  ( 2479): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2479): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+D/libEGL  ( 2479): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39800 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39800 mC
+D/libEGL  ( 2490): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2490): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2490): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39800 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39800 mC
+D/libEGL  ( 2496): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2496): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2496): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:39900 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:39800 mC
+D/libEGL  ( 2507): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2507): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2507): loaded /vendor/lib/egl/libGLESv2_adreno.so
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39900 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39900 mC
+D/libEGL  ( 2513): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2513): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2513): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40000 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39900 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+D/libEGL  ( 2521): loaded /vendor/lib/egl/libEGL_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+D/libEGL  ( 2521): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2521): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:40000 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:39900 mC
+D/libEGL  ( 2532): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2532): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2532): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40000 mC
+I/ThermalEngine(  891): Sensor:batt_temp:39900 mC
+D/libEGL  ( 2538): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2538): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2538): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40000 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:40000 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [LOWI-SERVER] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+D/libEGL  ( 2549): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2549): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2549): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40000 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40000 mC
+D/libEGL  ( 2555): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2555): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2555): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40000 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40000 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+D/libEGL  ( 2561): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2561): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2561): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:40100 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:40000 mC
+D/libEGL  ( 2572): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2572): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2572): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40100 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40000 mC
+D/libEGL  ( 2578): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2578): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2578): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40100 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:40000 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+D/libEGL  ( 2589): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2589): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2589): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40100 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40100 mC
+D/libEGL  ( 2595): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2595): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2595): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40100 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40100 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+D/libEGL  ( 2601): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2601): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+D/libEGL  ( 2601): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:40100 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:40100 mC
+D/libEGL  ( 2612): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2612): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2612): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40100 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40100 mC
+D/libEGL  ( 2618): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2618): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2618): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40200 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:40100 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+D/libEGL  ( 2629): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2629): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2629): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40200 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40100 mC
+D/libEGL  ( 2635): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2635): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2635): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40200 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40200 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+D/libEGL  ( 2641): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2641): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+D/libEGL  ( 2641): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:40300 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:40200 mC
+D/libEGL  ( 2652): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2652): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2652): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40300 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40200 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+D/libEGL  ( 2658): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2658): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+D/libEGL  ( 2658): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:40300 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40300 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+D/libEGL  ( 2669): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2669): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2669): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40300 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40300 mC
+D/libEGL  ( 2675): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2675): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2675): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40300 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:40300 mC
+D/libEGL  ( 2686): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2686): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2686): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40300 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:40300 mC
+D/libEGL  ( 2692): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2692): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2692): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40400 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40400 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+D/libEGL  ( 2698): loaded /vendor/lib/egl/libEGL_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+D/libEGL  ( 2698): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2698): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:40400 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40400 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+D/libEGL  ( 2709): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2709): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2709): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40400 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40400 mC
+D/libEGL  ( 2717): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2717): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2717): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40400 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:40500 mC
+D/libEGL  ( 2728): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2728): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2728): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40500 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:40500 mC
+D/libEGL  ( 2734): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2734): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2734): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40500 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40500 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+D/libEGL  ( 2742): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2742): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+D/libEGL  ( 2742): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/ThermalEngine(  891): Sensor:batt_temp:40500 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40500 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+D/libEGL  ( 2756): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2756): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2756): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40600 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40500 mC
+D/libEGL  ( 2762): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2762): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2762): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40500 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40500 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+D/libEGL  ( 2773): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2773): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40600 mC
+D/libEGL  ( 2773): loaded /vendor/lib/egl/libGLESv2_adreno.so
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:40600 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40600 mC
+D/libEGL  ( 2779): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2779): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+D/libEGL  ( 2779): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/ThermalEngine(  891): Sensor:batt_temp:40600 mC
+I/ThermalEngine(  891): Sensor:batt_temp:40600 mC
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=running
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=running
+D/libEGL  ( 2785): loaded /vendor/lib/egl/libEGL_adreno.so
+D/libEGL  ( 2785): loaded /vendor/lib/egl/libGLESv1_CM_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_igsn=restarting
+D/libEGL  ( 2785): loaded /vendor/lib/egl/libGLESv2_adreno.so
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.gsiff_daemon=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.ppd=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.xtwifi_inet=restarting
+I/UpstartPropertyWatcher(  859): Property changed: init.svc.quipc_main=restarting
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [LOWI-SERVER] unknown deliver target [OS-Agent]
+I/ThermalEngine(  891): Sensor:batt_temp:40600 mC
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+E/QCALOG  (  906): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]

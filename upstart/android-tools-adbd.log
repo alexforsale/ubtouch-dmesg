@@ -1,1 +1,2 @@
 install_listener('tcp:5037','*smartsocket*')
+install_listener('tcp:5037','*smartsocket*')
