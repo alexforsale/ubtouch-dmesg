@@ -1,0 +1,11 @@
+Error opening /dev/mtp_usb, aborting now...
+"/home/phablet/Documents" is a directory containing:
+"/home/phablet/Music" is a directory containing:
+"/home/phablet/Videos" is a directory containing:
+"/home/phablet/Pictures" is a directory containing:
+"/home/phablet/Downloads" is a directory containing:
+android::UbuntuMtpDatabase::UbuntuMtpDatabase(const char*): object count:5
+MtpStorage id: 3 path: /home/phablet
+sendStoreAdded 00000003
+MtpServer::run fd: -1
+request read returned -1, errno: 9
