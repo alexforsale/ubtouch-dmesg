@@ -1,0 +1,4 @@
+      lxc-start 1449226621.835 ERROR    lxc_cgmanager - cgmanager.c:cgm_unfreeze:1198 - Error connecting to cgroup manager
+      lxc-start 1449226621.838 ERROR    lxc_commands - commands.c:lxc_cmd_stop_callback:641 - Failed to unfreeze /var/lib/lxc:android
+       lxc-stop 1449226621.838 ERROR    lxc_commands - commands.c:lxc_cmd_stop:615 - failed to stop 'android': Operation not permitted
+      lxc-start 1449226623.179 ERROR    lxc_cgmanager - cgmanager.c:cgm_destroy:571 - Error connecting to cgroup manager
