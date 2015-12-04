@@ -30,3 +30,35 @@ Running hook /usr/lib/pm-utils/power.d/wireless false:
 Running hook /usr/lib/pm-utils/power.d/xfs_buffer false:
 /usr/lib/pm-utils/power.d/xfs_buffer false: not applicable.
 
+Running hook /usr/lib/pm-utils/power.d/disable_wol true:
+/usr/lib/pm-utils/power.d/disable_wol true: not applicable.
+
+Running hook /usr/lib/pm-utils/power.d/intel-audio-powersave true:
+/usr/lib/pm-utils/power.d/intel-audio-powersave true: success.
+
+Running hook /usr/lib/pm-utils/power.d/laptop-mode true:
+Laptop mode enabled.
+/usr/lib/pm-utils/power.d/laptop-mode true: success.
+
+Running hook /usr/lib/pm-utils/power.d/pci_devices true:
+/usr/lib/pm-utils/power.d/pci_devices true: success.
+
+Running hook /usr/lib/pm-utils/power.d/pcie_aspm true:
+/usr/lib/pm-utils/power.d/pcie_aspm true: not applicable.
+
+Running hook /usr/lib/pm-utils/power.d/sata_alpm true:
+/usr/lib/pm-utils/power.d/sata_alpm true: success.
+
+Running hook /usr/lib/pm-utils/power.d/sched-powersave true:
+**sched policy powersave ON
+/usr/lib/pm-utils/power.d/sched-powersave true: success.
+
+Running hook /usr/lib/pm-utils/power.d/usb_bluetooth true:
+/usr/lib/pm-utils/power.d/usb_bluetooth true: success.
+
+Running hook /usr/lib/pm-utils/power.d/wireless true:
+/usr/lib/pm-utils/power.d/wireless true: success.
+
+Running hook /usr/lib/pm-utils/power.d/xfs_buffer true:
+/usr/lib/pm-utils/power.d/xfs_buffer true: not applicable.
+

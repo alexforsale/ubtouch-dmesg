@@ -1,2 +1,3 @@
-Dec  3 21:45:37 ubuntu-phablet systemd-logind[913]: New seat seat0.
-Dec  3 21:46:12 ubuntu-phablet lightdm: pam_unix(lightdm-autologin:session): session opened for user phablet by (uid=0)
+Dec  4 10:19:54 ubuntu-phablet su[1026]: Successful su for root by root
+Dec  4 10:19:54 ubuntu-phablet su[1026]: + ??? root:root
+Dec  4 10:19:54 ubuntu-phablet su[1026]: pam_unix(su:session): session opened for user root by (uid=0)
