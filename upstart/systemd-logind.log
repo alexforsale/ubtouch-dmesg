@@ -2,3 +2,7 @@
 cgmanager: cgm_list_children for controller=systemd, cgroup_path=user failed: invalid request
 New seat seat0.
 New session c1 of user root.
+/proc/self/fd/9: 4: ulimit: error setting limit (Invalid argument)
+cgmanager: cgm_list_children for controller=systemd, cgroup_path=user failed: invalid request
+New seat seat0.
+New session c1 of user root.
