@@ -1,8 +1,4 @@
 
-(NetworkManager:1700): GLib-WARNING **: GError set over the top of a previous GError or uninitialized memory.
-This indicates a bug in someone's code. You must ensure an error is NULL before it's set.
-The overwriting error message was: Key file does not have group 'connectivity'
-
-(NetworkManager:1545): GLib-WARNING **: GError set over the top of a previous GError or uninitialized memory.
+(NetworkManager:1727): GLib-WARNING **: GError set over the top of a previous GError or uninitialized memory.
 This indicates a bug in someone's code. You must ensure an error is NULL before it's set.
 The overwriting error message was: Key file does not have group 'connectivity'
