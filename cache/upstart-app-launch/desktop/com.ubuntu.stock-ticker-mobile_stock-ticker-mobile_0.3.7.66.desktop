@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Stock Ticker
+GenericName=Stock Ticker
+Comment=An awesome Stock Ticker application with all the features you could imagine
+Exec=qmlscene Stock_Ticker.qml
+Icon=icons/stock_icon_48.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+X-Ubuntu-StageHint=SideStage
+Categories=Utility;
+

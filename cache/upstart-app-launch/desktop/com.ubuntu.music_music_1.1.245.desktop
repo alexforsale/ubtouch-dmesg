@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Music
+Comment=Ubuntu Touch Music Player
+Exec=qmlscene ./music-app.qml --file=%f -I ./plugins
+Icon=images/music.png
+Terminal=false
+Type=Application
+StartupNotify=true
+X-Ubuntu-Single-Instance=true
+X-Ubuntu-Touch=true
+

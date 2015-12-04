@@ -20,6 +20,7 @@
 
 #cleanup last log
 NOW=$( date +%Y-%m-%d_%H_%M_%S)
+VERSION=$( grep "VERSION=" ~/phablet/project-rootstock-ng/flash.sh | sed s/VERSION=// )
 rm -rf *
 
 # pull data/system-data
@@ -41,4 +42,4 @@ rm -rf *.gz faillog lastlog wtmp system-image kern.log faillog cache/gstreamer-1
 
 git add .
 
-git commit -m "$NOW"
+git commit -m "$NOW - $VERSION"
